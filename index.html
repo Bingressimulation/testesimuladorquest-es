@@ -303,6 +303,14 @@ body{
     padding: 6px 12px;
     font-size: 12px;
 }
+.btn.danger {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    border-color: rgba(220, 38, 38, 0.35);
+    color: #fff;
+}
+.btn.danger:hover {
+    background: linear-gradient(135deg, #b91c1c, #991b1b);
+}
 .btn:disabled{
     opacity:.55;
     cursor:not-allowed;
@@ -661,7 +669,7 @@ body{
     line-height: 1.5;
 }
 
-/* ===== Quiz Page - ATUALIZADO COM BOTÕES DE EXCLUSÃO ===== */
+/* ===== Quiz Page - ATUALIZADO ===== */
 .quiz-shell{
     background: var(--panel);
     border: 1px solid var(--border);
@@ -725,14 +733,47 @@ body{
     padding: 24px 24px 16px 24px;
     background: #fff;
 }
+.quiz-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+}
+.quiz-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+.star-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--muted);
+    font-size: 20px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+.star-btn:hover {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--warn);
+}
+.star-btn.active {
+    color: var(--warn);
+    background: rgba(245, 158, 11, 0.15);
+}
 .q-id{
     color: var(--brand-2);
     font-weight: 950;
-    font-size: 13px;
-    margin-bottom: 10px;
-    display:flex;
-    align-items:center;
-    gap: 10px;
+    font-size: 16px;
 }
 .q-id .difficulty{
     font-size: 11px;
@@ -740,8 +781,13 @@ body{
     border-radius: 999px;
     background: var(--brand-light);
 }
+.quiz-header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
 .q-text{
-    margin: 16px 0;
+    margin: 0 0 20px 0;
     font-size: 15px;
     font-weight: 700;
     line-height: 1.6;
@@ -749,7 +795,59 @@ body{
     white-space: pre-wrap;
 }
 
-/* Opções do Quiz - ATUALIZADO COM BOTÕES DE EXCLUSÃO */
+/* Bloco de Explicação - NOVO */
+.explanation-box {
+    margin-top: 24px;
+    padding: 20px;
+    border-radius: var(--r-md);
+    border: 1px solid var(--border);
+    background: var(--panel-2);
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+.explanation-box.show {
+    display: block;
+}
+.explanation-title {
+    font-size: 14px;
+    font-weight: 950;
+    color: var(--brand);
+    margin: 0 0 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.explanation-title::before {
+    content: "📝";
+}
+.explanation-content {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text);
+    margin: 0;
+}
+.result-indicator {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 12px;
+}
+.result-indicator.correct {
+    background: var(--ok-light);
+    color: var(--ok);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+}
+.result-indicator.incorrect {
+    background: var(--bad-light);
+    color: var(--bad);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Opções do Quiz */
 .opts{
     margin-top: 20px;
     display:flex;
@@ -881,40 +979,49 @@ body{
     background: rgba(34,197,94,.1);
 }
 
-/* ===== Quiz Footer - ATUALIZADO COM LAYOT RESPONSIVO ===== */
+/* ===== Quiz Footer - ATUALIZADO ===== */
 .quiz-foot{
-    padding: 18px 24px;
+    padding: 24px;
     border-top: 1px solid var(--border);
     display:flex;
     align-items:center;
     justify-content: space-between;
-    gap: 12px;
+    gap: 16px;
     flex-wrap: wrap;
     background: #fff;
+    position: relative;
 }
-.quiz-foot .nav-group {
+.quiz-foot::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 24px;
+    right: 24px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+.navigation-buttons {
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
 }
-.quiz-foot .action-group {
+.correction-button {
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
 }
-.quiz-foot .right-group {
+.finish-button {
     display: flex;
     align-items: center;
     gap: 12px;
-    flex-wrap: wrap;
+    margin-left: auto;
 }
-
 .btn-wide{
     min-width: 160px;
     justify-content: center;
-    padding: 12px 18px;
+    padding: 12px 24px;
     border-radius: 12px;
     font-weight: 900;
 }
@@ -951,7 +1058,7 @@ body{
     color: var(--brand);
 }
 
-/* ===== Modal de Resultados - ATUALIZADO COM MAIS INDICADORES ===== */
+/* ===== Modal de Resultados ===== */
 .result-card{
     background: linear-gradient(135deg, #f8fafc, #f1f5f9);
     border-radius: 16px;
@@ -1269,11 +1376,15 @@ body{
         flex-direction: column;
         gap: 16px;
     }
-    .quiz-foot .nav-group,
-    .quiz-foot .action-group,
-    .quiz-foot .right-group {
+    .navigation-buttons,
+    .correction-button,
+    .finish-button {
         width: 100%;
         justify-content: center;
+    }
+    .finish-button {
+        order: 3;
+        margin-left: 0;
     }
     .btn {
         flex: 1;
@@ -1285,6 +1396,14 @@ body{
     }
     .fields {
         grid-template-columns: 1fr;
+    }
+    .quiz-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .quiz-header-right {
+        align-self: flex-end;
     }
 }
 @media (max-width: 480px) {
@@ -1304,6 +1423,9 @@ body{
         font-size: 14px;
     }
     .quiz-body {
+        padding: 16px;
+    }
+    .quiz-foot {
         padding: 16px;
     }
 }
@@ -1363,7 +1485,7 @@ body{
         </div>
     </section>
     
-    <!-- QUIZ -->
+    <!-- QUIZ - ATUALIZADO -->
     <section class="view" id="viewQuiz">
         <div class="quiz-shell">
             <div class="quiz-top">
@@ -1375,33 +1497,44 @@ body{
                         <span id="qMeta">—</span>
                     </div>
                 </div>
-                <div class="muted" id="qHintTop">Selecione uma alternativa e clique em "Corrigir"</div>
                 <div class="progress"><div id="progressBar"></div></div>
             </div>
             
             <div class="quiz-body">
-                <div class="q-id">
-                    <span id="qId">#—</span>
-                    <span class="difficulty" id="qDifficulty">—</span>
+                <!-- NOVO HEADER COM ESTRELA -->
+                <div class="quiz-header">
+                    <div class="quiz-header-left">
+                        <button class="star-btn" id="btnStar" type="button" title="Marcar para revisão">☆</button>
+                        <div class="q-id">
+                            <span id="qId">#—</span>
+                            <span class="difficulty" id="qDifficulty">—</span>
+                        </div>
+                    </div>
+                    <div class="quiz-header-right">
+                        <div class="q-mini" id="qStatus"></div>
+                    </div>
                 </div>
+                
                 <p class="q-text" id="qText">—</p>
                 <div class="opts" id="qOptions"></div>
-                <div class="toast" id="qToast"></div>
+                
+                <!-- NOVO BLOCO DE EXPLICAÇÃO -->
+                <div class="explanation-box" id="explanationBox">
+                    <h3 class="explanation-title">Explicação</h3>
+                    <p class="explanation-content" id="explanationText"></p>
+                </div>
             </div>
             
+            <!-- FOOTER ATUALIZADO -->
             <div class="quiz-foot">
-                <div class="nav-group">
+                <div class="navigation-buttons">
                     <button class="btn" id="btnPrev" type="button">← Anterior</button>
-                </div>
-                
-                <div class="action-group">
-                    <button class="btn ghost" id="btnFlag" type="button" title="Marcar para revisão">⭐</button>
                     <button class="btn primary" id="btnCorrect" type="button" disabled>✓ Corrigir</button>
+                    <button class="btn" id="btnNext" type="button">Próxima →</button>
                 </div>
                 
-                <div class="right-group">
-                    <button class="btn" id="btnNext" type="button">Próxima →</button>
-                    <button class="btn ghost" id="btnFinish" type="button">Finalizar Simulado</button>
+                <div class="finish-button">
+                    <button class="btn danger" id="btnFinish" type="button">Finalizar Simulado</button>
                 </div>
             </div>
         </div>
@@ -1427,7 +1560,7 @@ body{
         </div>
     </section>
     
-    <!-- ESTATÍSTICAS - ATUALIZADO COM DASHBOARD AVANÇADO -->
+    <!-- ESTATÍSTICAS -->
     <section class="view" id="viewStats">
         <div class="hero-banner">
             <div>
@@ -1498,7 +1631,7 @@ body{
     </div>
 </div>
 
-<!-- WIZARD MODAL (Resolver Questões) -->
+<!-- WIZARD MODAL -->
 <div class="backdrop" id="wizardBackdrop" aria-hidden="true">
     <div class="modal" role="dialog" aria-modal="true" aria-labelledby="wizTitle">
         <div class="modal-head">
@@ -1679,7 +1812,7 @@ body{
     </div>
 </div>
 
-<!-- MODAL DE RESULTADOS - ATUALIZADO -->
+<!-- MODAL DE RESULTADOS -->
 <div class="backdrop" id="resultsBackdrop" aria-hidden="true">
     <div class="modal" style="max-width:900px;" role="dialog" aria-modal="true" aria-labelledby="resultsTitle">
         <div class="modal-head">
@@ -1702,7 +1835,7 @@ body{
     </div>
 </div>
 
-<!-- TOAST GLOBAL (para Home / Histórico / Stats) -->
+<!-- TOAST GLOBAL -->
 <div id="globalToast" style="
     position: fixed;
     left: 50%;
@@ -1769,15 +1902,13 @@ body{
     let currentUser = null;
     
     /* =========================================================
-       Sistema de Autenticação Avançado
+       Sistema de Autenticação
     ========================================================= */
     class AuthManager {
         static getAuth() {
             try {
-                // 1) tenta localStorage
                 let auth = JSON.parse(localStorage.getItem(LS_AUTH) || "null");
                 if (!auth) {
-                    // 2) fallback: sessionStorage (quando remember=false)
                     auth = JSON.parse(sessionStorage.getItem(LS_AUTH) || "null");
                 }
                 if (auth && Date.now() - auth.at < 30 * 24 * 60 * 60 * 1000) {
@@ -1841,7 +1972,6 @@ body{
                 ...session,
                 completedAt: Date.now()
             });
-            // Manter apenas os últimos 50 simulados
             if (history.length > 50) history.length = 50;
             localStorage.setItem(LS_HIST, JSON.stringify(history));
             return history;
@@ -1879,9 +2009,7 @@ body{
             const stats = StatsManager.getQuestionStats();
             const areas = {};
             
-            // Agrupar por tema/modulo
             Object.entries(stats).forEach(([id, data]) => {
-                // Extrair tema do ID (formato: PQO-MODULO-TEMA-001)
                 const parts = id.split('-');
                 const area = parts.slice(0, 3).join('-');
                 if (!areas[area]) {
@@ -1891,7 +2019,6 @@ body{
                 areas[area].correct += data.correct;
             });
             
-            // Calcular taxa de acerto e retornar as piores
             return Object.entries(areas)
                 .map(([area, data]) => ({
                     area,
@@ -1927,7 +2054,7 @@ body{
                 avgAccuracy: Math.round(avgAccuracy * 10) / 10,
                 avgTimePerQuestion: Math.round(avgTimePerQuestion / 1000),
                 weakAreas: StatsManager.getWeakAreas(),
-                recentPerformance: StatsManager.getRecentPerformance(7) // últimos 7 dias
+                recentPerformance: StatsManager.getRecentPerformance(7)
             };
         }
         
@@ -1974,32 +2101,6 @@ body{
             if (recentAvg < olderAvg - 5) return 'down';
             return 'stable';
         }
-        
-        static getModulePerformance() {
-            const stats = StatsManager.getQuestionStats();
-            const moduleStats = {};
-            
-            Object.entries(stats).forEach(([id, data]) => {
-                const parts = id.split('-');
-                const module = parts[1] || 'Geral';
-                
-                if (!moduleStats[module]) {
-                    moduleStats[module] = { attempts: 0, correct: 0, time: 0 };
-                }
-                moduleStats[module].attempts += data.attempts;
-                moduleStats[module].correct += data.correct;
-                moduleStats[module].time += data.totalTime;
-            });
-            
-            return Object.entries(moduleStats)
-                .map(([module, data]) => ({
-                    module,
-                    accuracy: data.attempts > 0 ? (data.correct / data.attempts) * 100 : 0,
-                    attempts: data.attempts,
-                    avgTime: data.attempts > 0 ? Math.round(data.time / data.attempts / 1000) : 0
-                }))
-                .sort((a, b) => a.accuracy - b.accuracy);
-        }
     }
     
     /* =========================================================
@@ -2023,7 +2124,7 @@ body{
                 bookmarks.splice(index, 1);
             }
             localStorage.setItem(LS_BOOK, JSON.stringify(bookmarks));
-            return index === -1; // Retorna true se adicionou, false se removeu
+            return index === -1;
         }
         
         static isBookmarked(questionId) {
@@ -2065,14 +2166,6 @@ body{
             const exclusions = ExclusionManager.getExclusions();
             return exclusions[questionId] || [];
         }
-        
-        static clearExclusions(questionId) {
-            const exclusions = ExclusionManager.getExclusions();
-            if (exclusions[questionId]) {
-                delete exclusions[questionId];
-                localStorage.setItem(LS_EXCLUDED, JSON.stringify(exclusions));
-            }
-        }
     }
     
     /* =========================================================
@@ -2086,7 +2179,6 @@ body{
         static getSession() {
             try {
                 const session = JSON.parse(localStorage.getItem(LS_SESS) || "null");
-                // Verificar se a sessão não expirou (24 horas)
                 if (session && Date.now() - session.startedAt < 24 * 60 * 60 * 1000) {
                     return session;
                 }
@@ -2113,7 +2205,6 @@ body{
             if (!Array.isArray(data)) throw new Error("Formato inválido: esperado array");
             
             const questions = data.map((q, index) => {
-                // Validação completa da questão
                 const id = String(q.id || `Q${index + 1}`).trim();
                 const questionText = String(q.q || "").trim();
                 const answer = String(q.answer || "").trim().toUpperCase();
@@ -2123,7 +2214,6 @@ body{
                     return null;
                 }
                 
-                // Garantir que as opções existam e tenham formato correto
                 const options = {};
                 ['A', 'B', 'C', 'D', 'E'].forEach(letter => {
                     const optionText = q.options?.[letter] || q[`option${letter}`] || "";
@@ -2167,14 +2257,7 @@ body{
         }
     }
     
-    function normalizeStr(s) {
-        return String(s || "").toLowerCase()
-            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-            .replace(/[^\w\s]/g, " ");
-    }
-    
     function buildFilters() {
-        // Coletar valores únicos de forma eficiente
         const unique = (arr) => Array.from(new Set(arr.filter(Boolean))).sort((a, b) => a.localeCompare(b, "pt-BR"));
         
         db.modules = unique(db.all.map(q => q.module));
@@ -2207,15 +2290,12 @@ body{
        Dashboard e Interface
     ========================================================= */
     function showView(name) {
-        // Atualizar navegação
         $$('.nav a').forEach(a => a.classList.remove('active'));
         $(`nav${name.charAt(0).toUpperCase() + name.slice(1)}`).classList.add('active');
         
-        // Mostrar view correta
         $$('.view').forEach(v => v.classList.remove('show'));
         $(`view${name.charAt(0).toUpperCase() + name.slice(1)}`).classList.add('show');
         
-        // Atualizar conteúdo específico da view
         if (name === 'home') {
             updateDashboardStats();
         } else if (name === 'history') {
@@ -2293,22 +2373,12 @@ body{
     
     function updateAdvancedStats() {
         const stats = StatsManager.getOverallStats();
-        const moduleStats = StatsManager.getModulePerformance();
         const grid = $("advancedStats");
         
         const weakAreasHTML = stats.weakAreas.slice(0, 5).map(area => `
             <div class="weak-area-item">
                 <div class="weak-area-name">${area.area.split('-').slice(1).join(' - ')}</div>
                 <div class="weak-area-accuracy">${area.accuracy.toFixed(1)}%</div>
-            </div>
-        `).join('');
-        
-        const moduleStatsHTML = moduleStats.slice(0, 5).map(mod => `
-            <div class="weak-area-item">
-                <div class="weak-area-name">${mod.module}</div>
-                <div class="weak-area-accuracy ${mod.accuracy >= 70 ? 'correct' : mod.accuracy >= 50 ? 'pending' : 'incorrect'}">
-                    ${mod.accuracy.toFixed(1)}%
-                </div>
             </div>
         `).join('');
         
@@ -2326,14 +2396,7 @@ body{
             </div>
             
             <div class="performance-card">
-                <h3>📊 Desempenho por Módulo</h3>
-                <div class="weak-area-list">
-                    ${moduleStats.length > 0 ? moduleStatsHTML : '<div class="muted" style="text-align:center; padding:20px;">Sem dados suficientes</div>'}
-                </div>
-            </div>
-            
-            <div class="performance-card">
-                <h3>📈 Recomendações</h3>
+                <h3>📊 Recomendações</h3>
                 <div style="padding: 10px;">
                     ${generateRecommendations(stats)}
                 </div>
@@ -2360,10 +2423,6 @@ body{
             recommendations.push(`🎯 <b>Foque em:</b> ${stats.weakAreas[0].area.split('-').slice(1).join(' ')}`);
         }
         
-        if (stats.recentPerformance.sessions < 3) {
-            recommendations.push('📅 <b>Pratique mais regularmente</b> para melhor retenção');
-        }
-        
         return recommendations.map(rec => `<div style="margin-bottom: 10px; font-size: 13px;">${rec}</div>`).join('');
     }
     
@@ -2371,7 +2430,6 @@ body{
         const searchTerm = ($("searchCourses").value || "").trim().toLowerCase();
         const grid = $("coursesGrid");
         
-        // Temporariamente mostrar loading
         if (!grid.dataset.loaded) {
             grid.innerHTML = '<div class="loading"></div>';
         }
@@ -2422,7 +2480,6 @@ body{
             
             grid.dataset.loaded = true;
             
-            // Adicionar event listeners
             $$('.course-card').forEach(card => {
                 card.addEventListener('click', (e) => {
                     if (!e.target.closest('[data-action]')) {
@@ -2440,25 +2497,22 @@ body{
                     });
                 }
             });
-        }, 300); // Pequeno delay para melhor UX
+        }, 300);
     }
     
     function selectCourse(course) {
         selectedCourse = course;
         
-        // Atualizar UI
         $$('.course-card').forEach(c => c.classList.remove('selected'));
         $(`[data-course="${course.id}"]`)?.classList.add('selected');
         
         $("btnOpenWizard").disabled = false;
         $("btnOpenWizard").textContent = `Iniciar ${course.name}`;
         
-        // Carregar questões se necessário
         if (db.all.length === 0 && course.id === "PQO") {
             loadQuestionsForCourse(course);
         }
         
-        // Feedback visual
         showToast(`Curso ${course.name} selecionado`, 'info');
     }
     
@@ -2499,7 +2553,6 @@ body{
             return;
         }
         
-        // Se ainda não carregou as questões, carregar agora
         if (db.all.length === 0) {
             loadQuestionsForCourse(selectedCourse).then(() => {
                 openWizard();
@@ -2521,19 +2574,15 @@ body{
     }
     
     function wizRender() {
-        // Atualizar steps
         for (let i = 1; i <= 4; i++) {
             $(`step${i}`).classList.toggle("active", i === wizStep);
             $(`wizPage${i}`).style.display = i === wizStep ? "" : "none";
         }
         
-        // Atualizar botões - IMPORTANTE: Não desabilitar no passo 4
         $("btnPrevStep").disabled = wizStep === 1;
-        // Não desabilitar o botão no passo 4
         $("btnNextStep").disabled = false;
         $("btnNextStep").textContent = wizStep === 4 ? "Iniciar Simulado →" : "Continuar →";
         
-        // Atualizar footer
         const footers = [
             "Selecione o tipo de simulado",
             "Escolha sua estratégia de estudo",
@@ -2541,11 +2590,8 @@ body{
             "Revise e inicie seu simulado"
         ];
         $("wizFooter").textContent = footers[wizStep - 1];
-        
-        // Atualizar título
         $("wizSub").textContent = `Passo ${wizStep} de 4: ${footers[wizStep - 1]}`;
         
-        // Ações específicas por passo
         if (wizStep === 3) {
             updateFilterInfo();
         } else if (wizStep === 4) {
@@ -2587,7 +2633,6 @@ body{
     }
     
     function applyWizardFilters() {
-        // Adicionar verificação no início
         if (!db.all || db.all.length === 0) {
             console.error("Banco de questões não carregado!");
             return { base: [], qty: 0, noRepeat: false };
@@ -2601,20 +2646,17 @@ body{
         const noRepeat = $("chkNoRepeat").checked;
         const search = normalizeStr($("searchText").value);
         
-        // Obter histórico de questões respondidas
         const questionStats = StatsManager.getQuestionStats();
         const answeredQuestions = noRepeat 
             ? new Set(Object.keys(questionStats).filter(id => questionStats[id].correct > 0))
             : new Set();
         
         let questions = db.all.filter(q => {
-            // Filtros básicos
             if (m && q.module !== m) return false;
             if (c && q.chapter !== c) return false;
             if (t && q.theme !== t) return false;
             if (l && q.level !== l) return false;
             
-            // Busca por texto
             if (search) {
                 const searchText = normalizeStr([
                     q.id, q.module, q.chapter, q.theme, q.level, q.q,
@@ -2623,13 +2665,11 @@ body{
                 if (!searchText.includes(search)) return false;
             }
             
-            // Evitar questões já respondidas corretamente
             if (noRepeat && answeredQuestions.has(q.id)) return false;
             
             return true;
         });
         
-        // Se modo fraquezas, focar nas áreas com pior desempenho
         if (wizStudyMode === "weakness") {
             const weakAreas = StatsManager.getWeakAreas(3);
             questions = questions.filter(q => {
@@ -2638,13 +2678,11 @@ body{
             });
         }
         
-        // Embaralhar
         for (let i = questions.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [questions[i], questions[j]] = [questions[j], questions[i]];
         }
         
-        // Limitar pela quantidade
         questions = questions.slice(0, qty);
         
         return {
@@ -2656,8 +2694,14 @@ body{
         };
     }
     
+    function normalizeStr(s) {
+        return String(s || "").toLowerCase()
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^\w\s]/g, " ");
+    }
+    
     /* =========================================================
-       Sistema de Simulado - CORRIGIDO
+       Sistema de Simulado - ATUALIZADO
     ========================================================= */
     const sim = {
         queue: [],
@@ -2680,12 +2724,10 @@ body{
         sim.startedAt = Date.now();
         sim.timePerQuestion = parseInt($("selTime").value) || 0;
         
-        // Carregar exclusões salvas
         sim.queue.forEach(question => {
             sim.excludedOptions[question.id] = ExclusionManager.getExcludedOptions(question.id);
         });
         
-        // Salvar sessão para recuperação
         SessionManager.saveSession({
             queue: sim.queue.map(q => q.id),
             idx: sim.idx,
@@ -2709,7 +2751,6 @@ body{
             const elapsed = Date.now() - sim.startedAt;
             $("qTimer").textContent = formatTime(elapsed);
             
-            // Timer por questão
             if (sim.timePerQuestion > 0 && sim.questionStartTime && !sim.corrected) {
                 const questionElapsed = Date.now() - sim.questionStartTime;
                 const remaining = sim.timePerQuestion * 1000 - questionElapsed;
@@ -2740,7 +2781,6 @@ body{
         }
         
         correctAnswer();
-        showToast("⏰ Tempo esgotado para esta questão!", "bad");
     }
     
     function renderQuiz() {
@@ -2752,7 +2792,7 @@ body{
             return;
         }
         
-        // Atualizar informações da questão
+        // Atualizar informações
         $("qCounter").textContent = `${sim.idx + 1}/${total}`;
         $("qCourseName").textContent = selectedCourse.name;
         $("qMeta").textContent = `${current.module} • ${current.theme}`;
@@ -2760,31 +2800,67 @@ body{
         $("qDifficulty").textContent = current.level;
         $("qText").textContent = current.q;
         
-        // Recuperar a resposta salva
+        // Recuperar estado
         const savedAnswer = sim.answers[current.id];
         sim.selected = savedAnswer?.selected || null;
         sim.corrected = savedAnswer?.corrected || false;
         
-        // Atualizar progresso
+        // Progresso
         const progress = ((sim.idx) / total) * 100;
         $("progressBar").style.width = `${progress}%`;
         
-        // Iniciar timer para a questão
+        // Timer
         sim.questionStartTime = Date.now();
         
-        // Atualizar botões
+        // Botões
         $("btnPrev").disabled = sim.idx === 0;
         $("btnNext").disabled = false;
         $("btnCorrect").disabled = sim.corrected || !sim.selected;
-        $("btnFlag").classList.toggle("active", BookmarkManager.isBookmarked(current.id));
         
-        // Atualizar dica superior
-        updateQuizHint(savedAnswer);
+        // Estrela
+        updateStarButton(current.id);
         
-        // Limpar toast
-        clearToast();
+        // Status
+        updateQuestionStatus(savedAnswer);
+        
+        // Esconder explicação
+        $("explanationBox").classList.remove("show");
         
         // Renderizar opções
+        renderOptions(current);
+        
+        // Timer visual
+        $("qTimer").style.color = "";
+        $("qTimer").style.fontWeight = "";
+    }
+    
+    function updateStarButton(questionId) {
+        const starBtn = $("btnStar");
+        const isBookmarked = BookmarkManager.isBookmarked(questionId);
+        starBtn.textContent = isBookmarked ? "★" : "☆";
+        starBtn.classList.toggle("active", isBookmarked);
+        starBtn.title = isBookmarked ? "Remover da lista de revisão" : "Marcar para revisão";
+    }
+    
+    function updateQuestionStatus(savedAnswer) {
+        const statusElement = $("qStatus");
+        if (!savedAnswer) {
+            statusElement.innerHTML = '<span class="muted">Não respondida</span>';
+        } else if (savedAnswer.corrected) {
+            const isCorrect = savedAnswer.correct;
+            statusElement.innerHTML = `
+                <span class="result-indicator ${isCorrect ? 'correct' : 'incorrect'}">
+                    ${isCorrect ? '✅ Correta' : '❌ Incorreta'}
+                </span>
+            `;
+        } else if (savedAnswer.selected) {
+            statusElement.innerHTML = '<span class="muted">Respondida (não corrigida)</span>';
+        } else {
+            statusElement.innerHTML = '<span class="muted">Não respondida</span>';
+        }
+    }
+    
+    function renderOptions(current) {
         const optionsContainer = $("qOptions");
         optionsContainer.innerHTML = "";
         
@@ -2799,7 +2875,6 @@ body{
             const optionDiv = document.createElement("div");
             optionDiv.className = `opt ${isExcluded ? 'excluded' : ''}`;
             
-            // MARCA COMO SELECIONADA SE FOI SALVA ANTERIORMENTE
             if (sim.selected === letter) optionDiv.classList.add("selected");
             if (sim.corrected) {
                 if (letter === current.answer) optionDiv.classList.add("correct");
@@ -2832,29 +2907,6 @@ body{
             
             optionsContainer.appendChild(optionDiv);
         });
-        
-        // Mostrar explicação se já corrigida
-        if (sim.corrected && current.explain) {
-            showToast(`📝 Explicação: ${current.explain}`, "info");
-        }
-        
-        // Atualizar timer visual
-        $("qTimer").style.color = "";
-        $("qTimer").style.fontWeight = "";
-    }
-    
-    function updateQuizHint(savedAnswer) {
-        const hintElement = $("qHintTop");
-        if (savedAnswer?.selected && !savedAnswer?.corrected) {
-            hintElement.textContent = "✅ Alternativa selecionada (pode corrigir depois)";
-            hintElement.style.color = "var(--warn)";
-        } else if (savedAnswer?.corrected) {
-            hintElement.textContent = savedAnswer.correct ? "✓ Correta!" : "✗ Incorreta";
-            hintElement.style.color = savedAnswer.correct ? "var(--ok)" : "var(--bad)";
-        } else {
-            hintElement.textContent = "Selecione uma alternativa e clique em 'Corrigir'";
-            hintElement.style.color = "";
-        }
     }
     
     function selectOption(letter) {
@@ -2869,7 +2921,6 @@ body{
         
         sim.selected = letter;
         
-        // Atualizar seleção visual
         $$(".opt").forEach(opt => opt.classList.remove("selected"));
         $$(".opt").forEach(opt => {
             if (opt.querySelector(".letter").textContent.charAt(0) === letter) {
@@ -2879,15 +2930,14 @@ body{
         
         $("btnCorrect").disabled = false;
         
-        // Atualizar dica
-        updateQuizHint(sim.answers[currentQuestion.id]);
+        // Atualizar status
+        updateQuestionStatus(sim.answers[currentQuestion.id]);
     }
     
     function toggleExcludeOption(letter) {
         const currentQuestion = sim.queue[sim.idx];
         const excluded = ExclusionManager.toggleExclusion(currentQuestion.id, letter);
         
-        // Atualizar estado local
         if (!sim.excludedOptions[currentQuestion.id]) {
             sim.excludedOptions[currentQuestion.id] = [];
         }
@@ -2899,22 +2949,22 @@ body{
             sim.excludedOptions[currentQuestion.id].splice(index, 1);
         }
         
-        // Se a opção selecionada foi excluída, deselecionar
         if (sim.selected === letter && excluded) {
             sim.selected = null;
             $("btnCorrect").disabled = true;
         }
         
-        // Feedback visual
-        showToast(
-            excluded 
-                ? `✂️ Alternativa ${letter} excluída` 
-                : `✅ Alternativa ${letter} restaurada`,
-            excluded ? "info" : "ok"
-        );
-        
-        // Re-renderizar
         renderQuiz();
+    }
+    
+    function toggleStar() {
+        const current = sim.queue[sim.idx];
+        const added = BookmarkManager.toggleBookmark(current.id);
+        updateStarButton(current.id);
+        showToast(
+            added ? "⭐ Questão marcada para revisão" : "📝 Marcação removida",
+            "info"
+        );
     }
     
     function correctAnswer() {
@@ -2939,33 +2989,16 @@ body{
         // Atualizar botões
         $("btnCorrect").disabled = true;
         
-        // Mostrar resultado
-        if (isCorrect) {
-            showToast("✅ Correto!", "ok");
-        } else {
-            showToast(`❌ Resposta correta: ${current.answer}`, "bad");
-            if (current.explain) {
-                setTimeout(() => {
-                    showToast(`📝 ${current.explain}`, "info");
-                }, 500);
-            }
-        }
+        // Atualizar status
+        updateQuestionStatus(sim.answers[current.id]);
         
-        // Atualizar dica
-        updateQuizHint(sim.answers[current.id]);
+        // Mostrar explicação
+        showExplanation(current, isCorrect);
         
         // Atualizar visual das opções
-        $$(".opt").forEach(opt => {
-            opt.classList.remove("correct", "wrong");
-            const letter = opt.querySelector(".letter").textContent.charAt(0);
-            if (letter === current.answer) {
-                opt.classList.add("correct");
-            } else if (letter === sim.selected) {
-                opt.classList.add("wrong");
-            }
-        });
+        renderOptions(current);
         
-        // Salvar sessão atualizada
+        // Salvar sessão
         SessionManager.saveSession({
             queue: sim.queue.map(q => q.id),
             idx: sim.idx,
@@ -2976,12 +3009,25 @@ body{
         });
     }
     
+    function showExplanation(question, isCorrect) {
+        const explanationBox = $("explanationBox");
+        const explanationText = $("explanationText");
+        
+        if (question.explain) {
+            explanationText.textContent = question.explain;
+            explanationBox.classList.add("show");
+            
+            // Adicionar resultado no título
+            const title = explanationBox.querySelector('.explanation-title');
+            title.innerHTML = `📝 Explicação <span class="result-indicator ${isCorrect ? 'correct' : 'incorrect'}">${isCorrect ? '✅ Correta' : '❌ Incorreta'}</span>`;
+        }
+    }
+    
     function nextQuestion() {
-        // Salvar a resposta selecionada mesmo sem corrigir
         const current = sim.queue[sim.idx];
         
+        // Salvar resposta se selecionada mas não corrigida
         if (sim.selected && !sim.corrected) {
-            // Salvar a resposta selecionada
             if (!sim.answers[current.id]) {
                 sim.answers[current.id] = {
                     selected: sim.selected,
@@ -2990,13 +3036,11 @@ body{
                     timeSpent: Date.now() - sim.questionStartTime
                 };
             } else {
-                // Atualizar se já existir
                 sim.answers[current.id].selected = sim.selected;
                 sim.answers[current.id].corrected = false;
                 sim.answers[current.id].timeSpent = Date.now() - sim.questionStartTime;
             }
         } else if (!sim.selected && !sim.answers[current.id]) {
-            // Salvar como não respondida
             sim.answers[current.id] = {
                 selected: null,
                 correct: false,
@@ -3005,11 +3049,9 @@ body{
             };
         }
         
-        // Avançar para próxima questão
         sim.idx++;
         
         if (sim.idx >= sim.queue.length) {
-            // Se chegou ao final, verificar se pode finalizar
             finishSimulado();
         } else {
             renderQuiz();
@@ -3022,41 +3064,8 @@ body{
         renderQuiz();
     }
     
-    function checkAllAnswered() {
-        const totalQuestions = sim.queue.length;
-        const answeredQuestions = sim.queue.filter(q => 
-            sim.answers[q.id]?.selected !== null && sim.answers[q.id]?.selected !== undefined
-        ).length;
-        
-        const unansweredQuestions = totalQuestions - answeredQuestions;
-        
-        if (unansweredQuestions > 0) {
-            // Encontrar questões não respondidas
-            const unansweredList = sim.queue
-                .filter(q => !sim.answers[q.id]?.selected && sim.answers[q.id]?.selected !== "")
-                .map((q, index) => `${sim.queue.indexOf(q) + 1}. ${q.theme}`)
-                .join('\n');
-            
-            showToast(
-                `❌ ${unansweredQuestions} questão(ões) sem resposta!\n\nPor favor, responda todas as questões antes de finalizar.`,
-                "bad",
-                5000
-            );
-            
-            // Voltar para primeira questão não respondida
-            const firstUnanswered = sim.queue.findIndex(q => !sim.answers[q.id]?.selected);
-            if (firstUnanswered >= 0) {
-                sim.idx = firstUnanswered;
-                renderQuiz();
-            }
-            return false;
-        }
-        
-        return true;
-    }
-    
     function finishSimulado() {
-        // Primeiro, salvar resposta da questão atual se houver seleção
+        // Salvar questão atual se necessário
         const current = sim.queue[sim.idx];
         if (sim.selected && !sim.corrected && !sim.answers[current.id]) {
             sim.answers[current.id] = {
@@ -3067,34 +3076,40 @@ body{
             };
         }
         
-        // Verificar se todas as questões foram respondidas
-        if (!checkAllAnswered()) {
-            return; // Impede o término do simulado
+        // Verificar se todas foram respondidas
+        const unanswered = sim.queue.filter(q => !sim.answers[q.id]?.selected);
+        if (unanswered.length > 0) {
+            const unansweredList = unanswered
+                .map((q, index) => `${sim.queue.indexOf(q) + 1}`)
+                .join(', ');
+            
+            showToast(
+                `❌ ${unanswered.length} questão(ões) sem resposta: ${unansweredList}\n\nPor favor, responda todas as questões antes de finalizar.`,
+                "bad",
+                5000
+            );
+            
+            const firstUnanswered = sim.queue.findIndex(q => !sim.answers[q.id]?.selected);
+            if (firstUnanswered >= 0) {
+                sim.idx = firstUnanswered;
+                renderQuiz();
+            }
+            return;
         }
         
-        stopTimer();
-        
-        // Corrigir automaticamente questões não corrigidas
+        // CORRIGIR TODAS AUTOMATICAMENTE
         const uncorrected = sim.queue.filter(q => !sim.answers[q.id]?.corrected);
         uncorrected.forEach(question => {
             const answerRecord = sim.answers[question.id];
             if (answerRecord && answerRecord.selected) {
-                // Verificar se a resposta selecionada está correta
                 answerRecord.correct = answerRecord.selected === question.answer;
                 answerRecord.corrected = true;
                 
-                // Atualizar estatísticas
                 StatsManager.updateQuestionStats(question.id, answerRecord.correct, answerRecord.timeSpent || 0);
-            } else {
-                // Se não tem resposta selecionada (não deveria acontecer após validação)
-                sim.answers[question.id] = {
-                    selected: null,
-                    correct: false,
-                    corrected: true,
-                    timeSpent: 0
-                };
             }
         });
+        
+        stopTimer();
         
         // Calcular estatísticas
         const total = sim.queue.length;
@@ -3102,7 +3117,7 @@ body{
         const accuracy = total > 0 ? (correct / total) * 100 : 0;
         const totalTime = Date.now() - sim.startedAt;
         
-        // Salvar sessão no histórico
+        // Salvar no histórico
         StatsManager.addSession({
             course: selectedCourse.id,
             totalQuestions: total,
@@ -3114,7 +3129,6 @@ body{
             autoCorrected: uncorrected.length
         });
         
-        // Limpar sessão atual
         SessionManager.clearSession();
         
         // Mostrar resultados
@@ -3129,16 +3143,6 @@ body{
         });
     }
     
-    function toggleBookmark() {
-        const current = sim.queue[sim.idx];
-        const added = BookmarkManager.toggleBookmark(current.id);
-        $("btnFlag").classList.toggle("active", added);
-        showToast(
-            added ? "⭐ Questão marcada para revisão" : "📝 Marcação removida",
-            "info"
-        );
-    }
-    
     function stopTimer() {
         if (sim.timerId) {
             clearInterval(sim.timerId);
@@ -3151,8 +3155,7 @@ body{
         const timePerQuestion = Math.round(results.totalTime / results.total / 1000);
         const stats = StatsManager.getOverallStats();
         
-        // Calcular tendência
-        const lastSession = StatsManager.getHistory()[1]; // Penúltima sessão
+        const lastSession = StatsManager.getHistory()[1];
         const lastAccuracy = lastSession?.accuracy || 0;
         const trend = results.accuracy > lastAccuracy ? 'up' : results.accuracy < lastAccuracy ? 'down' : 'stable';
         
@@ -3193,13 +3196,6 @@ body{
                     </div>
                 </div>
                 
-                <div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--border);">
-                    <h4 style="margin: 0 0 12px 0; color: var(--brand);">Análise de Desempenho</h4>
-                    <div class="muted" style="font-size: 13px;">
-                        ${generatePerformanceAnalysis(results)}
-                    </div>
-                </div>
-                
                 ${results.total - results.correct > 0 ? `
                 <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--border);">
                     <h4 style="margin: 0 0 12px 0; color: var(--brand);">Questões Erradas (${results.total - results.correct})</h4>
@@ -3231,38 +3227,6 @@ body{
         $("resultsBackdrop").setAttribute("aria-hidden", "false");
     }
     
-    function generatePerformanceAnalysis(results) {
-        const analysis = [];
-        const stats = StatsManager.getOverallStats();
-        
-        if (results.accuracy >= 80) {
-            analysis.push('🎉 <b>Excelente desempenho!</b> Continue assim.');
-        } else if (results.accuracy >= 60) {
-            analysis.push('👍 <b>Bom desempenho.</b> Foque nos erros para melhorar.');
-        } else {
-            analysis.push('📚 <b>Precisa melhorar.</b> Revise os conteúdos básicos.');
-        }
-        
-        const timePerQuestion = Math.round(results.totalTime / results.total / 1000);
-        if (timePerQuestion < 60) {
-            analysis.push('⚡ <b>Muito rápido!</b> Mantenha a velocidade com acurácia.');
-        } else if (timePerQuestion > 120) {
-            analysis.push('⏱️ <b>Muito lento.</b> Pratique para ganhar agilidade.');
-        }
-        
-        if (results.accuracy > stats.avgAccuracy) {
-            analysis.push(`📈 <b>Acima da média</b> (${stats.avgAccuracy}%). Continue evoluindo!`);
-        } else if (results.accuracy < stats.avgAccuracy) {
-            analysis.push(`📉 <b>Abaixo da média</b> (${stats.avgAccuracy}%). Revise mais.`);
-        }
-        
-        if (results.autoCorrected > 0) {
-            analysis.push(`⚠️ <b>${results.autoCorrected} questões corrigidas automaticamente.</b> Lembre-se de corrigir manualmente para melhor aprendizado.`);
-        }
-        
-        return analysis.map(item => `<div style="margin-bottom: 8px;">${item}</div>`).join('');
-    }
-    
     /* =========================================================
        Sistema de Histórico
     ========================================================= */
@@ -3270,10 +3234,6 @@ body{
         const container = $("historyContent");
         const history = StatsManager.getHistory();
         const bookmarks = BookmarkManager.getBookmarks();
-        const questionStats = StatsManager.getQuestionStats();
-        const wrongQuestions = Object.entries(questionStats)
-            .filter(([_, stats]) => stats.attempts > 0 && (stats.correct / stats.attempts) < 0.5)
-            .map(([id]) => id);
         
         const activeTab = document.querySelector('.tab.active')?.dataset.tab || 'history';
         
@@ -3298,7 +3258,6 @@ body{
                             <th>Questões</th>
                             <th>Acertos</th>
                             <th>Tempo</th>
-                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -3313,9 +3272,6 @@ body{
                                     </span>
                                 </td>
                                 <td>${formatTime(session.timeSpent)}</td>
-                                <td>
-                                    <button class="btn ghost small" onclick="reviewSession('${session.id}')">Revisar</button>
-                                </td>
                             </tr>
                         `).join('')}
                     </tbody>
@@ -3336,29 +3292,6 @@ body{
                 <div class="result-card">
                     <h3 style="color: var(--brand); margin: 0 0 15px 0;">${bookmarks.length} Questões Marcadas</h3>
                     <div class="muted">Estas são as questões que você marcou para revisão.</div>
-                    <button class="btn primary" onclick="createBookmarkSession()" style="margin-top: 15px;">
-                        Criar Simulado com Questões Marcadas
-                    </button>
-                </div>
-            `;
-        } else if (activeTab === 'wrong') {
-            if (wrongQuestions.length === 0) {
-                container.innerHTML = `
-                    <div class="result-card" style="text-align: center;">
-                        <h3 style="color: var(--brand); margin: 0 0 10px 0;">Nenhuma questão para revisar</h3>
-                        <div class="muted">Excelente! Você não tem questões com baixo desempenho.</div>
-                    </div>
-                `;
-                return;
-            }
-            
-            container.innerHTML = `
-                <div class="result-card">
-                    <h3 style="color: var(--brand); margin: 0 0 15px 0;">${wrongQuestions.length} Questões para Revisar</h3>
-                    <div class="muted">Foque nestas questões para melhorar seu desempenho.</div>
-                    <button class="btn primary" onclick="createReviewSession()" style="margin-top: 15px;">
-                        Criar Simulado de Revisão
-                    </button>
                 </div>
             `;
         }
@@ -3368,16 +3301,6 @@ body{
        Utilitários
     ========================================================= */
     function showToast(message, type = "info", duration = 3000) {
-        const quizToast = $("qToast");
-        if (quizToast) {
-            quizToast.className = `toast show ${type}`;
-            quizToast.textContent = message;
-            if (duration > 0) {
-                setTimeout(() => quizToast.classList.remove("show"), duration);
-            }
-            return quizToast;
-        }
-        
         const wrap = $("globalToast");
         const inner = $("globalToastInner");
         if (!wrap || !inner) return null;
@@ -3395,28 +3318,12 @@ body{
         return inner;
     }
     
-    function clearToast() {
-        const quizToast = $("qToast");
-        if (quizToast) {
-            quizToast.classList.remove("show");
-            quizToast.textContent = "";
-        }
-        
-        const wrap = $("globalToast");
-        const inner = $("globalToastInner");
-        if (wrap && inner) {
-            wrap.style.display = "none";
-            inner.textContent = "";
-        }
-    }
-    
     function exportData(format) {
         const history = StatsManager.getHistory();
         const stats = StatsManager.getQuestionStats();
         let data, filename, mimeType;
         
         if (format === 'csv') {
-            // Cabeçalho CSV
             let csv = "ID,Módulo,Capítulo,Tema,Dificuldade,Tentativas,Acertos,Taxa de Acerto,Tempo Médio,Última Tentativa\n";
             
             Object.entries(stats).forEach(([id, stat]) => {
@@ -3441,7 +3348,6 @@ body{
             mimeType = 'application/json';
         }
         
-        // Criar blob e fazer download
         const blob = new Blob([data], { type: mimeType });
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
@@ -3551,7 +3457,6 @@ body{
             mode.classList.add('selected');
             wizMode = mode.dataset.mode;
             
-            // Se for modo rápido, configurar automaticamente
             if (wizMode === 'quick') {
                 $("selQty").value = "10";
                 $("selTime").value = "90";
@@ -3559,7 +3464,6 @@ body{
                 updateConfirmText();
             }
             
-            // Se for modo prova, configurar 60 questões
             if (wizMode === 'exam') {
                 $("selQty").value = "60";
                 $("selTime").value = "120";
@@ -3577,7 +3481,7 @@ body{
         });
     });
     
-    // Atualizar filtros em tempo real
+    // Atualizar filtros
     ['selModule', 'selChapter', 'selTheme', 'selLevel', 'selQty', 'selTime', 'chkNoRepeat'].forEach(id => {
         $(id).addEventListener('change', () => {
             updateFilterInfo();
@@ -3585,7 +3489,6 @@ body{
         });
     });
     
-    // Debounce para busca de texto
     function debounce(func, wait) {
         let timeout;
         return function executedFunction(...args) {
@@ -3607,7 +3510,7 @@ body{
     $("btnCorrect").addEventListener("click", correctAnswer);
     $("btnNext").addEventListener("click", nextQuestion);
     $("btnPrev").addEventListener("click", prevQuestion);
-    $("btnFlag").addEventListener("click", toggleBookmark);
+    $("btnStar").addEventListener("click", toggleStar);
     $("btnFinish").addEventListener("click", finishSimulado);
     
     // Resultados
@@ -3631,10 +3534,8 @@ body{
        Inicialização
     ========================================================= */
     async function init() {
-        // Verificar login
         AuthManager.requireLogin();
         
-        // Carregar curso PQO por padrão
         selectedCourse = courses[0];
         try {
             await loadQuestionsForCourse(selectedCourse);
@@ -3642,18 +3543,16 @@ body{
             console.error("Erro na inicialização:", error);
         }
         
-        // Verificar se há sessão para recuperar
         const savedSession = SessionManager.getSession();
-        if (savedSession && confirm("Há um simulado em andamento. Deseja continuar?")) {
-            // Aqui você implementaria a recuperação da sessão
-            showToast("Sessão recuperada", "info");
+        if (savedSession) {
+            if (confirm("Há um simulado em andamento. Deseja continuar?")) {
+                showToast("Sessão recuperada", "info");
+            }
         }
         
-        // Renderizar interface inicial
         renderCourses();
         updateDashboardStats();
         
-        // Mostrar dica inicial
         setTimeout(() => {
             if (db.all.length > 0) {
                 showToast(`✅ ${db.all.length} questões carregadas. Selecione um curso e inicie seu simulado!`, "ok", 5000);
@@ -3664,22 +3563,8 @@ body{
     // Iniciar aplicação
     init();
     
-    // Exportar funções para escopo global (para uso nos onclick)
+    // Exportar funções para escopo global
     window.showView = showView;
-    window.reviewSession = function(id) {
-        showToast(`Revisando sessão ${id}...`, "info");
-        // Implementar revisão de sessão
-    };
-    
-    window.createReviewSession = function() {
-        showToast("Criando simulado de revisão...", "info");
-        // Implementar criação de simulado de revisão
-    };
-    
-    window.createBookmarkSession = function() {
-        showToast("Criando simulado com questões marcadas...", "info");
-        // Implementar criação de simulado com bookmarks
-    };
     
 })();
 </script>
