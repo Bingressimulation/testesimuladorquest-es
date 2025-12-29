@@ -468,6 +468,8 @@
       gap: 12px;
       flex-wrap: wrap;
       background: #fff;
+      position: relative;
+      z-index: 10;
     }
 
     @keyframes fadeIn {
@@ -1430,6 +1432,20 @@
       </div>
     </div>
   </div>
+  
+<!-- TOAST GLOBAL (para Home / Histórico / Stats) -->
+<div id="globalToast"
+     style="
+       position: fixed;
+       left: 50%;
+       bottom: 18px;
+       transform: translateX(-50%);
+       z-index: 2000;
+       width: min(720px, calc(100% - 24px));
+       display: none;
+     ">
+  <div id="globalToastInner" class="toast show info" style="display:block; margin:0;"></div>
+</div>
 
   <script>
     ;(() => {
@@ -1488,7 +1504,12 @@
       class AuthManager {
         static getAuth() {
           try {
-            const auth = JSON.parse(localStorage.getItem(LS_AUTH) || "null");
+            // 1) tenta localStorage
+            let auth = JSON.parse(localStorage.getItem(LS_AUTH) || "null");
+            if (!auth) {
+              // 2) fallback: sessionStorage (quando remember=false)
+              auth = JSON.parse(sessionStorage.getItem(LS_AUTH) || "null");
+            }
             if (auth && Date.now() - auth.at < 30 * 24 * 60 * 60 * 1000) {
               return auth;
             }
@@ -2042,9 +2063,11 @@
           $(`wizPage${i}`).style.display = i === wizStep ? "" : "none";
         }
         
-        // Atualizar botões
+        // Atualizar botões - IMPORTANTE: Não desabilitar no passo 4
         $("btnPrevStep").disabled = wizStep === 1;
-        $("btnNextStep").disabled = wizStep === 4;
+        // Não desabilitar o botão no passo 4
+        $("btnNextStep").disabled = false;
+        $("btnNextStep").textContent = wizStep === 4 ? "Iniciar Simulado →" : "Continuar →";
         
         // Atualizar footer
         const footers = [
@@ -2104,6 +2127,12 @@
       }
 
       function applyWizardFilters() {
+        // Adicionar verificação no início
+        if (!db.all || db.all.length === 0) {
+          console.error("Banco de questões não carregado!");
+          return { base: [], qty: 0, noRepeat: false };
+        }
+        
         const m = $("selModule").value;
         const c = $("selChapter").value;
         const t = $("selTheme").value;
@@ -2629,23 +2658,50 @@
         Utilitários
       ========================================================= */
       function showToast(message, type = "info", duration = 3000) {
-        const toast = $("qToast");
-        toast.className = `toast show ${type}`;
-        toast.textContent = message;
-        
+        // 1) se estiver no quiz e existir qToast, usa ele
+        const quizToast = $("qToast");
+        if (quizToast) {
+          quizToast.className = `toast show ${type}`;
+          quizToast.textContent = message;
+
+          if (duration > 0) {
+            setTimeout(() => quizToast.classList.remove("show"), duration);
+          }
+          return quizToast;
+        }
+
+        // 2) fallback: toast global (Home / Histórico / Stats)
+        const wrap = $("globalToast");
+        const inner = $("globalToastInner");
+        if (!wrap || !inner) return null;
+
+        inner.className = `toast show ${type}`;
+        inner.textContent = message;
+        wrap.style.display = "block";
+
         if (duration > 0) {
           setTimeout(() => {
-            toast.classList.remove("show");
+            wrap.style.display = "none";
+            inner.textContent = "";
           }, duration);
         }
-        
-        return toast;
+
+        return inner;
       }
 
       function clearToast() {
-        const toast = $("qToast");
-        toast.classList.remove("show");
-        toast.textContent = "";
+        const quizToast = $("qToast");
+        if (quizToast) {
+          quizToast.classList.remove("show");
+          quizToast.textContent = "";
+        }
+
+        const wrap = $("globalToast");
+        const inner = $("globalToastInner");
+        if (wrap && inner) {
+          wrap.style.display = "none";
+          inner.textContent = "";
+        }
       }
 
       function exportData(format) {
@@ -2695,7 +2751,7 @@
       }
 
       /* =========================================================
-        Event Listeners
+        Event Listeners - CORRIGIDOS
       ========================================================= */
       // Login
       $("btnLogin").addEventListener("click", () => {
@@ -2752,7 +2808,7 @@
         }, 300);
       });
 
-      // Wizard
+      // Wizard - CORREÇÕES APLICADAS AQUI
       $("btnOpenWizard").addEventListener("click", openWizard);
       $("btnCloseWizard").addEventListener("click", closeWizard);
       $("wizardBackdrop").addEventListener("click", (e) => {
@@ -2764,34 +2820,60 @@
         wizRender();
       });
 
-      $("btnNextStep").addEventListener("click", () => {
+      // CORREÇÃO DO BOTÃO "CONTINUAR" - LINHA CRÍTICA
+      $("btnNextStep").addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        console.log("Botão Continuar clicado no passo:", wizStep);
+        
         if (wizStep === 4) {
-          // Iniciar simulado
-          const config = applyWizardFilters();
-          if (config.base.length === 0) {
-            showToast("Nenhuma questão encontrada com esses filtros", "bad");
-            return;
+          console.log("Iniciando simulado...");
+          try {
+            const config = applyWizardFilters();
+            console.log("Configuração filtrada:", config);
+            
+            if (!config.base || config.base.length === 0) {
+              console.log("Nenhuma questão encontrada com os filtros atuais");
+              showToast("Nenhuma questão encontrada com esses filtros", "bad");
+              // Voltar para o passo 3 para ajustar filtros
+              wizStep = 3;
+              wizRender();
+              return;
+            }
+            
+            console.log(`Iniciando simulado com ${config.base.length} questões`);
+            startSimulado(config);
+          } catch (error) {
+            console.error("Erro ao iniciar simulado:", error);
+            showToast(`Erro: ${error.message}`, "bad");
           }
-          startSimulado(config);
         } else {
           wizStep = Math.min(4, wizStep + 1);
           wizRender();
         }
       });
 
-      // Modos do wizard
+      // Modos do wizard - ATUALIZADO
       $$('.mode[data-mode]').forEach(mode => {
         mode.addEventListener('click', () => {
           $$('.mode[data-mode]').forEach(m => m.classList.remove('selected'));
           mode.classList.add('selected');
           wizMode = mode.dataset.mode;
           
-          // Se for modo rápido, pular para passo 4
+          // Se for modo rápido, configurar automaticamente
           if (wizMode === 'quick') {
             $("selQty").value = "10";
             $("selTime").value = "90";
-            wizStep = 4;
-            wizRender();
+            // Atualizar visualização
+            updateFilterInfo();
+            updateConfirmText();
+          }
+          // Se for modo prova, configurar 60 questões
+          if (wizMode === 'exam') {
+            $("selQty").value = "60";
+            $("selTime").value = "120";
+            updateFilterInfo();
+            updateConfirmText();
           }
         });
       });
@@ -2811,6 +2893,19 @@
           updateConfirmText();
         });
       });
+
+      // Debounce para busca de texto
+      function debounce(func, wait) {
+        let timeout;
+        return function executedFunction(...args) {
+          const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+          };
+          clearTimeout(timeout);
+          timeout = setTimeout(later, wait);
+        };
+      }
 
       $("searchText").addEventListener('input', debounce(() => {
         updateFilterInfo();
@@ -2840,21 +2935,6 @@
       // Exportação
       $("btnExportCSV").addEventListener("click", () => exportData('csv'));
       $("btnExportJSON").addEventListener("click", () => exportData('json'));
-
-      /* =========================================================
-        Funções Auxiliares
-      ========================================================= */
-      function debounce(func, wait) {
-        let timeout;
-        return function executedFunction(...args) {
-          const later = () => {
-            clearTimeout(timeout);
-            func(...args);
-          };
-          clearTimeout(timeout);
-          timeout = setTimeout(later, wait);
-        };
-      }
 
       /* =========================================================
         Inicialização
