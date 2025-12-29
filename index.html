@@ -3,19 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>PQO Risco — Simulador (Layout novo)</title>
+  <title>PQO Risco — Simulador</title>
 
   <!-- Fonte -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 
   <style>
     :root{
-      /* ===== Paleta Azul + Verde (com neutros) ===== */
+      /* Paleta azul + verde (com neutros) */
       --bg: #F6F9FC;
       --panel: #FFFFFF;
       --panel-2: #F0F6FF;
@@ -74,6 +74,7 @@
       color: #EAF1FF;
       padding: 18px 14px;
       border-right: 1px solid rgba(255,255,255,.08);
+      overflow: hidden;
     }
 
     .brand{
@@ -94,13 +95,13 @@
       font-size: 14px;
       margin:0;
       line-height: 1.15;
-      font-weight: 800;
+      font-weight: 900;
       letter-spacing: .2px;
     }
     .brand small{
       display:block;
       opacity:.8;
-      font-weight: 500;
+      font-weight: 600;
       margin-top: 2px;
       font-size: 12px;
     }
@@ -114,7 +115,7 @@
     }
     .side-title{
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 900;
       letter-spacing: .4px;
       opacity: .95;
       margin: 0 0 10px 2px;
@@ -140,13 +141,13 @@
       justify-content: space-between;
       gap: 10px;
       transition: .15s ease;
-      font-weight: 700;
+      font-weight: 800;
       font-size: 13px;
     }
     .nav button:hover{ background: rgba(59,130,246,.16); border-color: rgba(59,130,246,.35); }
     .nav button.active{ background: rgba(59,130,246,.22); border-color: rgba(59,130,246,.45); }
     .nav .hint{
-      font-weight: 700;
+      font-weight: 800;
       opacity: .75;
       font-size: 12px;
     }
@@ -155,7 +156,7 @@
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 10px;
-      margin-top: 12px;
+      margin-top: 10px;
     }
 
     .toggle{
@@ -168,7 +169,8 @@
       background: rgba(255,255,255,.03);
       border: 1px solid rgba(255,255,255,.08);
       font-size: 12px;
-      font-weight: 700;
+      font-weight: 800;
+      color: rgba(234,241,255,.92);
     }
     .switch{
       width: 42px; height: 24px;
@@ -213,7 +215,7 @@
       color: rgba(234,241,255,.92);
     }
     .pill strong{ font-size: 12px; }
-    .pill .mini{ opacity:.78; font-weight: 650; }
+    .pill .mini{ opacity:.78; font-weight: 750; }
 
     /* ===== Área principal ===== */
     .main{
@@ -222,7 +224,6 @@
       min-width: 0;
     }
 
-    /* Topbar */
     .topbar{
       position: sticky;
       top: 0;
@@ -237,12 +238,7 @@
       padding: 10px 18px;
       gap: 12px;
     }
-    .top-left{
-      display:flex;
-      align-items:center;
-      gap: 12px;
-      min-width: 0;
-    }
+
     .page-title{
       display:flex;
       flex-direction: column;
@@ -250,7 +246,7 @@
     }
     .page-title strong{
       font-size: 14px;
-      font-weight: 900;
+      font-weight: 950;
       letter-spacing: .2px;
       white-space: nowrap;
       overflow:hidden;
@@ -259,13 +255,13 @@
     .page-title span{
       font-size: 12px;
       color: var(--muted);
-      font-weight: 650;
+      font-weight: 700;
       white-space: nowrap;
       overflow:hidden;
       text-overflow: ellipsis;
     }
 
-    .top-right{
+    .topbar-right{
       display:flex;
       align-items:center;
       gap: 10px;
@@ -283,7 +279,7 @@
       background: #fff;
       box-shadow: 0 8px 18px rgba(2, 8, 23, .06);
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 900;
       color: var(--blue-900);
       white-space: nowrap;
     }
@@ -296,7 +292,7 @@
       color: var(--text);
       border-radius: 12px;
       padding: 10px 12px;
-      font-weight: 850;
+      font-weight: 900;
       font-size: 13px;
       cursor:pointer;
       transition: .15s ease;
@@ -316,19 +312,26 @@
       border-color: rgba(22,163,74,.6);
       color:#fff;
     }
+    .btn.ghost{
+      background: transparent;
+      border-color: rgba(37,99,235,.25);
+      color: var(--blue-700);
+      box-shadow: none;
+    }
     .btn.danger{
       background: #fff;
       border-color: rgba(239,68,68,.35);
       color: var(--danger);
     }
+    .btn:disabled{
+      opacity: .55;
+      cursor:not-allowed;
+      transform:none;
+    }
 
-    /* Conteúdo */
     .content{
       padding: 18px;
-      display:grid;
-      grid-template-columns: 1.25fr .75fr;
-      gap: 16px;
-      align-items: start;
+      min-width: 0;
     }
 
     .card{
@@ -350,56 +353,148 @@
     .card-header h2{
       margin:0;
       font-size: 14px;
-      font-weight: 900;
+      font-weight: 950;
       letter-spacing: .2px;
     }
     .card-header .sub{
       font-size: 12px;
       color: var(--muted);
-      font-weight: 650;
+      font-weight: 750;
     }
-
     .card-body{ padding: 16px; }
 
-    /* Bloco de filtros */
-    .filters{
+    /* ===== HOME (clean) ===== */
+    .home-grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 16px;
+      align-items: start;
+    }
+    .hero{
+      padding: 18px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border);
+      background:
+        radial-gradient(1200px 400px at 10% 0%, rgba(37,99,235,.12), transparent 55%),
+        radial-gradient(900px 420px at 90% 30%, rgba(34,197,94,.10), transparent 55%),
+        #fff;
+      box-shadow: var(--shadow);
+    }
+    .hero h1{
+      margin:0 0 6px 0;
+      font-size: 18px;
+      font-weight: 950;
+      letter-spacing: .2px;
+      color: var(--blue-900);
+    }
+    .hero p{
+      margin:0;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.45;
+      font-size: 13px;
+    }
+
+    .action-grid{
+      margin-top: 14px;
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 12px;
     }
-    .field{
+    .action{
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: #fff;
+      padding: 14px;
+      cursor:pointer;
+      transition: .15s ease;
+      box-shadow: 0 10px 22px rgba(2,8,23,.06);
+    }
+    .action:hover{
+      transform: translateY(-2px);
+      box-shadow: 0 18px 34px rgba(2,8,23,.10);
+      border-color: rgba(37,99,235,.25);
+    }
+    .action .top{
+      display:flex; align-items:center; justify-content: space-between; gap: 12px;
+    }
+    .badge{
+      width: 34px; height: 34px;
+      border-radius: 12px;
+      display:grid; place-items:center;
+      font-weight: 950;
+      color: #fff;
+      background: linear-gradient(135deg, var(--blue-700), var(--blue-600));
+    }
+    .badge.green{
+      background: linear-gradient(135deg, var(--green-700), var(--green-600));
+    }
+    .badge.gray{
+      background: linear-gradient(135deg, #475569, #0f172a);
+    }
+    .action h3{
+      margin: 10px 0 4px 0;
+      font-size: 14px;
+      font-weight: 950;
+      color: var(--text);
+    }
+    .action p{
+      margin:0;
+      font-size: 12px;
+      color: var(--muted);
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    .home-side{
       display:flex;
       flex-direction: column;
-      gap: 6px;
+      gap: 16px;
     }
-    .field label{
+
+    .mini-grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+    .kpi{
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(34,197,94,.08), rgba(255,255,255,0));
+      padding: 12px 12px;
+    }
+    .kpi .lbl{
       font-size: 12px;
       font-weight: 850;
+      color: var(--muted);
+    }
+    .kpi .val{
+      font-size: 18px;
+      font-weight: 950;
+      margin-top: 4px;
+      letter-spacing: .2px;
       color: var(--blue-900);
     }
-    .field select, .field input{
-      width:100%;
-      padding: 10px 12px;
-      border-radius: 12px;
-      border: 1px solid var(--border);
-      background: #fff;
-      font-size: 13px;
-      font-weight: 650;
-      outline: none;
-    }
-    .field input:focus, .field select:focus{
-      border-color: rgba(37,99,235,.45);
-      box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+
+    .note{
+      border-radius: 16px;
+      border: 1px dashed rgba(37,99,235,.35);
+      background: rgba(37,99,235,.05);
+      padding: 12px;
+      color: rgba(11,18,32,.88);
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.45;
     }
 
-    .inline-actions{
-      display:flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      margin-top: 12px;
+    /* ===== QUIZ ===== */
+    .quiz-layout{
+      display:grid;
+      grid-template-columns: 1.25fr .75fr;
+      gap: 16px;
+      align-items: start;
     }
 
-    /* Questão */
     .q-meta{
       display:flex;
       flex-wrap: wrap;
@@ -415,7 +510,7 @@
       background: rgba(37,99,235,.08);
       border: 1px solid rgba(37,99,235,.18);
       font-size: 12px;
-      font-weight: 800;
+      font-weight: 900;
       color: var(--blue-900);
     }
     .tag.green{
@@ -431,7 +526,7 @@
 
     .q-title{
       font-size: 16px;
-      font-weight: 900;
+      font-weight: 950;
       letter-spacing: .2px;
       margin: 0 0 10px 0;
     }
@@ -471,13 +566,13 @@
       display:grid; place-items:center;
       background: rgba(37,99,235,.10);
       border: 1px solid rgba(37,99,235,.18);
-      font-weight: 900;
+      font-weight: 950;
       color: var(--blue-900);
       flex: 0 0 auto;
     }
     .opt .txt{
       font-size: 13px;
-      font-weight: 650;
+      font-weight: 700;
       color: rgba(11,18,32,.92);
       line-height: 1.35;
       white-space: pre-wrap;
@@ -506,82 +601,151 @@
     }
     .explain.show{ display:block; }
 
-    .result-row{
-      margin-top: 12px;
+    .status{
+      font-size: 13px;
+      font-weight: 950;
+      padding: 8px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #fff;
+      display:inline-flex;
+      align-items:center;
+      gap: 8px;
+    }
+    .status.ok{ color: var(--green-700); border-color: rgba(22,163,74,.30); background: rgba(34,197,94,.08); }
+    .status.bad{ color: var(--danger); border-color: rgba(239,68,68,.25); background: rgba(239,68,68,.06); }
+    .status.neutral{ color: var(--muted); }
+
+    .quiz-footer{
+      margin-top: 14px;
       display:flex;
       align-items:center;
       justify-content: space-between;
       gap: 12px;
       flex-wrap: wrap;
     }
-    .status{
-      font-size: 13px;
-      font-weight: 900;
-      padding: 8px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: #fff;
-    }
-    .status.ok{ color: var(--green-700); border-color: rgba(22,163,74,.30); background: rgba(34,197,94,.08); }
-    .status.bad{ color: var(--danger); border-color: rgba(239,68,68,.25); background: rgba(239,68,68,.06); }
-    .status.neutral{ color: var(--muted); }
-
-    /* Painel lateral direito */
-    .side-card .card-body{ padding: 14px; }
-    .mini-grid{
-      display:grid;
-      grid-template-columns: 1fr 1fr;
+    .quiz-actions{
+      display:flex;
       gap: 10px;
-    }
-    .kpi{
-      border-radius: 14px;
-      border: 1px solid var(--border);
-      background: linear-gradient(180deg, rgba(34,197,94,.08), rgba(255,255,255,0));
-      padding: 12px 12px;
-    }
-    .kpi .lbl{
-      font-size: 12px;
-      font-weight: 850;
-      color: var(--muted);
-    }
-    .kpi .val{
-      font-size: 18px;
-      font-weight: 950;
-      margin-top: 4px;
-      letter-spacing: .2px;
-      color: var(--blue-900);
+      flex-wrap: wrap;
     }
 
-    .hr{
-      height: 1px;
-      background: var(--border);
-      margin: 12px 0;
-    }
-
-    .muted{ color: var(--muted); font-weight: 650; font-size: 12px; }
-
-    /* Dashboard final */
-    .final{
-      display:none;
-      grid-column: 1 / -1;
-    }
+    /* ===== DASHBOARD ===== */
+    .final{ display:none; }
     .final.show{ display:block; }
 
     .final-grid{
       display:grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
+      align-items: start;
     }
     .chart-wrap{
       padding: 12px;
     }
+    .hr{
+      height: 1px;
+      background: var(--border);
+      margin: 12px 0;
+    }
+    .muted{
+      color: var(--muted);
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    /* ===== Modal ===== */
+    .modal-backdrop{
+      position: fixed;
+      inset: 0;
+      background: rgba(2,8,23,.55);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding: 14px;
+      z-index: 999;
+    }
+    .modal-backdrop.show{ display:flex; }
+
+    .modal{
+      width: min(860px, 100%);
+      border-radius: 18px;
+      background: #fff;
+      border: 1px solid rgba(255,255,255,.15);
+      box-shadow: 0 24px 60px rgba(2,8,23,.35);
+      overflow:hidden;
+    }
+    .modal-head{
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      background: linear-gradient(180deg, rgba(37,99,235,.08), rgba(255,255,255,0));
+    }
+    .modal-head h2{
+      margin:0;
+      font-size: 14px;
+      font-weight: 950;
+      letter-spacing: .2px;
+    }
+    .modal-body{
+      padding: 16px;
+    }
+    .filters{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .field{
+      display:flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .field label{
+      font-size: 12px;
+      font-weight: 900;
+      color: var(--blue-900);
+    }
+    .field select, .field input{
+      width:100%;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      outline: none;
+    }
+    .field input:focus, .field select:focus{
+      border-color: rgba(37,99,235,.45);
+      box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+    }
+
+    .modal-foot{
+      padding: 14px 16px;
+      border-top: 1px solid var(--border);
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+      background: #fff;
+    }
+
+    /* ===== Views ===== */
+    .view{ display:none; }
+    .view.show{ display:block; }
 
     /* Responsivo */
     @media (max-width: 1100px){
-      .content{ grid-template-columns: 1fr; }
-      .sidebar{ position: relative; height: auto; }
       .app{ grid-template-columns: 1fr; }
+      .sidebar{ position: relative; height: auto; }
       .side-footer{ position: static; margin-top: 10px; }
+      .home-grid{ grid-template-columns: 1fr; }
+      .quiz-layout{ grid-template-columns: 1fr; }
       .final-grid{ grid-template-columns: 1fr; }
     }
   </style>
@@ -600,19 +764,23 @@
         </div>
         <div>
           <h1>PQO Risco</h1>
-          <small>Banco de Questões • Simulador</small>
+          <small>Simulador • Banco de Questões</small>
         </div>
       </div>
 
       <div class="side-section">
         <div class="side-title">Navegação</div>
         <div class="nav">
-          <button id="navSimulado" class="active" type="button">
+          <button id="navHome" class="active" type="button">
+            Início
+            <span class="hint">🏠</span>
+          </button>
+          <button id="navQuiz" type="button">
             Simulado
             <span class="hint" id="navCount">0</span>
           </button>
           <button id="navDashboard" type="button">
-            Dashboard final
+            Dashboard
             <span class="hint">📊</span>
           </button>
         </div>
@@ -641,6 +809,12 @@
             <div id="swExam" class="switch" role="switch" aria-checked="false" tabindex="0"></div>
           </div>
         </div>
+
+        <div class="side-controls" style="margin-top:10px;">
+          <button class="btn danger" id="btnResetHistory" type="button" style="width:100%; justify-content:center; box-shadow:none;">
+            Limpar histórico
+          </button>
+        </div>
       </div>
 
       <div class="side-footer">
@@ -664,136 +838,214 @@
     <!-- ========================= MAIN ========================= -->
     <main class="main">
       <header class="topbar">
-        <div class="top-left">
-          <div class="page-title">
-            <strong id="topTitle">Simulado</strong>
-            <span id="topSub">Selecione os filtros e inicie. Seu resultado só aparece no final.</span>
-          </div>
+        <div class="page-title">
+          <strong id="topTitle">Início</strong>
+          <span id="topSub">Tudo em um fluxo simples: configurar → responder → ver dashboard.</span>
         </div>
 
-        <div class="top-right">
-          <div class="chip">Questões: <b id="chipTotal">0</b></div>
-          <div class="chip">Respondidas: <b id="chipDone">0</b></div>
+        <div class="topbar-right">
+          <div class="chip">Base: <b id="chipBase">0</b></div>
+          <div class="chip">Filtro: <b id="chipFilter">0</b></div>
           <div class="chip">Timer: <b id="chipTimer">00:00:00</b></div>
-
-          <button class="btn primary" id="btnStart" type="button">Iniciar</button>
-          <button class="btn" id="btnNext" type="button" disabled>Próxima</button>
-          <button class="btn success" id="btnFinish" type="button" disabled>Finalizar</button>
-          <button class="btn danger" id="btnResetHistory" type="button" title="Limpa histórico de 'não repetir' e tentativas">Limpar histórico</button>
         </div>
       </header>
 
       <section class="content">
 
-        <!-- Card principal: filtros + questão -->
-        <section class="card" id="cardMain">
-          <div class="card-header">
+        <!-- ========================= HOME VIEW ========================= -->
+        <section class="view show" id="viewHome">
+          <div class="home-grid">
             <div>
-              <h2>Configuração</h2>
-              <div class="sub">Filtros por Título (módulo), Capítulo, Tema e Dificuldade</div>
-            </div>
-            <div class="sub" id="dbInfo">Base: 0 questões</div>
-          </div>
+              <div class="hero">
+                <h1>PQO Risco — Simulador</h1>
+                <p>
+                  Página inicial limpa. Você só faz 3 coisas: <b>começar</b> (com filtro), <b>continuar</b> (se tiver sessão) e ver o <b>dashboard</b>.
+                </p>
 
-          <div class="card-body">
-            <div class="filters">
-              <div class="field">
-                <label for="selModule">Título (Módulo)</label>
-                <select id="selModule"></select>
-              </div>
-              <div class="field">
-                <label for="selChapter">Capítulo</label>
-                <select id="selChapter"></select>
-              </div>
+                <div class="action-grid" style="margin-top:14px;">
+                  <div class="action" id="actNew">
+                    <div class="top">
+                      <div class="badge">▶</div>
+                      <span class="muted">Configurar</span>
+                    </div>
+                    <h3>Novo simulado</h3>
+                    <p>Escolha filtros, modo prova e preferências. Depois, começar.</p>
+                  </div>
 
-              <div class="field">
-                <label for="selTheme">Tema</label>
-                <select id="selTheme"></select>
-              </div>
-              <div class="field">
-                <label for="selLevel">Dificuldade</label>
-                <select id="selLevel"></select>
-              </div>
+                  <div class="action" id="actContinue">
+                    <div class="top">
+                      <div class="badge green">⏵</div>
+                      <span class="muted">Retomar</span>
+                    </div>
+                    <h3>Continuar</h3>
+                    <p>Volta para a questão atual (se houver sessão em andamento).</p>
+                  </div>
 
-              <div class="field" style="grid-column: 1 / -1;">
-                <label for="searchText">Busca (texto livre)</label>
-                <input id="searchText" type="text" placeholder="Ex.: margem, CCP, novação, opções, ICVM..." />
-              </div>
-            </div>
+                  <div class="action" id="actDashboard">
+                    <div class="top">
+                      <div class="badge gray">📊</div>
+                      <span class="muted">Resultado</span>
+                    </div>
+                    <h3>Dashboard</h3>
+                    <p>Tempo, taxa de acerto e desempenho por módulo/tema.</p>
+                  </div>
 
-            <div class="inline-actions">
-              <button class="btn" id="btnApply" type="button">Aplicar filtros</button>
-              <button class="btn" id="btnClearFilters" type="button">Limpar filtros</button>
-            </div>
-
-            <div class="hr"></div>
-
-            <!-- Questão -->
-            <div id="questionArea" style="display:none;">
-              <div class="q-meta" id="qMeta"></div>
-              <h3 class="q-title" id="qTitle"></h3>
-              <p class="q-text" id="qText"></p>
-
-              <div class="options" id="qOptions"></div>
-
-              <div class="result-row">
-                <span class="status neutral" id="qStatus">Selecione uma alternativa.</span>
-                <div style="display:flex; gap:10px; flex-wrap:wrap;">
-                  <button class="btn" id="btnConfirm" type="button" disabled>Confirmar resposta</button>
-                  <button class="btn" id="btnShowExplain" type="button" disabled>Ver explicação</button>
+                  <div class="action" id="actQuickExam">
+                    <div class="top">
+                      <div class="badge">60</div>
+                      <span class="muted">Atalho</span>
+                    </div>
+                    <h3>Prova rápida</h3>
+                    <p>Ativa modo prova (60) e abre a configuração.</p>
+                  </div>
                 </div>
               </div>
 
-              <div class="explain" id="qExplain"></div>
-              <div class="muted" id="qHint" style="margin-top:10px;"></div>
+              <div class="card" style="margin-top:16px;">
+                <div class="card-header">
+                  <div>
+                    <h2>Como funciona</h2>
+                    <div class="sub">Sem bagunça: cada tela tem um objetivo</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="muted">
+                    1) <b>Novo simulado</b> → abre um modal para filtrar.<br/>
+                    2) <b>Simulado</b> → tela focada. Ações só no rodapé (Confirmar / Próxima / Finalizar).<br/>
+                    3) <b>Dashboard</b> → você vê o desempenho completo e revisa erradas.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-side">
+              <div class="card">
+                <div class="card-header">
+                  <div>
+                    <h2>Status</h2>
+                    <div class="sub" id="dbInfo">Carregando base…</div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="mini-grid">
+                    <div class="kpi">
+                      <div class="lbl">Modo</div>
+                      <div class="val" id="kpiMode">Treino</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="lbl">Questões</div>
+                      <div class="val" id="kpiTotal">0</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="lbl">Respondidas</div>
+                      <div class="val" id="kpiAnswered">0</div>
+                    </div>
+                    <div class="kpi">
+                      <div class="lbl">Restantes</div>
+                      <div class="val" id="kpiRemaining">0</div>
+                    </div>
+                  </div>
+
+                  <div class="hr"></div>
+
+                  <div class="note" id="noteLoad">
+                    Carregamento automático via GitHub Pages:
+                    <b>./QuestõesPQO.json</b><br/>
+                    Se der erro, renomeie para <b>QuestoesPQO.json</b> (sem acento).
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        <!-- Card lateral: KPIs rápidos -->
-        <aside class="card side-card">
-          <div class="card-header">
-            <div>
-              <h2>Resumo</h2>
-              <div class="sub">Acompanhe sem spoiler (sem “acertos” no meio)</div>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="mini-grid">
-              <div class="kpi">
-                <div class="lbl">No modo</div>
-                <div class="val" id="kpiMode">Treino</div>
+        <!-- ========================= QUIZ VIEW ========================= -->
+        <section class="view" id="viewQuiz">
+          <div class="quiz-layout">
+            <section class="card">
+              <div class="card-header">
+                <div>
+                  <h2 id="quizHeaderTitle">Simulado</h2>
+                  <div class="sub" id="quizHeaderSub">Responda e avance. Resultado só no dashboard final.</div>
+                </div>
+                <div class="sub" id="quizProgressText">—</div>
               </div>
-              <div class="kpi">
-                <div class="lbl">Qtd. questões</div>
-                <div class="val" id="kpiTotal">0</div>
-              </div>
-              <div class="kpi">
-                <div class="lbl">Respondidas</div>
-                <div class="val" id="kpiAnswered">0</div>
-              </div>
-              <div class="kpi">
-                <div class="lbl">Restantes</div>
-                <div class="val" id="kpiRemaining">0</div>
-              </div>
-            </div>
 
-            <div class="hr"></div>
-            <div class="muted">
-              • “Não repetir” usa histórico local do navegador.<br/>
-              • Resultado (acertos/erros) aparece somente no <b>Dashboard final</b>.<br/>
-              • Se quiser simular a prova: ative <b>Modo prova (60)</b>.
-            </div>
-          </div>
-        </aside>
+              <div class="card-body">
+                <div id="questionArea" style="display:none;">
+                  <div class="q-meta" id="qMeta"></div>
+                  <h3 class="q-title" id="qTitle"></h3>
+                  <p class="q-text" id="qText"></p>
 
-        <!-- Dashboard Final -->
-        <section class="final" id="finalSection">
+                  <div class="options" id="qOptions"></div>
+
+                  <div class="quiz-footer">
+                    <span class="status neutral" id="qStatus">Selecione uma alternativa.</span>
+
+                    <div class="quiz-actions">
+                      <button class="btn" id="btnConfirm" type="button" disabled>Confirmar</button>
+                      <button class="btn ghost" id="btnExplain" type="button" disabled>Explicação</button>
+                      <button class="btn" id="btnNext" type="button" disabled>Próxima</button>
+                      <button class="btn success" id="btnFinish" type="button" disabled>Finalizar</button>
+                    </div>
+                  </div>
+
+                  <div class="explain" id="qExplain"></div>
+                  <div class="muted" id="qHint" style="margin-top:10px;"></div>
+                </div>
+
+                <div id="quizEmpty" class="muted">
+                  Nenhuma questão carregada ainda. Volte para <b>Início</b> e clique em <b>Novo simulado</b>.
+                </div>
+              </div>
+            </section>
+
+            <aside class="card">
+              <div class="card-header">
+                <div>
+                  <h2>Resumo</h2>
+                  <div class="sub">Sem spoilers no meio</div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="mini-grid">
+                  <div class="kpi">
+                    <div class="lbl">No modo</div>
+                    <div class="val" id="kpiMode2">Treino</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="lbl">Qtd. questões</div>
+                    <div class="val" id="kpiTotal2">0</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="lbl">Respondidas</div>
+                    <div class="val" id="kpiAnswered2">0</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="lbl">Restantes</div>
+                    <div class="val" id="kpiRemaining2">0</div>
+                  </div>
+                </div>
+
+                <div class="hr"></div>
+
+                <div class="muted">
+                  • “Não repetir” usa histórico local do navegador.<br/>
+                  • Resultado (acertos/erros) aparece apenas no <b>Dashboard</b>.<br/>
+                  • “Modo prova (60)” seleciona até 60 questões do filtro.
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <!-- ========================= DASHBOARD VIEW ========================= -->
+        <section class="view" id="viewDashboard">
           <div class="card">
             <div class="card-header">
               <div>
                 <h2>Dashboard final</h2>
-                <div class="sub">Tempo, taxa de acerto, total de questões e acertos por módulo/tema</div>
+                <div class="sub">Tempo, taxa de acerto e desempenho por módulo/tema</div>
               </div>
               <div style="display:flex; gap:10px; flex-wrap:wrap;">
                 <button class="btn" id="btnReviewWrong" type="button">Refazer erradas</button>
@@ -842,7 +1094,9 @@
                     </div>
                   </div>
                   <div class="card-body chart-wrap">
-                    <canvas id="chartByModule"></canvas>
+                    <div style="height:360px;">
+                      <canvas id="chartByModule"></canvas>
+                    </div>
                     <div class="muted" style="margin-top:10px;">
                       Dica: use os filtros na próxima rodada para treinar exatamente onde estiver errando.
                     </div>
@@ -852,8 +1106,8 @@
                 <div class="card" style="box-shadow:none; grid-column: 1 / -1;">
                   <div class="card-header">
                     <div>
-                      <h2>Detalhamento</h2>
-                      <div class="sub">Lista resumida das questões erradas (para revisão rápida)</div>
+                      <h2>Erradas (revisão rápida)</h2>
+                      <div class="sub">Lista resumida das questões erradas</div>
                     </div>
                   </div>
                   <div class="card-body" id="wrongList"></div>
@@ -867,42 +1121,59 @@
     </main>
   </div>
 
-  <!-- =================================================================================
-       BANCO DE QUESTÕES (EMBUTIDO)
-       Cole aqui o SEU JSON completo (700k chars ok).
-       O formato esperado por questão:
-       {
-         "id": "Q....",
-         "module": "Título ...",
-         "chapter": "Capítulo ...",
-         "theme": "Tema ...",
-         "level": "Fácil|Médio|Difícil",
-         "q": "enunciado",
-         "options": { "A":"...", "B":"...", "C":"...", "D":"..." },
-         "answer": "A|B|C|D",
-         "explain": "explicação"
-       }
-  ================================================================================== -->
-  <script id="QUESTIONS_DB" type="application/json">
-  [
-    {
-      "id": "Q199544304",
-      "module": "Título II – Mercados de bolsa e de balcão",
-      "chapter": "Capítulo II – Mercado de derivativos",
-      "theme": "Resultado em Opções - Lançador Put",
-      "level": "Médio",
-      "q": "Um determinado investidor faz o lançamento de uma PUT descoberta conforme dados abaixo:\\nPUT Prêmio: 1,20 Preço Exercício: R$ 20,00 Preço de Mercado no Vencimento: R$ 25,00\\nNessa situação, qual será o resultado financeiro dessa operação para esse lançador:",
-      "options": {
-        "A": "– R$ 3,80",
-        "B": "– R$ 1,20",
-        "C": "+ R$ 3,80",
-        "D": "+ R$ 1,20"
-      },
-      "answer": "D",
-      "explain": "Lançador de put recebe prêmio (R$ 1,20). No vencimento, preço (R$ 25) > preço de exercício (R$ 20), a put não é exercida. Resultado do lançador = prêmio recebido: +R$ 1,20."
-    }
-  ]
-  </script>
+  <!-- ========================= MODAL CONFIG ========================= -->
+  <div class="modal-backdrop" id="modalBackdrop" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-head">
+        <div>
+          <h2 id="modalTitle">Configurar simulado</h2>
+          <div class="muted" id="modalSub">Filtre por Título, Capítulo, Tema e Dificuldade</div>
+        </div>
+        <button class="btn ghost" id="btnCloseModal" type="button">Fechar</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="filters">
+          <div class="field">
+            <label for="selModule">Título (Módulo)</label>
+            <select id="selModule"></select>
+          </div>
+          <div class="field">
+            <label for="selChapter">Capítulo</label>
+            <select id="selChapter"></select>
+          </div>
+
+          <div class="field">
+            <label for="selTheme">Tema</label>
+            <select id="selTheme"></select>
+          </div>
+          <div class="field">
+            <label for="selLevel">Dificuldade</label>
+            <select id="selLevel"></select>
+          </div>
+
+          <div class="field" style="grid-column: 1 / -1;">
+            <label for="searchText">Busca (texto livre)</label>
+            <input id="searchText" type="text" placeholder="Ex.: margem, CCP, novação, opções, ICVM..." />
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="muted">
+          O simulado será montado usando: <b>Não repetir</b>, <b>Embaralhar</b> e <b>Modo prova</b> (definidos na barra lateral).
+        </div>
+      </div>
+
+      <div class="modal-foot">
+        <div class="muted" id="modalInfo">—</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <button class="btn" id="btnClearFilters" type="button">Limpar filtros</button>
+          <button class="btn primary" id="btnStartQuiz" type="button">Começar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script>
     ;(() => {
@@ -910,6 +1181,7 @@
          Helpers
       ========================== */
       const $ = (id) => document.getElementById(id);
+
       const fmtTime = (ms) => {
         const total = Math.max(0, Math.floor(ms/1000));
         const h = String(Math.floor(total/3600)).padStart(2,'0');
@@ -917,7 +1189,11 @@
         const s = String(total%60).padStart(2,'0');
         return `${h}:${m}:${s}`;
       };
-      const uniq = (arr) => Array.from(new Set(arr.filter(Boolean))).sort((a,b)=>a.localeCompare(b,'pt-BR'));
+
+      const uniq = (arr) =>
+        Array.from(new Set(arr.filter(Boolean)))
+          .sort((a,b)=>a.localeCompare(b,'pt-BR'));
+
       const safeText = (v) => (v ?? '').toString();
 
       function normalizeStr(s){
@@ -935,12 +1211,15 @@
       }
 
       /* =========================
-         Estado + Storage
+         Storage Keys
       ========================== */
-      const LS_KEY = "pqo_risco_state_v2";
-      const LS_HIST = "pqo_risco_history_v2"; // ids já vistos (não repetir)
-      const LS_ATT  = "pqo_risco_attempts_v2"; // tentativas/respostas
+      const LS_PREFS = "pqo_prefs_v3";
+      const LS_HIST  = "pqo_history_v3";
+      const LS_SESSION = "pqo_session_v3"; // permite continuar
 
+      /* =========================
+         State
+      ========================== */
       const state = {
         all: [],
         filtered: [],
@@ -963,12 +1242,15 @@
         confirmed: false,
 
         // results
-        answers: [] // {id, module, chapter, theme, level, selected, correct, ts}
+        answers: [] // {id,module,chapter,theme,level,selected,correct,ts}
       };
 
+      /* =========================
+         Preferences
+      ========================== */
       function loadPrefs(){
         try{
-          const raw = localStorage.getItem(LS_KEY);
+          const raw = localStorage.getItem(LS_PREFS);
           if(!raw) return;
           const p = JSON.parse(raw);
           state.noRepeat = !!p.noRepeat;
@@ -977,7 +1259,6 @@
           state.examMode = !!p.examMode;
         }catch{}
       }
-
       function savePrefs(){
         const p = {
           noRepeat: state.noRepeat,
@@ -985,7 +1266,7 @@
           showExplain: state.showExplain,
           examMode: state.examMode
         };
-        localStorage.setItem(LS_KEY, JSON.stringify(p));
+        localStorage.setItem(LS_PREFS, JSON.stringify(p));
       }
 
       function getHistorySet(){
@@ -1000,58 +1281,27 @@
         s.add(id);
         localStorage.setItem(LS_HIST, JSON.stringify([...s]));
       }
+
       function clearHistory(){
         localStorage.removeItem(LS_HIST);
-        localStorage.removeItem(LS_ATT);
-      }
-      function saveAttempts(){
-        localStorage.setItem(LS_ATT, JSON.stringify(state.answers));
+        localStorage.removeItem(LS_SESSION);
       }
 
       /* =========================
-         DB
-      ========================== */
-      function loadDb(){
-        const raw = $("QUESTIONS_DB").textContent.trim();
-        let data = [];
-        try{
-          data = JSON.parse(raw);
-        }catch(err){
-          alert("Erro ao ler o JSON embutido. Verifique se o JSON está válido.\n\nDica: use aspas duplas e evite vírgula sobrando.");
-          data = [];
-        }
-
-        // saneamento mínimo
-        data = (Array.isArray(data) ? data : []).map(q => ({
-          id: safeText(q.id),
-          module: safeText(q.module),
-          chapter: safeText(q.chapter),
-          theme: safeText(q.theme),
-          level: safeText(q.level),
-          q: safeText(q.q),
-          options: q.options || {},
-          answer: safeText(q.answer).trim().toUpperCase(),
-          explain: safeText(q.explain)
-        })).filter(q => q.id && q.q && q.options && q.answer);
-
-        state.all = data;
-        state.filtered = data.slice();
-        updateDbInfo();
-      }
-
-      /* =========================
-         UI - Switches
+         Switch UI
       ========================== */
       function setSwitch(el, on){
         el.classList.toggle("on", !!on);
         el.setAttribute("aria-checked", on ? "true" : "false");
       }
+
       function bindSwitch(el, getter, setter){
         const toggle = () => {
           setter(!getter());
           setSwitch(el, getter());
           savePrefs();
           refreshModeBadges();
+          updateHomeKpis();
         };
         el.addEventListener("click", toggle);
         el.addEventListener("keydown", (e) => {
@@ -1060,7 +1310,49 @@
       }
 
       /* =========================
-         UI - Filtros
+         Views
+      ========================== */
+      const views = {
+        home: $("viewHome"),
+        quiz: $("viewQuiz"),
+        dash: $("viewDashboard")
+      };
+
+      function showView(name){
+        Object.entries(views).forEach(([k, el]) => el.classList.toggle("show", k === name));
+
+        $("navHome").classList.toggle("active", name==="home");
+        $("navQuiz").classList.toggle("active", name==="quiz");
+        $("navDashboard").classList.toggle("active", name==="dash");
+
+        if(name==="home"){
+          $("topTitle").textContent = "Início";
+          $("topSub").textContent = "Tudo em um fluxo simples: configurar → responder → ver dashboard.";
+        }
+        if(name==="quiz"){
+          $("topTitle").textContent = "Simulado";
+          $("topSub").textContent = "Tela focada. Ações apenas no rodapé. Resultado no dashboard.";
+        }
+        if(name==="dash"){
+          $("topTitle").textContent = "Dashboard";
+          $("topSub").textContent = "Tempo, taxa de acerto e desempenho por módulo/tema.";
+        }
+      }
+
+      /* =========================
+         Modal
+      ========================== */
+      function openModal(){
+        $("modalBackdrop").classList.add("show");
+        $("modalBackdrop").setAttribute("aria-hidden","false");
+      }
+      function closeModal(){
+        $("modalBackdrop").classList.remove("show");
+        $("modalBackdrop").setAttribute("aria-hidden","true");
+      }
+
+      /* =========================
+         Filters (Modal)
       ========================== */
       function fillSelect(sel, values, placeholder){
         sel.innerHTML = "";
@@ -1078,15 +1370,10 @@
       }
 
       function buildFilterOptions(){
-        const modules = uniq(state.all.map(x=>x.module));
-        const chapters = uniq(state.all.map(x=>x.chapter));
-        const themes = uniq(state.all.map(x=>x.theme));
-        const levels = uniq(state.all.map(x=>x.level));
-
-        fillSelect($("selModule"), modules, "Todos");
-        fillSelect($("selChapter"), chapters, "Todos");
-        fillSelect($("selTheme"), themes, "Todos");
-        fillSelect($("selLevel"), levels, "Todas");
+        fillSelect($("selModule"), uniq(state.all.map(x=>x.module)), "Todos");
+        fillSelect($("selChapter"), uniq(state.all.map(x=>x.chapter)), "Todos");
+        fillSelect($("selTheme"), uniq(state.all.map(x=>x.theme)), "Todos");
+        fillSelect($("selLevel"), uniq(state.all.map(x=>x.level)), "Todas");
       }
 
       function applyFilters(){
@@ -1098,52 +1385,38 @@
 
         const hist = getHistorySet();
 
-        let base = state.all.filter(q => {
+        const base = state.all.filter(q => {
           if(m && q.module !== m) return false;
           if(c && q.chapter !== c) return false;
           if(t && q.theme !== t) return false;
           if(l && q.level !== l) return false;
+
           if(s){
             const blob = normalizeStr([q.id,q.module,q.chapter,q.theme,q.level,q.q,
-              q.options?.A,q.options?.B,q.options?.C,q.options?.D,q.explain].join(" "));
+              q.options?.A,q.options?.B,q.options?.C,q.options?.D,q.options?.E,q.explain].join(" "));
             if(!blob.includes(s)) return false;
           }
+
           if(state.noRepeat && hist.has(q.id)) return false;
           return true;
         });
 
         state.filtered = base;
 
-        // monta fila
-        state.queue = state.shuffle ? shuffle(base) : base.slice();
+        let q = state.shuffle ? shuffle(base) : base.slice();
+        if(state.examMode) q = q.slice(0, 60);
 
-        // modo prova = 60 (se tiver menos, usa o que tem)
-        if(state.examMode){
-          state.queue = state.queue.slice(0, 60);
-        }
-
+        state.queue = q;
         state.idx = 0;
-        state.current = null;
-        state.selected = null;
-        state.confirmed = false;
-        state.answers = [];
 
-        updateDbInfo();
-        updateCounts();
-        renderQuestion(null);
-        disableQuizControls(true);
+        $("navCount").textContent = String(state.queue.length);
+        $("chipFilter").textContent = String(state.queue.length);
+        $("modalInfo").textContent = `Encontradas: ${state.queue.length} questões (base: ${state.all.length}).`;
 
-        $("questionArea").style.display = "none";
-        $("btnStart").disabled = state.queue.length === 0;
-
-        // Ajuste textos topo
-        $("topTitle").textContent = "Simulado";
-        $("topSub").textContent = state.queue.length
-          ? "Clique em Iniciar para começar. O resultado aparece no Dashboard final."
-          : "Nenhuma questão encontrada com esses filtros (ou todas já foram feitas com “Não repetir”).";
+        updateHomeKpis();
       }
 
-      function clearFilters(){
+      function clearFiltersUi(){
         $("selModule").value = "";
         $("selChapter").value = "";
         $("selTheme").value = "";
@@ -1153,35 +1426,74 @@
       }
 
       /* =========================
-         UI - Questão
+         Quiz rendering
       ========================== */
-      function disableQuizControls(disabled){
-        $("btnNext").disabled = disabled;
-        $("btnFinish").disabled = disabled;
-        $("btnConfirm").disabled = disabled;
-        $("btnShowExplain").disabled = disabled;
+      function setQuizEmpty(show){
+        $("quizEmpty").style.display = show ? "" : "none";
+        $("questionArea").style.display = show ? "none" : "";
+      }
+
+      function resetTimerUi(){
+        $("chipTimer").textContent = "00:00:00";
+        $("pillTime").textContent = "00:00:00";
+      }
+
+      function updateCounters(){
+        $("chipBase").textContent = String(state.all.length);
+        $("chipFilter").textContent = String(state.queue.length);
+
+        const total = state.queue.length;
+        const done = state.answers.length;
+
+        $("pillProgress").textContent = `${done} / ${total}`;
+        $("pillAccuracy").textContent = state.started ? "—" : "—"; // sem spoilers no meio
+
+        $("quizProgressText").textContent = total ? `${done}/${total} respondidas` : "—";
+
+        // KPIs home + quiz side
+        const remaining = Math.max(0, total - done);
+
+        $("kpiTotal").textContent = String(total);
+        $("kpiAnswered").textContent = String(done);
+        $("kpiRemaining").textContent = String(remaining);
+
+        $("kpiTotal2").textContent = String(total);
+        $("kpiAnswered2").textContent = String(done);
+        $("kpiRemaining2").textContent = String(remaining);
+
+        $("kpiMode").textContent = state.examMode ? "Prova" : "Treino";
+        $("kpiMode2").textContent = state.examMode ? "Prova" : "Treino";
+
+        $("pillMode").textContent = state.examMode ? "Prova (60)" : "Treino";
+
+        $("dbInfo").textContent = `Base: ${state.all.length} • Filtro atual: ${state.queue.length}`;
+      }
+
+      function refreshModeBadges(){
+        $("kpiMode").textContent = state.examMode ? "Prova" : "Treino";
+        $("kpiMode2").textContent = state.examMode ? "Prova" : "Treino";
+        $("pillMode").textContent = state.examMode ? "Prova (60)" : "Treino";
+      }
+
+      function updateHomeKpis(){
+        updateCounters();
       }
 
       function renderQuestion(q){
-        const area = $("questionArea");
         if(!q){
-          area.style.display = "none";
-          $("qMeta").innerHTML = "";
-          $("qTitle").textContent = "";
-          $("qText").textContent = "";
-          $("qOptions").innerHTML = "";
-          $("qExplain").textContent = "";
-          $("qExplain").classList.remove("show");
-          $("qStatus").textContent = "Selecione uma alternativa.";
-          $("qStatus").className = "status neutral";
-          $("qHint").textContent = "";
+          setQuizEmpty(true);
           return;
         }
 
-        area.style.display = "";
-        $("qExplain").classList.remove("show");
-        $("qExplain").textContent = safeText(q.explain || "");
+        setQuizEmpty(false);
 
+        // header
+        $("quizHeaderTitle").textContent = state.examMode ? "Simulado (Modo Prova)" : "Simulado (Treino)";
+        $("quizHeaderSub").textContent = "Resultado (acertos/erros) só aparece no dashboard.";
+        $("qTitle").textContent = `Questão ${state.idx + 1} de ${state.queue.length}`;
+        $("qText").textContent = safeText(q.q);
+
+        // tags
         $("qMeta").innerHTML = "";
         const mkTag = (txt, cls="") => {
           const s = document.createElement("span");
@@ -1194,9 +1506,7 @@
         $("qMeta").appendChild(mkTag(q.theme || "Sem tema","gray"));
         $("qMeta").appendChild(mkTag(q.level || "Nível","green"));
 
-        $("qTitle").textContent = `Questão ${state.idx + 1} de ${state.queue.length}`;
-        $("qText").textContent = safeText(q.q);
-
+        // options
         const opts = $("qOptions");
         opts.innerHTML = "";
 
@@ -1205,59 +1515,68 @@
 
         const letters = ["A","B","C","D","E"];
         letters.forEach(L => {
-          if(q.options && q.options[L] != null && safeText(q.options[L]).trim() !== ""){
-            const row = document.createElement("div");
-            row.className = "opt";
-            row.tabIndex = 0;
+          const v = q.options?.[L];
+          if(v == null || safeText(v).trim() === "") return;
 
-            const box = document.createElement("div");
-            box.className = "letter";
-            box.textContent = L;
+          const row = document.createElement("div");
+          row.className = "opt";
+          row.tabIndex = 0;
 
-            const txt = document.createElement("div");
-            txt.className = "txt";
-            txt.textContent = safeText(q.options[L]);
+          const box = document.createElement("div");
+          box.className = "letter";
+          box.textContent = L;
 
-            row.appendChild(box);
-            row.appendChild(txt);
+          const txt = document.createElement("div");
+          txt.className = "txt";
+          txt.textContent = safeText(v);
 
-            const selectThis = () => {
-              if(state.confirmed) return;
-              [...opts.querySelectorAll(".opt")].forEach(x => x.classList.remove("selected"));
-              row.classList.add("selected");
-              state.selected = L;
-              $("qStatus").textContent = "Alternativa selecionada. Confirme para registrar.";
-              $("qStatus").className = "status neutral";
-              $("btnConfirm").disabled = false;
-            };
+          row.appendChild(box);
+          row.appendChild(txt);
 
-            row.addEventListener("click", selectThis);
-            row.addEventListener("keydown", (e) => {
-              if(e.key === "Enter" || e.key === " "){
-                e.preventDefault();
-                selectThis();
-              }
-            });
+          const selectThis = () => {
+            if(state.confirmed) return;
+            [...opts.querySelectorAll(".opt")].forEach(x => x.classList.remove("selected"));
+            row.classList.add("selected");
+            state.selected = L;
+            $("qStatus").textContent = "Alternativa selecionada. Confirme para registrar.";
+            $("qStatus").className = "status neutral";
+            $("btnConfirm").disabled = false;
+          };
 
-            opts.appendChild(row);
-          }
+          row.addEventListener("click", selectThis);
+          row.addEventListener("keydown", (e) => {
+            if(e.key === "Enter" || e.key === " "){
+              e.preventDefault();
+              selectThis();
+            }
+          });
+
+          opts.appendChild(row);
         });
+
+        // explain
+        $("qExplain").classList.remove("show");
+        $("qExplain").textContent = safeText(q.explain || "");
 
         $("qStatus").textContent = "Selecione uma alternativa.";
         $("qStatus").className = "status neutral";
+
         $("btnConfirm").disabled = true;
-        $("btnShowExplain").disabled = !state.showExplain;
+        $("btnExplain").disabled = !state.showExplain;
+        $("btnNext").disabled = true;
+        $("btnFinish").disabled = false;
+
         $("qHint").textContent = state.noRepeat
-          ? "Dica: esta questão será marcada como “feita” no seu navegador ao confirmar."
+          ? "Dica: ao confirmar, esta questão entra no seu histórico local (não repetir)."
           : "Dica: ative “Não repetir” para variar as questões nas próximas sessões.";
+
+        updateCounters();
       }
 
       function confirmAnswer(){
         if(!state.current || !state.selected || state.confirmed) return;
 
         state.confirmed = true;
-
-        // registra tentativa
         const q = state.current;
         const correct = (state.selected === q.answer);
 
@@ -1273,28 +1592,22 @@
         });
 
         addToHistory(q.id);
-        saveAttempts();
 
-        // UI: sem “consolidado” no meio, mas pode dar feedback mínimo por questão
-        if(correct){
-          $("qStatus").textContent = "Registrado.";
-          $("qStatus").className = "status ok";
-        }else{
-          $("qStatus").textContent = "Registrado.";
-          $("qStatus").className = "status bad";
-        }
-
-        if(state.showExplain){
-          $("btnShowExplain").disabled = false;
-        }
+        // Feedback mínimo (sem “consolidado” de acertos)
+        $("qStatus").textContent = "Resposta registrada.";
+        $("qStatus").className = correct ? "status ok" : "status bad";
 
         $("btnNext").disabled = false;
         $("btnFinish").disabled = false;
+        $("btnConfirm").disabled = true;
 
-        updateCounts();
+        // mantém sessão para continuar
+        persistSession();
+
+        updateCounters();
       }
 
-      function showExplain(){
+      function toggleExplain(){
         if(!state.current) return;
         $("qExplain").classList.toggle("show");
       }
@@ -1302,7 +1615,6 @@
       function nextQuestion(){
         if(!state.started) return;
 
-        // se ainda não confirmou, permite avançar? (não)
         if(!state.confirmed){
           $("qStatus").textContent = "Confirme a resposta antes de avançar.";
           $("qStatus").className = "status neutral";
@@ -1317,12 +1629,12 @@
 
         state.current = state.queue[state.idx];
         renderQuestion(state.current);
-        $("btnNext").disabled = true;
-        $("btnFinish").disabled = false;
+
+        persistSession();
       }
 
       /* =========================
-         Timer + Start/Finish
+         Timer / Start / Finish
       ========================== */
       function tick(){
         state.elapsedMs = Date.now() - state.startAt;
@@ -1331,52 +1643,46 @@
         $("pillTime").textContent = t;
       }
 
-      function startQuiz(){
-        if(state.queue.length === 0) return;
+      function startQuizFromCurrentQueue(){
+        if(!state.queue.length){
+          alert("Nenhuma questão encontrada com esses filtros.");
+          return;
+        }
 
-        // reset
-        state.started = true;
+        // reset resultados
+        state.answers = [];
         state.idx = 0;
         state.current = state.queue[0];
-        state.answers = [];
+        state.started = true;
+
+        // timer
         state.startAt = Date.now();
         state.elapsedMs = 0;
-
         if(state.timerId) clearInterval(state.timerId);
         state.timerId = setInterval(tick, 250);
 
-        $("questionArea").style.display = "";
+        // render
+        showView("quiz");
         renderQuestion(state.current);
 
-        $("btnStart").disabled = true;
-        $("btnNext").disabled = true;
-        $("btnFinish").disabled = false;
-
-        $("topTitle").textContent = "Simulado em andamento";
-        $("topSub").textContent = "Sem spoiler: acertos e taxa aparecem apenas no Dashboard final.";
-
-        updateCounts();
-        refreshModeBadges();
+        persistSession();
       }
 
       function finishQuiz(){
         if(!state.started) return;
 
-        // se terminou sem confirmar a última, não obriga — MAS o requisito era:
-        // "sempre que eu finalizar a prova... ele deve corrigir no final"
-        // Então, se ainda não confirmou a última, a gente simplesmente encerra sem registrar essa questão.
-        // (Melhor UX: não inventar resposta.) Se quiser obrigar, podemos bloquear finish.
         clearInterval(state.timerId);
         state.timerId = null;
-
         state.started = false;
 
         buildFinalDashboard();
-        goDashboard();
+        showView("dash");
+
+        clearSession(); // encerrou
       }
 
       /* =========================
-         Dashboard Final
+         Dashboard
       ========================== */
       let chartRef = null;
 
@@ -1409,22 +1715,24 @@
           ul.style.paddingLeft = "18px";
           ul.style.lineHeight = "1.5";
 
-          wrong.slice(0, 150).forEach(w => {
+          wrong.slice(0, 200).forEach(w => {
             const li = document.createElement("li");
-            li.innerHTML = `<b>${w.id}</b> — ${safeText(w.module)} • ${safeText(w.theme)} (marcou ${w.selected}, gabarito correto)`;
+            li.innerHTML = `<b>${w.id}</b> — ${safeText(w.module)} • ${safeText(w.theme)} (marcou ${w.selected}, gabarito ${findAnswerLetter(w.id)})`;
             ul.appendChild(li);
           });
+
           wrongBox.appendChild(ul);
-          if(wrong.length > 150){
+
+          if(wrong.length > 200){
             const more = document.createElement("div");
             more.className = "muted";
             more.style.marginTop = "10px";
-            more.textContent = `+ ${wrong.length - 150} itens ocultos para não poluir a tela.`;
+            more.textContent = `+ ${wrong.length - 200} itens ocultos para não poluir a tela.`;
             wrongBox.appendChild(more);
           }
         }
 
-        // chart por módulo/tema (agrupa: "Módulo — Tema")
+        // chart por módulo/tema
         const map = new Map();
         state.answers.forEach(a => {
           const key = `${a.module} — ${a.theme}`;
@@ -1434,13 +1742,13 @@
           map.set(key, cur);
         });
 
-        // ordena por total desc
         const entries = [...map.entries()].sort((a,b)=>b[1].total - a[1].total);
         const labels = entries.map(e=>e[0]);
         const dataHits = entries.map(e=>e[1].hits);
 
         const ctx = $("chartByModule").getContext("2d");
         if(chartRef) chartRef.destroy();
+
         chartRef = new Chart(ctx, {
           type: "bar",
           data: {
@@ -1453,9 +1761,7 @@
           options: {
             responsive: true,
             maintainAspectRatio: false,
-            plugins: {
-              legend: { display: true }
-            },
+            plugins: { legend: { display: true } },
             scales: {
               x: { ticks: { maxRotation: 60, minRotation: 0 } },
               y: { beginAtZero: true, precision: 0 }
@@ -1463,52 +1769,32 @@
           }
         });
 
-        // Ajuste altura canvas (pra não ficar esmagado)
-        $("chartByModule").parentElement.style.height = Math.max(320, 42 * Math.min(labels.length, 10)) + "px";
+        // Sidebar accuracy agora pode mostrar
+        $("pillAccuracy").textContent = total ? `${acc}%` : "—";
+        updateCounters();
       }
 
-      function goSimulado(){
-        $("finalSection").classList.remove("show");
-        $("cardMain").style.display = "";
-        $("navSimulado").classList.add("active");
-        $("navDashboard").classList.remove("active");
-
-        $("topTitle").textContent = "Simulado";
-        $("topSub").textContent = "Selecione os filtros e inicie. Seu resultado só aparece no final.";
-      }
-
-      function goDashboard(){
-        $("finalSection").classList.add("show");
-        $("cardMain").style.display = "none";
-        $("navDashboard").classList.add("active");
-        $("navSimulado").classList.remove("active");
-
-        $("topTitle").textContent = "Dashboard final";
-        $("topSub").textContent = "Veja seu desempenho e revise os pontos fracos por módulo/tema.";
+      function findAnswerLetter(id){
+        const q = state.all.find(x => x.id === id);
+        return q?.answer || "?";
       }
 
       function reviewWrong(){
-        // monta fila com erradas (usando a base carregada)
         const wrongIds = new Set(state.answers.filter(x=>!x.correct).map(x=>x.id));
         const wrongQs = state.all.filter(q => wrongIds.has(q.id));
+
         state.queue = state.shuffle ? shuffle(wrongQs) : wrongQs.slice();
         state.idx = 0;
-        state.current = null;
         state.answers = [];
-        state.started = false;
-        state.startAt = null;
-        state.elapsedMs = 0;
+        state.current = null;
 
-        updateCounts();
-        goSimulado();
-        renderQuestion(null);
-        $("questionArea").style.display = "none";
-        $("btnStart").disabled = state.queue.length === 0;
-
-        $("topTitle").textContent = "Revisão das erradas";
-        $("topSub").textContent = state.queue.length
-          ? "Clique em Iniciar para refazer apenas as questões erradas."
-          : "Sem questões erradas para revisar.";
+        resetTimerUi();
+        showView("home");
+        openModal();
+        $("modalInfo").textContent = `Revisão: ${state.queue.length} questões erradas selecionadas. Clique “Começar”.`;
+        $("navCount").textContent = String(state.queue.length);
+        $("chipFilter").textContent = String(state.queue.length);
+        updateCounters();
       }
 
       function exportResultJson(){
@@ -1530,32 +1816,114 @@
       }
 
       /* =========================
-         Counters / Badges
+         Session (Continue)
       ========================== */
-      function updateDbInfo(){
-        $("dbInfo").textContent = `Base: ${state.all.length} questões • Filtro atual: ${state.filtered.length}`;
-        $("navCount").textContent = String(state.filtered.length);
+      function persistSession(){
+        try{
+          const snapshot = {
+            started: state.started,
+            startAt: state.startAt,
+            elapsedMs: state.elapsedMs,
+            prefs: {
+              noRepeat: state.noRepeat,
+              shuffle: state.shuffle,
+              showExplain: state.showExplain,
+              examMode: state.examMode
+            },
+            // fila atual por ids (reconstroi com base)
+            queueIds: state.queue.map(q=>q.id),
+            idx: state.idx,
+            answers: state.answers
+          };
+          localStorage.setItem(LS_SESSION, JSON.stringify(snapshot));
+        }catch{}
       }
 
-      function updateCounts(){
-        const total = state.queue.length;
-        const done = state.answers.length;
-
-        $("chipTotal").textContent = String(total);
-        $("chipDone").textContent = String(done);
-
-        $("kpiTotal").textContent = String(total);
-        $("kpiAnswered").textContent = String(done);
-        $("kpiRemaining").textContent = String(Math.max(0, total - done));
-
-        $("pillProgress").textContent = `${done} / ${total}`;
-        // sem revelar acertos durante a prova: só mostra “—” até terminar
-        $("pillAccuracy").textContent = state.started ? "—" : (total ? "—" : "—");
+      function clearSession(){
+        localStorage.removeItem(LS_SESSION);
       }
 
-      function refreshModeBadges(){
-        $("kpiMode").textContent = state.examMode ? "Prova" : "Treino";
-        $("pillMode").textContent = state.examMode ? "Prova (60)" : "Treino";
+      function loadSession(){
+        try{
+          const raw = localStorage.getItem(LS_SESSION);
+          if(!raw) return null;
+          return JSON.parse(raw);
+        }catch{
+          return null;
+        }
+      }
+
+      function canContinue(){
+        const s = loadSession();
+        return !!(s && s.queueIds && s.queueIds.length && typeof s.idx === "number");
+      }
+
+      function continueSession(){
+        const s = loadSession();
+        if(!s) return;
+
+        // aplica prefs salvos (pra ficar consistente)
+        if(s.prefs){
+          state.noRepeat = !!s.prefs.noRepeat;
+          state.shuffle = s.prefs.shuffle !== false;
+          state.showExplain = s.prefs.showExplain !== false;
+          state.examMode = !!s.prefs.examMode;
+        }
+        setSwitch($("swNoRepeat"), state.noRepeat);
+        setSwitch($("swShuffle"), state.shuffle);
+        setSwitch($("swExplain"), state.showExplain);
+        setSwitch($("swExam"), state.examMode);
+        savePrefs();
+
+        // reconstroi queue
+        const map = new Map(state.all.map(q => [q.id, q]));
+        state.queue = s.queueIds.map(id => map.get(id)).filter(Boolean);
+        state.idx = Math.min(Math.max(0, s.idx), Math.max(0, state.queue.length-1));
+        state.answers = Array.isArray(s.answers) ? s.answers : [];
+
+        // timer
+        state.started = !!s.started;
+        state.startAt = s.startAt || Date.now();
+        state.elapsedMs = s.elapsedMs || 0;
+
+        if(state.timerId) clearInterval(state.timerId);
+        state.timerId = setInterval(tick, 250);
+
+        // re-render
+        state.current = state.queue[state.idx] || null;
+        showView("quiz");
+        renderQuestion(state.current);
+
+        updateCounters();
+      }
+
+      /* =========================
+         DB Load (GitHub Pages)
+      ========================== */
+      async function loadDbFromGithub(){
+        // Se você renomear para "QuestoesPQO.json", troque a linha abaixo:
+        const url = "./QuestõesPQO.json";
+
+        const res = await fetch(url, { cache: "no-store" });
+        if(!res.ok) throw new Error("HTTP " + res.status);
+
+        const data = await res.json();
+        return data;
+      }
+
+      function sanitizeDb(data){
+        const arr = Array.isArray(data) ? data : [];
+        return arr.map(q => ({
+          id: safeText(q.id),
+          module: safeText(q.module),
+          chapter: safeText(q.chapter),
+          theme: safeText(q.theme),
+          level: safeText(q.level),
+          q: safeText(q.q),
+          options: q.options || {},
+          answer: safeText(q.answer).trim().toUpperCase(),
+          explain: safeText(q.explain)
+        })).filter(q => q.id && q.q && q.options && q.answer);
       }
 
       /* =========================
@@ -1569,54 +1937,87 @@
         bindSwitch($("swExam"), () => state.examMode, v => state.examMode = v);
 
         // nav
-        $("navSimulado").addEventListener("click", goSimulado);
+        $("navHome").addEventListener("click", () => showView("home"));
+        $("navQuiz").addEventListener("click", () => showView("quiz"));
         $("navDashboard").addEventListener("click", () => {
-          if(!$("finalSection").classList.contains("show")){
-            // se não tem dashboard ainda, só vai se tiver algo respondido
-            if(state.answers.length){
-              buildFinalDashboard();
-              goDashboard();
-            }else{
-              alert("Finalize um simulado (ou responda ao menos 1 questão) para ver o Dashboard final.");
-            }
+          if(state.answers.length){
+            buildFinalDashboard();
+            showView("dash");
+          }else{
+            alert("Finalize um simulado (ou responda ao menos 1 questão) para ver o Dashboard.");
           }
         });
 
-        // filtros
-        $("btnApply").addEventListener("click", applyFilters);
-        $("btnClearFilters").addEventListener("click", clearFilters);
+        // home actions
+        $("actNew").addEventListener("click", () => { openModal(); applyFilters(); });
+        $("actQuickExam").addEventListener("click", () => {
+          state.examMode = true;
+          setSwitch($("swExam"), true);
+          savePrefs();
+          refreshModeBadges();
+          openModal();
+          applyFilters();
+        });
+        $("actDashboard").addEventListener("click", () => {
+          if(state.answers.length){
+            buildFinalDashboard();
+            showView("dash");
+          }else{
+            alert("Sem resultados ainda. Inicie um simulado e finalize para ver o Dashboard.");
+          }
+        });
+        $("actContinue").addEventListener("click", () => {
+          if(!canContinue()){
+            alert("Não existe sessão para continuar.");
+            return;
+          }
+          continueSession();
+        });
 
-        // ações
-        $("btnStart").addEventListener("click", startQuiz);
+        // modal
+        $("btnCloseModal").addEventListener("click", closeModal);
+        $("modalBackdrop").addEventListener("click", (e) => {
+          if(e.target === $("modalBackdrop")) closeModal();
+        });
+
+        $("btnClearFilters").addEventListener("click", clearFiltersUi);
+
+        ["selModule","selChapter","selTheme","selLevel","searchText"].forEach(id => {
+          $(id).addEventListener("change", applyFilters);
+          if(id==="searchText"){
+            $(id).addEventListener("keydown", (e) => {
+              if(e.key === "Enter"){ e.preventDefault(); applyFilters(); }
+            });
+          }
+        });
+
+        $("btnStartQuiz").addEventListener("click", () => {
+          applyFilters();
+          closeModal();
+          startQuizFromCurrentQueue();
+        });
+
+        // quiz actions
         $("btnConfirm").addEventListener("click", confirmAnswer);
-        $("btnShowExplain").addEventListener("click", showExplain);
+        $("btnExplain").addEventListener("click", toggleExplain);
         $("btnNext").addEventListener("click", nextQuestion);
         $("btnFinish").addEventListener("click", finishQuiz);
-
-        $("btnResetHistory").addEventListener("click", () => {
-          if(confirm("Tem certeza que deseja limpar o histórico local (não repetir + tentativas)?")){
-            clearHistory();
-            applyFilters();
-            alert("Histórico limpo.");
-          }
-        });
 
         // dashboard
         $("btnReviewWrong").addEventListener("click", reviewWrong);
         $("btnExportJson").addEventListener("click", exportResultJson);
 
-        // melhora UX: aplicar filtros ao mudar select (opcional e leve)
-        ["selModule","selChapter","selTheme","selLevel"].forEach(id => {
-          $(id).addEventListener("change", () => {
-            // só atualiza a fila ao clicar em Aplicar, para não “piscar” (UX)
-          });
-        });
-
-        // enter no search
-        $("searchText").addEventListener("keydown", (e) => {
-          if(e.key === "Enter"){
-            e.preventDefault();
-            applyFilters();
+        // clear history
+        $("btnResetHistory").addEventListener("click", () => {
+          if(confirm("Tem certeza que deseja limpar o histórico local (não repetir + sessão)?")){
+            clearHistory();
+            state.answers = [];
+            state.queue = state.filtered = [];
+            state.idx = 0;
+            state.current = null;
+            resetTimerUi();
+            updateCounters();
+            alert("Histórico limpo.");
           }
         });
       }
@@ -1624,70 +2025,53 @@
       /* =========================
          Boot
       ========================== */
-      function boot(){
+      async function boot(){
         loadPrefs();
         setSwitch($("swNoRepeat"), state.noRepeat);
         setSwitch($("swShuffle"), state.shuffle);
         setSwitch($("swExplain"), state.showExplain);
         setSwitch($("swExam"), state.examMode);
-
-        loadDb();
-        buildFilterOptions();
         refreshModeBadges();
-        applyFilters(); // monta fila inicial
 
-        updateCounts();
-        tick(); // timer 00:00:00
         bind();
 
-        // Ajuste dos botões iniciais
-        $("btnStart").disabled = state.queue.length === 0;
-        $("btnNext").disabled = true;
-        $("btnFinish").disabled = true;
+        try{
+          const raw = await loadDbFromGithub();
+          state.all = sanitizeDb(raw);
 
-        $("topTitle").textContent = "Simulado";
-        $("topSub").textContent = "Selecione os filtros e inicie. Seu resultado só aparece no final.";
+          $("noteLoad").innerHTML = `Base carregada automaticamente ✅<br/>Arquivo: <b>./QuestõesPQO.json</b>`;
+        }catch(err){
+          // fallback: deixa claro o erro e orienta renomear
+          state.all = [];
+          $("noteLoad").innerHTML =
+            `Não consegui carregar o JSON automaticamente ❌<br/>` +
+            `Confirme se o arquivo existe no repositório e tente renomear para <b>QuestoesPQO.json</b> (sem acento).`;
+          console.error(err);
+        }
+
+        buildFilterOptions();
+        applyFilters();
+
+        // Sessão em andamento?
+        if(canContinue()){
+          $("actContinue").style.opacity = "1";
+        }else{
+          $("actContinue").style.opacity = ".65";
+        }
+
+        updateCounters();
+        setQuizEmpty(true);
+
+        $("chipBase").textContent = String(state.all.length);
+        $("chipFilter").textContent = String(state.queue.length);
+
+        // timer parado na home
+        resetTimerUi();
       }
-
-      // Override: quando inicia, mostrar questão
-      const _renderQuestion = renderQuestion;
-      renderQuestion = function(q){
-        _renderQuestion(q);
-        if(q){
-          $("questionArea").style.display = "";
-        }
-      };
-
-      // Pequeno ajuste: ao iniciar, habilita area e botões
-      const _startQuiz = startQuiz;
-      startQuiz = function(){
-        _startQuiz();
-        $("questionArea").style.display = "";
-        disableQuizControls(false);
-        $("btnNext").disabled = true; // só depois de confirmar
-        $("btnConfirm").disabled = true;
-        $("btnShowExplain").disabled = !state.showExplain;
-        updateCounts();
-      };
-
-      // Quando muda filtros após já ter respondido, força reset seguro
-      const _applyFilters = applyFilters;
-      applyFilters = function(){
-        if(state.timerId){
-          clearInterval(state.timerId);
-          state.timerId = null;
-        }
-        state.started = false;
-        $("chipTimer").textContent = "00:00:00";
-        $("pillTime").textContent = "00:00:00";
-        _applyFilters();
-        refreshModeBadges();
-        updateCounts();
-      };
 
       boot();
 
-      // Expor state no console (debug)
+      // debug
       window.__PQO = state;
     })();
   </script>
