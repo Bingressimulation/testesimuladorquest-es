@@ -6039,22 +6039,22 @@
     "answer": "C",
     "explain": "I é falso, pois o uso de CCP não é obrigatório em todos os casos; II e III estão corretos, pois o SPB garante certeza, irrevogabilidade e finalidade."
   },
-  {
-    "id": "Q9671",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo II – Infraestrutura do mercado",
-    "theme": "PFMI (Principles for Financial Market Infrastructures)",
-    "level": "Médio",
-    "q": "A que se refere o documento Principles for Financial Market Infrastructures (PFMI)? I. Ao conjunto de princípios a serem observados pelas organizações que compõem a infraestrutura dos mercados financeiros. II. Ao conjunto de princípios e recomendações para a base legal necessária a dar suporte às operações das entidades; a sua governança; à administração dos riscos de crédito, de liquidez, de custódia, de transferência de valores e operacionais por elas incorridos. III. Às contrapartes centrais, os sistemas de liquidação, os sistemas de registro de títulos e valores mobiliários, e as centrais depositárias de ativos. Quais estão corretas?",
-    "options": {
-      "A": "Apenas I.",
-      "B": "Apenas II e III.",
-      "C": "Apenas I e III.",
-      "D": "Todas estão corretas."
-    },
-    "answer": "D",
-    "explain": "Todas as afirmações descrevem corretamente o escopo e o conteúdo do PFMI, que é um marco regulatório internacional."
+{
+  "id": "Q9671",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo II – Infraestrutura do mercado",
+  "theme": "PFMI (Principles for Financial Market Infrastructures)",
+  "level": "Médio",
+  "q": "A que se refere o documento Principles for Financial Market Infrastructures (PFMI)?\n\nI. Ao conjunto de princípios a serem observados pelas organizações que compõem a infraestrutura dos mercados financeiros.\n\nII. Ao conjunto de princípios e recomendações para a base legal necessária a dar suporte às operações das entidades; à sua governança; à administração dos riscos de crédito, de liquidez, de custódia, de transferência de valores e operacionais por elas incorridos.\n\nIII. Às contrapartes centrais, aos sistemas de liquidação, aos sistemas de registro de títulos e valores mobiliários, e às centrais depositárias de ativos.\n\nQuais estão corretas?",
+  "options": {
+    "A": "Apenas I.",
+    "B": "Apenas II e III.",
+    "C": "Apenas I e III.",
+    "D": "Todas estão corretas."
   },
+  "answer": "D",
+  "explain": "Todas as afirmações descrevem corretamente o escopo e o conteúdo do PFMI, que é um marco regulatório internacional.",
+},
   {
     "id": "Q9672",
     "module": "Título I – Aspectos institucionais",
@@ -7975,22 +7975,22 @@
     "answer": "D",
     "explain": "T-Bill é zero cupom, não tem pagamento de cupom, logo sem risco de reinvestimento."
   },
-  {
-    "id": "Q1995420223057",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo II – Mercado de derivativos",
-    "theme": "Mercado Futuro de dólar - Resultado financeiro",
-    "level": "Médio",
-    "q": "Um determinado investidor decidiu fazer hedge, para se proteger da queda da moeda, com contratos futuros de dólar. Quando ele iniciou a operação o contrato estava cotado a 5.297. E quando ele fechou a operação, o contrato estava a 5.397. Ele fez a operação com 10 contratos. Considerando que cada contrato tenha equivalência de 1 U$, como ficará o fluxo financeiro para esse investidor:",
-    "options": {
-      "A": "Receberá 1.000",
-      "B": "Receberá 100.000",
-      "C": "Pagará 100.000",
-      "D": "Pagará 1.000"
-    },
-    "answer": "A",
-    "explain": "Se ele fez hedge contra queda da moeda, deve estar vendido em futuro. Venda a 5.297, compra a 5.397 = perde 100 pontos por contrato. Como está vendido, ele recebe na queda? Vamos supor que ele é exportador (recebe em dólar) e vende futuro para hedge. Se o dólar sobe, ele perde no futuro, mas ganha no caixa. Neste caso, dólar subiu (5.297 para 5.397), então ele perde no futuro: (5.397-5.297)*10*1 = 1.000. Ele pagará 1.000."
+ {
+  "id": "Q9732",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo IV – Mercado de derivativos",
+  "theme": "Hedge com contratos futuros de dólar",
+  "level": "Médio",
+  "q": "Um determinado investidor decidiu fazer hedge, para se proteger da queda da moeda, com contratos futuros de dólar. Quando ele iniciou a operação o contrato estava cotado a 5.297. E quando ele fechou a operação, o contrato estava a 5.397. Ele fez a operação com 10 contratos. Considerando que cada contrato tenha equivalência de US$ 1, como ficará o fluxo financeiro para esse investidor?",
+  "options": {
+    "A": "Receberá 1.000",
+    "B": "Receberá 100.000",
+    "C": "Pagará 100.000",
+    "D": "Pagará 1.000"
   },
+  "answer": "D",
+  "explain": "A variação do contrato foi de +100 pontos (5.397 − 5.297). Com 10 contratos e equivalência de US$1 por ponto, o resultado financeiro é de US$1.000. Como o investidor realizou hedge contra a queda do dólar, ele estava vendido em contratos futuros. Com a alta do dólar, a posição vendida gera prejuízo, fazendo com que o investidor pague US$1.000.",
+},
   {
     "id": "Q1995420223058",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -11575,22 +11575,22 @@
     "answer": "C",
     "explain": "IR em CDB incide sobre o rendimento (não sobre o total), com alíquota regressiva conforme prazo."
   },
-  {
-    "id": "Q199543109",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo II – Mercado de derivativos",
-    "theme": "Resultado em Opções",
-    "level": "Médio",
-    "q": "Um determinado investidor faz o lançamento de uma PUT descoberta conforme dados abaixo:\nPUT Prêmio: 1,20 Preço Exercício: R$ 20,00 Preço de Mercado no Vencimento: R$ 25,00\nNessa situação, qual será o resultado financeiro dessa operação para esse lançador:",
-    "options": {
-      "A": "+ R$ 1,20",
-      "B": "– R$ 3,80",
-      "C": "+ R$ 3,80",
-      "D": "– R$ 1,20"
-    },
-    "answer": "D",
-    "explain": "Lançador recebe prêmio R$1,20. Como preço no vencimento (R$25) > preço exercício (R$20), put não é exercida. Lucro = R$1,20."
+{
+  "id": "Q9733",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo II – Mercado de derivativos",
+  "theme": "Resultado em opções – Lançamento de PUT descoberta",
+  "level": "Médio",
+  "q": "Um determinado investidor realiza o lançamento (venda) de uma opção de venda (PUT) descoberta, conforme os dados abaixo:\n\nPrêmio recebido: R$ 1,20\nPreço de exercício: R$ 20,00\nPreço de mercado do ativo no vencimento: R$ 25,00\n\nConsiderando essa operação, qual será o resultado financeiro para o lançador da PUT?",
+  "options": {
+    "A": "+ R$ 1,20",
+    "B": "– R$ 3,80",
+    "C": "+ R$ 3,80",
+    "D": "– R$ 1,20"
   },
+  "answer": "A",
+  "explain": "No vencimento, o preço de mercado do ativo (R$ 25,00) está acima do preço de exercício da PUT (R$ 20,00), fazendo com que a opção não seja exercida pelo comprador. Dessa forma, o lançador da PUT não precisa comprar o ativo e permanece apenas com o prêmio recebido no início da operação, obtendo um ganho de R$ 1,20.",
+},
 {
   "id": "Q199543110",
   "module": "Título II – Mercados de bolsa e de balcão",
@@ -23086,5 +23086,21 @@
     },
     "answer": "A",
     "explain": "I. INCORRETA: A comunicação de operações suspeitas deve ser feita ao COAF (Conselho de Controle de Atividades Financeiras), e não diretamente à CVM. A CVM recebe informações do COAF quando pertinente. II. CORRETA: O prazo para comunicação ao COAF é de 24 horas após a conclusão da análise interna que identificou a suspeita. III. CORRETA: A Resolução CVM 50/21 estabelece o conteúdo mínimo das comunicações e impõe o dever de sigilo (\"não dar ciência\") sobre a comunicação feita, para evitar que o investigado seja alertado (\"tipping-off\")."
-  }
+  },
+  {
+  "id": "QMR001",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo II – Infraestrutura do mercado",
+  "theme": "Matriz de Risco – Conceitos Fundamentais",
+  "level": "Médio",
+  "q": "A matriz de risco é uma ferramenta utilizada pelas organizações com o objetivo principal de:\n\nApoiar a identificação, avaliação e priorização dos riscos aos quais estão expostas, considerando a probabilidade de ocorrência e o impacto associado.\n\nAssinale a alternativa correta.",
+  "options": {
+    "A": "Mensurar exclusivamente perdas financeiras históricas.",
+    "B": "Identificar, avaliar e priorizar riscos com base em impacto e probabilidade.",
+    "C": "Determinar indicadores-chave de desempenho operacional.",
+    "D": "Substituir auditorias internas e controles preventivos."
+  },
+  "answer": "B",
+  "explain": "A matriz de risco cruza, de forma estruturada, a probabilidade de ocorrência e o impacto dos riscos, permitindo avaliá-los e priorizá-los. Ela não se limita a perdas históricas, nem substitui controles ou auditorias, tampouco é um KPI.",
+},
 ]
