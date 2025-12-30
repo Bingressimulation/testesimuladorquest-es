@@ -19239,18 +19239,21 @@
     "explain": "O IOF incide apenas sobre aplicações em fundos de investimento classificados como de curto prazo (prazo médio da carteira inferior a 365 dias) e com alíquotas regressivas até o 30º dia. Fundos de ações e fundos com mais de 67% da carteira em ações estão permanentemente isentos do IOF. Esta classe tem 70% (30+30+10) em ações, ultrapassando o limite de 67%, portanto, está isenta de IOF para qualquer prazo de resgate."
   },
   {
-    "id": "Q7235",
-    "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
-    "theme": "Inadimplência - Definição",
-    "level": "Fácil",
-    "q": "O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado:",
-    "options": {
-      "A": "Concordatário",
-      "B": "Devedor operacional",
-      "C": "Insolvente",
-      "D": "Inadimplente"
-   },
+"id": "Q7235",
+"module": "Título VI – Câmara de compensação e liquidação",
+"chapter": "Capítulo I – Câmara B3",
+"theme": "Inadimplência - Definição",
+"level": "Fácil",
+"q": "O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado:",
+"options": {
+"A": "Concordatário",
+"B": "Devedor operacional",
+"C": "Insolvente",
+"D": "Inadimplente"
+},
+"answer": "D",
+"explain": "De acordo com o regulamento da Câmara B3, o termo técnico e específico para um participante que não liquida suas obrigações financeiras por falta de recursos é "Participante Inadimplente". Essa declaração desencadeia os procedimentos de gestão de risco da câmara, como a utilização das garantias (margens) depositadas, a liquidação forçada de posições e, se necessário, a mobilização do fundo de garantia. Os termos 'insolvente' e 'concordatário' são conceitos jurídicos mais amplos, enquanto 'devedor operacional' não é uma definição regulamentar padrão na Câmara B3."
+  },
   {
     "id": "Q1804",
     "module": "Título II – Mercados de bolsa e de balcão",
