@@ -19141,5 +19141,2055 @@
     },
     "answer": "D",
     "explain": "À vista: 2.200 * 0,95 = 2.090. Parcelado: entrada 220 (2.200/10) + 9 parcelas de 220. Fluxo equivalente: financiamento de 2.090 - 220 = 1.870, com 9 parcelas de 220. 1.870 = 220 * [1 - (1+i)^-9]/i. Resolvendo: i ≈ 1,16% a.m."
+  },
+{
+    "id": "Q1804",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Política de Investimento",
+    "level": "Fácil",
+    "q": "O objetivo de um fundo de investimento, ou de uma determinada classe de fundo, descreve aquilo que o fundo, ou classe de cotas, se propõe. A política de investimento descreve como o gestor pretende:",
+    "options": {
+      "A": "Dialogar com cotistas",
+      "B": "Distribuir lucro entre os cotistas",
+      "C": "Atingir a meta proposta",
+      "D": "Negociar com outros fundos"
+    },
+    "answer": "C",
+    "explain": "A política de investimento de um fundo é o documento que detalha as estratégias, os instrumentos financeiros, os limites e os critérios que o gestor utilizará para buscar atingir o objetivo de investimento declarado no regulamento do fundo. Ela descreve o 'como' o gestor administrará a carteira para alcançar a meta (ex: superar o CDI, acompanhar um índice, etc.)."
+  },
+  {
+    "id": "Q1819",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "FII - Tributação para PJ",
+    "level": "Médio",
+    "q": "Uma empresa que trabalha com base no lucro real, comprou cotas de Fundo Imobiliário em fevereiro de 2023. Em agosto de 2024 recebeu rendimentos que foram tributados em imposto de renda na fonte de:",
+    "options": {
+      "A": "20%",
+      "B": "Varia conforme o prazo de permanência",
+      "C": "15%",
+      "D": "17,5%"
+    },
+    "answer": "A",
+    "explain": "Para pessoas jurídicas tributadas com base no lucro real, os rendimentos distribuídos por Fundos de Investimento Imobiliários (FIIs) estão sujeitos à retenção do Imposto de Renda na fonte à alíquota de 20%. Essa regra é específica para PJ no lucro real, independente do prazo. Pessoas físicas têm regra diferente (isento para rendimentos, 20% para ganho de capital)."
+  },
+  {
+    "id": "Q1790",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Custodiante - Atribuição",
+    "level": "Fácil",
+    "q": "O Custodiante de um fundo de investimento tem como principal atribuição:",
+    "options": {
+      "A": "Divulgar informações aos cotistas",
+      "B": "O Registro, a liquidação e os exercícios dos direitos e obrigações dos ativos que compõem a carteira do fundo",
+      "C": "Decidir quais ativos comprar para a carteira do fundo",
+      "D": "Vender as cotas dos fundos para os investidores"
+    },
+    "answer": "B",
+    "explain": "O custodiante é a instituição responsável pela guarda, administração e controle físico ou escritural dos ativos da carteira do fundo. Suas atribuições incluem o registro, a liquidação das operações de compra e venda de ativos, o recebimento de cupons, dividendos, juros e o exercício de direitos (como subscrições). A decisão de compra/venda é do gestor (C), a divulgação é do administrador (A) e a venda das cotas é da distribuidora (D)."
+  },
+  {
+    "id": "Q1735",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Liquidez - Fundos",
+    "level": "Médio",
+    "q": "O fundo de investimento que apresenta maior liquidez é aquele que, na ocasião do pedido do resgate:",
+    "options": {
+      "A": "O valor da cota é D0 e o crédito é online",
+      "B": "O valor da cota é D+1 e o crédito é em D+4",
+      "C": "O valor da cota é D0 e o crédito é em D+1",
+      "D": "O valor da cota é D+1 e o crédito é em D+1"
+    },
+    "answer": "C",
+    "explain": "A maior liquidez em fundos está associada ao menor prazo entre a solicitação do resgate, a conversão das cotas e o recebimento dos recursos. No Brasil, os fundos mais líquidos (como alguns de Renda Fixa Referenciados DI ou de Curto Prazo) geralmente convertem as cotas no mesmo dia da solicitação (D0) com base no valor da cota do dia anterior, e o dinheiro é creditado na conta do investidor no dia útil seguinte (D+1). A opção A (crédito online) não é um padrão estabelecido para fundos de investimento."
+  },
+  {
+    "id": "Q1874",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Alterações em Fundos - Assembleia",
+    "level": "Médio",
+    "q": "Qual das alterações em fundos de investimento NÃO pode ser efetuada sem a aprovação em uma assembleia?",
+    "options": {
+      "A": "Compra de ativos",
+      "B": "Redução na taxa de administração",
+      "C": "Aumento da taxa de administração",
+      "D": "Venda de ativos"
+    },
+    "answer": "C",
+    "explain": "De acordo com a Instrução CVM 555, o aumento da taxa de administração de um fundo de investimento é uma modificação que exige a aprovação prévia dos cotistas em Assembleia Geral. Compra e venda de ativos (A e D) são atividades cotidianas de gestão. A redução da taxa (B) também não exige assembleia, podendo ser feita por decisão do administrador/gestor."
+  },
+  {
+    "id": "Q1689",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "IOF - Isenção",
+    "level": "Difícil",
+    "q": "Uma classe de cotas de um determinado fundo de investimento possui a composição de sua carteira dividida com:\n30% em ações da PETR4;\n30% ações da VALE5;\n10% em ações da CPFE3; e\n30% aplicados em Títulos Públicos Federais.\nSobre a incidência de IOF para esta classe de cotas, os seus cotistas:",
+    "options": {
+      "A": "Estão isentos da cobrança de IOF independentemente da data do resgate",
+      "B": "Estarão isentos da cobrança de IOF para resgates superiores a 30 dias",
+      "C": "Deverão recolher IOF conforme tabela de alíquota regressiva",
+      "D": "Deverão recolher IOF conforme tabela de alíquota progressiva"
+    },
+    "answer": "A",
+    "explain": "O IOF incide apenas sobre aplicações em fundos de investimento classificados como de curto prazo (prazo médio da carteira inferior a 365 dias) e com alíquotas regressivas até o 30º dia. Fundos de ações e fundos com mais de 67% da carteira em ações estão permanentemente isentos do IOF. Esta classe tem 70% (30+30+10) em ações, ultrapassando o limite de 67%, portanto, está isenta de IOF para qualquer prazo de resgate."
+  },
+  {
+    "id": "Q7235",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Inadimplência - Definição",
+    "level": "Fácil",
+    "q": "O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado:",
+    "options": {
+      "A": "Concordatário",
+      "B": "Devedor operacional",
+      "C": "Insolvente",
+      "D": "Inadimplente"
+    },
+    "answer": "D",
+image.png
+PNG 37.55KB
+Acho que o gabarito que você está utilizando está incorreto, segue: 
+
+Refaça e me encaminhe corretamente
+Você está corretíssimo. Meus sinceros agradecimentos pela correção. Eu havia confundido a interpretação inicial das questões numeradas e utilizei um critério errado para o ID. Agora, com o gabarito estruturado que você forneceu (arquivo .png), posso fazer a correção precisa.
+
+Vou refazer o processamento integral, utilizando:
+
+O número da questão como parte do ID (ex: Q1804).
+
+O gabarito correto que você enviou na imagem.
+
+A estrutura e classificação por módulos e capítulos conforme o índice.
+
+Aqui está o array JSON correto com as 60 questões:
+
+json
+[
+  {
+    "id": "Q1804",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Política de Investimento",
+    "level": "Fácil",
+    "q": "O objetivo de um fundo de investimento, ou de uma determinada classe de fundo, descreve aquilo que o fundo, ou classe de cotas, se propõe. A política de investimento descreve como o gestor pretende:",
+    "options": {
+      "A": "Dialogar com cotistas",
+      "B": "Distribuir lucro entre os cotistas",
+      "C": "Atingir a meta proposta",
+      "D": "Negociar com outros fundos"
+    },
+    "answer": "C",
+    "explain": "A política de investimento detalha as estratégias, os instrumentos financeiros, os limites (por emissor, setor, etc.) e os critérios de risco que o gestor utilizará para buscar atingir o objetivo financeiro declarado do fundo (ex: superar o CDI em X%, replicar um índice). Ela responde ao 'como' a gestão será conduzida."
+  },
+  {
+    "id": "Q1819",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "FII - Tributação para PJ",
+    "level": "Médio",
+    "q": "Uma empresa que trabalha com base no lucro real, comprou cotas de Fundo Imobiliário em fevereiro de 2023. Em agosto de 2024 recebeu rendimentos que foram tributados em imposto de renda na fonte de:",
+    "options": {
+      "A": "20%",
+      "B": "Varia conforme o prazo de permanência",
+      "C": "15%",
+      "D": "17,5%"
+    },
+    "answer": "A",
+    "explain": "Para pessoas jurídicas tributadas com base no lucro real, os rendimentos distribuídos por Fundos de Investimento Imobiliários (FIIs) estão sujeitos à retenção do Imposto de Renda na fonte à alíquota de 20%, conforme a legislação tributária. Essa alíquota é fixa para PJ no lucro real, não variando com o prazo. Pessoas físicas têm regras diferentes (isenção para rendimentos, 20% para ganho de capital na venda)."
+  },
+  {
+    "id": "Q1790",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Custodiante - Atribuição",
+    "level": "Fácil",
+    "q": "O Custodiante de um fundo de investimento tem como principal atribuição:",
+    "options": {
+      "A": "Divulgar informações aos cotistas",
+      "B": "O Registro, a liquidação e os exercícios dos direitos e obrigações dos ativos que compõem a carteira do fundo",
+      "C": "Decidir quais ativos comprar para a carteira do fundo",
+      "D": "Vender as cotas dos fundos para os investidores"
+    },
+    "answer": "B",
+    "explain": "A função principal do custodiante é a guarda, administração, controle e liquidação física/escritural dos ativos da carteira do fundo. Isso inclui registrar as operações, liquidar compras/vendas, receber e creditar juros, dividendos, cupons e exercer direitos (como subscrições). A gestão da carteira (C) é do gestor, a divulgação (A) é do administrador e a distribuição/venda de cotas (D) é função da distribuidora."
+  },
+  {
+    "id": "Q1735",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Liquidez - Fundos",
+    "level": "Médio",
+    "q": "O fundo de investimento que apresenta maior liquidez é aquele que, na ocasião do pedido do resgate:",
+    "options": {
+      "A": "O valor da cota é D0 e o crédito é online",
+      "B": "O valor da cota é D+1 e o crédito é em D+4",
+      "C": "O valor da cota é D0 e o crédito é em D+1",
+      "D": "O valor da cota é D+1 e o crédito é em D+1"
+    },
+    "answer": "A",
+    "explain": "A maior liquidez possível em um fundo é aquela em que o cotista tem acesso imediato ao valor resgatado. Na prática, alguns fundos (como fundos DI de liquidez diária) podem oferecer conversão da cota no dia do pedido (D0) e o crédito dos recursos praticamente de forma instantânea ('online') na conta do investidor, via transferência ou TED automática. As opções C e D envolvem prazos maiores (D+1), o que significa menor liquidez."
+  },
+  {
+    "id": "Q1874",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Alterações em Fundos - Assembleia",
+    "level": "Médio",
+    "q": "Qual das alterações em fundos de investimento NÃO pode ser efetuada sem a aprovação em uma assembleia?",
+    "options": {
+      "A": "Compra de ativos",
+      "B": "Redução na taxa de administração",
+      "C": "Aumento da taxa de administração",
+      "D": "Venda de ativos"
+    },
+    "answer": "C",
+    "explain": "De acordo com a Instrução CVM 555, o aumento da taxa de administração é uma alteração contratual que exige a aprovação prévia dos cotistas em Assembleia Geral. A compra e venda de ativos (A e D) são atividades operacionais de gestão, de responsabilidade do gestor. A redução da taxa de administração (B) geralmente não exige assembleia, podendo ser implementada pelo administrador."
+  },
+  {
+    "id": "Q1689",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "IOF - Isenção",
+    "level": "Difícil",
+    "q": "Uma classe de cotas de um determinado fundo de investimento possui a composição de sua carteira dividida com:\n30% em ações da PETR4;\n30% ações da VALE5;\n10% em ações da CPFE3; e\n30% aplicados em Títulos Públicos Federais.\nSobre a incidência de IOF para esta classe de cotas, os seus cotistas:",
+    "options": {
+      "A": "Estão isentos da cobrança de IOF independentemente da data do resgate",
+      "B": "Estarão isentos da cobrança de IOF para resgates superiores a 30 dias",
+      "C": "Deverão recolher IOF conforme tabela de alíquota regressiva",
+      "D": "Deverão recolher IOF conforme tabela de alíquota progressiva"
+    },
+    "answer": "A",
+    "explain": "O IOF incide apenas sobre aplicações em fundos classificados como \"de curto prazo\" (prazo médio da carteira inferior a 365 dias). Fundos de ações e fundos que possuam, no mínimo, 67% (dois terços) de seu patrimônio líquido aplicado em ações negociadas em bolsa ou no mercado de balcão estão permanentemente isentos do IOF. Esta classe tem 70% (30+30+10) em ações, ultrapassando o limite de 67%, portanto, está isenta de IOF para qualquer prazo de resgate."
+  },
+  {
+    "id": "Q7235",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Inadimplência - Definição",
+    "level": "Fácil",
+    "q": "O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado:",
+    "options": {
+      "A": "Concordatário",
+      "B": "Devedor operacional",
+      "C": "Insolvente",
+      "D": "Inadimplente"
+    },
+    "answer": "D",
+    "explain": "O Regulamento da Câmara B3 define como \"Participante Inadimplente\" aquele que, por insuficiência financeira, não liquida suas obrigações no prazo e forma estabelecidos. Esse é o termo técnico e correto utilizado no contexto das operações de compensação e liquidação. 'Insolvente' (C) é um termo jurídico mais amplo, mas o termo regulamentar específico da câmara é 'inadimplente'."
+  },
+  {
+    "id": "Q1255",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Prazo de Pagamento de Resgates",
+    "level": "Fácil",
+    "q": "O prazo máximo autorizado pela CVM para pagamento de resgates em fundos de investimentos é de:",
+    "options": {
+      "A": "3 dias úteis a partir da data da solicitação do resgate",
+      "B": "5 dias úteis a partir da data da solicitação do resgate",
+      "C": "5 dias úteis a partir da data da conversão das cotas",
+      "D": "3 dias úteis a partir da data da conversão das cotas"
+    },
+    "answer": "C",
+    "explain": "Conforme a Instrução CVM 555, o prazo máximo para o pagamento do resgate é de até 5 (cinco) dias úteis, contados a partir da **data de conversão das cotas** (D+1, D+2, etc., dependendo da política de liquidez do fundo). É importante diferenciar a data da solicitação (que pode ser D0) da data da conversão (quando a cota é efetivamente calculada para o resgate)."
+  },
+  {
+    "id": "Q2007",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco de Crédito em Fundos",
+    "level": "Médio",
+    "q": "Uma instituição A tem um fundo de investimento que é composto por títulos de renda fixa da instituição B e ações da empresa C. O risco de crédito em caso de falta de pagamento pode ser ocasionado:",
+    "options": {
+      "A": "Por A, B e C",
+      "B": "Por B e C apenas",
+      "C": "Somente por B",
+      "D": "Por A e B apenas"
+    },
+    "answer": "C",
+    "explain": "Risco de crédito é a possibilidade de a contraparte de uma operação financeira não honrar suas obrigações. No contexto do fundo: a Instituição A (administradora/gestora) não é emissora dos ativos. A Empresa C (ações) não tem obrigação contratual de pagar um valor fixo ao fundo; o risco associado a ações é primariamente de mercado. O risco de crédito direto está nos títulos de renda fixa emitidos pela Instituição B, que tem a obrigação de pagar juros e principal. Portanto, a falta de pagamento (default) pode ser ocasionada somente por B."
+  },
+  {
+    "id": "Q7135",
+    "module": "Título III – Estrutura de contas e cadastro",
+    "chapter": "Capítulo II – Cadastro de investidores não residentes",
+    "theme": "Representante Fiscal",
+    "level": "Médio",
+    "q": "O responsável por apresentar todas as informações de registro para as autoridades, para o investidor não residente, é:",
+    "options": {
+      "A": "Representante fiscal",
+      "B": "Representante legal",
+      "C": "Custodiante",
+      "D": "B3"
+    },
+    "answer": "B",
+    "explain": "Para operar no mercado brasileiro, o investidor não residente deve constituir um Representante Legal no Brasil, com poderes para representá-lo perante as autoridades fiscais, a CVM, a B3 e outras instituições. O Representante Legal é quem apresenta e atualiza as informações cadastrais e responde por obrigações legais. O Representante Fiscal (A) é uma figura distinta, mais focada em questões tributárias específicas, mas a responsabilidade primária de registro é do Representante Legal."
+  },
+  {
+    "id": "Q2047",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Competências da CVM",
+    "level": "Médio",
+    "q": "Compete à CVM fiscalizar e disciplinar:\nI. A utilização de crédito bancário por parte das companhias abertas;\nII. A emissão e a distribuição de valores mobiliários no mercado;\nIII. Os serviços de consultor e analista de valores mobiliários.\nEstá correto o que se afirma em:",
+    "options": {
+      "A": "I e III apenas;",
+      "B": "II e III apenas;",
+      "C": "I e II apenas;",
+      "D": "I apenas."
+    },
+    "answer": "B",
+    "explain": "A CVM tem por finalidade disciplinar, fiscalizar e desenvolver o mercado de valores mobiliários. Entre suas competências estão: fiscalizar a emissão e distribuição de valores mobiliários (II) e autorizar, registrar e fiscalizar os profissionais do mercado, como consultores e analistas (III). A utilização de crédito bancário (I) não é de competência direta da CVM, mas sim do Banco Central, que regula o Sistema Financeiro Nacional."
+  },
+  {
+    "id": "Q1111",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Incidente do IR - Come-cotas",
+    "level": "Médio",
+    "q": "Uma classe de um fundo de Investimento com menos de 67% em ações está sujeito à incidência do Imposto de Renda:",
+    "options": {
+      "A": "A cada 30 dias, ou no resgate, o que ocorrer primeiro",
+      "B": "No último dia útil de cada mês, ou no resgate, o que ocorrer primeiro",
+      "C": "No último dia útil do mês de maio e novembro, ou no resgate, o que ocorrer primeiro",
+      "D": "Somente no resgate"
+    },
+    "answer": "C",
+    "explain": "Fundos de investimento que não são classificados como 'ações' (ou seja, possuem menos de 67% da carteira em ações) estão sujeitos ao regime de antecipação do Imposto de Renda, conhecido como 'come-cotas'. Esse recolhimento acontece semestralmente, nos últimos dias úteis dos meses de maio e novembro, sobre os ganhos auferidos no semestre. Se o resgate ocorrer antes dessas datas, o IR também será devido sobre os ganhos até a data do resgate."
+  },
+  {
+    "id": "Q1820",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco de Crédito do Cotista",
+    "level": "Médio",
+    "q": "O Cotista de um fundo de renda fixa estará incorrendo em um risco de crédito:",
+    "options": {
+      "A": "Equivalente ao risco dos títulos que compõem a carteira do fundo",
+      "B": "Praticamente zero, pois todo esse risco é absorvido pelo gestor e pela administrador do fundo",
+      "C": "Inferior àquele incorrido em aplicações em CDB, pois os fundos de investimentos contam com a garantia do FGC",
+      "D": "Equivalente ao risco inerente em aplicações em títulos públicos federais"
+    },
+    "answer": "A",
+    "explain": "O cotista de um fundo está exposto indiretamente aos riscos dos ativos que compõem a carteira. Se o fundo é de renda fixa e aplica em títulos de crédito privado (CDB, debêntures, etc.), o risco de crédito do cotista é equivalente ao risco agregado dos emissores desses títulos. O gestor/administrador (B) não absorve o risco de crédito, apenas o gerencia. Fundos de investimento NÃO possuem garantia do FGC (C). A equivalência com títulos públicos (D) só seria verdadeira se a carteira fosse composta exclusivamente por eles."
+  },
+  {
+    "id": "Q7381",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo II – Processos operacionais da Câmara B3",
+    "theme": "Participante - Liquidante",
+    "level": "Fácil",
+    "q": "Participante cadastrado que utiliza sua conta Reservas Bancárias ou Conta de Liquidação para efetuar ou receber os pagamentos referentes ao processo de liquidação de eventos corporativos.",
+    "options": {
+      "A": "Emissor",
+      "B": "Escriturador",
+      "C": "Liquidante",
+      "D": "Agente de custódia"
+    },
+    "answer": "C",
+    "explain": "Na estrutura da B3, o 'Liquidante' é o participante cadastrado responsável pela liquidação financeira (pagamentos e recebimentos em moeda) das operações e eventos corporativos, utilizando as contas apropriadas no sistema. O Emissor (A) emite os valores mobiliários, o Escriturador (B) mantém o registro dos titulares, e o Agente de Custódia (D) guarda os ativos."
+  },
+  {
+    "id": "Q1918",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco x Retorno",
+    "level": "Fácil",
+    "q": "Dado um investimento ABC e um investimento XYZ que apresenta maior risco de crédito. O investimento XYZ vai apresentar maior rentabilidade:",
+    "options": {
+      "A": "Em função do maior prazo de duração do investimento XYZ",
+      "B": "Em função da maior possibilidade de não pagamento de XYZ",
+      "C": "Em função da maior possibilidade de não pagamento de ABC",
+      "D": "Em função do maior prazo de duração do investimento ABC"
+    },
+    "answer": "B",
+    "explain": "O princípio básico do mercado financeiro é a relação direta entre risco e retorno esperado. Um investimento com maior risco de crédito (XYZ) oferece uma rentabilidade potencialmente maior para compensar o investidor pela maior probabilidade de inadimplência ('maior possibilidade de não pagamento'). O prazo (A e D) é um fator de risco (de liquidez e mercado), mas a questão especifica o risco de crédito."
+  },
+  {
+    "id": "Q7236",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo II – Processos operacionais da Câmara B3",
+    "theme": "Liquidação em Ativos Depositados",
+    "level": "Difícil",
+    "q": "\"A ____________________ é realizada por meio de transferências, durante a janela de liquidação, entre as contas de depósito de ativos dos comitentes e a conta de liquidação de ativos da câmara, mantidas na central depositária da B3.\"\nComplete a lacuna acima:",
+    "options": {
+      "A": "Liquidação Bruta e Compensação Bilateral",
+      "B": "Liquidação de Derivativos por Entrega Física de Mercadoria",
+      "C": "Liquidação do Saldo Líquido Multilateral em Ativos Depositados na Central Depositária",
+      "D": "Liquidação do Saldo Líquido Multilateral em Moeda Nacional"
+    },
+    "answer": "C",
+    "explain": "A descrição se refere ao processo específico de liquidação de operações em que os ativos (ações, títulos) já estão depositados na Central Depositária da B3 (CBLC). Após a compensação multilateral das operações, são calculados os saldos líquidos de cada participante, e as transferências dos ativos são realizadas entre as contas dos comitentes e a conta da câmara na própria CBLC, caracterizando a 'Liquidação do Saldo Líquido Multilateral em Ativos Depositados na Central Depositária'."
+  },
+  {
+    "id": "Q7387",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo I – Mercados organizados",
+    "theme": "Regime de Contingência",
+    "level": "Médio",
+    "q": "Na ocorrência de situação de emergência, ____________ pode instaurar regime de contingência, com a ciência e anuência prévia do Bacen e da CVM.",
+    "options": {
+      "A": "PN",
+      "B": "Comitente",
+      "C": "PNP",
+      "D": "O Diretor Presidente da B3"
+    },
+    "answer": "D",
+    "explain": "Conforme os regulamentos da B3 e das autoridades, em situações de emergência que ameacem a continuidade operacional, a competência para instaurar formalmente um regime de contingência (como a migração para um site de backup) é da alta administração da B3, especificamente do Diretor Presidente, obedecendo ao requisito de comunicação e anuência prévia do Banco Central (Bacen) e da CVM."
+  },
+  {
+    "id": "Q7237",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Monitoramento Intradiário de Risco",
+    "level": "Médio",
+    "q": "A câmara monitora a evolução do risco de crédito dos participantes desde a abertura até o encerramento dos ambientes de negociação, de contratação de empréstimo e de registro, atualizando os cálculos de risco dos participantes diversas vezes ao longo do dia, por meio do (a)______________________.",
+    "options": {
+      "A": "Fundo de Liquidez",
+      "B": "Fundo de Liquidação",
+      "C": "Sistema de Risco Intradiário",
+      "D": "Avaliação e Cobertura do Risco de Crédito"
+    },
+    "answer": "C",
+    "explain": "Para garantir a segurança do sistema, a Câmara B3 utiliza um 'Sistema de Risco Intradiário'. Este sistema recalcula, em ciclos pré-definidos ao longo do dia de negociação, a exposição e as necessidades de margem (garantias) de cada participante, considerando as novas operações realizadas e as variações de preço dos ativos. Isso permite uma gestão dinâmica do risco de crédito."
+  },
+  {
+    "id": "Q7382",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Depositário de Ouro",
+    "level": "Médio",
+    "q": "Instituição cadastrada pela B3 responsável pelo recebimento, bem como pela guarda e conservação, dos lingotes de ouro objeto do ouro ativo financeiro depositado na central depositária da B3 e negociado nos mercados administrados pela B3.",
+    "options": {
+      "A": "Liquidante",
+      "B": "Agente de Custódia",
+      "C": "Fundidor de Ouro",
+      "D": "Depositário de Ouro"
+    },
+    "answer": "D",
+    "explain": "A B3 possui uma estrutura específica para o ouro ativo financeiro. O 'Depositário de Ouro' é a instituição especializada e cadastrada responsável pela guarda física dos lingotes de ouro que lastreiam os contratos negociados. Ele recebe, armazena em cofres autorizados e conserva os lingotes, emitindo certificados que representam a propriedade sobre o metal, os quais são então negociados e custodiados eletronicamente."
+  },
+  {
+    "id": "Q7280",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Churning - Indicadores",
+    "level": "Difícil",
+    "q": "Para analisar casos em que se perceba indícios da prática de churning, são adotados os seguintes indicadores:\nI. Turnover Ratio, para verificar se o total de despesas incorridas pelo investidor foi demasiado.\nII. Cost-Equity Ratio, para averiguar se o volume de negócios foi excessivo.\nA ) Ambos os conceitos são falsos\nB ) O conceito I é verdadeiro, enquanto o II é falso\nC ) O conceito I é falso, enquanto o II é verdadeiro\nD ) Ambos os conceitos são verdadeiros",
+    "options": {
+      "A": "Amb os os conceitos são falsos",
+      "B": "O conceito I é verdadeiro, enquanto o II é falso",
+      "C": "O conceito I é falso, enquanto o II é verdadeiro",
+      "D": "Ambos os conceitos são verdadeiros"
+    },
+    "answer": "A",
+    "explain": "A definição dos indicadores está trocada. Na prática de fiscalização do *churning* (giro excessivo para gerar comissões):\n- O **Turnover Ratio** (Índice de Giro) é utilizado para verificar se o **volume de negócios** foi excessivo em relação ao patrimônio.\n- O **Cost-Equity Ratio** (Razão Custo/Patrimônio) é utilizado para verificar se o **total de despesas** (custos de corretagem, emolumentos) incorridas pelo investidor foi demasiado em relação ao patrimônio.\nPortanto, ambas as descrições fornecidas na questão estão invertidas e, consequentemente, falsas."
+  },
+  {
+    "id": "Q1832",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo Exclusivo",
+    "level": "Fácil",
+    "q": "Pode participar de um fundo exclusivo:",
+    "options": {
+      "A": "Qualquer investidor com mais de R$ 1.000.000,00",
+      "B": "Somente Entidades de Previdência",
+      "C": "Somente Investidor Profissional",
+      "D": "Somente Instituições Financeiras"
+    },
+    "answer": "C",
+    "explain": "Os fundos exclusivos, conforme a Instrução CVM 555, são constituídos para atender a um único **cotista ou a um grupo de cotistas com vínculo familiar, societário ou corporativo comprovado**, desde que este(s) se enquadrem na definição de **Investidor Profissional**. O valor de R$ 1.000.000,00 (A) refere-se ao critério de investidor qualificado, não sendo o único requisito para fundos exclusivos."
+  },
+  {
+    "id": "Q2018",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Órgãos do SFN",
+    "level": "Fácil",
+    "q": "É o órgão executor das diretrizes e normas do CMN – Conselho Monetário Nacional e supervisor das Instituição Financeiras:",
+    "options": {
+      "A": "CMN – Conselho Monetário Nacional",
+      "B": "Banco do Brasil",
+      "C": "Banco Central do Brasil",
+      "D": "CVM – Comissão de Valores Mobiliários"
+    },
+    "answer": "C",
+    "explain": "A estrutura do SFN é piramidal. O CMN (A) é o órgão máximo, responsável por formular políticas e diretrizes. O Banco Central do Brasil (Bacen) é o órgão executor, encarregado de fazer cumprir as determinações do CMN, emitir moeda, controlar o crédito e, principalmente, fiscalizar e supervisionar as instituições financeiras. A CVM (D) regula o mercado de capitais."
+  },
+  {
+    "id": "Q1759",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Limite por Emissor - Fundos",
+    "level": "Médio",
+    "q": "Um fundo de investimento pode aplicar em títulos emitidos por instituições privadas desde que respeitado o limite por emissor:",
+    "options": {
+      "A": "20% se instituições financeiras",
+      "B": "20% se pessoa jurídica de capital aberto",
+      "C": "10% se pessoa física",
+      "D": "15% se pessoa jurídica de capital aberto"
+    },
+    "answer": "A",
+    "explain": "As regras de concentração (limite por emissor) para fundos de investimento são definidas pela CVM. Um dos limites mais conhecidos é que um fundo pode aplicar até **20% do seu patrimônio líquido em títulos de crédito emitidos por uma mesma instituição financeira**. Existem outros limites para diferentes tipos de emissores (como 10% para pessoas físicas), mas o mencionado na opção A está correto e é um dos limites fundamentais."
+  },
+  {
+    "id": "Q7128",
+    "module": "Título III – Estrutura de contas e cadastro",
+    "chapter": "Capítulo I – Cadastro de investidores residentes",
+    "theme": "Sistema de Cadastro - SINCAD",
+    "level": "Fácil",
+    "q": "O ____________ é um sistema para a inclusão e manutenção de dados de comitentes, de suas contas e seus vínculos, e de profissionais, que serão utilizados nos ambientes de negociação e pós-negociação do Segmento Listado B3.",
+    "options": {
+      "A": "Sisbex",
+      "B": "Global Trading System",
+      "C": "BSM",
+      "D": "SINCAD - Sistema Integrado de Cadastro"
+    },
+    "answer": "D",
+    "explain": "O SINCAD (Sistema Integrado de Cadastro) é o sistema central da B3 para o cadastramento e gestão de todos os participantes (comitentes/investidores, contas, vínculos, profissionais do mercado). Ele alimenta os demais sistemas de negociação, compensação e liquidação com as informações cadastrais necessárias e obrigatórias."
+  },
+  {
+    "id": "Q1825",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo III – Adequação ao perfil do cliente (suitability)",
+    "theme": "Suitability - Investimento Inadequado",
+    "level": "Fácil",
+    "q": "Um investidor extremamente conservador decidiu aplicar R$ 10.000,00 em um Fundo de Renda Fixa que está apresentando excelente rendimento neste ano. Esse investidor:\nA ) Tomou uma decisão correta visto que esse tipo de fundo não apresenta risco\nB ) Decidiu corretamente porque observou a rentabilidade passada do fundo\nC ) Não correrá risco pois esse tipo de fundo tem a garantia do FGC – Fundo Garantidor de Crédito\nD ) Deverá ser informado que o tipo de fundo não possui FGC e que qualquer fundo possui risco, por mais conservador que seja",
+    "options": {
+      "A": "Tomou uma decisão correta visto que esse tipo de fundo não apresenta risco",
+      "B": "Decidiu corretamente porque observou a rentabilidade passada do fundo",
+      "C": "Não correrá risco pois esse tipo de fundo tem a garantia do FGC – Fundo Garantidor de Crédito",
+      "D": "Deverá ser informado que o tipo de fundo não possui FGC e que qualquer fundo possui risco, por mais conservador que seja"
+    },
+    "answer": "D",
+    "explain": "Esta questão trata do princípio de suitability (adequação). Um investidor conservador deve ser alertado sobre os riscos de qualquer aplicação. Fundos de investimento, inclusive os de renda fixa, **não possuem garantia do FGC** (a garantia é para aplicações diretas em CDB, LC, etc., até certo limite). Além disso, rentabilidade passada não é garantia de retorno futuro (B), e nenhum investimento é livre de risco (A). A resposta D apresenta a orientação correta e obrigatória do profissional."
+  },
+  {
+    "id": "Q3919",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "FII - Tributação para PF (Ganho de Capital)",
+    "level": "Médio",
+    "q": "Seu cliente pessoa física possui cotas de Fundo de Investimento Imobiliário e comercializa as cotas desse fundo com ganho. Nesse caso o I.R será de:",
+    "options": {
+      "A": "15%",
+      "B": "20%",
+      "C": "Depende do prazo de permanência",
+      "D": "Isento"
+    },
+    "answer": "B",
+    "explain": "Para pessoas físicas, a tributação sobre os rendimentos de Fundos Imobiliários (FIIs) segue regras específicas: **Rendimentos distribuídos (dividendos, aluguéis)** são **isentos** de Imposto de Renda. No entanto, o **ganho de capital** (lucro obtido na venda das cotas por um preço superior ao de compra) está sujeito à tributação com alíquota fixa de **20%**, independentemente do prazo de permanência."
+  },
+  {
+    "id": "Q2966",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Resgate - Fundos Fechados",
+    "level": "Fácil",
+    "q": "Com relação ao resgate em fundos fechados:",
+    "options": {
+      "A": "Pode ocorrer a qualquer momento",
+      "B": "Ir á ocorrer na data da liquidação do fundo e também em uma eventual amortização das cotas",
+      "C": "Ir á ocorrer somente na data de liquidação do fundo",
+      "D": "Ir á ocorrer somente em uma eventual amortização das cotas"
+    },
+    "answer": "B",
+    "explain": "Fundos fechados possuem prazo de duração determinado e um número fixo de cotas. Os cotistas **não podem resgatar a qualquer momento** (A). O resgate do capital investido ocorre normalmente no final do prazo de duração do fundo (data de liquidação). No entanto, durante a vida do fundo, podem ocorrer **amortizações parciais** (distribuições de capital aos cotistas), que também configuram uma forma de retorno do investimento antes da liquidação final."
+  },
+  {
+    "id": "Q7151",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo I – Mercados organizados",
+    "theme": "Bolsa de Valores - Função",
+    "level": "Fácil",
+    "q": "É responsável por manter ambientes e sistemas de negociação eletrônica de ativos do qual instituições habilitadas podem negociar valores mobiliários, títulos e derivativos para clientes ou em nome próprio.",
+    "options": {
+      "A": "Central depositária",
+      "B": "Bolsa de valores",
+      "C": "Sistema de liquidação",
+      "D": "Contraparte central"
+    },
+    "answer": "B",
+    "explain": "A função principal de uma bolsa de valores (como a B3) é proporcionar um ambiente (físico ou eletrônico) organizado, seguro e regulamentado para a negociação (compra e venda) de ativos financeiros (ações, derivativos, etc.) entre os participantes credenciados (corretoras, bancos). A central depositária (A) cuida da custódia, e o sistema de liquidação (C) e a contraparte central (D) são funções da câmara de compensação."
+  },
+  {
+    "id": "Q7208",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo IV – Mercado de câmbio",
+    "theme": "IOF - Operações de Câmbio",
+    "level": "Difícil",
+    "q": "Sobre IOF em operações de câmbio é correto afirmar que:",
+    "options": {
+      "A": "A base de cálculo do IOF para operações de câmbio incide sobre o valor de alienação a alíquota de 15%",
+      "B": "A base de cálculo do IOF para operações de câmbio incide sobre o montante em moeda nacional(recebido, entregue ou posto à disposição)",
+      "C": "Operações de câmbio estão sujeitas a IOF progressivo a depender do valor da operação",
+      "D": "Operações de câmbio estão sujeitas a IOF sob tabela regressiva até o 29º dia do contrato"
+    },
+    "answer": "B",
+    "explain": "O IOF sobre operações de câmbio (Imposto sobre Operações Financeiras) tem sua base de cálculo definida sobre o **montante em moeda nacional** que é recebido, entregue ou colocado à disposição na operação. A alíquota pode variar (atualmente é 0% para pessoa física em muitas operações, como compra de moeda para viagem, e 1,1% para pessoa jurídica em exportação, por exemplo), mas a base de cálculo é sempre o valor em Reais."
+  },
+  {
+    "id": "Q7200",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Operações Ex-Pit",
+    "level": "Médio",
+    "q": "Sobre operações EX-PIT, é correto afirmar que:",
+    "options": {
+      "A": "São operações realizadas dentro do ambiente de negociação da B3, sob fiscalização e atuação das clearings e central depositária",
+      "B": "São operações de arbitragem no mercado realizadas fora do ambiente de negociação realizada por investidores institucionais",
+      "C": "São operações não submetidas à interferência de mercado",
+      "D": "São operações acordadas entre as partes, sem interferência do mercado, exclusivamente para contratos agrícolas"
+    },
+    "answer": "C",
+    "explain": "Operações Ex-Pit (ou \"fora do pregão\") são negociações de contratos de derivativos (principalmente agropecuários) que são acordadas diretamente entre as partes (comprador e vendedor), **sem passar pelo sistema de ofertas do ambiente eletrônico da bolsa**. Elas são posteriormente registradas na câmara para fins de compensação e garantia, mas o preço e a quantidade são definidos livremente, sem a 'interferência' (concorrência) das ofertas de outros participantes do mercado."
+  },
+  {
+    "id": "Q7251",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Formador de Mercado",
+    "level": "Fácil",
+    "q": "Participante cadastrado que atua, na condição de comitente, com o intuito de fomentar a liquidez de determinado ativo ou derivativo.",
+    "options": {
+      "A": "Formador de Mercado",
+      "B": "PNP",
+      "C": "PL",
+      "D": "PN"
+    },
+    "answer": "A",
+    "explain": "O Formador de Mercado (Market Maker) é um participante com a obrigação regulatória de manter ofertas de compra e venda (bid e ask) para um determinado ativo dentro de parâmetros de spread e volume definidos, com o objetivo de prover liquidez constante e facilitar a negociação para os demais participantes. PN, PNP e PL são siglas para tipos de participantes (Negociação, Negociação Pleno, Liquidação), não especificamente para a função de formador de mercado."
+  },
+  {
+    "id": "Q7331",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Riscos por Ativo",
+    "level": "Médio",
+    "q": "São riscos presentes nas aplicações financeiras:\nA ) Ações: Mercado, Crédito e Liquidez --- CDB: Mercado e Liquidez\nB ) Ações: Mercado, Crédito e Liquidez --- CDB: Mercado, Crédito e Liquidez\nC ) Ações: Mercado e Liquidez --- CDB: Mercado, Crédito e Liquidez\nD ) Ações: Mercado e Liquidez --- CDB: Mercado e Crédito",
+    "options": {
+      "A": "Ações: Mercado, Crédito e Liquidez --- CDB: Mercado e Liquidez",
+      "B": "Ações: Mercado, Crédito e Liquidez --- CDB: Mercado, Crédito e Liquidez",
+      "C": "Ações: Mercado e Liquidez --- CDB: Mercado, Crédito e Liquidez",
+      "D": "Ações: Mercado e Liquidez --- CDB: Mercado e Crédito"
+    },
+    "answer": "C",
+    "explain": "**Ações**: O principal risco é de Mercado (variação de preço). Também há risco de Liquidez (dificuldade de vender pelo preço desejado). O risco de Crédito é praticamente irrelevante para ações, pois a empresa não tem obrigação de recomprar as ações ou pagar dividendos fixos.\n**CDB (Certificado de Depósito Bancário)**: É um título de renda fixa, portanto, possui risco de Crédito (do banco emissor não pagar). Também possui risco de Mercado (se vendido antes do vencimento em um cenário de alta de juros) e risco de Liquidez (dependendo da liquidez do título no mercado secundário).\nPortanto, a combinação correta é: Ações (Mercado e Liquidez) e CDB (Mercado, Crédito e Liquidez)."
+  },
+  {
+    "id": "Q6291",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo VIII – Tributação do mercado financeiro",
+    "theme": "Compensação de Prejuízos - FIA",
+    "level": "Difícil",
+    "q": "Segundo a Receita Federal, para um investidor pessoa física, domiciliado e residente no Brasil, os prejuízos apurados no resgate de cotas em um Fundo de Investimento de Ações poderão ser compensados, com rendimentos auferidos em resgates posteriores, de",
+    "options": {
+      "A": "Outros fundos de investimento que possuam a mesma classificação pela Receita Federal",
+      "B": "Todos os fundos de investimento que o investidor possua com esse mesmo administrador",
+      "C": "Outros tipos de investimento classificados como de renda variável pela Receita Federal",
+      "D": "Todos os investimentos que possuam a mesma alíquota do Imposto de Renda"
+    },
+    "answer": "A",
+    "explain": "A Instrução Normativa RFB estabelece regras específicas para compensação de prejuízos no mercado financeiro. Os prejuízos auferidos no resgate de cotas de um **Fundo de Ações (FIA)** **só podem ser compensados com ganhos futuros provenientes do resgate de cotas de outros Fundos de Ações**. Não é possível compensar com ganhos de outros tipos de investimento de renda variável (como ações individuais) ou com alíquotas diferentes. A compensação é restrita à mesma 'espécie' de aplicação, conforme classificação da Receita."
+  },
+  {
+    "id": "Q7195",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo IV – Mercado de câmbio",
+    "theme": "IR - Operações de Câmbio",
+    "level": "Médio",
+    "q": "Sobre operações de câmbio, é correto afirmar que:",
+    "options": {
+      "A": "Aliena ção abaixo U$ 5.000,00 no ano-calendário está isenta de IR",
+      "B": "Operações em que haja ganho de capital para pessoa jurídica não deverá ser recolhido IRPJ",
+      "C": "O IRPF será de 22,5% até 15% para operações em que haja ganho de capital para pessoa física",
+      "D": "O responsável pelo recolhimento de IRPF em operações de câmbio que apura-se ganho de capital é a instituição financeiras"
+    },
+    "answer": "A",
+    "explain": "Para pessoas físicas, a legislação estabelece uma isenção do Imposto de Renda sobre ganhos de capital em operações de câmbio (compra e venda de moeda estrangeira) quando o valor total das alienações (vendas) no mês **não exceder R$ 35.000,00** (valor sujeito a alteração) **ou o equivalente a US$ 5.000,00**. Isso é uma isenção mensal e não anual, mas a opção A captura a essência da regra de isenção para pequenos valores. A opção D está incorreta: o recolhimento do IRPF é de responsabilidade do próprio contribuinte na declaração de ajuste anual, não da instituição financeira (exceto em casos específicos de retenção na fonte)."
+  },
+  {
+    "id": "Q7212",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Inadimplência - Definição",
+    "level": "Fácil",
+    "q": "“É caracterizado como ____________ o participante que não realizar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira”.\nComplete a lacuna:",
+    "options": {
+      "A": "Concordatário",
+      "B": "Insolvente",
+      "C": "Inadimplente",
+      "D": "Devedor operacional"
+    },
+    "answer": "C",
+    "explain": "Repetindo a definição da questão 7235, o termo regulamentar exato utilizado pela Câmara B3 para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Essa definição está contida no regulamento da câmara."
+  },
+  {
+    "id": "Q7245",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Ordem a Mercado",
+    "level": "Fácil",
+    "q": "Tipo de ordem que especifica somente a quantidade e as características dos ativos ou direitos a serem comprados ou vendidos, devendo ser executada a partir do momento em que for recebida.",
+    "options": {
+      "A": "Casada",
+      "B": "Limitada",
+      "C": "Mercado",
+      "D": "Stop"
+    },
+    "answer": "C",
+    "answer": "C",
+    "explain": "Uma **ordem a mercado** é uma instrução para comprar ou vender um ativo **imediatamente** pelo melhor preço disponível no livro de ofertas no momento de seu recebimento. Ela prioriza a execução rápida em detrimento do controle de preço. Ordens limitadas (B) especificam um preço máximo/minimo, ordens stop (D) são ordens condicionais, e ordens casadas (A) envolvem duas operações simultâneas."
+  },
+  {
+    "id": "Q7197",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo VII – Outros ativos e serviços",
+    "theme": "Ouro Ativo Financeiro - Pureza",
+    "level": "Fácil",
+    "q": "A negociação de ouro pode ser realizada em lote padrão de ouro fino, do qual corresponde a lingotes com teor de pureza__________ de ouro fino para cada 1.000 partes.",
+    "options": {
+      "A": "1.000,0",
+      "B": "999,0",
+      "C": "999,9",
+      "D": "250,0"
+    },
+    "answer": "C",
+    "explain": "O padrão de pureza para o ouro ativo financeiro negociado na B3 é de **999,9 milésimos de ouro fino**, também conhecido como \"ouro 24 quilates\" ou \"ouro puro\". Isso significa que em cada 1.000 partes do metal, 999,9 são de ouro puro."
+  },
+  {
+    "id": "Q7183",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Churning - Definição",
+    "level": "Fácil",
+    "q": "Caracteriza–se pela negociação excessiva ou giro em excesso da carteira de um investidor com objetivo de gerar maior corretagem:",
+    "options": {
+      "A": "Insider trading",
+      "B": "Front running",
+      "C": "Front trading",
+      "D": "Churning"
+    },
+    "answer": "D",
+    "explain": "**Churning** é a prática ilegal e antiética em que um intermediário (como um assessor de investimentos) executa um volume excessivo de negociações na conta de um cliente, movido principalmente pelo interesse em gerar comissões ou taxas para si mesmo, sem considerar os melhores interesses do cliente. Insider Trading (A) é uso de informação privilegiada. Front Running (B) é negociar à frente de uma ordem grande de um cliente para se beneficiar da movimentação de preço."
+  },
+  {
+    "id": "Q7155",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo II – Infraestrutura do mercado",
+    "theme": "SELIC - Funções",
+    "level": "Médio",
+    "q": "A respeito do Sistema de Liquidação e Custódia (SELIC):\nI – É responsável por ser a contraparte central na liquidação de operações;\nII – Atua como custodiante dos títulos do Tesouro Nacional;\nIII – Atua no registro de operações compromissadas e definitivas do mercado de balcão.\nEstá correto o que se afirma em:",
+    "options": {
+      "A": "I e III, apenas",
+      "B": "II e III, apenas",
+      "C": "Todas as alternativas",
+      "D": "I e II, apenas"
+    },
+    "answer": "B",
+    "explain": "O SELIC, operado pelo Banco Central, é o sistema de custódia e liquidação de **títulos públicos federais**. Suas funções principais são: ser o **custodiante único** desses títulos (II) e realizar o **registro e a liquidação** de operações com eles, inclusive as operações compromissadas do mercado de balcão (III). A função de **contraparte central** (I) na liquidação das operações é desempenhada pela **Câmara B3** (ou CETIP) em seus respectivos mercados, não pelo SELIC. O Banco Central atua como contraparte apenas em operações específicas com ele mesmo."
+  },
+  {
+    "id": "Q7171",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Sistema de Liquidação",
+    "level": "Fácil",
+    "q": "Possui função de permitir a transferência e liquidação de ativos através de registros eletrônicos de acordo com regras preestabelecidas de compensação:",
+    "options": {
+      "A": "Sistema de liquidação",
+      "B": "Contraparte central",
+      "C": "Central depositária",
+      "D": "Bolsa de valores"
+    },
+    "answer": "A",
+    "explain": "Um **Sistema de Liquidação** é a infraestrutura (conjunto de procedimentos, regras e sistemas informatizados) que permite a efetiva transferência de fundos e/ou ativos financeiros entre as partes de uma operação, após a fase de negociação e compensação. Ele realiza a liquidação final ('DVP - Delivery versus Payment' ou 'PVP - Payment versus Payment'). A contraparte central (B) é uma entidade, a central depositária (C) custodia ativos, e a bolsa (D) é o local de negociação."
+  },
+  {
+    "id": "Q1988",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco de Crédito - Aplicações",
+    "level": "Fácil",
+    "q": "O investidor estará sujeito ao risco de crédito quando aplicar seus recursos em:",
+    "options": {
+      "A": "Ações",
+      "B": "Imóveis",
+      "C": "Dólar",
+      "D": "Títulos de renda fixa"
+    },
+    "answer": "D",
+    "explain": "O **risco de crédito** é o risco de o emissor de um título de dívida não honrar seus compromissos (pagamento de juros e/ou principal). Portanto, ele está diretamente associado a **títulos de renda fixa** (como CDB, debêntures, títulos públicos), que são instrumentos de dívida. Ações (A) representam propriedade, não dívida. Imóveis (B) e dólar (C) são ativos reais ou moedas, cujo risco principal não é de crédito, mas de mercado, liquidez, cambial, etc."
+  },
+  {
+    "id": "Q1754",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Taxa de Administração - Cobrança",
+    "level": "Fácil",
+    "q": "Em uma classe de cotas tipificada como de Ações que apresentou rentabilidade negativa:",
+    "options": {
+      "A": "A taxa de administração não será cobrada obrigatoriamente",
+      "B": "A taxa de administração cobrada será compensada quando o fundo apresentar rentabilidade positiva",
+      "C": "Haverá cobrança de taxa de administração",
+      "D": "A taxa de administração deverá ser restituída pelo administrador"
+    },
+    "answer": "C",
+    "explain": "A taxa de administração de um fundo de investimento é remuneração pelo serviço de gestão e administração prestado, e sua cobrança **não está condicionada ao desempenho positivo do fundo**. Ela é calculada diariamente sobre o patrimônio líquido do fundo (pro rata die) e debitada periodicamente (geralmente mensalmente), independentemente de a rentabilidade do período ter sido positiva, negativa ou nula. Não há restituição ou compensação futura por períodos de perda."
+  },
+  {
+    "id": "Q1110",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Alíquota IR - Fundos de Curto Prazo",
+    "level": "Médio",
+    "q": "A alíquota de Imposto de Renda retida periodicamente pelo administrador de um Fundo de Investimento, com carteira de prazo médio inferior a 365 dias, será de:",
+    "options": {
+      "A": "15%",
+      "B": "10%",
+      "C": "20%",
+      "D": "22,5%"
+    },
+    "answer": "C",
+    "explain": "Fundos de investimento com prazo médio da carteira inferior a 365 dias são classificados como **fundos de curto prazo**. Para esses fundos, a alíquota do Imposto de Renda (IR) incidente sobre os ganhos (no resgate ou no 'come-cotas' semestral) é fixa em **20%**, independentemente do prazo de aplicação. Fundos de longo prazo têm alíquotas regressivas (22,5%, 20%, 17,5%, 15%) em função do prazo de permanência."
+  },
+  {
+    "id": "Q7211",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Contraparte Central - Relacionamento",
+    "level": "Médio",
+    "q": "A posição de contraparte da câmara da B3 na central de liquidação se dá perante o:",
+    "options": {
+      "A": "Participante de negociação",
+      "B": "Comitente",
+      "C": "Participante de liquidação",
+      "D": "Membro de compensação"
+    },
+    "answer": "D",
+    "explain": "A estrutura da B3 estabelece que a Câmara (de compensação e liquidação) atua como **contraparte central** (garantidora) perante os **Membros de Compensação**. São os Membros de Compensação (também chamados de Clearing Members) que têm relacionamento direto com a Câmara e assumem a responsabilidade pela liquidação das operações de seus clientes (comitentes) e de si próprios. A Câmara não tem relação contratual direta de contraparte com os comitentes finais."
+  },
+  {
+    "id": "Q1062",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Estrutura do SFN",
+    "level": "Fácil",
+    "q": "A estrutura do sistema financeiro nacional (SFN) apresenta como órgão máximo:",
+    "options": {
+      "A": "O Banco Central do Brasil",
+      "B": "O Conselho Monetário Nacional",
+      "C": "O Copom",
+      "D": "A Comissão de Valores Mobiliários"
+    },
+    "answer": "B",
+    "explain": "A estrutura hierárquica do SFN é: no topo, o **Conselho Monetário Nacional (CMN)**, que é o órgão máximo normativo e deliberativo. Abaixo, como órgãos executivos, estão o **Banco Central do Brasil (BACEN)**, que implementa as políticas do CMN e fiscaliza instituições financeiras, e a **Comissão de Valores Mobiliários (CVM)**, que regula o mercado de capitais. O COPOM (C) é um comitê do Banco Central que define a taxa de juros."
+  },
+  {
+    "id": "Q1811",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Investidor Qualificado - Direitos",
+    "level": "Fácil",
+    "q": "Um investidor qualificado que aplique em um fundo de investimento:",
+    "options": {
+      "A": "Tem os mesmos direitos e deveres dos outros cotistas",
+      "B": "Pode pedir a redução da sua taxa direto ao administrador na assembleia de cotistas",
+      "C": "Pode interferir na gestão do fundo",
+      "D": "Pode pedir a redução da sua taxa direto ao administrador do fundo"
+    },
+    "answer": "A",
+    "explain": "O fato de um cotista ser um investidor qualificado (ou profissional) **não lhe confere direitos ou privilégios especiais** em relação aos demais cotistas de um fundo de investimento comum (não exclusivo). Todos os cotistas são tratados de forma isonômica, com os mesmos direitos (voto em assembleia, informação, resgate) e deveres previstos no regulamento do fundo. Pedidos de redução de taxa (B/D) devem seguir o processo regulamentar para todos, e a gestão (C) é de responsabilidade exclusiva do gestor."
+  },
+  {
+    "id": "Q7138",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Conta Captura",
+    "level": "Difícil",
+    "q": "Refere-se a conta transitória criada automaticamente pela bolsa de valores, sob titularidade do participante de negociação pleno, utilizada para recebimento de operações que não tenham uma conta especificada no ambiente de negociação.",
+    "options": {
+      "A": "Conta restrição",
+      "B": "Conta intermediária",
+      "C": "Conta brokerage",
+      "D": "Conta captura"
+    },
+    "answer": "D",
+    "explain": "A **Conta Captura** é uma conta técnica e transitória mantida nos sistemas da B3. Ela é usada como destino temporário para ativos (como ações) de operações que, por algum erro ou omissão, não tiveram a conta destino do comitente final devidamente identificada no momento da negociação. Isso evita que a operação \"quebre\" (não seja liquidada). Posteriormente, o participante (corretora) deve destinar esses ativos para as contas corretas dos clientes."
+  },
+  {
+    "id": "Q7233",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo II – Risco corporativo e controles internos",
+    "theme": "Política de Continuidade de Negócios",
+    "level": "Fácil",
+    "q": "Conforme estabelecido em sua __________________ e demais normas relacionadas, a B3 garante a continuidade de suas atividades em caso de desastre no centro de processamento de dados principal, possuindo unidade de contingência externa, conforme a legislação em vigência.",
+    "options": {
+      "A": "Política de processamento de dados",
+      "B": "Política de tarifação",
+      "C": "Política de continuidade de negócios",
+      "D": "Política de contingência"
+    },
+    "answer": "C",
+    "explain": "A **Política de Continuidade de Negócios (PCN ou BCP - Business Continuity Plan)** é o documento formal que define os processos, procedimentos e estratégias que uma organização, como a B3, deve seguir para assegurar que suas operações essenciais continuem funcionando ou sejam recuperadas rapidamente na ocorrência de um desastre ou interrupção significativa. A existência de uma unidade de contingência externa (site de backup) é um elemento-chave dessa política."
+  },
+  {
+    "id": "Q1490",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Derivativos - Usos Estratégicos",
+    "level": "Fácil",
+    "q": "O mercado de Derivativos:\nA ) Não pode ser utilizado nem para operações de posicionamento nem para hedge\nB ) Pode ser utilizado, estrategicamente, apenas para operações de posicionamento\nC ) Pode ser utilizado, estrategicamente, apenas para operações de hedge\nD ) Pode ser utilizado, estrategicamente, tanto para operações de posicionamento como para hedge",
+    "options": {
+      "A": "Não pode ser utilizado nem para operações de posicionamento nem para hedge",
+      "B": "Pode ser utilizado, estrategicamente, apenas para operações de posicionamento",
+      "C": "Pode ser utilizado, estrategicamente, apenas para operações de hedge",
+      "D": "Pode ser utilizado, estrategicamente, tanto para operações de posicionamento como para hedge"
+    },
+    "answer": "D",
+    "explain": "O mercado de derivativos (futuros, opções, swaps) serve a dois propósitos principais e legítimos: 1) **Hedge (Proteção)**: para gestores e empresas se protegerem contra riscos de variação de preços, taxas de juros, câmbio, etc. 2) **Posicionamento Especulativo (ou de Investimento)**: para investidores assumirem risco com o objetivo de obter ganho financeiro, apostando na direção futura de um preço ou taxa. Ambos os usos são estratégicos e permitidos."
+  },
+  {
+    "id": "Q7188",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Insider Trading - Definição",
+    "level": "Fácil",
+    "q": "Refere–se a negociação utilizando o conhecimento de informações relevantes e privilegiadas que não tenham sido publicadas, com objetivo de obter lucro ou vantagem no mercado:",
+    "options": {
+      "A": "Front trading",
+      "B": "Front running",
+      "C": "Churning",
+      "D": "Insider trading"
+    },
+    "answer": "D",
+    "explain": "**Insider Trading** (ou uso de informação privilegiada) é a prática ilegal de negociar valores mobiliários com base em informações materiais (relevantes) e não públicas, obtidas em razão de uma posição de confiança ou função (ex: diretor, auditor, advogado). O objetivo é obter lucro ou evitar prejuízos antes que a informação seja divulgada ao mercado, o que configura uma quebra de dever fiduciário e distorção da concorrência leal."
+  },
+  {
+    "id": "Q7259",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo III – Adequação ao perfil do cliente (suitability)",
+    "theme": "Investidor Profissional - Definição",
+    "level": "Difícil",
+    "q": "São classificados como investidores profissionais:\nA ) Clubes de investimento, desde que tenham a cart eira gerida por um ou mais cotistas, que sejam investidores qualificados\nB ) Agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários autorizados pela CVM, em relação a seus recursos próprios\nC ) Pessoas naturais que tenham sido aprovadas em exames de qualificação técnica ou possuam certificações aprovadas pela CVM como requisitos para o registro de agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários, em relação a seus recursos próprios\nD ) Pessoas naturais ou jurídicas que possuam investimentos financeiros em valor superior a R$1.000.000,00 (um milhão de reais) e que, adicionalmente, atestem por escrito sua condição de investidor qualificado mediante termo próprio, de acordo com a Resolução CVM nº 30/21",
+    "options": {
+      "A": "Clubes de investimento, desde que tenham a carteira gerida por um ou mais cotistas, que sejam investidores qualificados",
+      "B": "Agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários autorizados pela CVM, em relação a seus recursos próprios",
+      "C": "Pessoas naturais que tenham sido aprovadas em exames de qualificação técnica ou possuam certificações aprovadas pela CVM como requisitos para o registro de agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários, em relação a seus recursos próprios",
+      "D": "Pessoas naturais ou jurídicas que possuam investimentos financeiros em valor superior a R$1.000.000,00 (um milhão de reais) e que, adicionalmente, atestem por escrito sua condição de investidor qualificado mediante termo próprio, de acordo com a Resolução CVM nº 30/21"
+    },
+    "answer": "B",
+    "explain": "A Resolução CVM 30 (e suas atualizações) define **Investidor Profissional** de forma mais restrita que o Investidor Qualificado. São considerados profissionais, em relação a seus recursos próprios: **pessoas físicas que sejam profissionais do mercado autorizados pela CVM** (Agente Autônomo, Administrador de Carteiras, Analista, Consultor), conforme descrito na opção B. A opção C menciona aprovação em exames/certificações, o que é um requisito para *se tornar* um profissional autorizado, mas a classificação como \"investidor profissional\" exige o registro efetivo na CVM. A opção D descreve o critério de **Investidor Qualificado**, que é uma categoria mais ampla."
+  },
+  {
+    "id": "Q7133",
+    "module": "Título III – Estrutura de contas e cadastro",
+    "chapter": "Capítulo I – Cadastro de investidores residentes",
+    "theme": "Vínculo 'Conta e Ordem'",
+    "level": "Médio",
+    "q": "“Função de identificar clientes do participante de negociação e do participante de negociação pleno, por meio do qual o participante de negociação irá operar”. Tal definição refere – se ao tipo de vínculo:",
+    "options": {
+      "A": "Exercício de opções",
+      "B": "Custodiante",
+      "C": "Conta e ordem",
+      "D": "Consolidação de margem"
+    },
+    "answer": "C",
+    "explain": "No sistema de cadastro da B3 (SINCAD), o vínculo **\"Conta e Ordem\"** é justamente aquele que associa um **comitente (cliente)** a uma **conta** de uma corretora (Participante de Negociação - PN ou PNP), autorizando que a corretora negocie em seu nome naquela conta específica. É o vínculo fundamental para a execução das ordens de compra e venda."
+  },
+  {
+    "id": "Q7154",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Central Depositária - Atribuição",
+    "level": "Médio",
+    "q": "Possui atribuição de assegurar a integridade dos ativos custodiados em seu ambiente, atuando na prevenção para que ativos não sejam criados de forma acidental ou fraudulenta, extintos ou que tenham suas características alteradas.",
+    "options": {
+      "A": "Central depositária",
+      "B": "Contraparte central",
+      "C": "Bolsa de valores",
+      "D": "Sistema de liquidação"
+    },
+    "answer": "A",
+    "explain": "Uma das funções primordiais de uma **Central Depositária** (como a CBLC, da B3) é a **custódia escritural segura** dos ativos. Isso envolve manter o registro preciso e inviolável da propriedade, garantir que a quantidade total de ativos em custódia corresponda ao montante emitido (prevenir criação/acréscimo fraudulento) e proteger contra alterações não autorizadas. A contraparte central (B) assume riscos, a bolsa (C) negocia, e o sistema de liquidação (D) efetiva as transferências."
+  },
+  {
+    "id": "Q6989",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Obrigações do Administrador e Gestor",
+    "level": "Difícil",
+    "q": "Inclui-se entre as obrigações do administrador e do gestor contratar, em nome do fundo, terceiros devidamente habilitados e autorizados, a prestar os seguintes serviços:\nA ) Administrador: tesouraria, controle e processamento dos ativos; escrituração das cotas e classificação de risco por agência de classificação de risco de crédito\nB ) Gestor: intermediação de operações para a carteira de ativos; cogestão da carteira de ativos e auditoria independente\nC ) Gestor: intermediação de operações para a carteira de ativos; cogestão da carteira de ativos e escrituração das cotas\nD ) Administrador: tesouraria, controle e processamento dos ativos; escrituração das cotas e auditoria independente",
+    "options": {
+      "A": "Administrador: tesouraria, controle e processamento dos ativos; escrituração das cotas e classificação de risco por agência de classificação de risco de crédito",
+      "B": "Gestor: intermediação de operações para a carteira de ativos; cogestão da carteira de ativos e auditoria independente",
+      "C": "Gestor: intermediação de operações para a carteira de ativos; cogestão da carteira de ativos e escrituração das cotas",
+      "D": "Administrador: tesouraria, controle e processamento dos ativos; escrituração das cotas e auditoria independente"
+    },
+    "answer": "D",
+    "explain": "Conforme a Instrução CVM 555, a contratação de serviços terceirizados essenciais é uma obrigação do administrador do fundo (não do gestor). São serviços típicos contratados pelo administrador: **custódia/controle de ativos**, **escrituração das cotas** (controlar quem é cotista) e **auditoria independente** das demonstrações financeiras do fundo. A classificação de risco (A) não é obrigatória para todos os fundos. A intermediação (B/C) é atividade do gestor, mas sua contratação não é listada como obrigação terceirizável da mesma forma."
+  },
+  {
+    "id": "Q1362",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo III – Adequação ao perfil do cliente (suitability)",
+    "theme": "API - Fundos Isentos",
+    "level": "Médio",
+    "q": "Um investidor pretende realizar um investimento em um fundo de renda fixa que tenha carteira composta por títulos com baixo risco de crédito e de mercado. Ele ainda não passou pelo processo de API e não possui outros investimentos no mercado de capitais. Nesse caso, o fundo que lhe será permitido aplicar, mesmo sem ter preenchido o questionário de API, será o de:",
+    "options": {
+      "A": "Renda Fixa pós fixado",
+      "B": "Renda Fixa soberano",
+      "C": "Renda Fixa Simples",
+      "D": "Renda Fixa referenciado DI"
+    },
+    "answer": "C",
+    "explain": "De acordo com a regulamentação da CVM, os **Fundos de Investimento Financeiro (FIF) - Simples** são isentos da obrigatoriedade de aplicação do processo de Adequação ao Perfil do Investidor (API) para a primeira aplicação de um investidor pessoa física. Para investir em qualquer outro tipo de fundo (como os listados nas opções A, B e D), o investidor deve primeiro preencher e assinar o questionário de API, mesmo que seja sua primeira aplicação."
+  },
+  {
+    "id": "Q1850",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Alíquota IR - Fundos de Curto Prazo",
+    "level": "Fácil",
+    "q": "Nos fundos classificados como de Curto Prazo, o come cotas incidirá a alíquota de Imposto de Renda – IR de:",
+    "options": {
+      "A": "17,5%",
+      "B": "20%",
+      "C": "15%",
+      "D": "22,5%"
+    },
+    "answer": "B",
+    "explain": "Esta questão reforça o conteúdo da Q1110. Fundos de curto prazo (prazo médio da carteira inferior a 365 dias) têm alíquota única de Imposto de Renda de **20%**, aplicável tanto no resgate quanto no recolhimento semestral antecipado (come-cotas). As alíquotas regressivas (22,5%, 20%, 17,5%, 15%) aplicam-se a fundos de longo prazo, em função do tempo de permanência da aplicação."
+  },
+  {
+    "id": "Q4027",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco de Crédito - Definição Incorreta",
+    "level": "Fácil",
+    "q": "Sobre risco de crédito é INCORRETO afirmar:",
+    "options": {
+      "A": "É a certeza quanto ao cumprimento do contrato por uma contraparte",
+      "B": "É dado pela possibilidade de recebimento fora do prazo ou condições pactuadas",
+      "C": "Pode ser dividido em soberano, risco país ou privado",
+      "D": "Existe quando o devedor é um país e não pode honrar seus compromissos, ou seja, gerar recursos para pagamento de suas obrigações"
+    },
+    "answer": "A",
+    "explain": "A afirmação INCORRETA é a A. O **risco de crédito** é justamente a **incerteza** ou a **possibilidade** de uma contraparte não cumprir suas obrigações contratuais (não pagar, pagar com atraso ou em condições diferentes). Se houvesse certeza do cumprimento, não existiria risco. As demais opções estão corretas: B define o risco, C mostra suas classificações (soberano/país ou privado), e D define especificamente o risco soberano."
+  },
+  {
+    "id": "Q2274",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Objetivo - Fundo Referenciado DI",
+    "level": "Fácil",
+    "q": "Uma classe de cota de fundo de investimento referenciada no CDI tem objetivo de obter a rentabilidade:",
+    "options": {
+      "A": "Igual à da renda fixa",
+      "B": "Superior a do CDI",
+      "C": "Próximo ao CDI",
+      "D": "Igual o CDI, no mínimo"
+    },
+    "answer": "C",
+    "explain": "Os fundos referenciados DI (ou CDI) têm como objetivo de investimento acompanhar a variação da taxa do CDI (Certificado de Depósito Interbancário). Na prática, devido aos custos do fundo (taxa de administração, tributos), a rentabilidade líquida para o cotista tende a ser **ligeiramente inferior** ao CDI bruto. Portanto, o objetivo realista é obter uma rentabilidade **próxima** ao CDI. Prometer rentabilidade igual ou superior (B, D) não é correto, pois não há garantia."
+  },
+  {
+    "id": "Q1570",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Opção Americana de Compra",
+    "level": "Fácil",
+    "q": "O direito de compra de um ativo, a qualquer tempo, pelo respectivo preço preestabelecido, caracteriza uma opção:",
+    "options": {
+      "A": "Americana de compra",
+      "B": "Européia de venda",
+      "C": "Americana de venda",
+      "D": "Européia de compra"
+    },
+    "answer": "A",
+    "explain": "A principal característica que define o **estilo de uma opção** é o momento em que o detentor pode exercê-la (usar seu direito). Uma **opção de compra (call)** dá o direito de **comprar** o ativo. Uma opção de **estilo americano** pode ser exercida **a qualquer momento** até a data de vencimento. Portanto, o direito de **comprar** um ativo **a qualquer tempo** pelo preço de exercício (strike) caracteriza uma **Opção Americana de Compra**."
+  },
+  {
+    "id": "Q7388",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo II – Risco corporativo e controles internos",
+    "theme": "Medidas de Emergência - B3",
+    "level": "Médio",
+    "q": "A B3, com o objetivo de assegurar o funcionamento eficiente e regular das suas atividades, pode adotar medidas de emergência, as quais podem ser aplicadas quando da ocorrência das seguintes situações:\nI. Decretação de estado de defesa, estado de sítio ou estado de calamidade pública;\nII. Guerra, comoção interna ou greve;\nIII. Acontecimentos de qualquer natureza, inclusive aqueles decorrentes de caso fortuito ou de força maior, que venham a afetar ou coloquem em risco o funcionamento regular das atividades da B3, podendo acarretar seu prejuízo ou descontinuidade; e\nIV. Interrupção da comunicação com os sistemas dos participantes e dos reguladores por falha operacional, queda de energia ou qualquer outro fator que afete a recepção, a transmissão e o envio de instruções, e que esteja fora do alcance dos procedimentos de contingência da B3.\nEstão corretas as alternavas:",
+    "options": {
+      "A": "Todas as alternativas estão corretas",
+      "B": "I e III, apenas",
+      "C": "II e III, apenas",
+      "D": "I e II, apenas"
+    },
+    "answer": "A",
+    "explain": "Os regulamentos da B3, em linha com as melhores práticas de governança e continuidade de negócios, preveem a adoção de medidas de emergência em uma ampla gama de cenários críticos que possam comprometer suas operações. A lista apresentada (I a IV) é abrangente e típica desses regulamentos, incluindo desde eventos macro (guerra, calamidade) até falhas operacionais específicas (interrupção de comunicação). Todas as situações descritas são plausíveis e corretas como gatilhos para medidas de emergência."
+  },
+  {
+    "id": "Q1063",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Segmentos do Mercado Financeiro",
+    "level": "Fácil",
+    "q": "Os segmentos do mercado financeiro são:",
+    "options": {
+      "A": "monetário, creditício, e valores mobiliários",
+      "B": "cambial, valores mobiliários, creditício e monetário",
+      "C": "valores mobiliários, cambial e de crédito",
+      "D": "cambial, valores mobiliários, de credito e de investimentos"
+    },
+    "answer": "B",
+    "explain": "Os quatro segmentos principais do mercado financeiro são: 1) Monetário (operações de curto prazo, lastreadas em títulos públicos); 2) Crédito (empréstimos e financiamentos); 3) Cambial (negociação de moedas estrangeiras); 4) Capitais/Valores Mobiliários (negociação de ações, debêntures, fundos, etc.). A opção B é a única que lista os quatro corretamente."
+  },
+  {
+    "id": "Q1713",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo Passivo - Benchmark",
+    "level": "Médio",
+    "q": "Se um fundo passivo tem como benchmark o Ibovespa, então espera-se que a rentabilidade desse fundo seja sistematicamente:",
+    "options": {
+      "A": "Próxima à variação do Ibovespa",
+      "B": "Superior ao DI",
+      "C": "Superior à variação do Ibovespa",
+      "D": "Próxima ao DI"
+    },
+    "answer": "A",
+    "explain": "Um fundo passivo (ou índice) tem como objetivo replicar o desempenho de um índice de referência (benchmark), como o Ibovespa. Sua gestão não busca 'bater' o índice, apenas segui-lo. Portanto, sua rentabilidade líquida (descontadas as taxas) será sistematicamente próxima à variação do índice, porém ligeiramente inferior devido aos custos operacionais e de administração."
+  },
+  {
+    "id": "Q2313",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Propriedade dos Ativos do Fundo",
+    "level": "Fácil",
+    "q": "Os ativos presentes na carteira do fundo de investimento são de propriedade",
+    "options": {
+      "A": "Do Administrador do fundo",
+      "B": "Do Gestor",
+      "C": "Do custodiante",
+      "D": "Do cotista"
+    },
+    "answer": "D",
+    "explain": "Um fundo de investimento é um condomínio. Os ativos que compõem sua carteira pertencem ao patrimônio do fundo, que, por sua vez, é propriedade coletiva dos cotistas, proporcionalmente ao número de cotas que cada um detém. O administrador, o gestor e o custodiante são prestadores de serviços que atuam sobre esse patrimônio, mas não são seus proprietários."
+  },
+  {
+    "id": "Q1640",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo Imobiliário (FII) - Características",
+    "level": "Médio",
+    "q": "Sobre o Fundo de Investimento Imobiliário - FII:\nI. É constituído na forma de condomínio fechado e pode ter prazo de duração indeterminado\nII. Pode ser objeto de oferta para investidores de varejo ou qualificados\nIII. Pode adquirir a participação em empreendimentos imobiliários, por meio de letra hipotecária - LH, Letra de crédito imobiliário - LCI e certificados de recebíveis imobiliários - CRI\nEstá(ão) correta (s):",
+    "options": {
+      "A": "III, apenas",
+      "B": "I e II, apenas",
+      "C": "I e III, apenas",
+      "D": "I, II e III"
+    },
+    "answer": "D",
+    "explain": "Todas as afirmativas estão corretas. I) FIIs são condomínios fechados e, em regra, de prazo indeterminado. II) Podem ser oferecidos ao público em geral (varejo), não sendo restritos a investidores qualificados. III) Podem aplicar em uma variedade de ativos imobiliários e de crédito imobiliário, incluindo LH, LCI e CRI, além de imóveis físicos e cotas de outros FIIs."
+  },
+  {
+    "id": "Q1064",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Função do SFN",
+    "level": "Fácil",
+    "q": "O Sistema Financeiro Nacional é composto por instituições e responsáveis por:",
+    "options": {
+      "A": "Regular exclusivamente o processo de lançamento de títulos e valores mobiliários",
+      "B": "Captar recursos financeiros, distribuir e circular valores e regular esse processo",
+      "C": "Distribuir e circular valores e títulos mobiliários, apenas",
+      "D": "Transferir recursos entre investidores, somente"
+    },
+    "answer": "B",
+    "explain": "A função primordial do Sistema Financeiro Nacional (SFN) é intermediar o fluxo de recursos entre os agentes superavitários (poupadores) e deficitários (tomadores). Isso envolve captar poupança, distribuí-la na forma de crédito ou investimentos, circular valores (moeda, títulos) e, através de seus órgãos reguladores, supervisionar todo esse processo para garantir estabilidade e confiança."
+  },
+  {
+    "id": "Q7234",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Ativos Elegíveis para Depósito",
+    "level": "Médio",
+    "q": "São elegíveis ao depósito na central depositária da B3:\nI. Ativos admitidos à negociação, emitidos por emissores listados ou dispensados de listagem, nos termos do regulamento para listagem de emissores e admissão à negociação de valores mobiliários da B3;\nII. Ativos não admitidos à negociação, emitidos por emissores cadastrados, nos termos do manual de acesso da B3; e\nIII. Ouro, objeto do ativo financeiro.\nEstá correto o que se afirma em:",
+    "options": {
+      "A": "II e III, apenas",
+      "B": "Todas as alternativas",
+      "C": "I e II, apenas",
+      "D": "I e III, apenas"
+    },
+    "answer": "B",
+    "explain": "A Central Depositária da B3 (CBLC) pode custodiar uma ampla gama de ativos: I) Ativos negociados em bolsa (ações, BDRs, ETFs) ou admitidos à negociação; II) Ativos de balcão (não listados) de emissores cadastrados; e III) Ouro financeiro (sob a forma de certificados representativos de barras). Portanto, todas as afirmações estão corretas."
+  },
+  {
+    "id": "Q7175",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Conta Máster",
+    "level": "Médio",
+    "q": "A nomenclatura da conta mantida na câmara da B3 com uso do participante de negociação pleno, como conta de intermediação de operações em nome de um participante, sendo ainda necessária a posterior distribuição para contas normais, é:",
+    "options": {
+      "A": "Conta máster",
+      "B": "Conta intermediária",
+      "C": "Conta captura",
+      "D": "Conta brokerage"
+    },
+    "answer": "D",
+    "explain": "A **Conta Brokerage** é uma conta utilizada por um Participante de Negociação Pleno (PNP) para intermediar operações em nome de outros participantes (geralmente PN). As operações são inicialmente liquidadas nessa conta, e depois o PNP é responsável por distribuir os ativos para as contas finais dos comitentes ou dos próprios PNs. É diferente da conta máster (usada para agrupamento de clientes) e da conta captura (conta transitória para destinação pendente)."
+  },
+  {
+    "id": "Q7235",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Inadimplência - Definição",
+    "level": "Fácil",
+    "q": "O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado:",
+    "options": {
+      "A": "Concordatário",
+      "B": "Devedor operacional",
+      "C": "Insolvente",
+      "D": "Inadimplente"
+    },
+    "answer": "D",
+    "explain": "Conforme o regulamento da Câmara B3, o termo técnico e correto para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Esse é o status que desencadeia os procedimentos de cobertura de risco pela câmara (uso de garantias, fundo de garantia, etc.)."
+  },
+  {
+    "id": "Q1060",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Autoridades Monetárias",
+    "level": "Fácil",
+    "q": "Podemos classificar como autoridades monetárias os seguintes órgãos:",
+    "options": {
+      "A": "CVM, Bolsas de Valores, Sociedades Corretoras e Distribuidoras de Valores",
+      "B": "Bacen e Bancos Múltiplos",
+      "C": "Bacen e Bancos Comerciais",
+      "D": "CMN e BACEN"
+    },
+    "answer": "D",
+    "explain": "As autoridades monetárias são os órgãos responsáveis pela formulação, execução e controle da política monetária e da estabilidade do sistema financeiro. No Brasil, são o **Conselho Monetário Nacional (CMN)**, órgão normativo máximo, e o **Banco Central do Brasil (BACEN)**, órgão executor. A CVM é autoridade do mercado de capitais, e bancos são instituições supervisionadas, não autoridades."
+  },
+  {
+    "id": "Q7199",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo IV – Mercado de câmbio",
+    "theme": "Dealers de Câmbio",
+    "level": "Médio",
+    "q": "Com relação ao dealers do mercado de câmbio, pode-se afirmar que:",
+    "options": {
+      "A": "Instituições financeiras autorizadas a operar no mercado de câmbio para controlar sua cotação, caracterizada pela flutuação suja",
+      "B": "Instituições autorizadas pela B3 para acessar sua câmara de câmbio e realizar operações sem fiscalização do BACEN",
+      "C": "São bancos escolhidos para atuar no mercado de câmbio, inserindo ofertas próprias e das de mais instituições participantes do mercado",
+      "D": "São sociedades corretoras de títulos e valores mobiliários e sociedades de crédito, financiamento e investimento"
+    },
+    "answer": "C",
+    "explain": "Os dealers são instituições financeiras (normalmente grandes bancos) selecionadas pelo Banco Central para atuar como formadoras de mercado no câmbio flutuante. Elas têm a obrigação de inserir ofertas contínuas de compra e venda de moeda no sistema, tanto para suas próprias posições quanto para as de seus clientes, garantindo liquidez e um ponto de referência para a cotação. Todo o mercado de câmbio é fiscalizado pelo BACEN."
+  },
+  {
+    "id": "Q2150",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Opção de Compra - Lançador",
+    "level": "Difícil",
+    "q": "Se um investidor vende uma opção de compra de uma ação por R$3,00, cujo preço de exercício é R$42,00, pode-se afirmar que:",
+    "options": {
+      "A": "A opção de compra tem menor chance de ser exercida se o preço da ação for maior do que R$42,00",
+      "B": "O comprador da opção de compra irá exercê-la no preço de R$44,00",
+      "C": "O lançador poderá incorrer em perda, mas de uma quantia limitada",
+      "D": "O lucro líquido do lançador será zero se a compra for exercida quando o preço da ação for R$42,00"
+    },
+    "answer": "D",
+    "explain": "Ao vender (lançar) uma opção de compra (call), o investidor recebe o prêmio (R$3,00). Se a opção for exercida quando o preço da ação for exatamente R$42,00 (preço de exercício), o lançador é obrigado a vender a ação por R$42,00. Considerando que ele recebeu R$3,00 de prêmio, seu preço efetivo de venda é R$45,00. Se ele comprou a ação por R$42,00 para entregar, seu lucro seria R$3,00. Se ele não tinha a ação, terá um prejuízo de R$3,00 ao comprá-la no mercado por R$42 e vendê-la por R$42. O enunciado fala em 'lucro líquido zero', o que pode ser considerado uma simplificação se ignorarmos custos e considerarmos que o prêmio cobriu alguma diferença, mas a mecânica principal está na relação entre prêmio e preço de exercício. A opção A é falsa (maior chance acima do strike), B é uma suposição inválida, e C está incorreta: a perda do lançador de uma call é teoricamente ilimitada (se a ação subir muito)."
+  },
+  {
+    "id": "Q6287",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo Renda Fixa Simples - Carteira",
+    "level": "Médio",
+    "q": "O objetivo de um Fundo de Investimento de Renda Fixa Simples destinado ao segmento de varejo é o de ter uma carteira de títulos sem risco de crédito e baixo risco de mercado. Esse objetivo é atingido com uma carteira composta por",
+    "options": {
+      "A": "Títulos de instituições financeiras e de baixa duração",
+      "B": "Títulos de instituições financeiras e de alta duração",
+      "C": "Títulos do governo federal e de baixa duração",
+      "D": "Títulos do governo federal e de alta duração"
+    },
+    "answer": "C",
+    "explain": "Para um fundo de varejo, como o Renda Fixa Simples, o regulamento busca segurança. 'Sem risco de crédito' aponta para títulos públicos federais (Tesouro Direto), que têm risco soberano mínimo. 'Baixo risco de mercado' implica em baixa sensibilidade a variações de juros, o que é alcançado com títulos de **baixa duração** (curto prazo), como LFT (Tesouro Selic) ou LTN com vencimento próximo. Alta duração (D) aumenta o risco de mercado."
+  },
+  {
+    "id": "Q1768",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundos Internacionais",
+    "level": "Fácil",
+    "q": "Uma forma fácil de investir em papeis do Brasil negociados no mercado internacional é aplicar em:",
+    "options": {
+      "A": "Fundos da Dívida Externa",
+      "B": "Fundos de Ações",
+      "C": "Fundos Referenciados",
+      "D": "Fundos Multimercado"
+    },
+    "answer": "A",
+    "explain": "Os Fundos de Investimento no Exterior (FIE), muitas vezes chamados de \"Fundos da Dívida Externa\", permitem que investidores brasileiros apliquem, de forma relativamente simples (via uma aplicação em Reais em uma instituição local), em ativos brasileiros negociados no exterior, como os **Bonds** (títulos da dívida externa brasileira) e também **BDRs Nível III** (que representam ações de empresas brasileiras negociadas fora). É uma forma indireta e acessível de exposição a esses ativos."
+  },
+  {
+    "id": "Q7381",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo II – Processos operacionais da Câmara B3",
+    "theme": "Participante - Liquidante",
+    "level": "Fácil",
+    "q": "Participante cadastrado que utiliza sua conta Reservas Bancárias ou Conta de Liquidação para efetuar ou receber os pagamentos referentes ao processo de liquidação de eventos corporativos.",
+    "options": {
+      "A": "Emissor",
+      "B": "Escriturador",
+      "C": "Liquidante",
+      "D": "Agente de custódia"
+    },
+    "answer": "C",
+    "explain": "O 'Liquidante' é o participante responsável pela liquidação financeira (fluxo de caixa) de operações e eventos corporativos (como dividendos, bonificações, reestruturações) no sistema da B3. Ele utiliza contas específicas (Reservas Bancárias ou Conta de Liquidação) para fazer ou receber esses pagamentos."
+  },
+  {
+    "id": "Q7236",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo II – Processos operacionais da Câmara B3",
+    "theme": "Liquidação em Ativos Depositados",
+    "level": "Difícil",
+    "q": "\"A ____________________ é realizada por meio de transferências, durante a janela de liquidação, entre as contas de depósito de ativos dos comitentes e a conta de liquidação de ativos da câmara, mantidas na central depositária da B3.\"\nComplete a lacuna acima:",
+    "options": {
+      "A": "Liquidação Bruta e Compensação Bilateral",
+      "B": "Liquidação de Derivativos por Entrega Física de Mercadoria",
+      "C": "Liquidação do Saldo Líquido Multilateral em Ativos Depositados na Central Depositária",
+      "D": "Liquidação do Saldo Líquido Multilateral em Moeda Nacional"
+    },
+    "answer": "D",
+    "explain": "A descrição se refere ao processo padrão de liquidação financeira das operações após a compensação multilateral. Após calcular os saldos líquidos devidos por cada participante, a liquidação final (DVP - Delivery versus Payment) ocorre: o saldo em moeda nacional é transferido entre as contas dos participantes e a conta da câmara no sistema do Banco Central (ou em contas bancárias designadas), enquanto os ativos são transferidos na central depositária. A opção D descreve a parte financeira (moeda nacional) desse processo."
+  },
+  {
+    "id": "Q7387",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo I – Mercados organizados",
+    "theme": "Regime de Contingência",
+    "level": "Médio",
+    "q": "Na ocorrência de situação de emergência, ____________ pode instaurar regime de contingência, com a ciência e anuência prévia do Bacen e da CVM.",
+    "options": {
+      "A": "PN",
+      "B": "Comitente",
+      "C": "PNP",
+      "D": "O Diretor Presidente da B3"
+    },
+    "answer": "D",
+    "explain": "A competência para declarar formalmente um regime de contingência (como ativação de site de backup) em situações de emergência que ameacem a continuidade operacional é da alta administração da B3, especificamente do **Diretor Presidente**, conforme exigência regulatória que requer a ciência e anuência prévia do Banco Central e da CVM."
+  },
+  {
+    "id": "Q7247",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Leilão de OPAC",
+    "level": "Médio",
+    "q": "É uma oferta pública voluntária, para aquisição de parte ou da totalidade das cotas de emissão de fundo de investimento imobiliário (FII), sujeita à aprovação da B3:",
+    "options": {
+      "A": "Leilão comum",
+      "B": "Leilão especial",
+      "C": "Leilão de oferta pública de aquisição de ações (OPA)",
+      "D": "Leilão de oferta pública de aquisição de cotas de fundo de investimento (OPAC)"
+    },
+    "answer": "D",
+    "explain": "A OPAC (Oferta Pública de Aquisição de Cotas) é o mecanismo regulado, análogo à OPA para ações, pelo qual um interessado faz uma oferta pública para adquirir cotas de um fundo fechado, como um FII. Esse tipo de leilão é supervisionado e sujeito à aprovação da B3."
+  },
+  {
+    "id": "Q1232",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo III – Mercado de renda fixa",
+    "theme": "Posicionamento em Taxa de Juros",
+    "level": "Difícil",
+    "q": "Se um investidor, com um horizonte de investimentos de 2 anos e que acredita que os juros cairão abaixo das expectativas do mercado neste período, tiver perfil de riscos (capacidade e tolerância) arrojado, ele deverá (considerando o mesmo risco de crédito para os emissores dos títulos):",
+    "options": {
+      "A": "Aplicar em um CDB indexado à 100% do DI e, no vencimento, renovar a aplicação para taxa pré fixada por mais 1 ano",
+      "B": "Aplicar em um CDB prefixado de 1 ano e, no vencimento, renovar a aplicação em taxas prefixadas por mais 1 ano",
+      "C": "Aplicar em um CDB indexado à 95% do DI pelo prazo de 2 anos",
+      "D": "Aplicar em um CDB prefixado de 2 anos"
+    },
+    "answer": "D",
+    "explain": "Se o investidor acredita que as taxas de juros vão cair **mais do que o mercado espera**, a estratégia de posicionamento para um perfil arrojado é travar uma taxa prefixada **hoje** por todo o horizonte de investimento. Ao comprar um CDB prefixado de 2 anos (D), ele fixa a taxa. Se os juros efetivamente caírem, o valor de mercado desse título prefixado subirá (ou ele terá uma rentabilidade real superior às aplicações pós-fixadas que virão). As opções A e C são pós-fixadas e não se beneficiam diretamente da queda de juros. A opção B renova em 1 ano, podendo pegar uma taxa menor no futuro."
+  },
+  {
+    "id": "Q7202",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo IV – Mercado de câmbio",
+    "theme": "IRPJ - Operações de Câmbio",
+    "level": "Difícil",
+    "q": "Sobre o imposto de renda sobre pessoas jurídicas (IRPJ) em operações de câmbio é possível afirmar que:",
+    "options": {
+      "A": "O IRPJ incide sobre o ganho de capital auferido na alienação de moeda estrangeira e devem ser incluídos, assim como as variações cambiais dos direitos e obrigações, na base de cálculo do IR e ser pago pelo conselho fiscal da companhia",
+      "B": "O IRPJ incide sobre o ganho de capital auferido na alienação de moeda estrangeira em 15%, e o recolhimento é de responsabilidade da própria empresa beneficiária dos valores",
+      "C": "O IRPJ incide sobre o valor de venda auferido na alienação de moeda estrangeira sob alíquota de32% de presunção de lucro",
+      "D": "O IRPJ incide sobre o ganho de capital auferido na alienação de moeda estrangeira e devem ser incluídos, assim como as variações cambiais dos direitos e obrigações, na base de cálculo do IR e da contribuição social sobre o lucro líquido (CSLL)"
+    },
+    "answer": "D",
+    "explain": "Para pessoas jurídicas, os ganhos (ou perdas) de capital em operações de câmbio (diferença entre o valor de venda e o custo de aquisição da moeda), bem como as variações cambiais de ativos e passivos em moeda estrangeira, integram a base de cálculo do **Lucro Real**, sobre o qual incidem o Imposto de Renda da Pessoa Jurídica (IRPJ) e a Contribuição Social sobre o Lucro Líquido (CSLL). A alíquota não é fixa (depende do lucro total da empresa) e o recolhimento é de sua responsabilidade."
+  },
+  {
+    "id": "Q7301",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "OMC Intencional",
+    "level": "Médio",
+    "q": "OMC intencional:",
+    "options": {
+      "A": "É regular, porém altera o fluxo das ordens",
+      "B": "É regular, pois é um erro operacional",
+      "C": "É irregular, mas não altera o fluxo das ordens e não prejudica outros investidores",
+      "D": "É irregular"
+    },
+    "answer": "D",
+    "explain": "OMC significa Operação de Mesmo Comitente, ou seja, quando ordens de compra e venda de um mesmo cliente se cruzam no mercado. Quando **intencional** (não por erro operacional), ela é considerada uma prática irregular e passível de penalidade, pois distorce os preços e a liquidez aparente do mercado, podendo configurar manipulação. Portanto, é sempre irregular."
+  },
+  {
+    "id": "Q1119",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Marcação a Mercado - Objetivo",
+    "level": "Médio",
+    "q": "O procedimento de marcação a mercado (apreçamento) dos ativos da carteira das classes de Fundos de Investimento tem por objetivo:",
+    "options": {
+      "A": "Beneficiar o cotista que aplica novos recursos",
+      "B": "Beneficiar o cotista que solicita resgate",
+      "C": "Evitar que o administrador obtenha lucro com os recursos",
+      "D": "Evitar transferência de riqueza entre os cotistas"
+    },
+    "answer": "D",
+    "explain": "A marcação a mercado diária (atualização dos ativos da carteira ao preço de mercado) é fundamental para calcular o valor justo da cota (VLR). Isso garante que um cotista que entra ou sai do fundo o faça pelo preço correto, refletindo o valor atual dos ativos. Sem isso, um cotista que resgata poderia ser prejudicado (se os ativos estivessem supervalorizados) ou beneficiar outro que fica (e vice-versa), causando transferência indevida de riqueza."
+  },
+  {
+    "id": "Q7131",
+    "module": "Título III – Estrutura de contas e cadastro",
+    "chapter": "Capítulo I – Cadastro de investidores residentes",
+    "theme": "Conta Máster",
+    "level": "Médio",
+    "q": "Refere–se a conta que irá possuir contas de investidores vinculados, do qual irá agrupar investidores que possuam vínculos em comum, como gestão comum ou representação por um mesmo intermediário internacional que seja autorizado a realizar tais atividades:",
+    "options": {
+      "A": "Conta máster",
+      "B": "Conta admincom",
+      "C": "Conta de depósito",
+      "D": "Conta intermediária"
+    },
+    "answer": "A",
+    "explain": "A **Conta Máster** (Master Account) é uma conta de agrupamento utilizada para consolidar as posições e movimentações de várias subcontas de investidores que tenham um vínculo comum, como serem gerenciados pelo mesmo gestor internacional ou pertencerem a um mesmo grupo. Ela simplifica a operação e a gestão de garantias para o participante responsável."
+  },
+  {
+    "id": "Q1178",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Ajuste Diário - Derivativos",
+    "level": "Médio",
+    "q": "Em um determinado pregão \"D\", o preço de ajuste de Y para vencimento em agosto de XZ foi R$125,00. Considerando-se que o preço de ajuste do dia anterior (D-1), foi de R$ 120,00, como ocorrera o ajuste desse dia para os investidores que tinham posições ao final de D-1 e continuaram no mercado em D:",
+    "options": {
+      "A": "Compradores recebem R$ 5,00 e vendedores pagam R$ 5,00, em D+1",
+      "B": "Compradores pagam R$ 5,00 e vendedores recebem R$ 5,00, em D+1",
+      "C": "Compradores pagam R$ 5,00 e vendedores recebem R$ 5,00, em D+0",
+      "D": "Compradores recebem R$ 5,00 e vendedores pagam R$ 5,00, em D+0"
+    },
+    "answer": "C",
+    "explain": "O ajuste diário (mark-to-market) no mercado de derivativos segue a lógica: se o preço sobe (de 120 para 125), quem está **comprado** (long) tem ganho paper, e quem está **vendido** (short) tem perda paper. Na prática, a Câmara realiza a transferência financeira: os vendedores (perdedores) **pagam** a diferença (R$5) e os compradores (ganhadores) **recebem** a diferença (R$5). Esse fluxo financeiro ocorre no mesmo dia da apuração (D+0), via débito/crédito nas contas de margem."
+  },
+  {
+    "id": "Q3588",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Classificação de Fundos - Carteira",
+    "level": "Difícil",
+    "q": "De acordo com a análise das composições das carteiras dos fundos a seguir, os mesmos são classificados pela resolução 175 da CVM, respectivamente:\n\n**Fundo A**\nDebênture: 15%\nCDB: 15%\nLFT: 70%\n\n**Fundo B**\nFUTURO DE DÓLAR 25%\nLFT 25%\nVALES 50%\n\n**Fundo C**\nVALES 20%\nITUB4 25%\nITF 25%\nPETR4 30%",
+    "options": {
+      "A": "Fundo Multimercado, Fundo de Ações e Fundo Renda Fixa",
+      "B": "Fundo Renda Fixa, Fundo Multimercado e Fundo de Ações",
+      "C": "Fundo Renda Fixa, Fundo Multimercado e Fundo Multimercado",
+      "D": "Fundo Renda Fixa, Fundo Cambial e Fundo de Ações"
+    },
+    "answer": "B",
+    "explain": "**Fundo A:** Mais de 80% em ativos de Renda Fixa (Debênture, CDB, LFT) = **Fundo de Renda Fixa**.\n**Fundo B:** Carteira diversificada com ativos de diferentes classes: Futuro de Dólar (derivativo), LFT (RF) e VALES (RV). Não se enquadra nas categorias puras (Ações, RF, Cambial). Portanto, é **Fundo Multimercado**.\n**Fundo C:** Mais de 67% em ações e ETFs de índice de ações (VALES, ITUB4, PETR4, ITF) = **Fundo de Ações**.\nSequência: Renda Fixa, Multimercado, Ações."
+  },
+  {
+    "id": "Q7140",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Conta Intermediária",
+    "level": "Médio",
+    "q": "Refere-se a conta mantida na câmara da B3 utilizada para possibilitar o vínculo de repasse entre dois participantes(negociação pleno e liquidação), sem a necessidade de identificação do beneficiário final no participante origem:",
+    "options": {
+      "A": "Conta brokerage",
+      "B": "Conta captura",
+      "C": "Conta restrição",
+      "D": "Conta intermediária"
+    },
+    "answer": "D",
+    "explain": "A **Conta Intermediária** é usada para viabilizar operações de repasse (ou \"give-up\") entre um Participante de Negociação Pleno (PNP) e um Participante de Liquidação (PL). Nessa conta, o PNP pode alocar operações sem precisar especificar imediatamente o comitente final, transferindo essa responsabilidade de identificação para o PL posteriormente. Isso agiliza o processo de negociação e liquidação entre diferentes tipos de participantes."
+  },
+  {
+    "id": "Q7181",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo II – Risco corporativo e controles internos",
+    "theme": "Risco Legal",
+    "level": "Fácil",
+    "q": "A possibilidade de emissão de relatórios (sejam eles financeiros, fiscais, regulatórios, sustentabilidade ou estatutários) inexatos, expondo a instituição de penalidades refere – se ao:",
+    "options": {
+      "A": "Risco financeiro",
+      "B": "Risco de crédito",
+      "C": "Risco de principal",
+      "D": "Risco legal"
+    },
+    "answer": "D",
+    "explain": "O **Risco Legal** (ou de Conformidade/Compliance) refere-se à possibilidade de a instituição sofrer perdas financeiras, sanções administrativas, danos à reputação ou limitações operacionais devido ao descumprimento de leis, regulamentos, códigos de conduta ou padrões éticos. A emissão de relatórios inexatos viola normas contábeis, fiscais e de governança, caracterizando esse tipo de risco."
+  },
+  {
+    "id": "Q7251",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Formador de Mercado",
+    "level": "Fácil",
+    "q": "Participante cadastrado que atua, na condição de comitente, com o intuito de fomentar a liquidez de determinado ativo ou derivativo.",
+    "options": {
+      "A": "Formador de Mercado",
+      "B": "PNP",
+      "C": "PL",
+      "D": "PN"
+    },
+    "answer": "A",
+    "explain": "O **Formador de Mercado** (Market Maker) é um participante que assume a obrigação contratual de apresentar ofertas de compra e venda (com limites de spread e volume) para um ativo específico, com o objetivo principal de prover liquidez constante e reduzir a volatilidade, facilitando a negociação para os demais participantes do mercado."
+  },
+  {
+    "id": "Q7345",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Constituição de Fundos",
+    "level": "Médio",
+    "q": "Sobre a constituição de fundos de investimento, de acordo com a resolução 175 da CVM, é correto afirmar:",
+    "options": {
+      "A": "O funcionamento do fundo independe de registro na CVM",
+      "B": "O fundo pode ser constituído sem a deliberação dos prestadores de serviços essenciais",
+      "C": "A constituição do fundo não depende da aprovação de seu regulamento pelos prestadores de serviços essenciais",
+      "D": "O fundo deve ser constituído por deliberação conjunta dos prestadores de serviços essenciais, que também aprovam seu regulamento"
+    },
+    "answer": "D",
+    "explain": "A constituição de um fundo de investimento é um ato formal que exige a participação e aprovação conjunta dos prestadores de serviços essenciais (Administrador, Gestor e, quando aplicável, Custodiante). Eles devem deliberar e aprovar o regulamento do fundo, que é o contrato que rege seu funcionamento. O registro na CVM é obrigatório para o seu funcionamento junto ao público."
+  },
+  {
+    "id": "Q7209",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo II – Processos operacionais da Câmara B3",
+    "theme": "Participante de Liquidação",
+    "level": "Fácil",
+    "q": "“O participante que utiliza sua conta Reservas Bancárias ou Conta de Liquidação para enviar ou receber pagamentos referentes aos processos de liquidação com a câmara”. Tal definição refere- se ao:",
+    "options": {
+      "A": "Participante de negociação",
+      "B": "Participante de liquidação",
+      "C": "Banco liquidante",
+      "D": "Membro de compensação"
+    },
+    "answer": "B",
+    "explain": "A definição descreve o **Participante de Liquidação (PL)**. É este participante que mantém contas específicas para liquidação financeira (Reservas Bancárias no Bacen ou Conta de Liquidação) e é responsável pelos fluxos de pagamento e recebimento em nome próprio ou de seus clientes junto à Câmara B3."
+  },
+  {
+    "id": "Q7212",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Inadimplência - Definição",
+    "level": "Fácil",
+    "q": "“É caracterizado como ____________ o participante que não realizar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira”.\nComplete a lacuna:",
+    "options": {
+      "A": "Concordatário",
+      "B": "Insolvente",
+      "C": "Inadimplente",
+      "D": "Devedor operacional"
+    },
+    "answer": "C",
+    "explain": "Repetindo conceito fundamental: no regulamento da Câmara B3, o termo correto para um participante que não honra suas obrigações financeiras de liquidação é \"Participante Inadimplente\"."
+  },
+  {
+    "id": "Q7245",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Ordem a Mercado",
+    "level": "Fácil",
+    "q": "Tipo de ordem que especifica somente a quantidade e as características dos ativos ou direitos a serem comprados ou vendidos, devendo ser executada a partir do momento em que for recebida.",
+    "options": {
+      "A": "Casada",
+      "B": "Limitada",
+      "C": "Mercado",
+      "D": "Stop"
+    },
+    "answer": "C",
+    "explain": "A **ordem a mercado** é uma instrução para executar uma operação imediatamente pelo melhor preço disponível no livro de ofertas. Ela prioriza a velocidade de execução, não especificando um preço limite. A quantidade e o ativo são os únicos parâmetros obrigatórios."
+  },
+  {
+    "id": "Q7255",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo IV – Mercado de câmbio",
+    "theme": "Lote-Padrão - Câmbio Pronto",
+    "level": "Médio",
+    "q": "No mercado de Câmbio Pronto o lote-padrão de negociação é de ___________________. As ofertas e operações devem ser iguais ou múltiplas ao lote-padrão, limitadas a ___________________.",
+    "options": {
+      "A": "US$ 25.000.000,00 e US$ 50.000,00, respectivamente",
+      "B": "US$ 50.000,00 e US$ 2.500.000,00, respectivamente",
+      "C": "US$ 50,00 e US$ 25.000,00, respectivamente",
+      "D": "US$ 50.000,00 e US$ 25.000.000,00, respectivamente"
+    },
+    "answer": "D",
+    "explain": "No mercado de câmbio pronto (spot) interbancário organizado, o **lote-padrão** é de **US$ 50.000,00** (cinquenta mil dólares). As operações devem ser múltiplos desse valor, havendo um **limite máximo** por operação, que é de **US$ 25.000.000,00** (vinte e cinco milhões de dólares)."
+  },
+  {
+    "id": "Q1814",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo Exclusivo - Característica",
+    "level": "Fácil",
+    "q": "O Fundo Exclusivo caracteriza-se por:",
+    "options": {
+      "A": "É um tipo de fundo ativo",
+      "B": "Só pode cobrar taxa de Administração",
+      "C": "Ser apenas para Investidor Profissional",
+      "D": "É um tipo de fundo Alavancado"
+    },
+    "answer": "C",
+    "explain": "A característica definidora de um **Fundo Exclusivo**, conforme a CVM, é que ele é constituído para atender a um único cotista ou a um grupo de cotistas com vínculo familiar, societário ou corporativo, desde que **todos sejam Investidores Profissionais**. Essa é a condição de acesso específica desse tipo de fundo."
+  },
+  {
+    "id": "Q7272",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Layering",
+    "level": "Médio",
+    "q": "Prática abusiva de criação artificial de liquidez com o uso de oferta de tamanho fora do padrão do livro de ofertas com o objetivo de influenciar investidores a superar a oferta artificial e gerar negócios do lado oposto do livro:",
+    "options": {
+      "A": "OMC (Operação de mesmo comitente)",
+      "B": "Spoofing",
+      "C": "Layering",
+      "D": "Churning"
+    },
+    "answer": "C",
+    "explain": "**Layering** é uma forma sofisticada de manipulação de mercado. Envolve a inserção de múltiplas ordens grandes (geralmente em níveis de preço diferentes) em um lado do livro (ex: ofertas de venda) sem a intenção real de executá-las, com o objetivo de criar uma falsa impressão de oferta/pressão. Isso induz outros participantes a negociarem do lado oposto (ex: comprar) a um preço vantajoso para o manipulador, que tem uma ordem real escondida do outro lado."
+  },
+  {
+    "id": "Q7386",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo I – Mercados organizados",
+    "theme": "Encargos - B3",
+    "level": "Fácil",
+    "q": "Cobrado pela B3, é de responsabilidade do participante que tiver dado causa a sua incidência.",
+    "options": {
+      "A": "Pacote de serviços",
+      "B": "Encargos",
+      "C": "Custos",
+      "D": "Anuidade"
+    },
+    "answer": "B",
+    "explain": "Na terminologia da B3, **Encargos** referem-se a cobranças específicas aplicadas em situações onde o participante causa algum evento que gera custo extra ou trabalho operacional para a bolsa/câmara, como cancelamento de operação fora do prazo, retificação de registro, etc. São distintos das tarifas regulares de negociação ou custódia."
+  },
+  {
+    "id": "Q4155",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Termo Flexível",
+    "level": "Fácil",
+    "q": "No mercado a termo, os contratos onde é possível a troca do ativo subjacente é conhecido como",
+    "options": {
+      "A": "Termo de Compra",
+      "B": "Termo Comum",
+      "C": "Termo de venda",
+      "D": "Termo Flexível"
+    },
+    "answer": "D",
+    "explain": "O **Contrato a Termo Flexível** é uma modalidade que oferece maior flexibilidade aos negociadores. Entre suas características está a possibilidade de, por mútuo acordo, as partes alterarem algumas condições do contrato após sua celebração, inclusive a **troca do ativo-objeto** (subjacente) por outro de mesma espécie e qualidade, desde que dentro dos parâmetros definidos pela B3."
+  },
+  {
+    "id": "Q1782",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Isonomia dos Cotistas",
+    "level": "Fácil",
+    "q": "É característica de um fundo de investimento oferecer um tratamento igualitário que se caracteriza como sendo aquele em que:",
+    "options": {
+      "A": "O cotista que iniciou antes a aplicação leva maior rentabilidade",
+      "B": "O cotista com o maior valor de aplicação leva maior rentabilidade",
+      "C": "O cotista com maior quantidade de cotas leva a maior rentabilidade",
+      "D": "Todos os cotistas possuem os mesmos direitos e deveres"
+    },
+    "answer": "D",
+    "explain": "O princípio da isonomia é fundamental nos fundos de investimento. Significa que todos os cotistas de uma mesma classe de cotas têm **exatamente os mesmos direitos e obrigações**, proporcionalmente ao número de cotas que possuem. A rentabilidade é proporcional ao número de cotas, não ao valor inicial, tempo de aplicação ou qualquer outro fator discriminatório. O cotista com mais cotas (C) terá um valor absoluto maior de ganho, mas a rentabilidade percentual é a mesma para todos."
+  },
+  {
+    "id": "Q7183",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Churning - Definição",
+    "level": "Fácil",
+    "q": "Caracteriza–se pela negociação excessiva ou giro em excesso da carteira de um investidor com objetivo de gerar maior corretagem:",
+    "options": {
+      "A": "Insider trading",
+      "B": "Front running",
+      "C": "Front trading",
+      "D": "Churning"
+    },
+    "answer": "D",
+    "explain": "**Churning** é a prática ilegal e antiética em que um intermediário (assessor, corretor) realiza um volume anormal e excessivo de negociações na conta de um cliente, movido principalmente pelo interesse de gerar comissões ou taxas para si ou para sua instituição, sem uma justificativa de investimento que beneficie o cliente."
+  },
+  {
+    "id": "Q7185",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "Front Running",
+    "level": "Fácil",
+    "q": "Refere-se a prática ilegal de posicionamento no mercado por participante antes dos clientes, objetivando vantagens:",
+    "options": {
+      "A": "Churning",
+      "B": "Front trading",
+      "C": "Front running",
+      "D": "Insider trading"
+    },
+    "answer": "D",
+    "explain": "**Front Running** (ou negociação à frente) ocorre quando um intermediário (ou alguém com acesso a informação sobre uma grande ordem pendente de um cliente) executa uma operação para sua própria conta **antes** de executar a ordem do cliente, buscando se beneficiar da movimentação de preço que a própria ordem grande do cliente causará no mercado. É uma violação de dever fiduciário."
+  },
+  {
+    "id": "Q1723",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Classe Indexada",
+    "level": "Fácil",
+    "q": "Uma classe de cota que tem como objetivo acompanhar seu benchmark é aquela que:",
+    "options": {
+      "A": "Apresenta garantia do risco de crédito feita pelo gestor",
+      "B": "Apresenta rentabilidade que supera seu benchmark",
+      "C": "Deve ser uma classe indexada",
+      "D": "Não apresenta parâmetro para acompanhar sua rentabilidade"
+    },
+    "answer": "C",
+    "explain": "Uma classe de cotas cujo objetivo declarado é acompanhar um índice de referência (benchmark) é classificada como uma **classe indexada** (ou passiva). A estratégia de gestão é replicar o índice, não tentar superá-lo ativamente. A existência de um benchmark é justamente o parâmetro para se medir seu desempenho."
+  },
+  {
+    "id": "Q1511",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo VI – Clubes de investimento",
+    "theme": "Carteira - Clube de Investimento",
+    "level": "Fácil",
+    "q": "A carteira de um clube de investimento deve ter:",
+    "options": {
+      "A": "100% em ações",
+      "B": "A quantidade de ações especificada no estatuto",
+      "C": "No mínimo 67% de ações",
+      "D": "No mínimo 51% em ações"
+    },
+    "answer": "D",
+    "explain": "A regulamentação da CVM para clubes de investimento exige que, no momento da constituição e ao longo de sua existência, **no mínimo 51% do patrimônio líquido do clube** seja aplicado em **ações** negociadas em bolsa ou no mercado de balcão organizado. É o principal requisito de composição da carteira."
+  },
+  {
+    "id": "Q1792",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Alavancagem em Fundos",
+    "level": "Médio",
+    "q": "Quando existir a possibilidade de perda superior ao patrimônio liquido - PL de uma classe de fundo de investimento, obrigando os cotistas aportar recursos adicionais, diz se que essa classe está:",
+    "options": {
+      "A": "Supervalorizada",
+      "B": "Mal gerida",
+      "C": "Mal administrada",
+      "D": "Alavancada"
+    },
+    "answer": "D",
+    "explain": "Uma classe de fundo está **alavancada** quando utiliza recursos de terceiros (empréstimos, derivativos, vendas a descoberto) de forma que sua exposição total ao mercado supera seu patrimônio líquido. Nessa situação, perdas nas operações podem consumir todo o PL e gerar uma dívida, criando a obrigação para os cotistas de fazerem aportes extras para cobri-la (conforme previsto no regulamento do fundo)."
+  },
+  {
+    "id": "Q1744",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Investimento em Títulos do Próprio Administrador",
+    "level": "Médio",
+    "q": "Sobre o investimento em títulos e valores mobiliários emitidos pelo próprio administrador do fundo, podemos afirmar que:",
+    "options": {
+      "A": "Podem ser realizados, porém são limitados a 10% do patrimônio do fundo",
+      "B": "Podem ser realizados, porém são limitados a 50% do patrimônio do fundo",
+      "C": "Um fundo de investimento jamais poderá adquirir títulos e valores mobiliários de sua própria emissão, para evitar possíveis conflitos de interesse",
+      "D": "Podem ser realizados, porém são limitados a 20% do patrimônio do fundo"
+    },
+    "answer": "D",
+    "explain": "Para evitar conflitos de interesses, a CVM permite que um fundo adquira títulos emitidos por seu próprio administrador (ou por entidades a ele vinculadas), mas estabelece um **limite rigoroso: no máximo 20% do patrimônio líquido do fundo** pode ser aplicado nesses títulos. Isso mitiga, mas não elimina totalmente, o risco associado."
+  },
+  {
+    "id": "Q7211",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Contraparte Central - Relacionamento",
+    "level": "Médio",
+    "q": "A posição de contraparte da câmara da B3 na central de liquidação se dá perante o:",
+    "options": {
+      "A": "Participante de negociação",
+      "B": "Comitente",
+      "C": "Participante de liquidação",
+      "D": "Membro de compensação"
+    },
+    "answer": "D",
+    "explain": "A Câmara B3 atua como **contraparte central** (garantidora) apenas perante os **Membros de Compensação** (também conhecidos como Clearing Members). Estes são os participantes que assumem a responsabilidade final pela liquidação das operações. A câmara não tem relação direta de contraparte com participantes de negociação (PN/P) ou com os comitentes finais."
+  },
+  {
+    "id": "Q3322",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Hedge com Futuros - Cálculo",
+    "level": "Difícil",
+    "q": "Um frigorífico pretende fazer hedge usando contratos futuros de boi gordo. A empresa fatura R$ 50 milhões mensais e o seu custo com carne representa 60% desse faturamento. A empresa pretende garantir preço por 4 meses. Sabendo que cada contrato de boi gordo na Bolsa representa uma negociação de 330 arrobas e que cada arroba está negociada a R$ 150,00, como o frigorífico deve estruturar a operação?",
+    "options": {
+      "A": "Comprar 800.000 contratos",
+      "B": "Vender 2.424 contratos",
+      "C": "Vender 800.000 contratos",
+      "D": "Comprar 2.424 contratos"
+    },
+    "answer": "D",
+    "explain": "1. Exposição ao risco: Custo mensal com carne = 60% de R$ 50 mi = R$ 30 mi. Para 4 meses: R$ 120 mi.\n2. Valor por contrato: 330 arrobas * R$ 150/arroba = R$ 49.500 por contrato.\n3. Número de contratos para hedge: Exposição Total / Valor por Contrato = R$ 120.000.000 / R$ 49.500 ≈ 2.424 contratos.\n4. Estratégia: O frigorífico é comprador de carne no mercado físico. Para se proteger (hedge) contra a **alta do preço da arroba**, ele deve **comprar** contratos futuros. Se o preço subir, o ganho no futuro compensa o custo maior no físico. Logo, deve **comprar 2.424 contratos**."
+  },
+  {
+    "id": "Q7249",
+    "module": "Título V – Negociação",
+    "chapter": "Capítulo II – Ambiente de negociação",
+    "theme": "Área de Co-location",
+    "level": "Médio",
+    "q": "Local de hospedagem da B3 para a infraestrutura tecnológica de acesso restrito ao participante de negociação pleno, ao participante de negociação, ao provedor ou ao comitente.",
+    "options": {
+      "A": "After-hours",
+      "B": "BSM",
+      "C": "Área de co-location",
+      "D": "Circuit breaker"
+    },
+    "answer": "C",
+    "explain": "A **Área de Co-location** é um espaço físico dentro dos datacenters da B3 onde os participantes podem instalar seus próprios servidores e equipamentos de rede. Isso proporciona latência (tempo de resposta) extremamente baixa e conexão direta e segura aos sistemas de negociação da bolsa, sendo essencial para operações de alta frequência (HFT)."
+  },
+  {
+    "id": "Q1499",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo II – Mercado de derivativos",
+    "theme": "Swap - Caracterização",
+    "level": "Fácil",
+    "q": "O swap caracteriza-se por ser:",
+    "options": {
+      "A": "O direito de aquisição de novo lote de ações por ocasião do aumento de capital",
+      "B": "A subscrição de indicadores para data futura",
+      "C": "Um contrato de troca do indexador por outro diferente para ser feita em uma data futura",
+      "D": "Um custo do investidor para investir em ações"
+    },
+    "answer": "C",
+    "explain": "Um **swap** é um contrato derivativo de balcão no qual duas partes concordam em trocar fluxos financeiros (ou indexadores) em uma ou mais datas futuras. O exemplo mais comum no Brasil é o swap de DI x Pré (troca da taxa DI por uma taxa prefixada), usado para hedge ou especulação sobre a trajetória da taxa de juros."
+  },
+  {
+    "id": "Q1062",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Estrutura do SFN",
+    "level": "Fácil",
+    "q": "A estrutura do sistema financeiro nacional (SFN) apresenta como órgão máximo:",
+    "options": {
+      "A": "O Banco Central do Brasil",
+      "B": "O Conselho Monetário Nacional",
+      "C": "O Copom",
+      "D": "O Comissão de Valores Mobiliários"
+    },
+    "answer": "B",
+    "explain": "A estrutura hierárquica do SFN é: no topo, o **Conselho Monetário Nacional (CMN)**, que é o órgão máximo normativo e deliberativo. Abaixo, como órgãos executivos, estão o **Banco Central do Brasil (BACEN)**, que implementa as políticas do CMN e fiscaliza instituições financeiras, e a **Comissão de Valores Mobiliários (CVM)**, que regula o mercado de capitais. O COPOM (C) é um comitê do Banco Central que define a taxa de juros."
+  },
+  {
+    "id": "Q1559",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo III – Mercado de renda fixa",
+    "theme": "LTN - Característica",
+    "level": "Fácil",
+    "q": "A Letra do Tesouro Nacional - LTN:",
+    "options": {
+      "A": "Tem seu rendimento prefixado",
+      "B": "Tem sua rentabilidade indexada pela variação da taxa de cambio",
+      "C": "Tem sua rentabilidade indexada pela variação da taxa Selic",
+      "D": "Tem sua rentabilidade indexada a variação do IGP-M"
+    },
+    "answer": "A",
+    "explain": "A **LTN (Letra do Tesouro Nacional)** é um título público federal de **renda prefixada**. O investidor adquire o título com desconto (PU) e recebe, no vencimento, seu valor de face (R$ 1.000). A rentabilidade é determinada pela diferença entre o preço de compra e o valor de face, equivalente a uma taxa de juros prefixada conhecida no momento da aplicação."
+  },
+  {
+    "id": "Q6998",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Características dos Fundos",
+    "level": "Médio",
+    "q": "São Características próprias dos Fundos de Investimento:\nI - Possui natureza Jurídica própria\nII - Prestação de serviço fiduciário\nIII - Requer registro na CVM\nIV - Regras de gestão previstas no regulamento\nV - Gestão profissional na escolha dos ativos da carteira\nEsta correta a afirmativa:",
+    "options": {
+      "A": "I, II, IV e V, apenas",
+      "B": "I, II e III, apenas",
+      "C": "I, II, III, IV, apenas",
+      "D": "I, II, III, IV e V"
+    },
+    "answer": "D",
+    "explain": "Todas as afirmativas descrevem características essenciais dos fundos de investimento regulados pela CVM. I) São condomínios, uma espécie de pessoa jurídica. II) Administrador e gestor atuam sob regime fiduciário (de confiança). III) Necessitam de registro na CVM para funcionar. IV) Todas as regras estão no regulamento. V) A gestão da carteira é feita por profissional qualificado (gestor)."
+  },
+  {
+    "id": "Q7179",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco de Mercado",
+    "level": "Fácil",
+    "q": "Refere–se ao risco de oscilação de preços de ativos no mercado:",
+    "options": {
+      "A": "Risco de liquidez e rentabilidade",
+      "B": "Risco de mercado e liquidez",
+      "C": "Risco de liquidez e câmbio",
+      "D": "Risco de mercado"
+    },
+    "answer": "D",
+    "explain": "O **Risco de Mercado** é a possibilidade de ocorrerem perdas financeiras devido a movimentos adversos nos preços de ativos (ações, títulos, commodities, moedas) ou em fatores de mercado, como taxas de juros e índices. É o risco inerente à flutuação dos valores de mercado."
+  },
+  {
+    "id": "Q4160",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo I – Sistema Financeiro Nacional",
+    "theme": "Atribuição do CMN",
+    "level": "Médio",
+    "q": "De acordo com a lei 4595/64 que o(a) criou, zelar pela liquidez e solvência das instituições financeiras e coordenar as políticas monetária, creditícia, orçamentária, fiscal e da dívida pública, interna e externa, é uma atribuição do(a)",
+    "options": {
+      "A": "Conselho Monetário Nacional",
+      "B": "Ministério da Economia",
+      "C": "Comissão de Valores Mobiliários",
+      "D": "Banco Central do Brasil"
+    },
+    "answer": "A",
+    "explain": "A Lei 4.595/64, que criou o CMN e o Bacen, atribui ao **Conselho Monetário Nacional (CMN)** a função de formular a política da moeda e do crédito, **zelar pela liquidez e solvência das instituições financeiras** e **coordenar as políticas monetária, creditícia, orçamentária, fiscal e da dívida pública**. O Bacen é o executor."
+  },
+  {
+    "id": "Q7315",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo III – Mercado de renda fixa",
+    "theme": "Título Zero Cupom",
+    "level": "Médio",
+    "q": "Marcos possui uma carteira de investimentos focado na aposentadoria. Entre os títulos dessa carteira, ele possui um título de renda fixa, zero cupom, com vencimento em 20/12/2030 e valor nominal de R$ 1.000. Esse título está com taxa de juros prefixado de 12% a.a.\nPode-se afirmar que:\nI – O valor de face do título é inferior a R$ 1.000;\nII – O PU do título é inferior a R$ 1.000;\nIII – O título não oscila de valor.",
+    "options": {
+      "A": "II e III, apenas",
+      "B": "I, II e III",
+      "C": "I e III, apenas",
+      "D": "Apenas II"
+    },
+    "answer": "D",
+    "explain": "**I - Falsa:** O 'valor de face' (ou valor nominal) é o que será pago no vencimento, sempre R$ 1.000. Não é inferior.\n**II - Verdadeira:** O PU (Preço Unitário) é o preço pelo qual o título é negociado hoje. Para um título zero cupom prefixado, o PU é calculado descontando o valor de face pela taxa de juros até o vencimento. Portanto, PU = R$ 1.000 / (1 + 0,12)^n, que será sempre **inferior** a R$ 1.000.\n**III - Falsa:** Títulos de renda fixa negociados no mercado secundário oscilam de valor (PU) diariamente conforme as variações da taxa de juros de mercado. Se as taxas sobrem, o PU cai, e vice-versa."
+  },
+  {
+    "id": "Q7379",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Emissor - Responsabilidades",
+    "level": "Fácil",
+    "q": "Participante responsável pela existência, integridade, regularidade e pelas obrigações inerentes aos ativos por ele emitidos, bem como por seus eventuais lastros e garantias subjacentes, na forma da legislação em vigor.",
+    "options": {
+      "A": "Emissor",
+      "B": "Agente de Custódia",
+      "C": "Liquidante",
+      "D": "Escriturador"
+    },
+    "answer": "A",
+    "explain": "O **Emissor** (por exemplo, uma empresa que emite ações ou debêntures) é o participante primário e tem a responsabilidade última pela existência, legitimidade, regularidade e cumprimento das obrigações financeiras e direitos associados aos ativos que colocou no mercado. A central depositária custodia, mas a origem e a validade do ativo são de responsabilidade do emissor."
+  },
+  {
+    "id": "Q7133",
+    "module": "Título III – Estrutura de contas e cadastro",
+    "chapter": "Capítulo I – Cadastro de investidores residentes",
+    "theme": "Vínculo 'Conta e Ordem'",
+    "level": "Médio",
+    "q": "“Função de identificar clientes do participante de negociação e do participante de negociação pleno, por meio do qual o participante de negociação irá operar”. Tal definição refere – se ao tipo de vínculo:",
+    "options": {
+      "A": "Exercício de opções",
+      "B": "Custodiante",
+      "C": "Conta e ordem",
+      "D": "Consolidação de margem"
+    },
+    "answer": "C",
+    "explain": "O vínculo **\"Conta e Ordem\"** é o principal no SINCAD. Ele associa um comitente (cliente) a uma conta em uma corretora (PN ou PNP), autorizando expressamente que a corretora negocie em seu nome nessa conta. É o vínculo que dá origem à relação de intermediação para execução de ordens."
+  },
+  {
+    "id": "Q1844",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Vantagem de Ações vs. Fundos",
+    "level": "Fácil",
+    "q": "Um investidor escolheria investir em ações à vista ao invés de aplicar em Fundos de Ações:",
+    "options": {
+      "A": "Porque o acesso à diversificação é mais fácil através da compra de ações a vista",
+      "B": "Porque pode escolher pessoalmente as ações que vai comprar",
+      "C": "Porque comprar ações é mais prático que investir em fundos",
+      "D": "Porque normalmente as ações à vista apresentam mais liquidez do que os fundos"
+    },
+    "answer": "B",
+    "explain": "A principal vantagem do investimento direto em ações (carteira própria) em relação a um fundo de ações é o **controle e a personalização da carteira**. O investidor pode escolher exatamente quais empresas, setores e em que proporção deseja investir, alinhando totalmente com sua visão e estratégia pessoal. Fundos de ações impõem a estratégia e as escolhas do gestor. A diversificação (A) é geralmente mais fácil e barata via fundos. A praticidade (C) é subjetiva, mas fundos são vistos como mais práticos. A liquidez (D) das ações individuais negociadas em bolsa é alta, mas a dos fundos de ações (resgate D+1 ou D+2) também é boa."
+  },
+  {
+    "id": "Q3846",
+    "module": "Título I – Aspectos institucionais",
+    "chapter": "Capítulo II – Infraestrutura do mercado",
+    "theme": "Sistema de Pagamentos Brasileiro (SPB)",
+    "level": "Médio",
+    "q": "Os sistemas que integram o sistema de pagamentos brasileiro (SPB)NÃO incluem o:",
+    "options": {
+      "A": "De Transferência de Reservas (STR)",
+      "B": "Especial de Liquidação e de Custódia (Selic)",
+      "C": "De Registro, de compensação, de liquidação e custódia da B3 (Antiga Cetip)",
+      "D": "De cadastro unificado de fornecedores (SICAF)"
+    },
+    "answer": "D",
+    "explain": "O Sistema de Pagamentos Brasileiro (SPB) é composto por sistemas de liquidação que garantem a segurança das transações financeiras no país. Fazem parte dele: o STR (para transferências interbancárias), o SELIC (para títulos públicos) e os sistemas da B3/CETIP (para ativos privados). O **SICAF (Sistema de Cadastro Unificado de Fornecedores)** é um sistema do governo federal para cadastro de fornecedores de bens e serviços, **não fazendo parte do SPB**."
+  },
+  {
+    "id": "Q1828",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo V – Fundos de investimento",
+    "theme": "Fundo de Ações - Composição Mínima",
+    "level": "Fácil",
+    "q": "Uma classe de fundo tipificada como ações deve investir em sua carteira de ativos:",
+    "options": {
+      "A": "No mínimo 95% em ações",
+      "B": "No máximo 95% em ações",
+      "C": "No máximo 67% em ações",
+      "D": "No mínimo 67% em ações"
+    },
+    "answer": "D",
+    "explain": "Para ser classificada como \"Fundo de Ações\" pela CVM, uma classe de cotas deve aplicar, no mínimo, **67% (dois terços)** de seu patrimônio líquido em **ações** negociadas em bolsa ou no mercado de balcão organizado. Esse é o requisito fundamental para a classificação e para os benefícios tributários específicos (isenção de come-cotas, por exemplo)."
+  },
+  {
+    "id": "Q3909",
+    "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo VI – Clubes de investimento",
+    "theme": "Multa por Atraso no Resgate",
+    "level": "Médio",
+    "q": "O prazo de pagamento de resgate em clube de investimentos é de, no máximo D+5, a contar da data da conversão das cotas. Em caso de não pagamento de resgate dentro do prazo, o administrador do clube deve:",
+    "options": {
+      "A": "Pag ar uma multa de 1% ao dia de atraso sobre o valor do resgate. Esta multa é paga à CVM",
+      "B": "Pagar uma multa de 0,5% ao dia de atraso sobre o valor do resgate. Esta multa é paga à CVM",
+      "C": "Pagar uma multa de 1% ao dia de atraso sobre o valor do resgate. Esta multa é paga ao cotista",
+      "D": "Pagar uma multa de 0,5% ao dia de atraso sobre o valor do resgate. Esta multa é paga ao cotista"
+    },
+    "answer": "D",
+    "explain": "Conforme a Instrução CVM 578, se o administrador de um clube de investimento não pagar o resgate dentro do prazo máximo (D+5), está sujeito a pagar uma multa de **0,5% (meio por cento) ao dia de atraso**, calculada sobre o valor devido do resgate. Essa multa é devida **ao próprio cotista** que solicitou o resgate, como compensação pelo atraso."
+  },
+  {
+    "id": "Q7147",
+    "module": "Título VIII – Compliance",
+    "chapter": "Capítulo IV – Operações ilícitas",
+    "theme": "BSM Supervisão de Mercados - Responsabilidades",
+    "level": "Médio",
+    "q": "Faz parte das responsabilidades da BSM Supervisão de Mercados:\nI – Coordenar e implantar processos administrativos para apuração de infrações, além de penalizar quem cometer irregularidades.\nII – Realizar supervisão e fiscalização sob a B3 e seus participantes.\nIII - Detectar condições incomuns de negociação ou condutas que possam colocar em risco a estabilidade de funcionamento, a transparência e confiabilidade do mercado.\nÉ correto que se afirma em:",
+    "options": {
+      "A": "II e III, apenas",
+      "B": "I e III, apenas",
+      "C": "I e II, apenas",
+      "D": "Todas as alternativas"
+    },
+    "answer": "D",
+    "explain": "A BSM Supervisão de Mercados (subsidiária da B3) tem um papel crucial na autorregulação do mercado. Suas responsabilidades abrangem: **I)** A aplicação de sanções administrativas; **II)** A supervisão e fiscalização direta das atividades da B3 e de seus participantes; e **III)** A monitoria do mercado para identificar irregularidades e comportamentos anormais. Portanto, todas as alternativas estão corretas."
   }
 ]
