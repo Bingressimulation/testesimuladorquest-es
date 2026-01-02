@@ -15761,21 +15761,21 @@
     "explain": "A ordem stop (ou ordem stop-loss) é uma ordem condicional que só se torna uma ordem a mercado ou limitada quando o preço do ativo atinge um nível pré-determinado (o preço stop). Ela é usada para limitar perdas (stop-loss) ou proteger lucros, sendo acionada quando o preço especificado é alcançado."
   },
   {
-    "id": "Q22227",
-    "module": "Título V – Negociação",
-    "chapter": "Capítulo I – Mercados organizados",
-    "theme": "Formação de Preço Teórico",
-    "level": "Difícil",
-    "q": "O primeiro critério para formação de preço teórico define que o preço atribuído ao leilão é aquele para o qual a maior quantidade de ativo ou derivativo é negociada. Se houver empate nesse critério",
-    "options": {
-      "A": "atribui-se o preço mais próximo do preço de fechamento ajustado ou do preço de ajuste da sessão de negociação, com arredondamento conforme variação mínima de apregoação, apenas para derivativos.",
-      "B": "selecionam-se os preços que geram o menor desequilíbrio na compra e o menor desequilíbrio na venda e, no intervalo entre tais preços, toma-se como preço teórico o mais próximo do preço da última operação.",
-      "C": "atribui-se ao leilão o preço mais próximo do preço de fechamento ajustado ou do preço de ajuste da sessão de negociação, com arredondamento conforme variação mínima de apregoação.",
-      "D": "atribui-se ao leilão o preço (igual ou entre os preços geradores do empate no segundo critério) mais próximo do preço da última operação."
-    },
-    "answer": "D",
-    "explain": "Conforme o regulamento da B3, a hierarquia para formação do preço teórico em leilões é: 1º) Preço com maior volume negociável. Se empate: 2º) Preço que gera menor desequilíbrio (diferença entre ofertas de compra e venda). Se persistir empate: 3º) Entre os preços que empataram no critério anterior, escolhe-se o mais próximo do preço da última operação no mercado de pregão contínuo."
+  "id": "Q199544202026",
+  "theme": "Formação de preço em leilões",
+  "level": "Difícil",
+  "q": "No processo de formação do preço teórico em leilões de negociação, o primeiro critério adotado consiste na escolha do preço que maximize a quantidade negociada do ativo ou derivativo.\n\nNa hipótese de empate nesse primeiro critério, o procedimento correto para definição do preço teórico será:",
+  "options": {
+    "A": "Atribuir ao leilão o preço mais próximo do preço de fechamento ajustado ou do preço de ajuste da sessão de negociação, com arredondamento conforme a variação mínima de apregoação, aplicável apenas a derivativos.",
+    "B": "Selecionar os preços que gerem o menor desequilíbrio na compra e o menor desequilíbrio na venda e, dentro do intervalo formado, definir como preço teórico aquele mais próximo do preço da última operação.",
+    "C": "Atribuir ao leilão o preço mais próximo do preço de fechamento ajustado ou do preço de ajuste da sessão de negociação, com arredondamento conforme a variação mínima de apregoação.",
+    "D": "Atribuir ao leilão o preço, igual ou compreendido entre os preços que geraram o empate no segundo critério, mais próximo do preço da última operação."
   },
+  "answer": "D",
+  "explain": "Após o empate no critério de maior quantidade negociada, aplica-se o critério de menor desequilíbrio entre ofertas de compra e venda. Persistindo o empate, o preço teórico do leilão será aquele mais próximo do preço da última operação, desde que esteja igual ou dentro do intervalo dos preços empatados no critério anterior.",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo I – Mercado de renda variável"
+},
   {
     "id": "Q22356",
     "module": "Título V – Negociação",
