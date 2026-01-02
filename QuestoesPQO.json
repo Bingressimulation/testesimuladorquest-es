@@ -11589,7 +11589,7 @@
     "D": "– R$ 1,20"
   },
   "answer": "A",
-  "explain": "No vencimento, o preço de mercado do ativo (R$ 25,00) está acima do preço de exercício da PUT (R$ 20,00), fazendo com que a opção não seja exercida pelo comprador. Dessa forma, o lançador da PUT não precisa comprar o ativo e permanece apenas com o prêmio recebido no início da operação, obtendo um ganho de R$ 1,20.",
+  "explain": "No vencimento, o preço de mercado do ativo (R$ 25,00) está acima do preço de exercício da PUT (R$ 20,00), fazendo com que a opção não seja exercida pelo comprador. Dessa forma, o lançador da PUT não precisa comprar o ativo e permanece apenas com o prêmio recebido no início da operação, obtendo um ganho de R$ 1,20."
 },
 {
   "id": "Q199543110",
