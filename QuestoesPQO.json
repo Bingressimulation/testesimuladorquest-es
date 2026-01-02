@@ -13553,24 +13553,22 @@
     "explain": "Fundos podem adquirir cotas de outros fundos conforme regulamento e limites. As demais afirmativas generalizam regras que não são necessariamente verdadeiras."
   },
   {
-    "id": "199544221",
-    "moduleId": "MOD4",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapterId": "MOD4-ESPECIAIS",
-    "chapter": "FIDC, FIP, FII e ETFs",
-    "theme": "FICFIDC",
-    "level": "Médio",
-    "q": "Um Fundo de Investimento em Cotas de FIDC (FICFIDC) deve investir, no mínimo:",
-    "options": {
-      "A": "95% do patrimônio em cotas de FIDC",
-      "B": "80% do patrimônio em cotas de FIDC",
-      "C": "95% do patrimônio em direitos creditórios",
-      "D": "80% do patrimônio em direitos creditórios"
-    },
-    "answer": "A",
-    "explain": "FICFIDC, por definição, deve concentrar a carteira majoritariamente em cotas de FIDC (padrão mínimo de 95%)."
+  "id": "Q199544305001",
+  "theme": "FICFIDC – Composição da carteira",
+  "level": "Médio",
+  "q": "Em relação à política de investimento de um Fundo de Investimento em Cotas de Fundo de Investimento em Direitos Creditórios (FICFIDC), assinale a alternativa que indica corretamente o percentual mínimo do patrimônio líquido que deve ser aplicado:",
+  "options": {
+    "A": "Em, no mínimo, 95% do patrimônio líquido aplicado em cotas de FIDC.",
+    "B": "Em, no mínimo, 80% do patrimônio líquido aplicado em cotas de FIDC.",
+    "C": "Em, no mínimo, 95% do patrimônio líquido aplicado diretamente em direitos creditórios.",
+    "D": "Em, no mínimo, 80% do patrimônio líquido aplicado diretamente em direitos creditórios."
   },
-  {
+  "answer": "A",
+  "explain": "O FICFIDC deve manter, no mínimo, 95% do seu patrimônio líquido aplicado em cotas de Fundos de Investimento em Direitos Creditórios (FIDC). Diferentemente do FIDC, que investe diretamente em direitos creditórios, o FICFIDC acessa esses ativos de forma indireta, por meio da aquisição de cotas de outros FIDC.",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo V – Fundos de investimento"
+},
+{
     "id": "199544222",
     "moduleId": "MOD4",
     "module": "Título II – Mercados de bolsa e de balcão",
