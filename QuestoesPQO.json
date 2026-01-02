@@ -2349,7 +2349,7 @@
   },
   "answer": "C",
   "explain": "A Letra de Crédito Imobiliário (LCI) possui isenção de Imposto de Renda para pessoas físicas, conforme legislação vigente. Já a Letra Hipotecária, a Letra de Câmbio e o Recibo de Depósito Bancário são tributados pela tabela regressiva do IR.",
-  "module": "Título II – Mercados de renda fixa",
+  "module": "Título II – Mercados de bolsa e de balcão",
   "chapter": "Capítulo VIII – Tributação do mercado financeiro"
 },
   {
@@ -3357,7 +3357,7 @@
   },
   "answer": "B",
   "explain": "Na pessoa física, os rendimentos distribuídos por FIIs podem ser isentos de IR, desde que atendidos os requisitos legais. Contudo, o ganho de capital obtido na venda das cotas em bolsa é tributado, em regra, à alíquota de 20%. A confusão entre rendimentos isentos e tributação na alienação das cotas é uma pegadinha frequente em provas.",
-  "module": "Título II – Mercados de capitais",
+  "module": "Título II – Mercados de bolsa e de balcão",
   "chapter": "Capítulo V – Fundos de investimento"
 },
 
@@ -4819,7 +4819,7 @@
   }, 
   {
     "id": "Q0001",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SFN | Conceito e finalidade",
     "level": "Fácil",
@@ -4835,7 +4835,7 @@
   },
   {
     "id": "Q0002",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SFN | Segmentação em mercados",
     "level": "Médio",
@@ -4851,7 +4851,7 @@
   },
   {
     "id": "Q0003",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Mercado Monetário | Política monetária",
     "level": "Fácil",
@@ -4867,7 +4867,7 @@
   },
   {
     "id": "Q0004",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Mercado de Crédito | Intermediação financeira",
     "level": "Fácil",
@@ -4883,7 +4883,7 @@
   },
   {
     "id": "Q0005",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Mercado de Câmbio | Conceitos",
     "level": "Médio",
@@ -4899,7 +4899,7 @@
   },
   {
     "id": "Q0006",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Mercado de Capitais | Primário e secundário",
     "level": "Médio",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": "Q0007",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Competência regulatória",
     "level": "Fácil",
@@ -4931,7 +4931,7 @@
   },
   {
     "id": "Q0008",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Derivativos | Finalidade e conceito",
     "level": "Médio",
@@ -4947,7 +4947,7 @@
   },
   {
     "id": "Q0009",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CMN | Funções",
     "level": "Médio",
@@ -4963,7 +4963,7 @@
   },
   {
     "id": "Q0010",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Competências",
     "level": "Médio",
@@ -4980,7 +4980,7 @@
 
   {
     "id": "Q0011",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Penalidades",
     "level": "Fácil",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "Q0012",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CNPC | Previdência complementar",
     "level": "Médio",
@@ -5012,7 +5012,7 @@
   },
   {
     "id": "Q0013",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CRSFN | Estrutura recursal",
     "level": "Difícil",
@@ -5028,7 +5028,7 @@
   },
   {
     "id": "Q0014",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CMN x Bacen | Papel institucional",
     "level": "Médio",
@@ -5044,7 +5044,7 @@
   },
   {
     "id": "Q0015",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Política Monetária | Executor",
     "level": "Fácil",
@@ -5060,7 +5060,7 @@
   },
   {
     "id": "Q0016",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SUSEP | Supervisão seguros",
     "level": "Fácil",
@@ -5076,7 +5076,7 @@
   },
   {
     "id": "Q0017",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Instituições operadoras | Função",
     "level": "Fácil",
@@ -5092,7 +5092,7 @@
   },
   {
     "id": "Q0018",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bancos Comerciais | Regulação",
     "level": "Médio",
@@ -5108,7 +5108,7 @@
   },
   {
     "id": "Q0019",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bancos Comerciais | Prazos",
     "level": "Fácil",
@@ -5124,7 +5124,7 @@
   },
 {
   "id": "Q15315312",
-  "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+  "module": "Título I – Aspectos institucionais",
   "chapter": "Capítulo I – Sistema Financeiro Nacional",
   "theme": "Caixas Econômicas | Natureza e função",
   "level": "Médio",
@@ -5141,7 +5141,7 @@
 
   {
     "id": "Q0021",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Cooperativas de crédito | Governança",
     "level": "Médio",
@@ -5157,7 +5157,7 @@
   },
   {
     "id": "Q0022",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bancos de Investimento | Funções",
     "level": "Difícil",
@@ -5173,7 +5173,7 @@
   },
   {
     "id": "Q0023",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bancos Múltiplos | Carteiras",
     "level": "Fácil",
@@ -5189,7 +5189,7 @@
   },
   {
     "id": "Q0024",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Mercado de Capitais | Participantes",
     "level": "Médio",
@@ -5205,7 +5205,7 @@
   },
   {
     "id": "Q0025",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SFN | Subdivisão institucional",
     "level": "Fácil",
@@ -5221,7 +5221,7 @@
   },
   {
     "id": "Q0026",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CMN/Bacen/CVM | Atribuições",
     "level": "Difícil",
@@ -5237,7 +5237,7 @@
   },
   {
     "id": "Q0027",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "BNDES | Finalidade",
     "level": "Médio",
@@ -5253,7 +5253,7 @@
   },
   {
     "id": "Q0028",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Atribuições",
     "level": "Fácil",
@@ -5269,7 +5269,7 @@
   },
   {
     "id": "Q0029",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Previdência | Perfil de investidor (classificação)",
     "level": "Médio",
@@ -5285,7 +5285,7 @@
   },
   {
     "id": "Q0030",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Escopo de fiscalização",
     "level": "Difícil",
@@ -5302,7 +5302,7 @@
 
   {
     "id": "Q0031",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SUSEP | Competência",
     "level": "Médio",
@@ -5318,7 +5318,7 @@
   },
   {
     "id": "Q0032",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Investidor não residente | Obrigações prévias",
     "level": "Difícil",
@@ -5334,7 +5334,7 @@
   },
   {
     "id": "Q0033",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SCFI (Financeiras) | Função",
     "level": "Médio",
@@ -5350,7 +5350,7 @@
   },
   {
     "id": "Q0034",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bacen | Natureza",
     "level": "Fácil",
@@ -5366,7 +5366,7 @@
   },
   {
     "id": "Q0035",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Metas de inflação | Definição",
     "level": "Médio",
@@ -5382,7 +5382,7 @@
   },
   {
     "id": "Q0036",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Investidor não residente | Conceito",
     "level": "Fácil",
@@ -5398,7 +5398,7 @@
   },
   {
     "id": "Q0037",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Corretoras | Papel de intermediação",
     "level": "Fácil",
@@ -5414,7 +5414,7 @@
   },
   {
     "id": "Q0038",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Corretoras | Supervisão",
     "level": "Médio",
@@ -5430,7 +5430,7 @@
   },
   {
     "id": "Q0039",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Órgãos do SFN | Caráter regulamentar",
     "level": "Médio",
@@ -5446,7 +5446,7 @@
   },
   {
     "id": "Q0040",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bacen | Competência",
     "level": "Médio",
@@ -5463,7 +5463,7 @@
 
   {
     "id": "Q0041",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CMN | Diretrizes",
     "level": "Fácil",
@@ -5479,7 +5479,7 @@
   },
   {
     "id": "Q0042",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Registros | Guarda de informações",
     "level": "Médio",
@@ -5495,7 +5495,7 @@
   },
   {
     "id": "Q0043",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Órgãos executores | Identificação",
     "level": "Difícil",
@@ -5511,7 +5511,7 @@
   },
   {
     "id": "Q0044",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Tesouro Nacional | Emissão",
     "level": "Fácil",
@@ -5527,7 +5527,7 @@
   },
   {
     "id": "Q0045",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Tesouro Nacional | Dívida pública",
     "level": "Fácil",
@@ -5543,7 +5543,7 @@
   },
   {
     "id": "Q0046",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Clearing | Importância sistêmica",
     "level": "Difícil",
@@ -5559,7 +5559,7 @@
   },
   {
     "id": "Q0047",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bacen | Funções",
     "level": "Médio",
@@ -5575,7 +5575,7 @@
   },
   {
     "id": "Q0048",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CMN | Diretrizes cambiais",
     "level": "Fácil",
@@ -5591,7 +5591,7 @@
   },
   {
     "id": "Q0049",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Política de comissões",
     "level": "Médio",
@@ -5607,7 +5607,7 @@
   },
   {
     "id": "Q0050",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SPB | Definição",
     "level": "Médio",
@@ -5624,7 +5624,7 @@
 
   {
     "id": "Q0051",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bacen | Assistência de liquidez",
     "level": "Médio",
@@ -5640,7 +5640,7 @@
   },
   {
     "id": "Q0052",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CNSP | Diretrizes seguros",
     "level": "Médio",
@@ -5656,7 +5656,7 @@
   },
   {
     "id": "Q0053",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Depósito compulsório | Competência",
     "level": "Fácil",
@@ -5672,7 +5672,7 @@
   },
   {
     "id": "Q0054",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "CVM | Companhias abertas",
     "level": "Fácil",
@@ -5688,7 +5688,7 @@
   },
   {
     "id": "Q0055",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SPB | Escopo",
     "level": "Difícil",
@@ -5704,7 +5704,7 @@
   },
   {
     "id": "Q0056",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Fundos de pensão | Diretrizes",
     "level": "Médio",
@@ -5720,7 +5720,7 @@
   },
   {
     "id": "Q0057",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SFN | Órgão máximo",
     "level": "Fácil",
@@ -5736,7 +5736,7 @@
   },
   {
     "id": "Q0058",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SPB | Sistemas integrantes",
     "level": "Médio",
@@ -5752,7 +5752,7 @@
   },
   {
     "id": "Q0059",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Cooperativas de crédito | Autorização",
     "level": "Fácil",
@@ -5768,7 +5768,7 @@
   },
   {
     "id": "Q0060",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Banco Múltiplo | Carteiras",
     "level": "Médio",
@@ -5785,7 +5785,7 @@
 
   {
     "id": "Q0061",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Financeiras (SCFI) | Natureza",
     "level": "Médio",
@@ -5801,7 +5801,7 @@
   },
   {
     "id": "Q0062",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SCTVM | Atividades",
     "level": "Médio",
@@ -5817,7 +5817,7 @@
   },
   {
     "id": "Q0063",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Banco Múltiplo | Produtos permitidos",
     "level": "Médio",
@@ -5833,7 +5833,7 @@
   },
   {
     "id": "Q0064",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "IPO | Coordenação",
     "level": "Fácil",
@@ -5849,7 +5849,7 @@
   },
   {
     "id": "Q0065",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "SCTVM | Exceto",
     "level": "Médio",
@@ -5865,7 +5865,7 @@
   },
   {
     "id": "Q0066",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "BNDES | Natureza",
     "level": "Médio",
@@ -5881,7 +5881,7 @@
   },
   {
     "id": "Q0067",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Depósito à vista | Instituições",
     "level": "Fácil",
@@ -5897,7 +5897,7 @@
   },
   {
     "id": "Q0068",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Banco Múltiplo | Obrigatoriedade",
     "level": "Fácil",
@@ -5913,7 +5913,7 @@
   },
   {
     "id": "Q0069",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bancos de Investimento | Atuação",
     "level": "Médio",
@@ -5929,7 +5929,7 @@
   },
   {
     "id": "Q0070",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Banco Comercial | Definição",
     "level": "Médio",
@@ -5945,7 +5945,7 @@
   },
   {
     "id": "Q0071",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Cooperativa de crédito | Constituição",
     "level": "Fácil",
@@ -5961,7 +5961,7 @@
   },
   {
     "id": "Q0072",
-    "module": "Módulo 1 – Sistema Financeiro Nacional e Participantes do Mercado",
+    "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Crédito imobiliário | Instituições",
     "level": "Médio",
@@ -7252,7 +7252,7 @@
   },
   "answer": "C",
   "explain": "O IMA-S acompanha títulos indexados à taxa Selic, o IMA-B acompanha títulos indexados ao IPCA e o IRF-M acompanha títulos prefixados. O IDkA não é um índice atrelado ao IGP-M; trata-se de uma família de índices baseada na duração (duration-based), utilizada como benchmark para gestão de carteiras. Portanto, a afirmativa III está incorreta.",
-  "module": "Título II – Mercados de renda fixa",
+  "module": "Título II – Mercados de bolsa e de balcão",
   "chapter": "Capítulo I – Índices e benchmarks de renda fixa"
 },
   {
@@ -12474,7 +12474,7 @@
   {
     "id": "199544182",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Taxas e despesas",
@@ -12492,7 +12492,7 @@
   {
     "id": "199544184",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Perfis e participantes",
@@ -12510,7 +12510,7 @@
   {
     "id": "199544185",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Papéis e responsabilidades",
@@ -12528,7 +12528,7 @@
   {
     "id": "199544186",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Taxa de administração",
@@ -12546,7 +12546,7 @@
   {
     "id": "199544187",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Alavancagem",
@@ -12564,7 +12564,7 @@
   {
     "id": "199544188",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Cálculo de cota",
@@ -12582,7 +12582,7 @@
   {
     "id": "199544189",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Classificação de fundos",
@@ -12600,7 +12600,7 @@
   {
     "id": "199544190",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Fundos cambiais",
@@ -12618,7 +12618,7 @@
   {
     "id": "199544191",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Classificação cambial",
@@ -12636,7 +12636,7 @@
   {
     "id": "199544192",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Liquidez e resgates",
@@ -12654,7 +12654,7 @@
   {
     "id": "199544193",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Come-cotas (longo prazo)",
@@ -12672,7 +12672,7 @@
   {
     "id": "199544194",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Come-cotas (calendário e alíquotas)",
@@ -12690,7 +12690,7 @@
   {
     "id": "199544195",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Tributação - fundos de ações",
@@ -12708,7 +12708,7 @@
   {
     "id": "199544196",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Tributação - fundos de ações",
@@ -12726,7 +12726,7 @@
   {
     "id": "199544197",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Cotização e liquidação",
@@ -12744,7 +12744,7 @@
   {
     "id": "199544198",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Taxa de performance",
@@ -12762,7 +12762,7 @@
   {
     "id": "199544199",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "IOF em fundos",
@@ -12780,7 +12780,7 @@
   {
     "id": "199544200",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Classificação de fundos",
@@ -12798,7 +12798,7 @@
   {
     "id": "199544201",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Papéis e responsabilidades",
@@ -12816,7 +12816,7 @@
   {
     "id": "199544202",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Propriedade dos ativos",
@@ -12834,7 +12834,7 @@
   {
     "id": "199544203",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C05",
     "chapter": "Capítulo V – Fundos de investimento",
     "theme": "Dinâmica de cotas",
@@ -12852,7 +12852,7 @@
   {
     "id": "199544204",
     "moduleId": "M02",
-    "module": "Módulo 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "M02-C08",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Come-cotas",
@@ -12870,7 +12870,7 @@
   {
     "id": "199544182",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxas",
@@ -12888,7 +12888,7 @@
   {
     "id": "199544184",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Investidores",
@@ -12906,7 +12906,7 @@
   {
     "id": "199544185",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Papéis e responsabilidades",
@@ -12924,7 +12924,7 @@
   {
     "id": "199544186",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxa de administração",
@@ -12942,7 +12942,7 @@
   {
     "id": "199544187",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Alavancagem",
@@ -12960,7 +12960,7 @@
   {
     "id": "199544188",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Cálculo de cota",
@@ -12978,7 +12978,7 @@
   {
     "id": "199544189",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Multimercado",
@@ -12996,7 +12996,7 @@
   {
     "id": "199544190",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Cambial",
@@ -13014,7 +13014,7 @@
   {
     "id": "199544191",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Cambial",
@@ -13032,7 +13032,7 @@
   {
     "id": "199544192",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Liquidez e resgates",
@@ -13050,7 +13050,7 @@
   {
     "id": "199544193",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas (longo prazo)",
@@ -13068,7 +13068,7 @@
   {
     "id": "199544194",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas (calendário e alíquotas)",
@@ -13086,7 +13086,7 @@
   {
     "id": "199544195",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Fundos de ações (IR)",
@@ -13104,7 +13104,7 @@
   {
     "id": "199544196",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Fundos de ações (IR)",
@@ -13122,7 +13122,7 @@
   {
     "id": "199544197",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Cotização e liquidação",
@@ -13140,7 +13140,7 @@
   {
     "id": "199544198",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxa de performance",
@@ -13158,7 +13158,7 @@
   {
     "id": "199544199",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "IOF",
@@ -13176,7 +13176,7 @@
   {
     "id": "199544200",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Renda fixa",
@@ -13194,7 +13194,7 @@
   {
     "id": "199544201",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Registro e responsabilidades",
@@ -13212,7 +13212,7 @@
   {
     "id": "199544202",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Propriedade dos ativos",
@@ -13230,7 +13230,7 @@
   {
     "id": "199544203",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Dinâmica de cotas",
@@ -13248,7 +13248,7 @@
   {
     "id": "199544204",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas",
@@ -13267,7 +13267,7 @@
   {
     "id": "199544205",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Papéis e responsabilidades",
@@ -13285,7 +13285,7 @@
   {
     "id": "199544206",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Fundo aberto vs fechado",
@@ -13303,7 +13303,7 @@
   {
     "id": "199544207",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Gestão ativa",
@@ -13321,7 +13321,7 @@
   {
     "id": "199544208",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Alavancagem",
@@ -13339,7 +13339,7 @@
   {
     "id": "199544209",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxa de administração",
@@ -13357,7 +13357,7 @@
   {
     "id": "199544210",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Fundo de ações",
@@ -13375,7 +13375,7 @@
   {
     "id": "199544211",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Fundo cambial",
@@ -13393,7 +13393,7 @@
   {
     "id": "199544212",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Renda fixa simples",
@@ -13411,7 +13411,7 @@
   {
     "id": "199544213",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Curto prazo (CVM)",
@@ -13429,7 +13429,7 @@
   {
     "id": "199544214",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Curto prazo (Receita)",
@@ -13447,7 +13447,7 @@
   {
     "id": "199544215",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas (curto prazo)",
@@ -13465,7 +13465,7 @@
   {
     "id": "199544216",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Ordem IOF x IR",
@@ -13483,7 +13483,7 @@
   {
     "id": "199544217",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxa de administração",
@@ -13501,7 +13501,7 @@
   {
     "id": "199544218",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Limites de concentração",
@@ -13519,7 +13519,7 @@
   {
     "id": "199544219",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Derivativos e risco",
@@ -13537,7 +13537,7 @@
   {
     "id": "199544220",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Regras gerais",
@@ -13555,7 +13555,7 @@
   {
     "id": "199544221",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FICFIDC",
@@ -13573,7 +13573,7 @@
   {
     "id": "199544222",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FIP",
@@ -13591,7 +13591,7 @@
   {
     "id": "199544223",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "ETF (lote)",
@@ -13609,7 +13609,7 @@
   {
     "id": "199544224",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "FII (IR rendimentos)",
@@ -13627,7 +13627,7 @@
   {
     "id": "199544225",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "FII (ganho de capital)",
@@ -13645,7 +13645,7 @@
   {
     "id": "199544226",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FIDC (direitos creditórios)",
@@ -13663,7 +13663,7 @@
   {
     "id": "199544227",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "FII (distribuição)",
@@ -13681,7 +13681,7 @@
   {
     "id": "199544236",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-CLUBES",
     "chapter": "Clubes de investimento",
     "theme": "Contabilidade e demonstrações",
@@ -13699,7 +13699,7 @@
   {
     "id": "199544202017",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-MERCADO",
     "chapter": "Mercado e negociações",
     "theme": "Ex-pit",
@@ -13717,7 +13717,7 @@
   {
     "id": "199544202018",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Investidor profissional",
@@ -13735,7 +13735,7 @@
   {
     "id": "199544202019",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "Dívida externa",
@@ -13753,7 +13753,7 @@
   {
     "id": "199544202020",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Condomínio fechado",
@@ -13771,7 +13771,7 @@
   {
     "id": "199544202021",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Classificação e sufixo",
@@ -13789,7 +13789,7 @@
   {
     "id": "199544202022",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "ETF (conceito)",
@@ -13807,7 +13807,7 @@
   {
     "id": "199544202023",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FIP (oferta pública)",
@@ -13825,7 +13825,7 @@
   {
     "id": "199544202025",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FIDC (definição)",
@@ -13844,7 +13844,7 @@
   {
     "id": "9951",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "FIP (oferta pública)",
@@ -13862,7 +13862,7 @@
   {
     "id": "9952",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas (longo prazo)",
@@ -13880,7 +13880,7 @@
   {
     "id": "9953",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Renda fixa simples",
@@ -13898,7 +13898,7 @@
   {
     "id": "9954",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "FII (regras gerais)",
@@ -13916,7 +13916,7 @@
   {
     "id": "9955",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Chinese wall",
@@ -13934,7 +13934,7 @@
   {
     "id": "9956",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Fundo de ações (tributação)",
@@ -13952,7 +13952,7 @@
   {
     "id": "9957",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-TRIBUT",
     "chapter": "Tributação (IOF/IR/come-cotas)",
     "theme": "Come-cotas",
@@ -13970,7 +13970,7 @@
   {
     "id": "9958",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-CLUBES",
     "chapter": "Clubes de investimento",
     "theme": "Conceito",
@@ -13988,7 +13988,7 @@
   {
     "id": "9959",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESPECIAIS",
     "chapter": "FIDC, FIP, FII e ETFs",
     "theme": "Fundo de índice",
@@ -14006,7 +14006,7 @@
   {
     "id": "9960",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-CLUBES",
     "chapter": "Clubes de investimento",
     "theme": "Regras do clube",
@@ -14024,7 +14024,7 @@
   {
     "id": "9961",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Aberto x fechado",
@@ -14042,7 +14042,7 @@
   {
     "id": "9962",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Taxas",
@@ -14060,7 +14060,7 @@
   {
     "id": "9963",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Marcação a mercado",
@@ -14078,7 +14078,7 @@
   {
     "id": "9964",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-FUNDOS",
     "chapter": "Classificação e estratégias",
     "theme": "Fundo de ações (critério 67%)",
@@ -14096,7 +14096,7 @@
   {
     "id": "9965",
     "moduleId": "MOD4",
-    "module": "MODULO 4 - Fundos de Investimentos",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapterId": "MOD4-ESTRUT",
     "chapter": "Estrutura, taxas e participantes",
     "theme": "Marcação na curva",
