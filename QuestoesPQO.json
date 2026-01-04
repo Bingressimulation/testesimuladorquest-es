@@ -515,7 +515,7 @@
     "id": "Q0033_1",
     "theme": "Infraestrutura do mercado & B3",
     "level": "Médio",
-    "q": "Quais são os benefícios da atuação da Câmara B3?",
+    "q": "Quais são os benefícios da atuação da Título VI – Câmara de compensação e liquidação?",
     "options": {
       "A": "Redução da transparência.",
       "B": "Aumento da volatilidade.",
@@ -547,7 +547,7 @@
     "id": "Q0035_1",
     "theme": "Infraestrutura do mercado & B3",
     "level": "Fácil",
-    "q": "O que é a Câmara B3?",
+    "q": "O que é a Título VI – Câmara de compensação e liquidação?",
     "options": {
       "A": "Órgão regulatório do mercado financeiro.",
       "B": "ONG de investidores.",
@@ -595,7 +595,7 @@
     "id": "Q0038_1",
     "theme": "Infraestrutura do mercado & B3",
     "level": "Médio",
-    "q": "Qual é o papel principal da Câmara B3 na infraestrutura do mercado financeiro?",
+    "q": "Qual é o papel principal da Título VI – Câmara de compensação e liquidação na infraestrutura do mercado financeiro?",
     "options": {
       "A": "Definir taxas de juros interbancárias.",
       "B": "Comprar e vender ativos.",
@@ -659,7 +659,7 @@
     "id": "Q0042_1",
     "theme": "Infraestrutura do mercado & B3",
     "level": "Difícil",
-    "q": "Como a Câmara B3 contribui para a segurança e confiabilidade das operações na B3?",
+    "q": "Como a Título VI – Câmara de compensação e liquidação contribui para a segurança e confiabilidade das operações na B3?",
     "options": {
       "A": "Registrando operações em papel.",
       "B": "Mantendo banco de dados público dos investidores.",
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "Q0124",
-    "theme": "Gestão de risco | Câmara B3",
+    "theme": "Gestão de risco | Título VI – Câmara de compensação e liquidação",
     "level": "Médio",
     "q": "No contexto da câmara, a margem requerida tem como objetivo principal:",
     "options": {
@@ -1985,7 +1985,7 @@
   },
   {
     "id": "Q0125",
-    "theme": "Gestão de risco | Câmara B3 (Estresse)",
+    "theme": "Gestão de risco | Título VI – Câmara de compensação e liquidação (Estresse)",
     "level": "Difícil",
     "q": "No manual de risco da câmara, o teste de estresse de crédito reverso é usado para identificar o nível de confiança a partir do qual a estrutura de salvaguardas deixa de cobrir a maior perda decorrente de:",
     "options": {
@@ -2001,7 +2001,7 @@
   },
   {
     "id": "Q0126",
-    "theme": "Gestão de risco | Câmara B3 (Liquidez)",
+    "theme": "Gestão de risco | Título VI – Câmara de compensação e liquidação (Liquidez)",
     "level": "Difícil",
     "q": "No estresse de liquidez da câmara, o montante necessário para pagamento a credores é comparado com salvaguardas considerando a falha simultânea de:",
     "options": {
@@ -2017,7 +2017,7 @@
   },
   {
     "id": "Q0127",
-    "theme": "Gestão de risco | Câmara B3 (Garantias)",
+    "theme": "Gestão de risco | Título VI – Câmara de compensação e liquidação (Garantias)",
     "level": "Médio",
     "q": "No processo de gerenciamento de inadimplência, por que a câmara trata todas as garantias depositadas pelo participante como passíveis de utilização, independentemente da 'finalidade' atribuída?",
     "options": {
@@ -2193,7 +2193,7 @@
   },
   {
     "id": "Q0138",
-    "theme": "Câmara de compensação e liquidação | Câmara B3",
+    "theme": "Câmara de compensação e liquidação | Título VI – Câmara de compensação e liquidação",
     "level": "Difícil",
     "q": "Na lógica de 'waterfall' de inadimplência, por que o uso de recursos segue camadas (garantias do inadimplente, contribuições, recursos dedicados)?",
     "options": {
@@ -2897,7 +2897,7 @@
   },
   {
     "id": "Q0182",
-    "theme": "Câmara B3 | Redução de risco",
+    "theme": "Título VI – Câmara de compensação e liquidação | Redução de risco",
     "level": "Médio",
     "q": "A multilateralização (netting) na câmara reduz principalmente:",
     "options": {
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "Q0196",
-    "theme": "Câmara B3 | Salvaguardas",
+    "theme": "Título VI – Câmara de compensação e liquidação | Salvaguardas",
     "level": "Difícil",
     "q": "Qual item se encaixa melhor como 'salvaguarda' além de margem, em uma câmara (conceito de camadas)?",
     "options": {
@@ -3133,7 +3133,7 @@
     "answer": "B",
     "explain": "Além de margem, há camadas para eventos extremos (mutualização e recursos dedicados). Isso existe para segurar perdas além do esperado e evitar contágio.",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3"
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação"
   },
   {
     "id": "Q0197",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "Q0244",
-    "theme": "Câmara B3 | CCP",
+    "theme": "Título VI – Câmara de compensação e liquidação | CCP",
     "level": "Médio",
     "q": "Quando a câmara atua como CCP, ela:",
     "options": {
@@ -3901,11 +3901,11 @@
     "answer": "B",
     "explain": "A CCP se interpõe no negócio: o comprador passa a ter a CCP como contraparte, e vice-versa, reduzindo risco bilateral via margem e controles.",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3"
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação"
   },
   {
     "id": "Q0245",
-    "theme": "Câmara B3 | Netting",
+    "theme": "Título VI – Câmara de compensação e liquidação | Netting",
     "level": "Médio",
     "q": "A compensação multilateral (netting) reduz principalmente:",
     "options": {
@@ -3921,7 +3921,7 @@
   },
   {
     "id": "Q0246",
-    "theme": "Câmara B3 | Waterfall",
+    "theme": "Título VI – Câmara de compensação e liquidação | Waterfall",
     "level": "Difícil",
     "q": "Na cascata de recursos (waterfall) em inadimplência, por que se usa primeiro a garantia do inadimplente antes de mutualizar perdas?",
     "options": {
@@ -4364,7 +4364,7 @@
     },
     "answer": "B",
     "explain": "PJ exige clareza de quem pode movimentar, quem decide e quem se beneficia. Sem isso, aumenta risco legal e de PLD.",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes"
   },
   {
@@ -4481,7 +4481,7 @@
   },
   {
     "id": "Q0281",
-    "theme": "Câmara B3 | Risco de contraparte",
+    "theme": "Título VI – Câmara de compensação e liquidação | Risco de contraparte",
     "level": "Médio",
     "q": "Qual mecanismo reduz risco de contraparte para os participantes em mercados com CCP?",
     "options": {
@@ -5729,7 +5729,7 @@
   },
   {
     "id": "Q0058_2",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes",
     "theme": "SPB | Sistemas integrantes",
     "level": "Médio",
@@ -6389,7 +6389,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Clearing B3 (Câmara Única)",
     "level": "Médio",
-    "q": "Acerca da Clearing B3, analise as asserções a seguir e a relação entre elas: I. Os dois maiores segmentos de mercado da B3 usufruem de uma estrutura única e integrada, que conta com regras uniformes de acesso, uma estrutura única de salvaguardas, um único netting multilateral e uma única janela de liquidação. II. A B3 decidiu que a implantação da Câmara integrada se daria por meio da transferência progressiva das atividades das quatro câmaras existentes para a nova estrutura, a Câmara B3 ou Clearing Única. A respeito dessas asserções, assinale a opção correta.",
+    "q": "Acerca da Clearing B3, analise as asserções a seguir e a relação entre elas: I. Os dois maiores segmentos de mercado da B3 usufruem de uma estrutura única e integrada, que conta com regras uniformes de acesso, uma estrutura única de salvaguardas, um único netting multilateral e uma única janela de liquidação. II. A B3 decidiu que a implantação da Câmara integrada se daria por meio da transferência progressiva das atividades das quatro câmaras existentes para a nova estrutura, a Título VI – Câmara de compensação e liquidação ou Clearing Única. A respeito dessas asserções, assinale a opção correta.",
     "options": {
       "A": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
       "B": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
@@ -12049,7 +12049,7 @@
   },
   {
     "id": "Q199543141",
-    "module": "Título VIII – Tributação do mercado financeiro",
+    "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
     "theme": "Ganho de Capital",
     "level": "Fácil",
@@ -12720,7 +12720,7 @@
     "moduleId": "M02",
     "module": "Título VI – Câmara de compensação e liquidação",
     "chapterId": "M02-C05",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Cotização e liquidação",
     "level": "Médio",
     "q": "Quando um fundo realiza a cotização em D+1 e a liquidação em D+4, significa que:",
@@ -13116,7 +13116,7 @@
     "moduleId": "MOD4",
     "module": "Título VI – Câmara de compensação e liquidação",
     "chapterId": "MOD4-ESTRUT",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Cotização e liquidação",
     "level": "Médio",
     "q": "Quando um fundo realiza a cotização em D+1 e a liquidação em D+4, significa que:",
@@ -14406,7 +14406,7 @@
   {
     "id": "Q10197",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Participante de Liquidação",
     "level": "Médio",
     "q": "“O participante que utiliza sua conta Reservas Bancárias ou Conta de Liquidação para enviar ou receber pagamentos referentes aos processos de liquidação com a câmara”. Tal definição refere-se ao:",
@@ -15238,7 +15238,7 @@
   {
     "id": "Q14097",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Risco Operacional",
     "level": "Médio",
     "q": "É o risco que pode ser mitigado pela Câmara por monitoração contínua dos procedimentos, como pela existência de procedimentos de contingência que serão periodicamente testados:",
@@ -15345,7 +15345,7 @@
       "D": "Euro"
     },
     "answer": "C",
-    "explain": "A Câmara B3 aceita diversos ativos como garantia, incluindo ações negociadas na B3, títulos soberanos estrangeiros (como do Tesouro EUA) e moedas estrangeiras (Euro). Cartas fiduciárias bancárias, por serem instrumentos de crédito privado com risco específico do emissor, geralmente não são ativos elegíveis para compor a cesta de garantias da Câmara, que prioriza ativos de alta liquidez e baixo risco."
+    "explain": "A Título VI – Câmara de compensação e liquidação aceita diversos ativos como garantia, incluindo ações negociadas na B3, títulos soberanos estrangeiros (como do Tesouro EUA) e moedas estrangeiras (Euro). Cartas fiduciárias bancárias, por serem instrumentos de crédito privado com risco específico do emissor, geralmente não são ativos elegíveis para compor a cesta de garantias da Câmara, que prioriza ativos de alta liquidez e baixo risco."
   },
   {
     "id": "Q14095",
@@ -15441,7 +15441,7 @@
       "D": "I e III"
     },
     "answer": "C",
-    "explain": "I - INCORRETA. Opções listadas não são consideradas derivativos de encerramento para a Câmara B3 no contexto da metodologia CORE, pois possuem processo de exercício/vencimento distinto.\nII - CORRETA. Contratos a termo podem ser encerrados.\nIII - CORRETA. Contratos de empréstimo de ativos (como ações) podem ser encerrados."
+    "explain": "I - INCORRETA. Opções listadas não são consideradas derivativos de encerramento para a Título VI – Câmara de compensação e liquidação no contexto da metodologia CORE, pois possuem processo de exercício/vencimento distinto.\nII - CORRETA. Contratos a termo podem ser encerrados.\nIII - CORRETA. Contratos de empréstimo de ativos (como ações) podem ser encerrados."
   },
   {
     "id": "Q14099",
@@ -15865,7 +15865,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Falhas e Situações Especiais",
     "level": "Médio",
-    "q": "Sobre falhas e situações especiais:\nI - O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado devedor operacional.\nII - Em caso de inobservância, pelo participante, de quaisquer limites operacionais estabelecidos pela câmara B3, esta pode determinar o encerramento a mercado das posições do participante.\nIII - Os regimes de insolvência civil, concordata, intervenção, falência ou liquidação extrajudicial, a que seja submetido qualquer participante, não afetarão o adimplemento de suas obrigações, assumidas no âmbito das câmaras ou prestadores de serviços de compensação e de liquidação, que serão ultimadas e liquidadas pela câmara ou prestador de serviços, na forma de seus regulamentos.\nÉ correto o que se afirma em:",
+    "q": "Sobre falhas e situações especiais:\nI - O participante que não efetuar a liquidação de sua obrigação, na forma estabelecida pela câmara, em decorrência de insuficiência financeira, poderá ser declarado devedor operacional.\nII - Em caso de inobservância, pelo participante, de quaisquer limites operacionais estabelecidos pela Título VI – Câmara de compensação e liquidação, esta pode determinar o encerramento a mercado das posições do participante.\nIII - Os regimes de insolvência civil, concordata, intervenção, falência ou liquidação extrajudicial, a que seja submetido qualquer participante, não afetarão o adimplemento de suas obrigações, assumidas no âmbito das câmaras ou prestadores de serviços de compensação e de liquidação, que serão ultimadas e liquidadas pela câmara ou prestador de serviços, na forma de seus regulamentos.\nÉ correto o que se afirma em:",
     "options": {
       "A": "I e II.",
       "B": "II e III.",
@@ -15873,7 +15873,7 @@
       "D": "I e III."
     },
     "answer": "C",
-    "explain": "I - CORRETA. Devedor operacional é a declaração aplicada a participantes com insuficiência financeira para liquidar obrigações.\nII - CORRETA. A Câmara B3 tem poderes para fazer o encerramento forçado (close-out) de posições de participantes que violem limites de risco.\nIII - CORRETA. Princípio da continuidade operacional: os processos de falência ou recuperação judicial de um participante não interrompem a liquidação de suas operações no âmbito da Câmara, que segue os regulamentos próprios do mercado, garantindo a estabilidade do sistema."
+    "explain": "I - CORRETA. Devedor operacional é a declaração aplicada a participantes com insuficiência financeira para liquidar obrigações.\nII - CORRETA. A Título VI – Câmara de compensação e liquidação tem poderes para fazer o encerramento forçado (close-out) de posições de participantes que violem limites de risco.\nIII - CORRETA. Princípio da continuidade operacional: os processos de falência ou recuperação judicial de um participante não interrompem a liquidação de suas operações no âmbito da Câmara, que segue os regulamentos próprios do mercado, garantindo a estabilidade do sistema."
   },
   {
     "id": "Q14152",
@@ -16017,7 +16017,7 @@
       "D": "II e III."
     },
     "answer": "B",
-    "explain": "I - CORRETA. A participação no mercado de câmbio da B3 exige prévia autorização do Banco Central para operar em câmbio.\nII - INCORRETA. Corretoras de valores e de câmbio geralmente atuam como Correspondentes (veja questão Q22305), liquidando suas operações através de um Agente de Liquidação (normalmente um banco), não diretamente com a Câmara.\nIII - CORRETA. A B3 oferece um sistema integrado (SISCON) que une negociação, compensação (via Câmara B3 como contraparte central) e liquidação (financeira e de moeda)."
+    "explain": "I - CORRETA. A participação no mercado de câmbio da B3 exige prévia autorização do Banco Central para operar em câmbio.\nII - INCORRETA. Corretoras de valores e de câmbio geralmente atuam como Correspondentes (veja questão Q22305), liquidando suas operações através de um Agente de Liquidação (normalmente um banco), não diretamente com a Câmara.\nIII - CORRETA. A B3 oferece um sistema integrado (SISCON) que une negociação, compensação (via Título VI – Câmara de compensação e liquidação como contraparte central) e liquidação (financeira e de moeda)."
   },
   {
     "id": "Q22326",
@@ -16801,7 +16801,7 @@
       "D": "aos comitentes."
     },
     "answer": "C",
-    "explain": "A Câmara B3 atua como contraparte central apenas perante os Membros de Compensação (MC), que são os participantes diretamente vinculados a ela. Os MCs, por sua vez, são responsáveis perante seus clientes (PNPs, PLs, comitentes)."
+    "explain": "A Título VI – Câmara de compensação e liquidação atua como contraparte central apenas perante os Membros de Compensação (MC), que são os participantes diretamente vinculados a ela. Os MCs, por sua vez, são responsáveis perante seus clientes (PNPs, PLs, comitentes)."
   },
   {
     "id": "Q10042",
@@ -16817,7 +16817,7 @@
     "answer": "B",
     "explain": "O princípio do \"defaulter pays\" estabelece que, em caso de inadimplência, devem ser utilizados prioritariamente os recursos do próprio participante inadimplente (como garantias e contribuições específicas), antes de qualquer mutualização de perdas entre os demais participantes do sistema.",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3"
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação"
   },
   {
     "id": "Q10043_1",
@@ -16977,7 +16977,7 @@
       "D": "O membro de compensação."
     },
     "answer": "B",
-    "explain": "O Banco Liquidante é a instituição financeira (geralmente um banco) que, credenciada junto à Câmara B3, utiliza suas contas no Sistema de Transferência de Reservas (STR) do Bacen para realizar as liquidações financeiras entre a Câmara e os Membros de Compensação."
+    "explain": "O Banco Liquidante é a instituição financeira (geralmente um banco) que, credenciada junto à Título VI – Câmara de compensação e liquidação, utiliza suas contas no Sistema de Transferência de Reservas (STR) do Bacen para realizar as liquidações financeiras entre a Câmara e os Membros de Compensação."
   },
   {
     "id": "Q10053",
@@ -16985,7 +16985,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "Contraparte Central - Membro de Compensação",
     "level": "Médio",
-    "q": "A Câmara B3 assume a posição de contraparte central na liquidação, exclusivamente, perante o:",
+    "q": "A Título VI – Câmara de compensação e liquidação assume a posição de contraparte central na liquidação, exclusivamente, perante o:",
     "options": {
       "A": "comitente.",
       "B": "participante de negociação.",
@@ -16993,7 +16993,7 @@
       "D": "membro de compensação."
     },
     "answer": "D",
-    "explain": "A relação de contraparte central da Câmara B3 é estabelecida apenas com os Membros de Compensação (MC). Estes são os únicos participantes que têm relação direta de débito e crédito com a Câmara. Os demais participantes (PNP, PL, comitentes) se relacionam com os MCs."
+    "explain": "A relação de contraparte central da Título VI – Câmara de compensação e liquidação é estabelecida apenas com os Membros de Compensação (MC). Estes são os únicos participantes que têm relação direta de débito e crédito com a Câmara. Os demais participantes (PNP, PL, comitentes) se relacionam com os MCs."
   },
   {
     "id": "Q10054",
@@ -17009,7 +17009,7 @@
       "D": "devedor operacional."
     },
     "answer": "C",
-    "explain": "No âmbito da Câmara B3, o participante que não cumpre suas obrigações de liquidação por insuficiência financeira é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de encerramento de posições e uso das garantias para cobrir as perdas."
+    "explain": "No âmbito da Título VI – Câmara de compensação e liquidação, o participante que não cumpre suas obrigações de liquidação por insuficiência financeira é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de encerramento de posições e uso das garantias para cobrir as perdas."
   },
   {
     "id": "Q10055",
@@ -17057,7 +17057,7 @@
       "D": "sem garantia com liquidação bruta."
     },
     "answer": "D",
-    "explain": "Na modalidade 'Sem Garantia com Liquidação Bruta', a Câmara B3 apenas fornece o serviço operacional de liquidação (transfere ativos e valores conforme instruções), mas NÃO assume o risco de crédito das partes. A liquidação é bruta (cada operação é liquidada individualmente)."
+    "explain": "Na modalidade 'Sem Garantia com Liquidação Bruta', a Título VI – Câmara de compensação e liquidação apenas fornece o serviço operacional de liquidação (transfere ativos e valores conforme instruções), mas NÃO assume o risco de crédito das partes. A liquidação é bruta (cada operação é liquidada individualmente)."
   },
   {
     "id": "Q10058",
@@ -17157,7 +17157,7 @@
   },
   {
     "id": "Q10064",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes",
     "theme": "PEP (Pessoa Exposta Politicamente)",
     "level": "Médio",
@@ -17654,7 +17654,7 @@
   {
     "id": "QNEW0217",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Infraestrutura | Liquidação líquida",
     "level": "Médio",
     "q": "A liquidação pelo resultado líquido contribui para:",
@@ -17686,7 +17686,7 @@
   {
     "id": "QNEW0219",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Derivativos | Inadimplência",
     "level": "Difícil",
     "q": "Em caso de inadimplência de um participante, a CCP atua para:",
@@ -17905,7 +17905,7 @@
       "D": "Captura"
     },
     "answer": "C",
-    "explain": "A conta Admincon (Administrative Account) é uma conta transitória e genérica, criada automaticamente pelo sistema da Câmara B3 para cada Participante de Negociação Pleno (PNP). Ela é usada como \"conta destino\" para receber operações que, por algum erro ou omissão, não tiveram uma conta específica de comitente indicada durante a negociação. Serve como um depósito temporário para regularização posterior."
+    "explain": "A conta Admincon (Administrative Account) é uma conta transitória e genérica, criada automaticamente pelo sistema da Título VI – Câmara de compensação e liquidação para cada Participante de Negociação Pleno (PNP). Ela é usada como \"conta destino\" para receber operações que, por algum erro ou omissão, não tiveram uma conta específica de comitente indicada durante a negociação. Serve como um depósito temporário para regularização posterior."
   },
   {
     "id": "Q14198",
@@ -17937,7 +17937,7 @@
       "D": "II e III."
     },
     "answer": "D",
-    "explain": "I - INCORRETA. A descrição se refere à CBLC, que hoje é a Câmara B3 (responsável por ações e renda fixa privada), NÃO à Câmara de Derivativos.\nII - CORRETA. A Câmara de Derivativos (antiga BM&F Clearing) foi criada com a BM&F em 1986 como SLC.\nIII - CORRETA. A Câmara de Câmbio foi criada pela BM&F em 2002, junto com o novo SPB.\nIV - INCORRETA. A Câmara de Ativos foi criada pela BM&F em 2001 (não 2004) para títulos públicos. Hoje suas funções estão integradas."
+    "explain": "I - INCORRETA. A descrição se refere à CBLC, que hoje é a Título VI – Câmara de compensação e liquidação (responsável por ações e renda fixa privada), NÃO à Câmara de Derivativos.\nII - CORRETA. A Câmara de Derivativos (antiga BM&F Clearing) foi criada com a BM&F em 1986 como SLC.\nIII - CORRETA. A Câmara de Câmbio foi criada pela BM&F em 2002, junto com o novo SPB.\nIV - INCORRETA. A Câmara de Ativos foi criada pela BM&F em 2001 (não 2004) para títulos públicos. Hoje suas funções estão integradas."
   },
   {
     "id": "Q14201",
@@ -17985,7 +17985,7 @@
       "D": "Com garantia total"
     },
     "answer": "D",
-    "explain": "Na modalidade 'Com Garantia Total', a Câmara B3, por meio do processo de novação, substitui as contrapartes originais, tornando-se compradora de todos os vendedores e vendedora de todos os compradores. Isso significa que ela assume o risco de crédito de ambas as partes, garantindo a liquidação da operação mesmo que uma delas não cumpra sua obrigação."
+    "explain": "Na modalidade 'Com Garantia Total', a Título VI – Câmara de compensação e liquidação, por meio do processo de novação, substitui as contrapartes originais, tornando-se compradora de todos os vendedores e vendedora de todos os compradores. Isso significa que ela assume o risco de crédito de ambas as partes, garantindo a liquidação da operação mesmo que uma delas não cumpra sua obrigação."
   },
   {
     "id": "Q14193",
@@ -18081,7 +18081,7 @@
       "D": "São corretas e complementares"
     },
     "answer": "A",
-    "explain": "Ambas as assertivas estão INCORRETAS ou incompletas conforme as regras da Câmara B3.\nI - Uma conta em situação 'suspensa parcialmente' NÃO pode receber NENHUMA nova operação, mesmo que não aumente a posição. O status 'suspensa parcialmente' impede qualquer nova captura.\nII - Uma conta pode estar 'suspensa' e ainda assim ter operações capturadas em certas condições? A regra geral é que contas suspensas não aceitam novas operações. A redação é muito ampla e não reflete nuances como a 'suspensão inicial' (item anterior). Ambas possuem imprecisões significativas."
+    "explain": "Ambas as assertivas estão INCORRETAS ou incompletas conforme as regras da Título VI – Câmara de compensação e liquidação.\nI - Uma conta em situação 'suspensa parcialmente' NÃO pode receber NENHUMA nova operação, mesmo que não aumente a posição. O status 'suspensa parcialmente' impede qualquer nova captura.\nII - Uma conta pode estar 'suspensa' e ainda assim ter operações capturadas em certas condições? A regra geral é que contas suspensas não aceitam novas operações. A redação é muito ampla e não reflete nuances como a 'suspensão inicial' (item anterior). Ambas possuem imprecisões significativas."
   },
   {
     "id": "Q14207",
@@ -19185,7 +19185,7 @@
       "D": "Inadimplente"
     },
     "answer": "D",
-    "explain": "De acordo com o regulamento da Câmara B3, o termo técnico e específico para um participante que não liquida suas obrigações financeiras por falta de recursos é \"Participante Inadimplente\". Essa declaração desencadeia os procedimentos de gestão de risco da câmara, como a utilização das garantias (margens) depositadas, a liquidação forçada de posições e, se necessário, a mobilização do fundo de garantia. Os termos 'insolvente' e 'concordatário' são conceitos jurídicos mais amplos, enquanto 'devedor operacional' não é uma definição regulamentar padrão na Câmara B3."
+    "explain": "De acordo com o regulamento da Título VI – Câmara de compensação e liquidação, o termo técnico e específico para um participante que não liquida suas obrigações financeiras por falta de recursos é \"Participante Inadimplente\". Essa declaração desencadeia os procedimentos de gestão de risco da câmara, como a utilização das garantias (margens) depositadas, a liquidação forçada de posições e, se necessário, a mobilização do fundo de garantia. Os termos 'insolvente' e 'concordatário' são conceitos jurídicos mais amplos, enquanto 'devedor operacional' não é uma definição regulamentar padrão na Título VI – Câmara de compensação e liquidação."
   },
   {
     "id": "Q1804_2",
@@ -19297,7 +19297,7 @@
       "D": "Inadimplente"
     },
     "answer": "D",
-    "explain": "O Regulamento da Câmara B3 define como \"Participante Inadimplente\" aquele que, por insuficiência financeira, não liquida suas obrigações no prazo e forma estabelecidos. Esse é o termo técnico e correto utilizado no contexto das operações de compensação e liquidação. 'Insolvente' (C) é um termo jurídico mais amplo, mas o termo regulamentar específico da câmara é 'inadimplente'."
+    "explain": "O Regulamento da Título VI – Câmara de compensação e liquidação define como \"Participante Inadimplente\" aquele que, por insuficiência financeira, não liquida suas obrigações no prazo e forma estabelecidos. Esse é o termo técnico e correto utilizado no contexto das operações de compensação e liquidação. 'Insolvente' (C) é um termo jurídico mais amplo, mas o termo regulamentar específico da câmara é 'inadimplente'."
   },
   {
     "id": "Q1255",
@@ -19473,7 +19473,7 @@
       "D": "Avaliação e Cobertura do Risco de Crédito"
     },
     "answer": "C",
-    "explain": "Para garantir a segurança do sistema, a Câmara B3 utiliza um 'Sistema de Risco Intradiário'. Este sistema recalcula, em ciclos pré-definidos ao longo do dia de negociação, a exposição e as necessidades de margem (garantias) de cada participante, considerando as novas operações realizadas e as variações de preço dos ativos. Isso permite uma gestão dinâmica do risco de crédito."
+    "explain": "Para garantir a segurança do sistema, a Título VI – Câmara de compensação e liquidação utiliza um 'Sistema de Risco Intradiário'. Este sistema recalcula, em ciclos pré-definidos ao longo do dia de negociação, a exposição e as necessidades de margem (garantias) de cada participante, considerando as novas operações realizadas e as variações de preço dos ativos. Isso permite uma gestão dinâmica do risco de crédito."
   },
   {
     "id": "Q7382_1",
@@ -19745,7 +19745,7 @@
       "D": "Devedor operacional"
     },
     "answer": "C",
-    "explain": "Repetindo a definição da questão 7235, o termo regulamentar exato utilizado pela Câmara B3 para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Essa definição está contida no regulamento da câmara."
+    "explain": "Repetindo a definição da questão 7235, o termo regulamentar exato utilizado pela Título VI – Câmara de compensação e liquidação para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Essa definição está contida no regulamento da câmara."
   },
   {
     "id": "Q7245_1",
@@ -19809,7 +19809,7 @@
       "D": "I e II, apenas"
     },
     "answer": "B",
-    "explain": "O SELIC, operado pelo Banco Central, é o sistema de custódia e liquidação de **títulos públicos federais**. Suas funções principais são: ser o **custodiante único** desses títulos (II) e realizar o **registro e a liquidação** de operações com eles, inclusive as operações compromissadas do mercado de balcão (III). A função de **contraparte central** (I) na liquidação das operações é desempenhada pela **Câmara B3** (ou CETIP) em seus respectivos mercados, não pelo SELIC. O Banco Central atua como contraparte apenas em operações específicas com ele mesmo."
+    "explain": "O SELIC, operado pelo Banco Central, é o sistema de custódia e liquidação de **títulos públicos federais**. Suas funções principais são: ser o **custodiante único** desses títulos (II) e realizar o **registro e a liquidação** de operações com eles, inclusive as operações compromissadas do mercado de balcão (III). A função de **contraparte central** (I) na liquidação das operações é desempenhada pela **Título VI – Câmara de compensação e liquidação** (ou CETIP) em seus respectivos mercados, não pelo SELIC. O Banco Central atua como contraparte apenas em operações específicas com ele mesmo."
   },
   {
     "id": "Q7171_1",
@@ -20273,7 +20273,7 @@
       "D": "Inadimplente"
     },
     "answer": "D",
-    "explain": "Conforme o regulamento da Câmara B3, o termo técnico e correto para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Esse é o status que desencadeia os procedimentos de cobertura de risco pela câmara (uso de garantias, fundo de garantia, etc.)."
+    "explain": "Conforme o regulamento da Título VI – Câmara de compensação e liquidação, o termo técnico e correto para um participante que não liquida suas obrigações por falta de recursos é \"Participante Inadimplente\". Esse é o status que desencadeia os procedimentos de cobertura de risco pela câmara (uso de garantias, fundo de garantia, etc.)."
   },
   {
     "id": "Q1060",
@@ -20609,7 +20609,7 @@
       "D": "Membro de compensação"
     },
     "answer": "B",
-    "explain": "A definição descreve o **Participante de Liquidação (PL)**. É este participante que mantém contas específicas para liquidação financeira (Reservas Bancárias no Bacen ou Conta de Liquidação) e é responsável pelos fluxos de pagamento e recebimento em nome próprio ou de seus clientes junto à Câmara B3."
+    "explain": "A definição descreve o **Participante de Liquidação (PL)**. É este participante que mantém contas específicas para liquidação financeira (Reservas Bancárias no Bacen ou Conta de Liquidação) e é responsável pelos fluxos de pagamento e recebimento em nome próprio ou de seus clientes junto à Título VI – Câmara de compensação e liquidação."
   },
   {
     "id": "Q7212_2",
@@ -20625,7 +20625,7 @@
       "D": "Devedor operacional"
     },
     "answer": "C",
-    "explain": "Repetindo conceito fundamental: no regulamento da Câmara B3, o termo correto para um participante que não honra suas obrigações financeiras de liquidação é \"Participante Inadimplente\"."
+    "explain": "Repetindo conceito fundamental: no regulamento da Título VI – Câmara de compensação e liquidação, o termo correto para um participante que não honra suas obrigações financeiras de liquidação é \"Participante Inadimplente\"."
   },
   {
     "id": "Q7245_2",
@@ -20849,7 +20849,7 @@
       "D": "Membro de compensação"
     },
     "answer": "D",
-    "explain": "A Câmara B3 atua como **contraparte central** (garantidora) apenas perante os **Membros de Compensação** (também conhecidos como Clearing Members). Estes são os participantes que assumem a responsabilidade final pela liquidação das operações. A câmara não tem relação direta de contraparte com participantes de negociação (PN/P) ou com os comitentes finais."
+    "explain": "A Título VI – Câmara de compensação e liquidação atua como **contraparte central** (garantidora) apenas perante os **Membros de Compensação** (também conhecidos como Clearing Members). Estes são os participantes que assumem a responsabilidade final pela liquidação das operações. A câmara não tem relação direta de contraparte com participantes de negociação (PN/P) ou com os comitentes finais."
   },
   {
     "id": "Q3322_1",
@@ -21217,7 +21217,7 @@
       "D": "Inadimplente"
     },
     "answer": "D",
-    "explain": "Conforme o regulamento da Câmara B3, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de gestão de risco, como a liquidação de garantias."
+    "explain": "Conforme o regulamento da Título VI – Câmara de compensação e liquidação, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de gestão de risco, como a liquidação de garantias."
   },
   {
     "id": "Q7199_2",
@@ -21481,7 +21481,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Conta Brokerage",
     "level": "Difícil",
-    "q": "Conta mantida na Câmara B3 utilizada para possibilitar o vínculo de repasse entre dois participantes (participante de negociação pleno e participantes de liquidação) sem a necessidade de identificar o beneficiário final no participante origem.",
+    "q": "Conta mantida na Título VI – Câmara de compensação e liquidação utilizada para possibilitar o vínculo de repasse entre dois participantes (participante de negociação pleno e participantes de liquidação) sem a necessidade de identificar o beneficiário final no participante origem.",
     "options": {
       "A": "Conta Restrição",
       "B": "Conta Máster",
@@ -21489,7 +21489,7 @@
       "D": "Conta Brokerage"
     },
     "answer": "D",
-    "explain": "A Conta Brokerage é um tipo de conta especial mantida na Câmara B3 que permite a um participante (geralmente uma corretora - participante de negociação) repassar posições para outro participante (geralmente um banco custodiante - participante de liquidação) para fins de liquidação e custódia, sem a obrigação de informar à Câmara a identidade do investidor final cliente da corretora."
+    "explain": "A Conta Brokerage é um tipo de conta especial mantida na Título VI – Câmara de compensação e liquidação que permite a um participante (geralmente uma corretora - participante de negociação) repassar posições para outro participante (geralmente um banco custodiante - participante de liquidação) para fins de liquidação e custódia, sem a obrigação de informar à Câmara a identidade do investidor final cliente da corretora."
   },
   {
     "id": "Q1851",
@@ -21537,7 +21537,7 @@
       "D": "Membro de compensação"
     },
     "answer": "C",
-    "explain": "O Banco Liquidante é um tipo específico de participante da Câmara B3, geralmente uma instituição financeira de grande porte, que é responsável por realizar as transferências de fundos (moeda) para a liquidação financeira das operações, utilizando contas no sistema do Banco Central (como a conta Reservas Bancárias)."
+    "explain": "O Banco Liquidante é um tipo específico de participante da Título VI – Câmara de compensação e liquidação, geralmente uma instituição financeira de grande porte, que é responsável por realizar as transferências de fundos (moeda) para a liquidação financeira das operações, utilizando contas no sistema do Banco Central (como a conta Reservas Bancárias)."
   },
   {
     "id": "Q7216",
@@ -21697,7 +21697,7 @@
       "D": "Membro de compensação"
     },
     "answer": "D",
-    "explain": "A Câmara B3 atua como contraparte central (CCP - Central Counterparty) apenas perante seus Membros de Compensação (também chamados de clearing members). Estes são os participantes habilitados a compensar e liquidar operações na câmara. Os investidores finais (comitentes) têm seus riscos assumidos pelos membros de compensação que os representam."
+    "explain": "A Título VI – Câmara de compensação e liquidação atua como contraparte central (CCP - Central Counterparty) apenas perante seus Membros de Compensação (também chamados de clearing members). Estes são os participantes habilitados a compensar e liquidar operações na câmara. Os investidores finais (comitentes) têm seus riscos assumidos pelos membros de compensação que os representam."
   },
   {
     "id": "Q7207",
@@ -22145,7 +22145,7 @@
       "D": "Inadimplente"
     },
     "answer": "D",
-    "explain": "Conforme o regulamento da Câmara B3, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de gestão de risco, como a liquidação de garantias."
+    "explain": "Conforme o regulamento da Título VI – Câmara de compensação e liquidação, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas é declarado 'inadimplente'. Isso desencadeia procedimentos específicos de gestão de risco, como a liquidação de garantias."
   },
   {
     "id": "Q2007_2",
@@ -22305,7 +22305,7 @@
       "D": "Agente de custódia"
     },
     "answer": "C",
-    "explain": "O Liquidante (ou Banco Liquidante) é o participante da Câmara B3 responsável pela movimentação financeira (pagamentos e recebimentos) relacionados à liquidação de operações, incluindo eventos corporativos como pagamento de dividendos, juros sobre capital próprio, bonificações e reembolsos. Ele utiliza contas no sistema do Banco Central para essas transferências."
+    "explain": "O Liquidante (ou Banco Liquidante) é o participante da Título VI – Câmara de compensação e liquidação responsável pela movimentação financeira (pagamentos e recebimentos) relacionados à liquidação de operações, incluindo eventos corporativos como pagamento de dividendos, juros sobre capital próprio, bonificações e reembolsos. Ele utiliza contas no sistema do Banco Central para essas transferências."
   },
   {
     "id": "Q7236_4",
@@ -22497,7 +22497,7 @@
       "D": "Membro de compensação"
     },
     "answer": "C",
-    "explain": "O Banco Liquidante é um tipo específico de participante da Câmara B3, geralmente uma instituição financeira de grande porte, que é responsável por realizar as transferências de fundos (moeda) para a liquidação financeira das operações, utilizando contas no sistema do Banco Central (como a conta Reservas Bancárias)."
+    "explain": "O Banco Liquidante é um tipo específico de participante da Título VI – Câmara de compensação e liquidação, geralmente uma instituição financeira de grande porte, que é responsável por realizar as transferências de fundos (moeda) para a liquidação financeira das operações, utilizando contas no sistema do Banco Central (como a conta Reservas Bancárias)."
   },
   {
     "id": "Q7212_3",
@@ -22513,7 +22513,7 @@
       "D": "Devedor operacional"
     },
     "answer": "C",
-    "explain": "Conforme o regulamento da Câmara B3, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas, devido a falta de recursos, é declarado 'inadimplente'. Esta declaração aciona os mecanismos de proteção do mercado, como a liquidação das garantias do participante."
+    "explain": "Conforme o regulamento da Título VI – Câmara de compensação e liquidação, o participante que não cumpre suas obrigações financeiras de liquidação no prazo e nas condições estabelecidas, devido a falta de recursos, é declarado 'inadimplente'. Esta declaração aciona os mecanismos de proteção do mercado, como a liquidação das garantias do participante."
   },
   {
     "id": "Q7245_3",
@@ -22641,7 +22641,7 @@
       "D": "Membro de compensação"
     },
     "answer": "D",
-    "explain": "A Câmara B3 atua como contraparte central (CCP - Central Counterparty) apenas perante seus Membros de Compensação (também chamados de clearing members). Estes são os participantes habilitados a compensar e liquidar operações na câmara. Os investidores finais (comitentes) têm seus riscos assumidos pelos membros de compensação que os representam."
+    "explain": "A Título VI – Câmara de compensação e liquidação atua como contraparte central (CCP - Central Counterparty) apenas perante seus Membros de Compensação (também chamados de clearing members). Estes são os participantes habilitados a compensar e liquidar operações na câmara. Os investidores finais (comitentes) têm seus riscos assumidos pelos membros de compensação que os representam."
   },
   {
     "id": "Q3322_2",
@@ -23072,7 +23072,7 @@
     },
     "answer": "B",
     "explain": "A identificação da titularidade assegura a segregação patrimonial e a segurança jurídica das posições mantidas em nome dos investidores.",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Estrutura de contas"
   },
   {
@@ -23120,7 +23120,7 @@
     },
     "answer": "B",
     "explain": "O investidor não residente está sujeito a procedimentos específicos de cadastro e regulamentação própria, sem prejuízo das regras gerais.",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes"
   },
   {
@@ -23168,7 +23168,7 @@
     },
     "answer": "C",
     "explain": "Nas contas coletivas, cabe ao participante intermediário manter controles internos que assegurem a correta identificação das posições individuais dos investidores.",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Estrutura de contas"
   },
   {
@@ -23184,7 +23184,7 @@
     },
     "answer": "B",
     "explain": "Inconsistências cadastrais e estruturais podem gerar riscos legais, operacionais e regulatórios para as instituições e para o mercado.",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes"
   },
   {
@@ -23601,7 +23601,7 @@
     "answer": "B",
     "explain": "As câmaras utilizam garantias, chamadas de margem e outros mecanismos para mitigar riscos de crédito e liquidação.",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3"
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação"
   },
   {
     "id": "QVI007",
@@ -23617,7 +23617,7 @@
     "answer": "B",
     "explain": "A inadimplência pode gerar risco sistêmico se não for adequadamente gerenciada por mecanismos como garantias, fundos de liquidação e planos de contingência.",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3"
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação"
   },
   {
     "id": "QVI008",
@@ -24135,7 +24135,7 @@
   },
   {
     "id": "Q46521",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes",
     "theme": "Dados da conta",
     "level": "Fácil",
@@ -24237,7 +24237,7 @@
   },
   {
     "id": "Q64905",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes",
     "theme": "Dados da entidade e da conta",
     "level": "Médio",
@@ -24356,7 +24356,7 @@
   },
   {
     "id": "Q76092",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta brokerage",
     "level": "Médio",
@@ -24407,7 +24407,7 @@
   },
   {
     "id": "Q84519",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo III – Vínculos",
     "theme": "Repasse",
     "level": "Médio",
@@ -24441,7 +24441,7 @@
   },
   {
     "id": "Q74103",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta normal",
     "level": "Médio",
@@ -24475,7 +24475,7 @@
   },
   {
     "id": "Q75211",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta coletiva",
     "level": "Médio",
@@ -24492,7 +24492,7 @@
   },
   {
     "id": "Q75212",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta coletiva",
     "level": "Difícil",
@@ -24509,7 +24509,7 @@
   },
   {
     "id": "Q75213",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta coletiva",
     "level": "Médio",
@@ -24543,7 +24543,7 @@
   },
   {
     "id": "Q76321",
-    "module": "Título III – Estrutura de Contas",
+    "module": "Título III – Estrutura de contas e cadastro",
     "chapter": "Capítulo II – Tipos de Conta",
     "theme": "Conta erro",
     "level": "Difícil",
@@ -24952,7 +24952,7 @@
   {
     "id": "Q40153",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Default Fund",
     "level": "Difícil",
     "q": "O Fundo de Liquidação (Default Fund) é utilizado:",
@@ -26587,7 +26587,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "CCP perante MC",
     "level": "Médio",
-    "q": "Na estrutura da Câmara B3, o participante que assume a posição de contraparte central, exclusivamente perante os Membros de Compensação (MC), é:",
+    "q": "Na estrutura da Título VI – Câmara de compensação e liquidação, o participante que assume a posição de contraparte central, exclusivamente perante os Membros de Compensação (MC), é:",
     "options": {
       "A": "O Banco Central do Brasil (Bacen).",
       "B": "O Agente de Custódia (AC).",
@@ -26604,7 +26604,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Responsabilidade de liquidação",
     "level": "Difícil",
-    "q": "Um investidor (comitente) opera através de um Participante de Negociação (PN), que, por sua vez, acessa o mercado via um Participante de Negociação Pleno (PNP). A responsabilidade pela liquidação financeira final perante a Câmara B3 é do:",
+    "q": "Um investidor (comitente) opera através de um Participante de Negociação (PN), que, por sua vez, acessa o mercado via um Participante de Negociação Pleno (PNP). A responsabilidade pela liquidação financeira final perante a Título VI – Câmara de compensação e liquidação é do:",
     "options": {
       "A": "Comitente.",
       "B": "Participante de Negociação (PN).",
@@ -26638,7 +26638,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Características do SLM",
     "level": "Médio",
-    "q": "O serviço de liquidação pelo Saldo Líquido Multilateral tem como característica fundamental que a Câmara B3:",
+    "q": "O serviço de liquidação pelo Saldo Líquido Multilateral tem como característica fundamental que a Título VI – Câmara de compensação e liquidação:",
     "options": {
       "A": "Atua apenas como facilitadora, sem assumir risco de contraparte.",
       "B": "Atua como contraparte central garantidora perante os Membros de Compensação.",
@@ -26655,7 +26655,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "Ordem de recursos (waterfall)",
     "level": "Difícil",
-    "q": "O \"Fundo de Liquidação\" mantido pela Câmara B3 é um mecanismo complementar de mitigação de risco. A ordem de utilização de seus recursos, em caso de inadimplência de um MC, é:",
+    "q": "O \"Fundo de Liquidação\" mantido pela Título VI – Câmara de compensação e liquidação é um mecanismo complementar de mitigação de risco. A ordem de utilização de seus recursos, em caso de inadimplência de um MC, é:",
     "options": {
       "A": "B3, MCs adimplentes, MC inadimplente.",
       "B": "MCs adimplentes, B3, MC inadimplente.",
@@ -26672,7 +26672,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Risco de crédito intradiário",
     "level": "Médio",
-    "q": "O risco de crédito intradiário é monitorado pela Câmara B3 através de:",
+    "q": "O risco de crédito intradiário é monitorado pela Título VI – Câmara de compensação e liquidação através de:",
     "options": {
       "A": "Chamadas de margem realizadas apenas ao final do dia.",
       "B": "Sistema de Risco Intradiário, com atualizações constantes e possibilidade de chamadas antecipadas de margem.",
@@ -26689,7 +26689,7 @@
     "chapter": "Capítulo I – Sistema Financeiro Nacional",
     "theme": "Bacen como participante",
     "level": "Médio",
-    "q": "O Banco Central do Brasil, quando atua como participante da Câmara B3, NÃO está sujeito a:",
+    "q": "O Banco Central do Brasil, quando atua como participante da Título VI – Câmara de compensação e liquidação, NÃO está sujeito a:",
     "options": {
       "A": "Supervisão da BSM.",
       "B": "Depósito de garantias.",
@@ -26711,7 +26711,7 @@
       "A": "O Membro de Compensação (MC).",
       "B": "O Participante de Negociação Pleno (PNP).",
       "C": "O Agente de Custódia (AC) do comitente, mediante sua autorização.",
-      "D": "A própria Câmara B3, diretamente na conta do comitente.",
+      "D": "A própria Título VI – Câmara de compensação e liquidação, diretamente na conta do comitente.",
       "E": "O Banco Liquidante."
     },
     "answer": "C",
@@ -26757,7 +26757,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Resultado líquido",
     "level": "Fácil",
-    "q": "A \"Compensação Multilateral\" no âmbito da Câmara B3 resulta em:",
+    "q": "A \"Compensação Multilateral\" no âmbito da Título VI – Câmara de compensação e liquidação resulta em:",
     "options": {
       "A": "Vários resultados brutos a serem liquidados entre múltiplas partes.",
       "B": "Um único resultado líquido (credor ou devedor) entre cada Membro de Compensação e a Câmara.",
@@ -26774,7 +26774,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Finalidade das cotas",
     "level": "Médio",
-    "q": "O \"Fundo de Liquidez\" da Câmara B3 é constituído na forma de um fundo de investimento. Suas cotas são utilizadas exclusivamente para:",
+    "q": "O \"Fundo de Liquidez\" da Título VI – Câmara de compensação e liquidação é constituído na forma de um fundo de investimento. Suas cotas são utilizadas exclusivamente para:",
     "options": {
       "A": "Pagamento de dividendos aos cotistas.",
       "B": "Cobertura de perdas operacionais da B3.",
@@ -26791,7 +26791,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Empréstimo compulsório",
     "level": "Difícil",
-    "q": "Em caso de falha na entrega de um ativo por um comitente na central depositária, a primeira medida da Câmara B3 é:",
+    "q": "Em caso de falha na entrega de um ativo por um comitente na central depositária, a primeira medida da Título VI – Câmara de compensação e liquidação é:",
     "options": {
       "A": "Declarar imediatamente o inadimplemente do comitente.",
       "B": "Liquidar as posições do comitente a mercado.",
@@ -26808,7 +26808,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Emissor de garantias",
     "level": "Fácil",
-    "q": "O participante cadastrado responsável por emitir ativos aceitos pela Câmara B3 como garantia é o:",
+    "q": "O participante cadastrado responsável por emitir ativos aceitos pela Título VI – Câmara de compensação e liquidação como garantia é o:",
     "options": {
       "A": "Depositário do Agronegócio.",
       "B": "Banco Liquidante.",
@@ -26839,7 +26839,7 @@
   {
     "id": "QCAMB3_0016",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Hierarquia de responsabilidade",
     "level": "Difícil",
     "q": "A sequência correta da \"cadeia de responsabilidade\" na liquidação, do nível mais alto para o mais baixo, é:",
@@ -26859,7 +26859,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Exceção à isenção",
     "level": "Médio",
-    "q": "O Bacen, na qualidade de participante da Câmara B3, está isento de todos os seguintes, EXCETO:",
+    "q": "O Bacen, na qualidade de participante da Título VI – Câmara de compensação e liquidação, está isento de todos os seguintes, EXCETO:",
     "options": {
       "A": "Supervisão da BSM.",
       "B": "Depósito de garantias.",
@@ -26876,7 +26876,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Liquidação Bruta vs SLM",
     "level": "Médio",
-    "q": "A \"Liquidação Bruta\" oferecida pela Câmara B3 se diferencia da liquidação pelo Saldo Líquido Multilateral porque:",
+    "q": "A \"Liquidação Bruta\" oferecida pela Título VI – Câmara de compensação e liquidação se diferencia da liquidação pelo Saldo Líquido Multilateral porque:",
     "options": {
       "A": "A Câmara atua como contraparte central garantidora.",
       "B": "Envolve compensação multilateral.",
@@ -26910,7 +26910,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "Competência para aprovar regulamento",
     "level": "Médio",
-    "q": "A autoridade que tem competência para aprovar o Regulamento da Câmara B3 e suas alterações é:",
+    "q": "A autoridade que tem competência para aprovar o Regulamento da Título VI – Câmara de compensação e liquidação e suas alterações é:",
     "options": {
       "A": "Apenas o Conselho de Administração da B3.",
       "B": "Apenas a CVM.",
@@ -26927,7 +26927,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Risco de principal",
     "level": "Fácil",
-    "q": "O \"Mecanismo de Entrega contra Pagamento (DvP)\" é utilizado pela Câmara B3 principalmente para mitigar:",
+    "q": "O \"Mecanismo de Entrega contra Pagamento (DvP)\" é utilizado pela Título VI – Câmara de compensação e liquidação principalmente para mitigar:",
     "options": {
       "A": "O risco de liquidez.",
       "B": "O risco operacional.",
@@ -26978,7 +26978,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Cenários de estresse",
     "level": "Médio",
-    "q": "O cálculo do risco de crédito para chamada de margem (garantias) pela Câmara B3 é baseado em:",
+    "q": "O cálculo do risco de crédito para chamada de margem (garantias) pela Título VI – Câmara de compensação e liquidação é baseado em:",
     "options": {
       "A": "Apenas no valor de mercado estático das posições.",
       "B": "No maior custo potencial de encerramento das posições, considerando cenários de estresse.",
@@ -27046,7 +27046,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Medidas possíveis (exceto)",
     "level": "Difícil",
-    "q": "A inobservância de limites operacionais (ex: limite de risco intradiário) por um participante pode levar a Câmara B3 a determinar, EXCETO:",
+    "q": "A inobservância de limites operacionais (ex: limite de risco intradiário) por um participante pode levar a Título VI – Câmara de compensação e liquidação a determinar, EXCETO:",
     "options": {
       "A": "Encerramento a mercado das posições do participante.",
       "B": "Depósito de garantias adicionais.",
@@ -27065,7 +27065,7 @@
     "level": "Médio",
     "q": "Um Participante de Negociação (PN) opera por intermédio de um PNP. Perante quem o PN é responsável pela liquidação de suas obrigações e de seus comitentes?",
     "options": {
-      "A": "Diretamente perante a Câmara B3.",
+      "A": "Diretamente perante a Título VI – Câmara de compensação e liquidação.",
       "B": "Perante o Participante de Negociação Pleno (PNP) que o representa.",
       "C": "Perante o Membro de Compensação (MC) do PNP.",
       "D": "Perante o Banco Liquidante.",
@@ -27182,11 +27182,11 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Vínculo contratual do comitente",
     "level": "Médio",
-    "q": "O \"Comitente\", na definição da Câmara B3, é obrigado a manter vínculo contratual com:",
+    "q": "O \"Comitente\", na definição da Título VI – Câmara de compensação e liquidação, é obrigado a manter vínculo contratual com:",
     "options": {
       "A": "Apenas com um Agente de Custódia (AC).",
       "B": "Com um PN, PNP ou PL, conforme o caso.",
-      "C": "Diretamente com a Câmara B3.",
+      "C": "Diretamente com a Título VI – Câmara de compensação e liquidação.",
       "D": "Apenas com um Membro de Compensação (MC).",
       "E": "Com o Banco Central do Brasil."
     },
@@ -27284,7 +27284,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Autoridade competente",
     "level": "Médio",
-    "q": "A autoridade competente para apurar e punir infrações ao regulamento da Câmara B3 é:",
+    "q": "A autoridade competente para apurar e punir infrações ao regulamento da Título VI – Câmara de compensação e liquidação é:",
     "options": {
       "A": "A CVM, exclusivamente.",
       "B": "O Bacen, exclusivamente.",
@@ -27298,7 +27298,7 @@
   {
     "id": "QCAMB3_0043",
     "module": "Título VI – Câmara de compensação e liquidação",
-    "chapter": "Capítulo I – Câmara B3",
+    "chapter": "Capítulo I – Título VI – Câmara de compensação e liquidação",
     "theme": "Cobertura de perdas por default",
     "level": "Fácil",
     "q": "O \"Fundo de Liquidação\" é destinado especificamente à cobertura de perdas associadas à inadimplência de:",
@@ -27352,7 +27352,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "Novação e interposição",
     "level": "Médio",
-    "q": "O conceito de \"contraparte central\" assumido pela Câmara B3 significa que, após a compensação:",
+    "q": "O conceito de \"contraparte central\" assumido pela Título VI – Câmara de compensação e liquidação significa que, após a compensação:",
     "options": {
       "A": "Os participantes liquidam diretamente entre si.",
       "B": "A Câmara interpõe-se entre os Membros de Compensação, tornando-se compradora para todo vendedor e vendedora para todo comprador.",
@@ -27518,7 +27518,7 @@
   },
   {
     "id": "QEA_B3_0006",
-    "module": "Cadastro e Contas",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Status de Conta",
     "theme": "Suspensa Parcial",
     "level": "Médio",
@@ -28164,7 +28164,7 @@
   },
   {
     "id": "QCD_B3_0019",
-    "module": "Título III – Estrutura de contas e cadastro",
+    "module": "Título III – Estrutura de contas e cadastro e cadastro",
     "chapter": "Capítulo I – Cadastro de investidores residentes",
     "theme": "Escolha do agente e cadastro",
     "level": "Fácil",
@@ -29018,7 +29018,7 @@
     "chapter": "Capítulo II – Infraestrutura do mercado",
     "theme": "CCP perante quem",
     "level": "Fácil",
-    "q": "A Câmara B3 atua como contraparte central garantidora exclusivamente perante os:",
+    "q": "A Título VI – Câmara de compensação e liquidação atua como contraparte central garantidora exclusivamente perante os:",
     "options": {
       "A": "Comitentes.",
       "B": "Participantes de Negociação (PN).",
@@ -29052,7 +29052,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Defaulters Pay",
     "level": "Médio",
-    "q": "Na estrutura de salvaguardas da Câmara B3, os recursos depositados como garantia que são utilizados apenas em caso de inadimplência do próprio participante contribuinte são conhecidos como:",
+    "q": "Na estrutura de salvaguardas da Título VI – Câmara de compensação e liquidação, os recursos depositados como garantia que são utilizados apenas em caso de inadimplência do próprio participante contribuinte são conhecidos como:",
     "options": {
       "A": "Survivors Pay.",
       "B": "Defaulters Pay.",
@@ -29069,7 +29069,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Fundo de Liquidação",
     "level": "Médio",
-    "q": "O Fundo de Liquidação da Câmara B3 é um exemplo de salvaguarda do tipo:",
+    "q": "O Fundo de Liquidação da Título VI – Câmara de compensação e liquidação é um exemplo de salvaguarda do tipo:",
     "options": {
       "A": "Defaulters Pay (não mutualizável).",
       "B": "Survivors Pay (mutualizável).",
@@ -29167,7 +29167,7 @@
   },
   {
     "id": "QPFMI_B3_0013",
-    "module": "Câmara B3",
+    "module": "Título VI – Câmara de compensação e liquidação",
     "chapter": "Garantias",
     "theme": "Limites de aceitação agregados",
     "level": "Médio",
@@ -29184,7 +29184,7 @@
   },
   {
     "id": "QPFMI_B3_0014",
-    "module": "Câmara B3",
+    "module": "Título VI – Câmara de compensação e liquidação",
     "chapter": "Chamadas de Garantia",
     "theme": "Margem por fechamento",
     "level": "Fácil",
@@ -29201,7 +29201,7 @@
   },
   {
     "id": "QPFMI_B3_0015",
-    "module": "Câmara B3",
+    "module": "Título VI – Câmara de compensação e liquidação",
     "chapter": "Risco Intradiário",
     "theme": "Percentual de utilização",
     "level": "Médio",
@@ -29439,7 +29439,7 @@
   },
   {
     "id": "QPFMI_B3_0029",
-    "module": "Câmara B3",
+    "module": "Título VI – Câmara de compensação e liquidação",
     "chapter": "Risco Intradiário",
     "theme": "Saldo operacional — ação requerida",
     "level": "Fácil",
@@ -29456,7 +29456,7 @@
   },
   {
     "id": "QPFMI_B3_0030",
-    "module": "Câmara B3",
+    "module": "Título VI – Câmara de compensação e liquidação",
     "chapter": "Metodologias de Risco",
     "theme": "Core — cenário prospectivo",
     "level": "Médio",
