@@ -23885,7 +23885,7 @@
       "E": "o número de identificação fiscal do país de origem"
     },
     "answer": "E",
-    "explain": "O cadastro de investidor não residente exige, além do identificador da Receita Federal, a indicação do número de identificação fiscal no país de origem, conforme os procedimentos operacionais da B3.",
+    "explain": "O cadastro de investidor não residente exige, além do identificador da Receita Federal, a indicação do número de identificação fiscal no país de origem, conforme os procedimentos operacionais da B3."
   },
   {
     "id": "QCAMARA003",
@@ -23902,7 +23902,7 @@
       "E": "substituir a necessidade de o participante realizar procedimentos de KYC"
     },
     "answer": "B",
-    "explain": "A individualização das contas garante a segregação patrimonial e a preservação dos direitos do investidor final, especialmente em situações de insolvência do participante intermediário.",
+    "explain": "A individualização das contas garante a segregação patrimonial e a preservação dos direitos do investidor final, especialmente em situações de insolvência do participante intermediário."
   },
   {
     "id": "QSINCAD004",
@@ -23910,7 +23910,7 @@
     "chapter": "Capítulo III – Vínculos Operacionais",
     "theme": "Execução e repasse de operações",
     "level": "Médio",
-    "q": "No Sincad, quando um Participante de Negociação Pleno (PNP) utiliza outro PNP para executar ordens de seus clientes, realizando posteriormente a liquidação em sua própria estrutura, é necessário criar um vínculo do tipo:",
+    "q": "No Sincad, quando um Participante de Negociação Pleno (PNP) utiliza outro PNP para executar ordens de seus clientes, realizando posteriormente a liquidação em sua própria estrutura, é necessário criar um vínculo do tipo:"
     "options": {
       "A": "Consolidação de Margem",
       "B": "Exercício para Opções",
@@ -23932,7 +23932,7 @@
       "A": "Vínculo de Repasse",
       "B": "Vínculo de Conta Máster",
       "C": "Vínculo de Custodiante Opcional",
-      "D": "Vínculo de Consolidação de Margem",
+      "D": "Vínculo de Consolidação de Margem"
       "E": "Vínculo de High Frequency Trader (HFT)"
     },
     "answer": "A",
