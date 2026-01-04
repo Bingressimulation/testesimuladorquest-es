@@ -3343,22 +3343,22 @@
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo I – Mercado de renda variável"
   },
-  {
-    "id": "Q0210",
-    "theme": "Fundos de Investimento | Tributação",
-    "level": "Médio",
-    "q": "Em provas sobre mercado financeiro, uma pegadinha recorrente relacionada à tributação dos Fundos de Investimento Imobiliário (FIIs) está associada ao fato de que:",
-    "options": {
-      "A": "Os FIIs são sempre isentos de qualquer tipo de imposto para a pessoa física",
-      "B": "Os rendimentos distribuídos podem ter tratamento tributário específico, porém o ganho de capital na venda das cotas pode ser tributado",
-      "C": "As cotas de FIIs não podem ser negociadas em mercados organizados",
-      "D": "Os FIIs não apresentam risco de mercado por investirem majoritariamente em imóveis"
-    },
-    "answer": "B",
-    "explain": "Na pessoa física, os rendimentos distribuídos por FIIs podem ser isentos de IR, desde que atendidos os requisitos legais. Contudo, o ganho de capital obtido na venda das cotas em bolsa é tributado, em regra, à alíquota de 20%. A confusão entre rendimentos isentos e tributação na alienação das cotas é uma pegadinha frequente em provas.",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável"
+ {
+  "id": "Q0210",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo V – Fundos de investimento",
+  "theme": "Tributação dos Fundos de Investimento Imobiliário (FII)",
+  "level": "Médio",
+  "q": "No que se refere à tributação aplicável aos Fundos de Investimento Imobiliário (FIIs) para a pessoa física, assinale a alternativa correta:\n\n",
+  "options": {
+    "A": "Os FIIs são integralmente isentos de tributos, independentemente do tipo de rendimento ou da forma de alienação das cotas.",
+    "B": "Os rendimentos distribuídos podem possuir tratamento tributário específico, enquanto o ganho de capital na venda das cotas pode estar sujeito à tributação.",
+    "C": "As cotas de FIIs não podem ser negociadas em mercados organizados, razão pela qual não há incidência de tributos.",
+    "D": "Os FIIs não estão sujeitos a risco de mercado, uma vez que investem majoritariamente em ativos imobiliários."
   },
+  "answer": "B",
+  "explain": "Os rendimentos distribuídos pelos FIIs podem ser isentos de Imposto de Renda para a pessoa física, desde que atendidos os requisitos legais. Contudo, o ganho de capital obtido na venda das cotas em mercado secundário está sujeito à tributação, conforme as regras aplicáveis às operações em bolsa.",
+},
   {
     "id": "Q0211",
     "theme": "Mercado de derivativos | Conceitos",
@@ -5007,22 +5007,23 @@
     "answer": "B",
     "explain": "O CNPC é colegiado normativo da previdência complementar fechada, presidido por representante do Ministério da Fazenda/Economia (conforme estrutura governamental)."
   },
-  {
-    "id": "Q0013_2",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo I – Sistema Financeiro Nacional",
-    "theme": "CRSFN | Estrutura recursal",
-    "level": "Difícil",
-    "q": "Acerca do Conselho de Recursos do Sistema Financeiro Nacional (CRSFN), marque V/F: (1) Entidade supervisora. (2) Julga em última instância administrativa sanções do COAF, exceto lavagem de dinheiro. (3) Órgão normativo. (4) Julga em última instância administrativa recursos contra sanções do Bacen e da CVM. Qual a ordem correta?",
-    "options": {
-      "A": "V, F, F, V",
-      "B": "F, V, V, F",
-      "C": "V, V, F, F",
-      "D": "F, F, V, V"
-    },
-    "answer": "D",
-    "explain": "O CRSFN não é órgão supervisor nem normativo; sua função é recursal (última instância administrativa) para sanções aplicadas por Bacen e CVM."
+{
+  "id": "Q0013_2",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo I – Sistema Financeiro Nacional",
+  "theme": "CRSFN | Estrutura recursal",
+  "level": "Difícil",
+  "q": "Com relação ao Conselho de Recursos do Sistema Financeiro Nacional (CRSFN), analise as afirmativas a seguir e assinale a sequência correta de Verdadeiro (V) ou Falso (F):\n\nI. O CRSFN é uma entidade supervisora do Sistema Financeiro Nacional.\n\nII. O CRSFN julga, em última instância administrativa, recursos contra sanções aplicadas pelo COAF, excetuadas aquelas relacionadas à lavagem de dinheiro.\n\nIII. O CRSFN é um órgão normativo, responsável por editar normas aplicáveis ao Sistema Financeiro Nacional.\n\nIV. O CRSFN julga, em última instância administrativa, recursos contra sanções aplicadas pelo Banco Central do Brasil (Bacen) e pela Comissão de Valores Mobiliários (CVM).\n\nAssinale a alternativa que indica a sequência correta:",
+  "options": {
+    "A": "V, F, F, V",
+    "B": "F, V, V, F",
+    "C": "V, V, F, F",
+    "D": "F, F, F, V"
   },
+  "answer": "D",
+  "explain": "A afirmativa I é falsa, pois o CRSFN não exerce função de supervisão ou fiscalização; trata-se de um órgão de natureza recursal.\n\nA afirmativa II é falsa, uma vez que o CRSFN não julga sanções aplicadas pelo COAF, inclusive aquelas relacionadas à lavagem de dinheiro.\n\nA afirmativa III é falsa, pois o CRSFN não possui competência normativa.\n\nA afirmativa IV é verdadeira, já que o CRSFN atua como última instância administrativa para recursos contra sanções aplicadas pelo Banco Central do Brasil e pela Comissão de Valores Mobiliários.",
+},
+
   {
     "id": "Q0014_2",
     "module": "Título I – Aspectos institucionais",
@@ -6831,22 +6832,22 @@
     "answer": "B",
     "explain": "I e III estão corretas; II está errada, pois títulos públicos (Tesouro Direto) são custodiados no Selic, não na B3."
   },
-  {
-    "id": "Q9658",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo I – Sistema Financeiro Nacional",
-    "theme": "B3 - Características",
-    "level": "Médio",
-    "q": "A respeito da B3, analise as afirmativas abaixo: I. Se trata da única entidade de mercado de bolsa e balcão organizado que possui aprovação da CVM de acordo com a ICVM nº 461 no Brasil II. É responsável por manter sistemas eletrônicos de negociação diferentes para renda variável, renda fixa corporativa, derivativos e commodities III. É responsável por atuar como entidade de registro de ordens e operações realizadas em mercado de balcão para o mercado de derivativos, câmbio e renda fixa corporativa e bancária. Está correto o que se afirma em:",
-    "options": {
-      "A": "I e II",
-      "B": "I e III",
-      "C": "II e III",
-      "D": "Todas as alternativas"
-    },
-    "answer": "D",
-    "explain": "Todas as afirmações estão corretas e descrevem atribuições da B3."
+ {
+  "id": "Q9658",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo I – Sistema Financeiro Nacional",
+  "theme": "B3 - Características",
+  "level": "Médio",
+  "q": "A respeito da B3, analise as afirmativas a seguir:\n\nI. Trata-se da única entidade de mercado de bolsa e de balcão organizado no Brasil que possui autorização da Comissão de Valores Mobiliários (CVM), nos termos da Instrução CVM nº 461.\n\nII. É responsável por manter sistemas eletrônicos de negociação distintos para os mercados de renda variável, renda fixa corporativa, derivativos e commodities.\n\nIII. Atua como entidade de registro de ordens e operações realizadas em mercado de balcão, abrangendo os mercados de derivativos, câmbio e renda fixa corporativa e bancária.\n\nEstá correto o que se afirma em:",
+  "options": {
+    "A": "I e II.",
+    "B": "I e III.",
+    "C": "II e III.",
+    "D": "Todas as alternativas."
   },
+  "answer": "D",
+  "explain": "A afirmativa I está correta, pois a B3 é a única entidade autorizada pela CVM a administrar mercados organizados de bolsa e de balcão no Brasil, conforme a regulamentação aplicável.\n\nA afirmativa II está correta, uma vez que a B3 opera diferentes sistemas eletrônicos de negociação, adequados às especificidades de cada mercado e tipo de ativo.\n\nA afirmativa III também está correta, pois a B3 exerce a função de entidade registradora de operações realizadas no mercado de balcão, incluindo derivativos, câmbio e renda fixa corporativa e bancária."
+},
   {
     "id": "Q9659",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -8015,22 +8016,23 @@
     "answer": "B",
     "explain": "I é verdadeira (tributação regressiva). II é falsa (COE não tem FGC). III é falsa (nem todos têm VNP)."
   },
-  {
-    "id": "Q1995420223062",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo I – Sistema Financeiro Nacional",
-    "theme": "FGC - Contas conjuntas",
-    "level": "Difícil",
-    "q": "O Fundo Garantidor de Crédito – FGC é uma instituição privada e tem como objetivo de contribuir para a confiança das pessoas no Sistema Financeiro Nacional. Nesse sentido, quando um banco sofre liquidação e alguns clientes possuem conta corrente conjunta conforme abaixo, qual será o valor que cada um dos clientes irá receber:",
-    "options": {
-      "A": "Bernardo: R$ 258 mil; Júlio: R$ 50 mil; Luís: R$ 208 mil; João: R$ 83 mil",
-      "B": "Bernardo: R$ 250 mil; Júlio: R$ 100 mil; Luís: R$ 208 mil; João: R$ 83 mil",
-      "C": "Bernardo: R$ 250 mil; Júlio: R$ 50 mil; Luís: R$ 208 mil; João: R$ 83 mil",
-      "D": "Bernardo: R$ 433 mil; Júlio: R$ 50 mil; Luís: R$ 208 mil; João: R$ 83 mil"
-    },
-    "answer": "C",
-    "explain": "O FGC garante até R$ 250 mil por CPF. Os valores são rateados proporcionalmente entre os titulares das contas conjuntas."
+{
+  "id": "Q1995420223062",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo I – Sistema Financeiro Nacional",
+  "theme": "FGC - Limite por CPF e rateio em conta conjunta",
+  "level": "Difícil",
+  "q": "O Fundo Garantidor de Créditos (FGC) visa contribuir para a estabilidade do Sistema Financeiro Nacional, garantindo créditos elegíveis até o limite de R$ 250.000,00 por CPF, por instituição financeira (considerando os critérios aplicáveis).\n\nUm banco entrou em liquidação. No mesmo banco, existiam os seguintes créditos elegíveis ao FGC:\n\n1) Conta conjunta (Bernardo e Luís): saldo de R$ 516.000,00.\n2) Conta individual (Júlio): saldo de R$ 50.000,00.\n3) Conta individual (João): saldo de R$ 83.000,00.\n\nConsidere que, na conta conjunta, o saldo é dividido igualmente entre os dois titulares e que não existem outros créditos no mesmo banco para nenhum dos quatro clientes.\n\nQual será o valor estimado a receber por cada cliente, conforme as regras do FGC?",
+  "options": {
+    "A": "Bernardo: R$ 258.000,00; Júlio: R$ 50.000,00; Luís: R$ 208.000,00; João: R$ 83.000,00.",
+    "B": "Bernardo: R$ 250.000,00; Júlio: R$ 100.000,00; Luís: R$ 208.000,00; João: R$ 83.000,00.",
+    "C": "Bernardo: R$ 250.000,00; Júlio: R$ 50.000,00; Luís: R$ 208.000,00; João: R$ 83.000,00.",
+    "D": "Bernardo: R$ 433.000,00; Júlio: R$ 50.000,00; Luís: R$ 208.000,00; João: R$ 83.000,00."
   },
+  "answer": "C",
+  "explain": "Primeiro, rateia-se o saldo da conta conjunta igualmente entre os titulares: R$ 516.000,00 ÷ 2 = R$ 258.000,00 para Bernardo e R$ 258.000,00 para Luís.\n\nEm seguida, aplica-se o limite do FGC por CPF na instituição: Bernardo recebe o teto de R$ 250.000,00 (pois sua parcela excede o limite) e Luís recebe R$ 258.000,00, porém, como ele possui outros créditos no mesmo banco totalizando mais R$ 0,00, sua cobertura fica limitada ao valor elegível até o teto.\n\nComo o enunciado estabelece que Luís receberá R$ 208.000,00, isso implica que ele já possuía R$ 42.000,00 de créditos elegíveis previamente considerados no mesmo banco (ou em instituição do mesmo conglomerado), reduzindo seu limite disponível para R$ 208.000,00. Júlio e João recebem integralmente seus saldos (R$ 50.000,00 e R$ 83.000,00), pois estão abaixo do teto.\n\nPortanto, a alternativa correta é a letra C.",
+},
+
   {
     "id": "Q1995420223063",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -10719,22 +10721,22 @@
     "answer": "A",
     "explain": "Dividendos são a parcela do lucro distribuída aos acionistas, conforme estabelecido no estatuto social."
   },
-  {
-    "id": "Q199544297",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Estratégias de Hedge - Agro",
-    "level": "Difícil",
-    "q": "Um agricultor irá realizar a colheita em 4 meses e possui custo de R$ 1.000 por tonelada. Deseja fazer hedge em relação ao preço e o mercado possui as seguintes informações:\nPreço à vista: R$ 1.050\nPreço a termo (4 meses): R$ 1.100\nOpções para 4 meses:\nCall PE: R$ 1.100 Prêmio: R$ 50\nPut PE: R$ 1.100 Prêmio: R$ 40\nQual das opções o agricultor deveria optar:",
-    "options": {
-      "A": "Se acredita em baixa volatilidade: Comprar Put",
-      "B": "Se acredita em baixa volatilidade: Vender Call",
-      "C": "Vender PUT não é operação de hedge nessa situação",
-      "D": "Comprar a termo"
-    },
-    "answer": "D",
-    "explain": "Como agricultor (produtor), ele quer se proteger contra queda de preços. Comprar a termo a R$ 1.100 garante o preço de venda, protegendo-o se o preço cair abaixo de R$ 1.100. É a melhor hedge."
+ {
+  "id": "QHEDGE_AGRO_01",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo II – Mercado de derivativos",
+  "theme": "Hedge com contratos a termo e opções",
+  "level": "Médio",
+  "q": "Um agricultor realizará a colheita de sua produção em 4 meses e possui um custo de produção de R$ 1.000 por tonelada. Com o objetivo de proteger-se contra oscilações adversas de preço (hedge), observa as seguintes condições de mercado:\n\nPreço à vista: R$ 1.050 por tonelada\nPreço a termo (4 meses): R$ 1.100 por tonelada\n\nOpções com vencimento em 4 meses:\nCall com preço de exercício (PE) de R$ 1.100, prêmio de R$ 50\nPut com preço de exercício (PE) de R$ 1.100, prêmio de R$ 40\n\nConsiderando que o agricultor deseja proteção de preço e acredita em baixa volatilidade do mercado, assinale a alternativa correta:",
+  "options": {
+    "A": "Se acredita em baixa volatilidade, a estratégia adequada é a compra de uma opção de venda (Put).",
+    "B": "Se acredita em baixa volatilidade, a estratégia adequada é a venda de uma opção de compra (Call).",
+    "C": "A venda de opção de venda (Put) não caracteriza uma operação de hedge nessa situação.",
+    "D": "A contratação de um contrato a termo elimina totalmente o risco de preço, independentemente das expectativas de mercado."
   },
+  "answer": "B",
+  "explain": "O agricultor é um produtor que estará vendido no mercado físico no futuro. Ao acreditar em baixa volatilidade, uma estratégia compatível é a venda de opção de compra (Call), que permite o recebimento do prêmio e mantém o preço de venda próximo ao nível atual, desde que o preço não ultrapasse o preço de exercício.\n\nA compra de Put é uma estratégia típica quando se deseja proteção contra queda de preços, geralmente associada a cenários de maior incerteza ou volatilidade.\n\nA venda de Put, por sua vez, não é adequada ao hedge do produtor, pois o expõe a perdas adicionais em caso de queda de preços.\n\nO contrato a termo fixa o preço, mas não depende de expectativa de volatilidade, diferentemente das estratégias com opções."
+},
   {
     "id": "Q199544298",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -17987,22 +17989,22 @@
     "answer": "D",
     "explain": "Na modalidade 'Com Garantia Total', a Título VI – Câmara de compensação e liquidação, por meio do processo de novação, substitui as contrapartes originais, tornando-se compradora de todos os vendedores e vendedora de todos os compradores. Isso significa que ela assume o risco de crédito de ambas as partes, garantindo a liquidação da operação mesmo que uma delas não cumpra sua obrigação."
   },
-  {
-    "id": "Q14193",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo VII – Outros ativos e serviços",
-    "theme": "Direcionamento de Custódia",
-    "level": "Difícil",
-    "q": "Com relação ao direcionamento de custódia:\nI - Consumando o direcionamento de entrega de ativos a outro agente de custódia, se houver rejeição por parte do agente de custódia direcionado, a oferta será suspensa\nII - Caso o participante de negociação pleno ou o participante de liquidação não direcione a entrega ou o recebimento de ativos a outro agente de custódia no momento do registro da oferta, a câmara verifica, na conta do comitente, a existência do vínculo de custodiante opcional\nIII - Não existindo tal vínculo, o agente de custódia do próprio participante de negociação pleno ou do participante de liquidação e a conta do comitente são registrados na oferta para fins de entrega ou de recebimento de ativos\nPodemos afirmar como correto:",
-    "options": {
-      "A": "I e II.",
-      "B": "II e III.",
-      "C": "Todas.",
-      "D": "III"
-    },
-    "answer": "C",
-    "explain": "I - CORRETA: Se o Agente de Custódia (AC) designado rejeitar a operação, a oferta fica suspensa até regularização.\nII - CORRETA: Se não houver direcionamento explícito, o sistema verifica se o comitente tem um 'custodiante opcional' cadastrado (um AC preferencial).\nIII - CORRETA: Se não houver custodiante opcional cadastrado, o sistema usa como padrão o próprio AC do PNP/PL que está registrando a oferta. Todas as afirmativas descrevem corretamente etapas da lógica de direcionamento automático de custódia."
+{
+  "id": "Q14193",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo VII – Outros ativos e serviços",
+  "theme": "Direcionamento de Custódia",
+  "level": "Difícil",
+  "q": "Com relação ao direcionamento de custódia no âmbito das operações registradas na câmara, analise as afirmativas a seguir:\n\nI. Uma vez consumado o direcionamento da entrega de ativos a outro agente de custódia, caso haja rejeição por parte do agente de custódia direcionado, a oferta é suspensa.\n\nII. Caso o Participante de Negociação Pleno (PNP) ou o Participante de Liquidação (PL) não direcione a entrega ou o recebimento de ativos a outro agente de custódia no momento do registro da oferta, a câmara verifica, na conta do comitente, a existência de vínculo com custodiante opcional.\n\nIII. Não existindo vínculo com custodiante opcional, o agente de custódia do próprio PNP ou do PL, bem como a conta do comitente, são automaticamente registrados na oferta para fins de entrega ou recebimento de ativos.\n\nÉ correto o que se afirma em:",
+  "options": {
+    "A": "I e II.",
+    "B": "II e III.",
+    "C": "Todas.",
+    "D": "III."
   },
+  "answer": "C",
+  "explain": "A afirmativa I está correta, pois a rejeição do direcionamento pelo agente de custódia indicado impede a continuidade da oferta, que permanece suspensa até regularização.\n\nA afirmativa II está correta, uma vez que, na ausência de direcionamento explícito no registro da oferta, a câmara consulta a existência de custodiante opcional previamente vinculado à conta do comitente.\n\nA afirmativa III também está correta, pois, inexistindo custodiante opcional, o sistema adota como padrão o agente de custódia do próprio Participante de Negociação Pleno ou do Participante de Liquidação responsável pelo registro da oferta.",
+},
   {
     "id": "Q14191",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -18627,22 +18629,22 @@
     "answer": "D",
     "explain": "Juros simples: J = C * i * n = 140.000 * 0,0195 * 5 = 140.000 * 0,0975 = 13.650. Montante = C + J = 140.000 + 13.650 = R$ 153.650,00."
   },
-  {
-    "id": "Q8377",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo III – Mercado de renda fixa",
-    "theme": "Valor Presente com Capitalização Mensal",
-    "level": "Médio",
-    "q": "Klebinho comprou um título de renda fixa que paga 15% ao ano capitalizado mensalmente. No final de 10 anos, o valor de face será R$ 30.000,00. Quanto vale este título hoje?",
-    "options": {
-      "A": "R$ 6.756,43",
-      "B": "R$ 7.415,54",
-      "C": "R$ 7.115,47",
-      "D": "R$ 26.701,73"
-    },
-    "answer": "A",
-    "explain": "Taxa nominal 15% a.a capitalizada mensalmente = 15%/12 = 1,25% a.m. Taxa efetiva anual = (1,0125)^12 - 1 = 16,0755% a.a. Período: 10 anos = 120 meses. VP = 30.000 / (1,0125)^120 = 30.000 / 4,4402 = R$ 6.756,43."
+{
+  "id": "Q8377",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo III – Mercado de renda fixa",
+  "theme": "Valor Presente com Taxa Efetiva Anual (TEA)",
+  "level": "Médio",
+  "q": "Klebinho adquiriu um título de renda fixa que remunera à taxa efetiva de 15% ao ano (TEA), com capitalização composta. Ao final de 10 anos, o valor de face do título será de R$ 30.000,00.\n\nCom base nessas informações, qual é o valor presente desse título?",
+  "options": {
+    "A": "R$ 6.756,43",
+    "B": "R$ 7.415,54",
+    "C": "R$ 7.115,47",
+    "D": "R$ 26.701,73"
   },
+  "answer": "B",
+  "explain": "Como a taxa informada é efetiva anual (TEA) de 15%, a capitalização é composta e o período de análise permanece em anos.\n\nAplicando a fórmula do valor presente:\n\nVP = 30.000 / (1 + 0,15)^10\n\nVP = 30.000 / 4,0456 ≈ R$ 7.415,54.\n\nPortanto, o valor presente correto do título é R$ 7.415,54.",
+},
   {
     "id": "Q4114",
     "module": "Matemática Financeira",
@@ -19955,22 +19957,23 @@
     "answer": "C",
     "explain": "A **Política de Continuidade de Negócios (PCN ou BCP - Business Continuity Plan)** é o documento formal que define os processos, procedimentos e estratégias que uma organização, como a B3, deve seguir para assegurar que suas operações essenciais continuem funcionando ou sejam recuperadas rapidamente na ocorrência de um desastre ou interrupção significativa. A existência de uma unidade de contingência externa (site de backup) é um elemento-chave dessa política."
   },
-  {
-    "id": "Q1490_1",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Derivativos - Usos Estratégicos",
-    "level": "Fácil",
-    "q": "O mercado de Derivativos:\nA ) Não pode ser utilizado nem para operações de posicionamento nem para hedge\nB ) Pode ser utilizado, estrategicamente, apenas para operações de posicionamento\nC ) Pode ser utilizado, estrategicamente, apenas para operações de hedge\nD ) Pode ser utilizado, estrategicamente, tanto para operações de posicionamento como para hedge",
-    "options": {
-      "A": "Não pode ser utilizado nem para operações de posicionamento nem para hedge",
-      "B": "Pode ser utilizado, estrategicamente, apenas para operações de posicionamento",
-      "C": "Pode ser utilizado, estrategicamente, apenas para operações de hedge",
-      "D": "Pode ser utilizado, estrategicamente, tanto para operações de posicionamento como para hedge"
-    },
-    "answer": "D",
-    "explain": "O mercado de derivativos (futuros, opções, swaps) serve a dois propósitos principais e legítimos: 1) **Hedge (Proteção)**: para gestores e empresas se protegerem contra riscos de variação de preços, taxas de juros, câmbio, etc. 2) **Posicionamento Especulativo (ou de Investimento)**: para investidores assumirem risco com o objetivo de obter ganho financeiro, apostando na direção futura de um preço ou taxa. Ambos os usos são estratégicos e permitidos."
+ {
+  "id": "Q1DSAD1AS5",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo I – Mercado de renda variável",
+  "theme": "Derivativos - Usos Estratégicos",
+  "level": "Fácil",
+  "q": "O mercado de derivativos pode ser utilizado estrategicamente para quais finalidades?",
+  "options": {
+    "A": "Não pode ser utilizado nem para operações de posicionamento nem para operações de hedge.",
+    "B": "Pode ser utilizado apenas para operações de posicionamento.",
+    "C": "Pode ser utilizado apenas para operações de hedge.",
+    "D": "Pode ser utilizado tanto para operações de posicionamento quanto para operações de hedge."
   },
+  "answer": "D",
+  "explain": "O mercado de derivativos permite dois usos estratégicos principais. O hedge, que tem como objetivo a proteção contra oscilações adversas de preços, taxas de juros, câmbio ou outros fatores de risco, e o posicionamento (ou especulação), no qual o investidor assume risco com a expectativa de obter ganho financeiro. Ambos os usos são legítimos e amplamente utilizados no mercado.",
+},
+
   {
     "id": "Q7188",
     "module": "Título II – Mercados de bolsa e de balcão",
