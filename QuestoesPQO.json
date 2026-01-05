@@ -18641,7 +18641,7 @@
     "D": "R$ 26.701,73"
   },
   "answer": "B",
-  "explain": "Como a taxa informada é efetiva anual (TEA) de 15%, a capitalização é composta e o período de análise permanece em anos.\n\nAplicando a fórmula do valor presente:\n\nVP = 30.000 / (1 + 0,15)^10\n\nVP = 30.000 / 4,0456 ≈ R$ 7.415,54.\n\nPortanto, o valor presente correto do título é R$ 7.415,54.",
+  "explain": "Como a taxa informada é efetiva anual (TEA) de 15%, a capitalização é composta e o período de análise permanece em anos.\n\nAplicando a fórmula do valor presente:\n\nVP = 30.000 / (1 + 0,15)^10\n\nVP = 30.000 / 4,0456 ≈ R$ 7.415,54.\n\nPortanto, o valor presente correto do título é R$ 7.415,54."
 },
   {
     "id": "Q4114",
