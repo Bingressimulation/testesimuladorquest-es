@@ -8029,9 +8029,8 @@
     "D": "Bernardo: R$ 433.000,00; Júlio: R$ 50.000,00; Luís: R$ 208.000,00; João: R$ 83.000,00."
   },
   "answer": "C",
-  "explain": "Primeiro, rateia-se o saldo da conta conjunta igualmente entre os titulares: R$ 516.000,00 ÷ 2 = R$ 258.000,00 para Bernardo e R$ 258.000,00 para Luís.\n\nEm seguida, aplica-se o limite do FGC por CPF na instituição: Bernardo recebe o teto de R$ 250.000,00 (pois sua parcela excede o limite) e Luís recebe R$ 258.000,00, porém, como ele possui outros créditos no mesmo banco totalizando mais R$ 0,00, sua cobertura fica limitada ao valor elegível até o teto.\n\nComo o enunciado estabelece que Luís receberá R$ 208.000,00, isso implica que ele já possuía R$ 42.000,00 de créditos elegíveis previamente considerados no mesmo banco (ou em instituição do mesmo conglomerado), reduzindo seu limite disponível para R$ 208.000,00. Júlio e João recebem integralmente seus saldos (R$ 50.000,00 e R$ 83.000,00), pois estão abaixo do teto.\n\nPortanto, a alternativa correta é a letra C.",
+  "explain": "Primeiro, rateia-se o saldo da conta conjunta igualmente entre os titulares: R$ 516.000,00 ÷ 2 = R$ 258.000,00 para Bernardo e R$ 258.000,00 para Luís.\n\nEm seguida, aplica-se o limite do FGC por CPF na instituição: Bernardo recebe o teto de R$ 250.000,00 (pois sua parcela excede o limite) e Luís recebe R$ 258.000,00, porém, como ele possui outros créditos no mesmo banco totalizando mais R$ 0,00, sua cobertura fica limitada ao valor elegível até o teto.\n\nComo o enunciado estabelece que Luís receberá R$ 208.000,00, isso implica que ele já possuía R$ 42.000,00 de créditos elegíveis previamente considerados no mesmo banco (ou em instituição do mesmo conglomerado), reduzindo seu limite disponível para R$ 208.000,00. Júlio e João recebem integralmente seus saldos (R$ 50.000,00 e R$ 83.000,00), pois estão abaixo do teto.\n\nPortanto, a alternativa correta é a letra C."
 },
-
   {
     "id": "Q1995420223063",
     "module": "Título II – Mercados de bolsa e de balcão",
