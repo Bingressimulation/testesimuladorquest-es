@@ -29518,7 +29518,7 @@
     "D": "I, II e III."
   },
   "answer": "C",
-  "explain": "A B3 atua também em balcão organizado, tornando a afirmativa I incorreta. As afirmativas II e III estão corretas.",
+  "explain": "A B3 atua também em balcão organizado, tornando a afirmativa I incorreta. As afirmativas II e III estão corretas."
 },
 {
   "id": "QK7A921",
@@ -29534,7 +29534,7 @@
     "D": "V – V – F"
   },
   "answer": "B",
-  "explain": "PNP acessa negociação (V). O AC não é o único com acesso à depositária (F). O PL não negocia, mas pode liquidar operações próprias e de terceiros (V).",
+  "explain": "PNP acessa negociação (V). O AC não é o único com acesso à depositária (F). O PL não negocia, mas pode liquidar operações próprias e de terceiros (V)."
 },
 {
   "id": "QZP44M1",
@@ -29550,7 +29550,7 @@
     "D": "A Clearing B3 (Clearing Única) unificou câmaras, permitindo maior eficiência na alocação de capital e no uso de garantias."
   },
   "answer": "C",
-  "explain": "Co-location pressupõe servidores instalados no datacenter da B3 e é utilizada por participantes institucionais, não por pessoas físicas.",
+  "explain": "Co-location pressupõe servidores instalados no datacenter da B3 e é utilizada por participantes institucionais, não por pessoas físicas."
 },
 {
   "id": "QBSM908",
@@ -29566,7 +29566,7 @@
     "D": "Seu Mecanismo de Ressarcimento de Prejuízos (MRP) cobre qualquer tipo de investimento, incluindo CDBs e Tesouro Direto."
   },
   "answer": "B",
-  "explain": "A BSM é uma entidade autorreguladora com autonomia e atua no monitoramento integral do mercado. Não realiza liquidação nem cobre produtos bancários.",
+  "explain": "A BSM é uma entidade autorreguladora com autonomia e atua no monitoramento integral do mercado. Não realiza liquidação nem cobre produtos bancários."
 },
 {
   "id": "QDV390X",
@@ -29582,7 +29582,7 @@
     "D": "É aplicável apenas em mercados de balcão não organizado."
   },
   "answer": "C",
-  "explain": "O DVP vincula a entrega do ativo ao pagamento, reduzindo o risco de principal nas liquidações.",
+  "explain": "O DVP vincula a entrega do ativo ao pagamento, reduzindo o risco de principal nas liquidações."
 },
 {
   "id": "QMRP712",
@@ -29598,7 +29598,7 @@
     "D": "É aplicável a prejuízos com títulos de renda fixa privada, como CDBs e debêntures."
   },
   "answer": "C",
-  "explain": "O MRP cobre operações em bolsa e balcão organizado. O limite não é de R$ 250 mil e não abrange produtos bancários.",
+  "explain": "O MRP cobre operações em bolsa e balcão organizado. O limite não é de R$ 250 mil e não abrange produtos bancários."
 },
 {
   "id": "QSEL441",
@@ -29614,7 +29614,7 @@
     "D": "Opera com liquidação líquida, onde as obrigações são compensadas multilateralmente."
   },
   "answer": "C",
-  "explain": "O Selic é o sistema de custódia e liquidação dos títulos públicos federais, operando com liquidação bruta.",
+  "explain": "O Selic é o sistema de custódia e liquidação dos títulos públicos federais, operando com liquidação bruta."
 },
 {
   "id": "QCCP601",
@@ -29630,7 +29630,7 @@
     "D": "I, II e III."
   },
   "answer": "B",
-  "explain": "A CCP reduz, mas não elimina totalmente o risco de crédito. As funções I e II são corretas.",
+  "explain": "A CCP reduz, mas não elimina totalmente o risco de crédito. As funções I e II são corretas."
 },
 {
   "id": "QINF882",
@@ -29646,7 +29646,7 @@
     "D": "Supervisão de clubes de investimento."
   },
   "answer": "B",
-  "explain": "A B3 oferece soluções de registro de garantias, como o Sistema Nacional de Gravames, atendendo exigências regulatórias do Bacen.",
+  "explain": "A B3 oferece soluções de registro de garantias, como o Sistema Nacional de Gravames, atendendo exigências regulatórias do Bacen."
 },
 {
   "id": "QMC722B",
@@ -29662,7 +29662,7 @@
     "D": "Apenas os bancos comerciais de grande porte."
   },
   "answer": "C",
-  "explain": "Podem ser Membros de Compensação instituições financeiras autorizadas, como bancos e corretoras habilitadas.",
+  "explain": "Podem ser Membros de Compensação instituições financeiras autorizadas, como bancos e corretoras habilitadas."
 },
 {
   "id": "QARR901",
@@ -29678,7 +29678,7 @@
     "D": "V – V – V"
   },
   "answer": "A",
-  "explain": "A CIP não é arranjo de pagamento de cartões, mas uma infraestrutura de liquidação e compensação.",
+  "explain": "A CIP não é arranjo de pagamento de cartões, mas uma infraestrutura de liquidação e compensação."
 },
 {
   "id": "QDEP333",
@@ -29694,7 +29694,7 @@
     "D": "A atuação como contraparte central garantidora para operações a termo."
   },
   "answer": "D",
-  "explain": "A atuação como contraparte central é função da clearing, não da central depositária.",
+  "explain": "A atuação como contraparte central é função da clearing, não da central depositária."
 },
 {
   "id": "QCLR810",
@@ -29710,7 +29710,7 @@
     "D": "I, II e III."
   },
   "answer": "D",
-  "explain": "Todos os itens refletem benefícios diretos da unificação das câmaras na Clearing B3.",
+  "explain": "Todos os itens refletem benefícios diretos da unificação das câmaras na Clearing B3."
 },
 {
   "id": "QPN448A",
@@ -29726,7 +29726,7 @@
     "D": "É responsável pela custódia definitiva dos ativos de seus clientes."
   },
   "answer": "B",
-  "explain": "O PN acessa o mercado por meio de um PNP e não possui acesso direto à negociação.",
+  "explain": "O PN acessa o mercado por meio de um PNP e não possui acesso direto à negociação."
 },
 {
   "id": "QBSM771",
@@ -29742,7 +29742,7 @@
     "D": "Aplicação de medidas disciplinares, como cartas de censura."
   },
   "answer": "C",
-  "explain": "A BSM não executa liquidação financeira, função atribuída às clearings.",
+  "explain": "A BSM não executa liquidação financeira, função atribuída às clearings."
 },
 {
   "id": "QEXC990",
@@ -29758,7 +29758,7 @@
     "D": "É incorreta, pois essa é a definição de uma central depositária."
   },
   "answer": "A",
-  "explain": "A definição está correta e descreve adequadamente a função principal de uma bolsa.",
+  "explain": "A definição está correta e descreve adequadamente a função principal de uma bolsa."
 },
 {
   "id": "QCOMPE4",
@@ -29774,7 +29774,7 @@
     "D": "A Compe deixou de integrar o SPB."
   },
   "answer": "A",
-  "explain": "A regulamentação passou a diferenciar a compensação de cheques por valor, otimizando o processo.",
+  "explain": "A regulamentação passou a diferenciar a compensação de cheques por valor, otimizando o processo."
 },
 {
   "id": "QBLC908",
@@ -29790,7 +29790,7 @@
     "D": "Financiamento direto ao consumidor para aquisição de imóveis."
   },
   "answer": "B",
-  "explain": "O Balcão B3 concentra atividades de registro, negociação e liquidação de instrumentos de renda fixa e derivativos OTC.",
+  "explain": "O Balcão B3 concentra atividades de registro, negociação e liquidação de instrumentos de renda fixa e derivativos OTC."
 },
   {
   "id": "QSA0145",
@@ -29806,8 +29806,8 @@
     "D": "Registrar – se junto ao Banco Central do Brasil"
   },
   "answer": "A",
-  "explain": "Antes de operar no mercado brasileiro, o investidor não residente deve constituir representantes no Brasil (ex.: representante legal e fiscal, além de estrutura operacional via instituição participante autorizada). ANBIMA não é órgão de registro de investidor. Registro no Bacen pode existir em obrigações cambiais/ROF/registro de capitais, mas não substitui a obrigação central de representação para atuar no mercado de valores mobiliários. A alternativa C descreve uma condição específica/derivada, mas a obrigação-base e mais geral é a constituição de representantes.",
-},
+  "explain": "Antes de operar no mercado brasileiro, o investidor não residente deve constituir representantes no Brasil (ex.: representante legal e fiscal, além de estrutura operacional via instituição participante autorizada). ANBIMA não é órgão de registro de investidor. Registro no Bacen pode existir em obrigações cambiais/ROF/registro de capitais, mas não substitui a obrigação central de representação para atuar no mercado de valores mobiliários. A alternativa C descreve uma condição específica/derivada, mas a obrigação-base e mais geral é a constituição de representantes."
+  },
 {
   "id": "QMX82A9",
   "module": "Título I – Aspectos institucionais",
@@ -29822,7 +29822,7 @@
     "D": "O comércio e a indústria de modo geral"
   },
   "answer": "A",
-  "explain": "As sociedades de crédito, financiamento e investimento (as “financeiras”) têm como atividade típica o financiamento ao consumo, especialmente bens duráveis, via modalidades como CDC. Eurobonds e debêntures são instrumentos de mercado de capitais e não caracterizam a atribuição típica dessas instituições. “Comércio e indústria de modo geral” é amplo e não define a função específica das financeiras.",
+  "explain": "As sociedades de crédito, financiamento e investimento (as “financeiras”) têm como atividade típica o financiamento ao consumo, especialmente bens duráveis, via modalidades como CDC. Eurobonds e debêntures são instrumentos de mercado de capitais e não caracterizam a atribuição típica dessas instituições. “Comércio e indústria de modo geral” é amplo e não define a função específica das financeiras."
 },
 {
   "id": "Q9B3X72",
@@ -29838,7 +29838,7 @@
     "D": "Ministério da Economia, Comissão de Valores Mobiliários (CVM), Conselho Nacional de Seguros Privados (CNSP)."
   },
   "answer": "B",
-  "explain": "Órgãos executores/supervisores são aqueles que executam a regulação e fiscalização: Bacen, CVM, SUSEP e Previc. Já CMN e CNSP são tipicamente órgãos normativos (definem diretrizes). Alternativas que misturam normativos e executores ficam incorretas.",
+  "explain": "Órgãos executores/supervisores são aqueles que executam a regulação e fiscalização: Bacen, CVM, SUSEP e Previc. Já CMN e CNSP são tipicamente órgãos normativos (definem diretrizes). Alternativas que misturam normativos e executores ficam incorretas."
 },
 {
   "id": "QK7A921",
@@ -29854,7 +29854,7 @@
     "D": "Instituição Financeira onde o cliente possua a conta"
   },
   "answer": "B",
-  "explain": "O depósito compulsório é recolhido pelas instituições financeiras e mantido/recebido pelo Banco Central do Brasil (Bacen), sendo instrumento de controle de liquidez. Copom define a meta da Selic, e o CMN é órgão normativo, não o “recebedor” operacional do compulsório.",
+  "explain": "O depósito compulsório é recolhido pelas instituições financeiras e mantido/recebido pelo Banco Central do Brasil (Bacen), sendo instrumento de controle de liquidez. Copom define a meta da Selic, e o CMN é órgão normativo, não o “recebedor” operacional do compulsório."
 },
 {
   "id": "QZP44M1",
@@ -29870,7 +29870,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "B",
-  "explain": "I é correta: para ofertar Tesouro Direto, a instituição precisa estar habilitada na infraestrutura aplicável (agente/custodiante no arranjo operacional do programa). II é incorreta: títulos públicos do Tesouro Direto têm estrutura própria de custódia/contas distinta da conta de depósito usada para ações e outros valores mobiliários. III é considerada correta no contexto didático: a B3 opera a infraestrutura do Tesouro Direto integrando processos (plataforma/serviços operacionais), ainda que a custódia/liquidação envolva sistemas do ecossistema de títulos públicos.",
+  "explain": "I é correta: para ofertar Tesouro Direto, a instituição precisa estar habilitada na infraestrutura aplicável (agente/custodiante no arranjo operacional do programa). II é incorreta: títulos públicos do Tesouro Direto têm estrutura própria de custódia/contas distinta da conta de depósito usada para ações e outros valores mobiliários. III é considerada correta no contexto didático: a B3 opera a infraestrutura do Tesouro Direto integrando processos (plataforma/serviços operacionais), ainda que a custódia/liquidação envolva sistemas do ecossistema de títulos públicos."
 },
 {
   "id": "QBSM908",
@@ -29886,7 +29886,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "C",
-  "explain": "I é incorreta: liquidação bruta em tempo real (LBTR/RTGS) é característica típica de sistemas como o STR do Bacen; a B3 opera clearings com modelos de compensação/gerenciamento de risco. II é considerada correta no sentido de que a clearing apura obrigações e liquida pelo resultado (net settlement), embora o termo técnico usual seja compensação multilateral. III é correta: a infraestrutura de pós-negociação da B3 envolve funções de SSS e CCP, com novação/garantias/salvaguardas.",
+  "explain": "I é incorreta: liquidação bruta em tempo real (LBTR/RTGS) é característica típica de sistemas como o STR do Bacen; a B3 opera clearings com modelos de compensação/gerenciamento de risco. II é considerada correta no sentido de que a clearing apura obrigações e liquida pelo resultado (net settlement), embora o termo técnico usual seja compensação multilateral. III é correta: a infraestrutura de pós-negociação da B3 envolve funções de SSS e CCP, com novação/garantias/salvaguardas."
 },
 {
   "id": "QDV390X",
@@ -29902,7 +29902,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "C",
-  "explain": "I é incorreta: o SPB não exige “obrigatoriamente” o uso de CCP para toda liquidação multilateral; existem diferentes arranjos e infraestruturas. II é correta como característica associada às infraestruturas que usam CCP e salvaguardas (mitigação de risco de liquidação/insolvência). III é correta: irrevogabilidade e finalidade (finality) são pilares do SPB para segurança das liquidações.",
+  "explain": "I é incorreta: o SPB não exige “obrigatoriamente” o uso de CCP para toda liquidação multilateral; existem diferentes arranjos e infraestruturas. II é correta como característica associada às infraestruturas que usam CCP e salvaguardas (mitigação de risco de liquidação/insolvência). III é correta: irrevogabilidade e finalidade (finality) são pilares do SPB para segurança das liquidações."
 },
 {
   "id": "QMRP712",
@@ -29918,7 +29918,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "D",
-  "explain": "As três afirmativas refletem o escopo típico de autorregulação/supervisão: apuração e processo sancionador, fiscalização de participantes/ambiente e detecção de comportamentos/condições anômalas que afetem integridade e confiança do mercado.",
+  "explain": "As três afirmativas refletem o escopo típico de autorregulação/supervisão: apuração e processo sancionador, fiscalização de participantes/ambiente e detecção de comportamentos/condições anômalas que afetem integridade e confiança do mercado."
 },
 {
   "id": "QCCP601",
@@ -29934,7 +29934,7 @@
     "D": "Sistema de liquidação"
   },
   "answer": "B",
-  "explain": "A bolsa (exchange) mantém o ambiente/sistema de negociação. A central depositária cuida de custódia e controle de titularidade; a CCP intermedeia risco/pós-negociação; e o sistema de liquidação executa transferência/entrega e pagamento.",
+  "explain": "A bolsa (exchange) mantém o ambiente/sistema de negociação. A central depositária cuida de custódia e controle de titularidade; a CCP intermedeia risco/pós-negociação; e o sistema de liquidação executa transferência/entrega e pagamento."
 },
 {
   "id": "QDW17K8",
@@ -29950,7 +29950,7 @@
     "D": "Possibilita o envio de ordens de compra e venda de ativos para o sistema PUMA."
   },
   "answer": "A",
-  "explain": "O Datawise é uma oferta de dados/analytics da B3, voltada a consolidar e disponibilizar informações do mercado para inteligência e negócios. Não é sistema de envio de ordens nem ferramenta de cadastro/contas.",
+  "explain": "O Datawise é uma oferta de dados/analytics da B3, voltada a consolidar e disponibilizar informações do mercado para inteligência e negócios. Não é sistema de envio de ordens nem ferramenta de cadastro/contas."
 },
 {
   "id": "QDMA2F0",
@@ -29966,7 +29966,7 @@
     "D": "Pré operacional"
   },
   "answer": "B",
-  "explain": "A auditoria relacionada a Acesso Direto ao Mercado (DMA) foca em verificar controles e ferramentas de risco pré-negociação, essenciais para mitigar riscos de envio de ordens e funcionamento adequado do acesso direto.",
+  "explain": "A auditoria relacionada a Acesso Direto ao Mercado (DMA) foca em verificar controles e ferramentas de risco pré-negociação, essenciais para mitigar riscos de envio de ordens e funcionamento adequado do acesso direto."
 },
 {
   "id": "QLIQ8P3",
@@ -29982,7 +29982,7 @@
     "D": "Sistema de liquidação"
   },
   "answer": "D",
-  "explain": "Sistema de liquidação (SSS) é responsável por efetivar a transferência/liquidação conforme regras do arranjo (inclusive compensação/netting quando aplicável). Bolsa é negociação, CCP é interposição/risco, CSD é custódia e registro de titularidade.",
+  "explain": "Sistema de liquidação (SSS) é responsável por efetivar a transferência/liquidação conforme regras do arranjo (inclusive compensação/netting quando aplicável). Bolsa é negociação, CCP é interposição/risco, CSD é custódia e registro de titularidade."
 },
 {
   "id": "QFOP71Z",
@@ -29998,7 +29998,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "C",
-  "explain": "I é falsa: DVP é um mecanismo amplamente adotado/recomendado para reduzir risco de principal. II é verdadeira (FOP: transferência livre de pagamento pode existir em alguns fluxos). III é verdadeira: o arranjo pode incluir compensação (netting) e liquidação como serviços associados.",
+  "explain": "I é falsa: DVP é um mecanismo amplamente adotado/recomendado para reduzir risco de principal. II é verdadeira (FOP: transferência livre de pagamento pode existir em alguns fluxos). III é verdadeira: o arranjo pode incluir compensação (netting) e liquidação como serviços associados."
 },
 {
   "id": "QEXG5T2",
@@ -30014,7 +30014,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "A",
-  "explain": "I e II são funções típicas de uma exchange (listagem, transparência e formação de preços). III é incorreta pelo termo “exclusivamente para terceiros”: participantes podem negociar por conta própria e/ou de clientes, dependendo do regime e habilitação.",
+  "explain": "I e II são funções típicas de uma exchange (listagem, transparência e formação de preços). III é incorreta pelo termo “exclusivamente para terceiros”: participantes podem negociar por conta própria e/ou de clientes, dependendo do regime e habilitação."
 },
 {
   "id": "QNOV3C8",
@@ -30030,7 +30030,7 @@
     "D": "Todas as alternativas"
   },
   "answer": "D",
-  "explain": "I é correta (default fund/fundo de falhas para mutualização). II é correta (margens, limites, controles e salvaguardas reduzem risco). III é considerada correta no padrão didático: a CCP se interpõe via novação (ou mecanismo equivalente de interposição), tornando-se contraparte de ambos os lados.",
+  "explain": "I é correta (default fund/fundo de falhas para mutualização). II é correta (margens, limites, controles e salvaguardas reduzem risco). III é considerada correta no padrão didático: a CCP se interpõe via novação (ou mecanismo equivalente de interposição), tornando-se contraparte de ambos os lados."
 },
 {
   "id": "QLC1P9A",
@@ -30046,7 +30046,7 @@
     "D": "não possuem liquidez diária, mas o investidor poderá resgatar o montante antes do vencimento."
   },
   "answer": "A",
-  "explain": "Como regra, Letras de Câmbio não têm liquidez diária garantida: o resgate costuma ocorrer no vencimento (eventual liquidez antecipada depende de mercado/condições, não sendo característica padrão).",
+  "explain": "Como regra, Letras de Câmbio não têm liquidez diária garantida: o resgate costuma ocorrer no vencimento (eventual liquidez antecipada depende de mercado/condições, não sendo característica padrão)."
 },
 {
   "id": "QRIS7H4",
@@ -30062,7 +30062,7 @@
     "D": "Risco estratégico"
   },
   "answer": "D",
-  "explain": "Risco estratégico é o risco de a estratégia ser inadequada, mal executada ou ineficaz, levando ao não atingimento de objetivos. Os demais tratam de liquidez, processos/falhas operacionais e risco de principal em liquidação.",
+  "explain": "Risco estratégico é o risco de a estratégia ser inadequada, mal executada ou ineficaz, levando ao não atingimento de objetivos. Os demais tratam de liquidez, processos/falhas operacionais e risco de principal em liquidação."
 },
 {
   "id": "QREP0S6",
@@ -30078,7 +30078,7 @@
     "D": "Risco de principal"
   },
   "answer": "A",
-  "explain": "Relatórios inexatos que expõem a instituição a sanções/penalidades se conectam a risco legal e de conformidade (risco de sofrer penalidades por descumprimento de obrigações legais/regulatórias). As demais alternativas não descrevem esse evento de forma adequada.",
+  "explain": "Relatórios inexatos que expõem a instituição a sanções/penalidades se conectam a risco legal e de conformidade (risco de sofrer penalidades por descumprimento de obrigações legais/regulatórias). As demais alternativas não descrevem esse evento de forma adequada."
 },
 {
   "id": "QRCS4N2",
@@ -30094,7 +30094,7 @@
     "D": "V, F, F"
   },
   "answer": "C",
-  "explain": "A 1ª afirmação é falsa: a carteira selecionada deve ter composição/quantidades definidas para representar fielmente o recibo. A 2ª é verdadeira: os ativos precisam estar devidamente custodiados/segregados na infraestrutura aplicável para lastrear o recibo. A 3ª é verdadeira: a constituição pode ocorrer por instituições/investidores, respeitando regras da B3. Observação: o enunciado trouxe duplicidade de alternativas (A=C e B=D); mantive as opções como fornecidas e marquei a correta como C.",
+  "explain": "A 1ª afirmação é falsa: a carteira selecionada deve ter composição/quantidades definidas para representar fielmente o recibo. A 2ª é verdadeira: os ativos precisam estar devidamente custodiados/segregados na infraestrutura aplicável para lastrear o recibo. A 3ª é verdadeira: a constituição pode ocorrer por instituições/investidores, respeitando regras da B3. Observação: o enunciado trouxe duplicidade de alternativas (A=C e B=D); mantive as opções como fornecidas e marquei a correta como C."
 },
 {
   "id": "QPAR6V9",
@@ -30110,6 +30110,6 @@
     "D": "Todas estão corretas"
   },
   "answer": "B",
-  "explain": "I está correta (classificações de participantes podem envolver autorizados e cadastrados, conforme regramento da B3). II está correta: é vedado criar condições artificiais de demanda/oferta/preço (condutas manipulativas). III é incorreta: inserir ofertas para cancelar/modificar com objetivo de evitar fechamento é prática abusiva (ex.: spoofing/layering), portanto não é incentivada.",
+  "explain": "I está correta (classificações de participantes podem envolver autorizados e cadastrados, conforme regramento da B3). II está correta: é vedado criar condições artificiais de demanda/oferta/preço (condutas manipulativas). III é incorreta: inserir ofertas para cancelar/modificar com objetivo de evitar fechamento é prática abusiva (ex.: spoofing/layering), portanto não é incentivada."
 }
 ]
