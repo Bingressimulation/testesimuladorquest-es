@@ -29486,8 +29486,8 @@
     "D": "A função de uma Central Depositária (CSD) é exclusivamente a de interpor-se como contraparte nas operações, garantindo a sua liquidação."
   },
   "answer": "C",
-  "explain": "O modelo DVP garante que a entrega do ativo só ocorra se o pagamento for realizado, mitigando o risco de principal. Bolsa não é CCP por definição, Trade Repository não faz custódia e a CSD não atua como contraparte.",
-},
+  "explain": "O modelo DVP garante que a entrega do ativo só ocorra se o pagamento for realizado, mitigando o risco de principal. Bolsa não é CCP por definição, Trade Repository não faz custódia e a CSD não atua como contraparte."
+  },
 {
   "id": "QMX82A9",
   "module": "Título I – Aspectos institucionais",
