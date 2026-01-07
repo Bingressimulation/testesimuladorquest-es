@@ -1343,22 +1343,22 @@
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo IV – Mercado de câmbio"
   },
-  {
-    "id": "Q0085",
-    "theme": "Negociação | Túneis de negociação",
-    "level": "Médio",
-    "q": "Qual é o objetivo principal dos túneis de negociação?",
-    "options": {
-      "A": "Maximizar tempo em salas de reunião.",
-      "B": "Minimizar tempo gasto em negociações.",
-      "C": "Obter ganhos de curto prazo com a volatilidade.",
-      "D": "Negociar ativos por telefone."
-    },
-    "answer": "C",
-    "explain": "Túneis (intraday/scalping) buscam capturar movimentos curtos de preço usando agilidade e gestão de risco.",
+{
+    "id": "Q1DA852",
     "module": "Título V – Negociação",
-    "chapter": "Capítulo II – Ambiente de negociação"
-  },
+    "chapter": "Capítulo I – Mercados organizados",
+    "theme": "Túneis de Negociação (Circuit Breakers)",
+    "level": "Fácil",
+    "q": "Os túneis de negociação, adotados nos mercados organizados, têm como objetivo principal:",
+    "options": {
+      "A": "Restringir temporariamente a variação de preços dos ativos, de modo a mitigar movimentos excessivos e desordenados.",
+      "B": "Aumentar a velocidade das negociações em ambientes de alta volatilidade.",
+      "C": "Permitir estratégias de curto prazo baseadas exclusivamente em oscilações abruptas de preços.",
+      "D": "Substituir mecanismos de leilão por negociações contínuas sem limites de oscilação."
+    },
+    "answer": "A",
+    "explain": "Os túneis de negociação funcionam como limites dinâmicos de oscilação de preços, com o objetivo de preservar a formação justa e ordenada de preços, reduzindo impactos de volatilidade excessiva e protegendo a integridade do mercado."
+  }
   {
     "id": "Q0086",
     "theme": "Negociação",
@@ -6047,13 +6047,13 @@
     "answer": "D",
     "explain": "Todas as afirmações descrevem corretamente o escopo e o conteúdo do PFMI, que é um marco regulatório internacional."
   },
-  {
-    "id": "Q9672",
+   {
+    "id": "QRL8MK29",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Bolsa (Exchange)",
+    "theme": "Bolsa (Exchange) - Características",
     "level": "Médio",
-    "q": "Assinale a alternativa que contém as características correspondentes ao conceito de Bolsa (Exchange): I. Entidade que mantém ambientes ou sistemas de negociação eletrônica. II. Mercados de bolsa são aqueles que funcionam regularmente como sistemas centralizados de negociação, evitando as negociações multilaterais. III. O Mercado de bolsa possibilita o encontro e a interação de ofertas de compra e de venda ou permitem a execução de negócios, sujeitos ou não à interferência de outras pessoas autorizadas a operar no mercado. Quais estão corretas?",
+    "q": "Assinale a alternativa que contém as características correspondentes ao conceito de Bolsa (Exchange):\n\nI. Entidade que mantém ambientes ou sistemas de negociação eletrônica.\nII. Mercados de bolsa são aqueles que funcionam regularmente como sistemas centralizados de negociação, evitando as negociações multilaterais.\nIII. O mercado de bolsa possibilita o encontro e a interação de ofertas de compra e de venda ou permite a execução de negócios, sujeitos ou não à interferência de outras pessoas autorizadas a operar no mercado.\n\nQuais estão corretas?",
     "options": {
       "A": "Apenas I.",
       "B": "Apenas I e II.",
@@ -6061,7 +6061,7 @@
       "D": "Apenas I e III."
     },
     "answer": "D",
-    "explain": "I e III estão corretas; II está errada porque as negociações em bolsa são justamente multilaterais, não evitadas."
+    "explain": "Apenas I e III estão corretas. I. Correta: Uma bolsa é uma entidade autorizada que mantém e opera sistemas organizados de negociação. III. Correta: Define precisamente a função de uma bolsa, que é organizar o encontro de ofertas de compra e venda de forma multilateral, podendo haver ou não a interferência de intermediários (como os formadores de mercado). II. Incorreta: O conceito está invertido. Os mercados de bolsa são, por definição, sistemas centralizados de negociação que promovem justamente as negociações multilaterais (múltiplos compradores e vendedores interagindo), não as evitam."
   },
   {
     "id": "Q9673",
@@ -6415,21 +6415,21 @@
     "answer": "B",
     "explain": "A BSM (B3 Supervisão de Mercados) é a entidade do grupo B3 responsável pela supervisão e fiscalização."
   },
-  {
-    "id": "Q9695",
+{
+    "id": "QBSM5X83",
     "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
-    "theme": "Atuação da BSM",
+    "theme": "BSM - Supervisão de Mercados",
     "level": "Médio",
-    "q": "Estão entre as principais frentes de atuação da BSM: I. O monitoramento de boa parte das ofertas e negócios realizados nos mercados da B3 para identificação de indícios de irregularidades; II. Fiscalização e supervisão dos participantes da B3 e da própria B3. III. Identificação das condições anormais de negociação ou comportamentos que possam colocar em risco a regularidade de funcionamento, a transparência e credibilidade do mercado IV. Instauração e condução de processos administrativos disciplinares para apurar infrações às normas e, se for o caso, penalizar quem cometer irregularidades. Quais estão corretas?",
+    "q": "Estão entre as principais frentes de atuação da BSM Supervisão de Mercados:\n\nI. O monitoramento de parte relevante das ofertas e dos negócios realizados nos mercados da B3, com o objetivo de identificar indícios de irregularidades.\nII. A fiscalização e supervisão dos participantes da B3 e da própria B3.\nIII. A identificação de condições anormais de negociação ou de comportamentos que possam colocar em risco a regularidade de funcionamento, a transparência e a credibilidade do mercado.\nIV. A instauração e a condução de processos administrativos disciplinares para apurar infrações às normas e, quando cabível, aplicar penalidades.\n\nAssinale a alternativa correta.",
     "options": {
-      "A": "Apenas I e II.",
-      "B": "Apenas III e IV.",
-      "C": "Apenas I, II e III.",
-      "D": "Apenas II, III e IV."
+      "A": "Apenas as afirmativas I e II estão corretas.",
+      "B": "Apenas as afirmativas I, III e IV estão corretas.",
+      "C": "Apenas as afirmativas II, III e IV estão corretas.",
+      "D": "Todas as afirmativas estão corretas."
     },
     "answer": "D",
-    "explain": "I não é uma frente principal; II, III e IV são atribuições típicas da BSM."
+    "explain": "Todas as afirmativas estão corretas e descrevem as atribuições essenciais da BSM Supervisão de Mercados, braço autônomo da B3 responsável pela autorregulação. I. Correta: A BSM monitora negociações para detectar suspeitas de manipulação, uso de informação privilegiada, etc. II. Correta: Ela fiscaliza os participantes (corretoras, distribuidoras, emissores) e a própria B3 para assegurar conformidade. III. Correta: Identifica anomalias que ameacem a integridade e o bom funcionamento dos mercados. IV. Correta: Possui poder de instaurar e julgar processos disciplinares, aplicando sanções como multas e suspensões."
   },
   {
     "id": "Q9696",
@@ -7363,17 +7363,17 @@
     "id": "Q1995420213050",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Análise Técnica - Trava de alta/baixa",
+    "theme": "Análise Técnica - Suporte e Resistência",
     "level": "Fácil",
-    "q": "Na análise gráfica, descreva o que representa a trava de alta e de baixa, respectivamente:",
+    "q": "Na análise gráfica, as chamadas travas de alta e travas de baixa representam, respectivamente:",
     "options": {
-      "A": "Suporte e Resistência",
-      "B": "Índice de Força Relativa e Suporte",
-      "C": "Índice de Força Relativa e Resistência",
-      "D": "Resistência e Suporte"
+      "A": "Suporte e resistência.",
+      "B": "Índice de Força Relativa e suporte.",
+      "C": "Índice de Força Relativa e resistência.",
+      "D": "Resistência e suporte."
     },
-    "answer": "A",
-    "explain": "Trava de alta é suporte (preço mínimo esperado). Trava de baixa é resistência (preço máximo esperado)."
+    "answer": "D",
+    "explain": "Na análise gráfica: Trava de alta corresponde a uma resistência, isto é, um nível de preço no qual a pressão vendedora tende a se intensificar, dificultando a continuidade do movimento de alta. Trava de baixa corresponde a um suporte, nível no qual a pressão compradora tende a aumentar, dificultando a continuidade do movimento de queda. Esses conceitos estão diretamente relacionados à dinâmica de oferta e demanda e à leitura do comportamento dos preços ao longo do tempo."
   },
   {
     "id": "Q1995420213062",
@@ -7774,22 +7774,6 @@
     },
     "answer": "C",
     "explain": "No 'melhores esforços', a instituição financeira se esforça para vender, mas o risco de não colocação fica com o emissor."
-  },
-  {
-    "id": "Q1995420223033",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo II – Mercado de derivativos",
-    "theme": "Opções - Exercício em cenário de queda",
-    "level": "Médio",
-    "q": "Em um cenário de queda dos ativos, em qual gráfico o titular irá exercer a sua opção:",
-    "options": {
-      "A": "I e II",
-      "B": "I, II e III",
-      "C": "Apenas I",
-      "D": "Apenas II"
-    },
-    "answer": "C",
-    "explain": "Em queda, o titular de PUT exerce (direito de vender pelo preço de exercício, mais alto que o mercado)."
   },
   {
     "id": "Q1995420223034",
@@ -11345,19 +11329,19 @@
   },
   {
     "id": "Q199543093",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Debêntures - Informações Obrigatórias",
+     "module": "Título II – Mercados de bolsa e de balcão",
+    "chapter": "Capítulo III – Mercado de renda fixa",
+    "theme": "Debêntures - Escritura de Emissão",
     "level": "Médio",
-    "q": "Trata-se de uma informação que deve constar, obrigatoriamente, na escritura de uma debênture:",
+    "q": "De acordo com a regulamentação aplicável às emissões de debêntures, constitui informação obrigatória a constar na escritura de emissão:",
     "options": {
-      "A": "A informação de intervenção de um Agente Fiduciário",
-      "B": "A classificação de risco concedida por uma agência de Rating de Crédito",
-      "C": "Direitos iguais para os detentores de todas as debêntures, independente da série que pertencer",
-      "D": "Informação de que o Agente Fiduciário irá honrar o risco de não pagamento por parte do emissor da debênture"
+      "A": "A indicação da atuação de Agente Fiduciário, responsável pela defesa dos interesses dos debenturistas.",
+      "B": "A classificação de risco atribuída por agência de rating de crédito independente.",
+      "C": "A previsão de direitos idênticos a todos os debenturistas, independentemente da série ou classe das debêntures.",
+      "D": "A assunção, pelo Agente Fiduciário, do risco de inadimplemento do emissor da debênture."
     },
     "answer": "A",
-    "explain": "A escritura deve conter informações sobre intervenção do Agente Fiduciário. Rating não é obrigatório."
+    "explain": "A escritura de emissão de debêntures é o instrumento jurídico que disciplina os direitos, deveres e condições da emissão, devendo conter, obrigatoriamente, a indicação do Agente Fiduciário, que atua como representante dos interesses dos debenturistas perante o emissor. O Agente Fiduciário: Fiscaliza o cumprimento das obrigações do emissor; Atua na defesa coletiva dos debenturistas; Não assume o risco de crédito do emissor."
   },
   {
     "id": "Q199543094",
@@ -15300,20 +15284,180 @@
     "explain": "Todas as afirmativas estão corretas. Para encerrar posições no mercado à vista, a Câmara pode: I) Realizar operações de compra e venda no mercado; II) Encerrar posições compradas (vendendo os ativos); III) Encerrar posições vendidas (recomprando os ativos)."
   },
   {
-    "id": "Q14075",
-    "module": "Título IV – Gestão de Risco",
+    "id": "QR7AN82",
+    "module": "Título IV – Gestão de risco",
     "chapter": "Capítulo I – Gestão de risco na Câmara",
-    "theme": "CORE - Perda Potencial",
-    "level": "Difícil",
-    "q": "Considerando os dados de fluxos de caixa resultantes de uma determinada simulação do encerramento de um portfólio e correspondentes garantias sob cada cenário de risco, serão calculadas as perdas potenciais. Marque a alternativa correta com relação a qual é a medida de risco total do processo de encerramento do portfólio e suas correspondentes garantias, somando as perdas permanentes e transitórias",
+    "theme": "Risco na Câmara - Perda Permanente",
+    "level": "Médio",
+    "q": "No processo de encerramento de um portfólio, a perda permanente caracteriza-se por:",
     "options": {
-      "A": "Perda transitória",
-      "B": "Perda potencial",
-      "C": "Perda agregada",
-      "D": "Perda permanente"
+      "A": "Oscilações temporárias de preço até a liquidação final das posições.",
+      "B": "Valores recuperáveis após a execução das garantias.",
+      "C": "Parcela da perda que permanece mesmo após a realização das garantias.",
+      "D": "Diferença entre o valor de mercado e o valor nocional do portfólio."
+    },
+    "answer": "C",
+    "explain": "A perda permanente é aquela não recuperável, mesmo após a execução das garantias disponíveis."
+  },
+  {
+    "id": "QTKL3B91",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Perda Transitória",
+    "level": "Médio",
+    "q": "A perda transitória em um cenário de risco está associada, principalmente:",
+    "options": {
+      "A": "À insolvência definitiva do participante.",
+      "B": "À defasagem temporal entre o evento de inadimplência e a liquidação final.",
+      "C": "À ausência de garantias exigidas pela câmara.",
+      "D": "À eliminação do risco de mercado após o encerramento."
     },
     "answer": "B",
-    "explain": "A Perda Potencial, na metodologia CORE, é a medida de risco total. Ela representa o pior resultado (maior perda) entre todos os cenários simulados e é composta pela soma da Perda Permanente (perda inevitável devido a condições de mercado) e da Perda Transitória (custo de financiamento durante o período de encerramento)."
+    "explain": "A perda transitória decorre de efeitos temporários, como atrasos de liquidação ou volatilidade durante o processo."
+  },
+  {
+    "id": "QP9RTF44",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Perda Agregada",
+    "level": "Médio",
+    "q": "A medida que representa a soma das perdas transitórias e permanentes é denominada:",
+    "options": {
+      "A": "Perda líquida.",
+      "B": "Perda potencial.",
+      "C": "Perda agregada.",
+      "D": "Exposição residual."
+    },
+    "answer": "C",
+    "explain": "A perda agregada consolida todas as perdas do processo de encerramento."
+  },
+  {
+    "id": "QGHW5M12",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Função das Garantias",
+    "level": "Fácil",
+    "q": "Em um cenário de estresse, as garantias têm como principal função:",
+    "options": {
+      "A": "Eliminar totalmente o risco de mercado.",
+      "B": "Reduzir a volatilidade dos ativos negociados.",
+      "C": "Mitigar perdas decorrentes do encerramento de posições inadimplentes.",
+      "D": "Garantir rentabilidade mínima aos participantes."
+    },
+    "answer": "C",
+    "explain": "Garantias mitigam perdas, mas não eliminam riscos nem asseguram retorno."
+  },
+  {
+    "id": "QVN8CX67",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Cobertura de Garantias",
+    "level": "Médio",
+    "q": "Caso o valor das garantias seja superior à perda agregada estimada, é correto afirmar que:",
+    "options": {
+      "A": "Não há qualquer tipo de perda associada ao cenário.",
+      "B": "Existe apenas perda transitória.",
+      "C": "A perda permanente tende a ser nula.",
+      "D": "O risco sistêmico é eliminado."
+    },
+    "answer": "C",
+    "explain": "Garantias suficientes cobrem a perda permanente, podendo ainda existir efeitos transitórios."
+  },
+  {
+    "id": "QJF2K35",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Perda Potencial",
+    "level": "Médio",
+    "q": "A perda potencial refere-se, no contexto de simulações de risco:",
+    "options": {
+      "A": "À perda efetivamente realizada após a liquidação.",
+      "B": "À perda máxima estimada em determinado cenário adverso.",
+      "C": "À soma das perdas permanentes históricas.",
+      "D": "À parcela não coberta pelo fundo de garantias."
+    },
+    "answer": "B",
+    "explain": "Perda potencial é estimativa ex ante, baseada em cenários de risco."
+  },
+  {
+    "id": "QY8BDN19",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Implicação da Perda Transitória",
+    "level": "Médio",
+    "q": "Durante o processo de encerramento de um portfólio inadimplente, a existência de perda transitória implica que:",
+    "options": {
+      "A": "As garantias são insuficientes.",
+      "B": "O participante é insolvente.",
+      "C": "Há impacto temporário até a liquidação completa.",
+      "D": "O risco de mercado foi eliminado."
+    },
+    "answer": "C",
+    "explain": "A perda transitória reflete impactos temporários, não insolvência definitiva."
+  },
+  {
+    "id": "QSP4LR78",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Objetivo da Análise de Perdas",
+    "level": "Fácil",
+    "q": "Em relação à gestão de risco das câmaras de compensação, a análise de perdas visa, primordialmente:",
+    "options": {
+      "A": "Maximar a rentabilidade das operações.",
+      "B": "Assegurar a continuidade e a estabilidade do mercado.",
+      "C": "Reduzir custos operacionais dos participantes.",
+      "D": "Evitar oscilações normais de preços."
+    },
+    "answer": "B",
+    "explain": "O foco é estabilidade sistêmica e continuidade da liquidação."
+  },
+  {
+    "id": "QZ6LMX23",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Ausência de Perda Permanente",
+    "level": "Médio",
+    "q": "A inexistência de perda permanente em um cenário indica que:",
+    "options": {
+      "A": "Não houve volatilidade de mercado.",
+      "B": "O portfólio não precisou ser encerrado.",
+      "C": "As garantias foram suficientes para absorver as perdas.",
+      "D": "Não houve perda transitória."
+    },
+    "answer": "C",
+    "explain": "Garantias adequadas absorvem as perdas definitivas."
+  },
+  {
+    "id": "QDK9PY50",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco na Câmara - Relevância da Perda Agregada",
+    "level": "Médio",
+    "q": "No contexto de testes de estresse e encerramento de portfólio, a perda agregada é relevante porque:",
+    "options": {
+      "A": "Representa apenas perdas históricas observadas.",
+      "B": "Considera exclusivamente perdas financeiras realizadas.",
+      "C": "Consolida o impacto total do cenário de risco analisado.",
+      "D": "Substitui a necessidade de exigência de garantias."
+    },
+    "answer": "C",
+    "explain": "A perda agregada fornece a visão completa do impacto do cenário, sendo central para decisões de risco."
+  },
+  {
+    "id": "Q1D1D41",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Gestão de Risco - Perda Agregada",
+    "level": "Difícil",
+    "q": "Considerando os fluxos de caixa resultantes de uma simulação de encerramento de um portfólio, bem como as garantias associadas a cada cenário de risco, são calculadas as perdas potenciais do processo.\n\nAssinale a alternativa que indica corretamente a medida de risco total do processo de encerramento do portfólio e de suas garantias, obtida pela soma das perdas permanentes e transitórias:",
+    "options": {
+      "A": "Perda transitória.",
+      "B": "Perda potencial.",
+      "C": "Perda agregada.",
+      "D": "Perda permanente."
+    },
+    "answer": "C",
+    "explain": "No contexto de gestão de risco de liquidação e encerramento de portfólio: Perda permanente refere-se à parcela da perda que não é recuperável, mesmo após a realização das garantias. Perda transitória corresponde à perda temporária, associada a defasagens de liquidação ou variações momentâneas de valor. A perda agregada representa a medida de risco total, pois consolida ambas as componentes, refletindo o impacto completo do processo de encerramento do portfólio em determinado cenário de risco."
   },
   {
     "id": "Q14089",
@@ -18996,20 +19140,20 @@
     "explain": "Taxa proporcional semestral = 14%/2 = 7% ao semestre (juros simples)."
   },
   {
-    "id": "Q10148",
+    "id": "QFV7RT12",
     "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo II – Mercado de derivativos",
-    "theme": "Valor Futuro vs Valor Presente",
+    "chapter": "Capítulo III – Mercado de renda fixa",
+    "theme": "Matemática Financeira - Valor Futuro",
     "level": "Fácil",
-    "q": "Considerando que a taxa de juro é positiva, o valor futuro de um conjunto genérico de fluxos de caixa é:",
+    "q": "Considerando que a taxa de juros é positiva, o valor futuro de um conjunto genérico de fluxos de caixa será:",
     "options": {
-      "A": "Sempre menor que seu valor presente",
-      "B": "Sempre maior que seu valor presente",
-      "C": "Sempre igual a seu valor presente",
-      "D": "Algumas vezes maior e outras vezes menor que seu valor presente"
+      "A": "Sempre menor que seu valor presente.",
+      "B": "Sempre maior que seu valor presente.",
+      "C": "Sempre igual a seu valor presente.",
+      "D": "Algumas vezes maior e outras vezes menor que seu valor presente."
     },
-    "answer": "D",
-    "explain": "Depende da direção dos fluxos. Se há mais entradas do que saídas no futuro, o VF pode ser maior que o VP. Se há mais saídas, o VF pode ser menor. Com taxa positiva, fluxos futuros são descontados para o presente, mas o VF agregado depende do padrão dos fluxos."
+    "answer": "B",
+    "explain": "Com uma taxa de juros positiva, o dinheiro tem valor no tempo, ou seja, um valor presente pode ser aplicado para render juros ao longo do tempo. Portanto, o valor futuro (VF) de qualquer fluxo de caixa, quando deslocado para uma data posterior através da capitalização, será sempre maior que seu valor presente (VP), dado que VF = VP * (1 + i)^n, onde i > 0."
   },
   {
     "id": "Q4754",
@@ -23637,21 +23781,21 @@
     "chapter": "Capítulo I – Mercado de renda variável"
   },
   {
-    "id": "QVI009",
-    "theme": "Compensação multilateral",
-    "level": "Difícil",
-    "q": "A compensação multilateral permite, principalmente:",
+    "id": "Q1D1A4",
+    "module": "Título VI – Câmara de compensação e liquidação",
+    "chapter": "Capítulo I – Câmara B3",
+    "theme": "Compensação Multilateral",
+    "level": "Médio",
+    "q": "No âmbito das câmaras de compensação e liquidação, a compensação multilateral tem como principal finalidade:",
     "options": {
-      "A": "A liquidação individual de cada operação.",
-      "B": "A redução do número e do valor das obrigações a liquidar.",
-      "C": "A eliminação do risco de mercado.",
-      "D": "A negociação direta entre investidores."
+      "A": "Permitir a liquidação individual e isolada de cada operação realizada no mercado.",
+      "B": "Reduzir o número e o valor financeiro das obrigações a serem liquidadas entre os participantes.",
+      "C": "Eliminar integralmente os riscos de mercado associados às operações negociadas.",
+      "D": "Viabilizar a negociação direta entre investidores, sem a atuação de contraparte central."
     },
     "answer": "B",
-    "explain": "A compensação multilateral reduz o número e o valor das obrigações a liquidar, aumentando a eficiência do processo de liquidação.",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável"
-  },
+    "explain": "A compensação multilateral consiste na consolidação das posições de compra e venda de um participante, permitindo que apenas o saldo líquido de suas obrigações seja liquidado. Esse mecanismo: Reduz o número de liquidações individuais, diminui a exposição financeira bruta, contribui para a eficiência operacional e mitigação de risco sistêmico, sem eliminar riscos de mercado nem alterar a estrutura de negociação."
+  }
   {
     "id": "QVI010",
     "theme": "Eficiência da pós-negociação",
@@ -26719,21 +26863,20 @@
     "explain": "A movimentação de ativos em conta de custódia normalmente ocorre via o agente de custódia do comitente, mediante autorização e procedimentos operacionais previstos."
   },
   {
-    "id": "QCAMB3_0009",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo VIII – Tributação do mercado financeiro",
-    "theme": "Devedor Operacional",
+    "id": "QD1AS2DA",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Gestão de Risco - Devedor Operacional",
     "level": "Médio",
-    "q": "A caracterização de um participante como \"Devedor Operacional\" ocorre quando a falha na liquidação decorre de:",
+    "q": "No âmbito dos procedimentos de liquidação e gerenciamento de risco das infraestruturas do mercado financeiro, a caracterização de um participante como Devedor Operacional ocorre quando a falha na liquidação decorre, preponderantemente, de:",
     "options": {
-      "A": "Insuficiência financeira comprovada.",
-      "B": "Problemas de ordem estritamente operacional.",
-      "C": "Decisão judicial de recuperação.",
-      "D": "Inobservância de limites operacionais.",
-      "E": "Falha no sistema do Bacen (STR)."
+      "A": "Insuficiência financeira comprovada para honrar obrigações de liquidação no prazo estabelecido.",
+      "B": "Problemas de natureza estritamente operacional, sem relação com incapacidade financeira do participante.",
+      "C": "Situação jurídica decorrente de pedido de recuperação judicial ou extrajudicial.",
+      "D": "Descumprimento de limites operacionais previamente estabelecidos pelas câmaras de compensação."
     },
     "answer": "B",
-    "explain": "\"Devedor Operacional\" se relaciona a falha causada por problema operacional (processo, envio, instrução, backoffice etc.), e não por incapacidade financeira."
+    "explain": "A resposta correta é a B. O conceito de Devedor Operacional, conforme definido pela Resolução CMN nº 4.656 e práticas de risco da B3, refere-se ao participante que possui recursos financeiros suficientes para honrar suas obrigações, mas não consegue efetuar a liquidação devido a falhas estritamente operacionais. Exemplos incluem erros de lançamento, falhas de sistemas internos, problemas de comunicação ou inconsistências nos processos. As demais alternativas se referem a outras categorias de inadimplência: A) Descreve um Devedor Financeiro (insolvência); C) Refere-se a uma situação jurídica que pode levar à suspensão ou encerramento do participante; D) Pode configurar violação de regras, mas não define, por si só, a condição de Devedor Operacional, cujo cerne é a capacidade financeira preservada."
   },
   {
     "id": "QCAMB3_0010",
@@ -27285,7 +27428,7 @@
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
     "theme": "Autoridade competente",
     "level": "Médio",
-    "q": "A autoridade competente para apurar e punir infrações ao regulamento da Título VI – Câmara de compensação e liquidação é:",
+    "q": "A autoridade competente para apurar e punir infrações ao regulamento da Câmara de compensação e liquidação é:",
     "options": {
       "A": "A CVM, exclusivamente.",
       "B": "O Bacen, exclusivamente.",
@@ -30086,7 +30229,7 @@
   "chapter": "Capítulo I – Mercados organizados",
   "theme": "RCSA - definição e estrutura",
   "level": "Difícil",
-  "q": "10207 - Negociação\nCom relação ao Recibo de Carteira Selecionada de Ações (RCSA),\nconsidere V para verdadeiro e F para falso:\n( ) RCSA é o recibo representativo de um conjunto\npreestabelecido de ações cujas quantidades ainda não foram\nestabelecidas no ato de sua constituição.\n( ) As ações que compõem a Carteira Selecionada de Ações\ndeverão estar, obrigatoriamente, custodiadas na Câmara da B3 em\nque cada recibo representará parcela de uma determinada\nCarteira Selecionada de Ações.\n( ) A Carteira Selecionada de Ações poderá ser constituída por\ninstituições e investidores interessados em participar de sua\nconstituição, observadas, para tal fim, as normas fixadas pela B3.\nA) F, V, V,\nB) V, F, F\nC) F, V, V\nD) V, F, F",
+  "q": "10207 - Negociação\nCom relação ao Recibo de Carteira Selecionada de Ações (RCSA),\nconsidere V para verdadeiro e F para falso:\n( ) RCSA é o recibo representativo de um conjunto\npreestabelecido de ações cujas quantidades ainda não foram\nestabelecidas no ato de sua constituição.\n( ) As ações que compõem a Carteira Selecionada de Ações\ndeverão estar, obrigatoriamente, custodiadas na Câmara da B3 em\nque cada recibo representará parcela de uma determinada\nCarteira Selecionada de Ações.\n( ) A Carteira Selecionada de Ações poderá ser constituída por\ninstituições e investidores interessados em participar de sua\nconstituição, observadas, para tal fim, as normas fixadas pela B3.",
   "options": {
     "A": "F, V, V",
     "B": "V, F, F",
