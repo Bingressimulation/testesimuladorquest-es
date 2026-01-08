@@ -16067,6 +16067,118 @@
     "answer": "B",
     "explain": "A ordem administrada (ou ordem de bloco) permite que um gestor ou representante de múltiplos clientes envie uma única ordem ao mercado para executar uma grande quantidade de ativos. Após a execução, o ordenante aloca as quantidades e preços individuais para cada cliente final. Isso otimiza a execução para grandes volumes sem revelar antecipadamente a estratégia completa."
   },
+   {
+    "id": "Q_CAM_00X39",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Colateralização e garantias",
+    "level": "Médio",
+    "q": "A ação de dar um ativo como garantia de pagamento para uma obrigação, no ambiente de uma câmara de compensação e liquidação, é chamada de:",
+    "options": {
+      "A": "Defaulters pay.",
+      "B": "Colateralização.",
+      "C": "Salvaguardas.",
+      "D": "Saldo operacional."
+    },
+    "answer": "B",
+    "explain": "Colateralização é a ação de dar um ativo como garantia de pagamento para uma obrigação. Defaulters pay refere-se a recursos utilizados apenas em caso de inadimplência do participante contribuinte. Salvaguardas são o conjunto de mecanismos de proteção da câmara. O saldo operacional corresponde ao saldo mínimo exigido dos participantes e comitentes.",
+  },
+  {
+    "id": "Q_CAM_010AD1A",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Limites de concentração de posição",
+    "level": "Difícil",
+    "q": "Limites de concentração de posição em aberto são empregados pela B3 como medida prudencial. Para cada instrumento, são definidos dois limites. Rompido o limite de nível 1, deverá ocorrer:",
+    "options": {
+      "A": "Cobrança de multa.",
+      "B": "Cobrança de margem adicional.",
+      "C": "Aumento de margem adicional requerida.",
+      "D": "Redução compulsória da posição que exceder o limite."
+    },
+    "answer": "B",
+    "explain": "O limite de nível 1 é indicativo para cobrança de margem adicional. O limite de nível 2 pode resultar em aumento de margem requerida, redução compulsória da posição e cobrança de multa.",
+  },
+  {
+    "id": "Q_CAM_011DA2",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Finalidade das garantias",
+    "level": "Difícil",
+    "q": "No que se refere às finalidades da garantia, observe:\n\nI – O saldo operacional é de responsabilidade de PNP, PL e MC;\n\nII – Contribuições para o fundo de liquidação são de responsabilidade do participante de liquidação;\n\nIII – A garantia de operações é de responsabilidade do comitente.\n\nÉ possível afirmar que o maior número de possibilidades corretas encontra-se em:",
+    "options": {
+      "A": "I e III.",
+      "B": "Apenas a II.",
+      "C": "II e III.",
+      "D": "Apenas a III."
+    },
+    "answer": "A",
+    "explain": "A hipótese II é incorreta, pois as contribuições para o fundo de liquidação são de responsabilidade do membro de compensação. As hipóteses I e III são corretas: PNP, PL e MC respondem pelo saldo operacional, e o comitente é responsável pela garantia das operações.",
+  },
+  {
+    "id": "Q_CAM_0121D2",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Chamadas de garantia intradiárias",
+    "level": "Médio",
+    "q": "Um participante de negociação possui todo o seu limite de aceitação de ativos já alocado como garantia. É possível afirmar que:",
+    "options": {
+      "A": "O aumento do risco intradiário acarretará automaticamente multa ao participante.",
+      "B": "Novos depósitos de garantia só podem ocorrer em prazos fixos.",
+      "C": "As garantias já foram totalmente calculadas, sem possibilidade de novos riscos.",
+      "D": "Ele ainda pode ser chamado para depositar garantias a qualquer momento do dia."
+    },
+    "answer": "D",
+    "explain": "Além das chamadas diárias e intradiárias, os participantes podem ser convocados a depositar garantias a qualquer momento do dia, sem periodicidade, em função do monitoramento de risco intradiário da câmara.",
+  },
+  {
+    "id": "Q_CAM_013F4G",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Risco intradiário",
+    "level": "Difícil",
+    "q": "Uma violação do limite de risco intradiário ocorre quando:",
+    "options": {
+      "A": "O valor do risco supera o limite de risco intradiário acrescido das garantias destinadas à ampliação do saldo operacional.",
+      "B": "O valor da margem de garantia supera o risco intradiário.",
+      "C": "O deságio das garantias supera o risco intradiário.",
+      "D": "A soma das garantias e do seu deságio é menor que o risco intradiário."
+    },
+    "answer": "A",
+    "explain": "A violação ocorre quando o valor do risco, em módulo, supera o limite de risco intradiário somado às garantias destinadas à ampliação do saldo operacional.",
+  },
+  {
+    "id": "Q_CAM_014DAS1D",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "Cálculo do saldo operacional",
+    "level": "Difícil",
+    "q": "Um PNP possui limite de risco intradiário de R$ 80 milhões, garantias de R$ 30 milhões e risco de R$ 120 milhões. Qual o saldo operacional?",
+    "options": {
+      "A": "R$ 70.000.000, sem violação.",
+      "B": "R$ -20.000.000, sem violação.",
+      "C": "R$ 30.000.000, com violação.",
+      "D": "R$ -10.000.000, com violação."
+    },
+    "answer": "D",
+    "explain": "Saldo operacional = Limite + Garantias – Risco = 80.000.000 + 30.000.000 – 120.000.000 = -10.000.000. O saldo é negativo, caracterizando violação do risco intradiário.",
+  },
+  {
+    "id": "Q_CAM_0151DA5S",
+    "module": "Título IV – Gestão de risco",
+    "chapter": "Capítulo I – Gestão de risco na Câmara",
+    "theme": "CORE e encerramento de portfólio",
+    "level": "Difícil",
+    "q": "Com base na metodologia CORE (close-out risk evaluation), após uma inadimplência, a câmara deve encerrar o portfólio do cliente inadimplente, enfrentando:\n\nI – Risco de perda potencial durante o encerramento;\n\nII – Risco de deságio (haircut) e seus limites de depósito.\n\nÉ correto afirmar que:",
+    "options": {
+      "A": "A hipótese I é correta e a II é incorreta.",
+      "B": "As hipóteses I e II são incorretas.",
+      "C": "A hipótese I é incorreta e a II é correta.",
+      "D": "As hipóteses I e II são corretas."
+    },
+    "answer": "A",
+    "explain": "A hipótese I é correta. Após a inadimplência, a câmara enfrenta risco de perda potencial no encerramento do portfólio, além de riscos implícitos de mercado, liquidez e fluxo de caixa. A hipótese II é incorreta, pois deságio refere-se à redução do valor de ativos aceitos como garantia, não sendo um risco específico do processo de close-out.",
+  },
   {
     "id": "Q14155",
     "module": "Título II – Mercados de bolsa e de balcão",
