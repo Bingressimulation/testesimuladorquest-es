@@ -2036,7 +2036,6 @@ button, input, select, textarea{ font-family:inherit; }
     const questions = data.map((q, index) => {
       const id = String(q.id || `Q${index+1}`).trim();
       const questionText = String(q.q || "").trim();
-    const questionText = String(q.q || "").trim();
       const options = q.options && typeof q.options === "object" ? q.options : {};
       const answer = String(q.answer || "").trim().toUpperCase();
       const explain = String(q.explain || "").trim();
