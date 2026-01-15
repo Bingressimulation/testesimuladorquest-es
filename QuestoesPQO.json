@@ -1567,22 +1567,22 @@
     "module": "Título IV – Gestão de Risco",
     "chapter": "Capítulo II – Risco corporativo e controles internos"
   },
-  {
-    "id": "Q0014_1",
-    "theme": "Risco corporativo e Controles Internos | Modelo das Três Linhas de Defesa",
-    "level": "Médio",
-    "q": "Quais são as três linhas de defesa no Modelo das Três Linhas de Defesa?",
-    "options": {
-      "A": "Auditoria Interna, Controle de Qualidade e Auditoria Externa",
-      "B": "Gerenciamento de Riscos, Auditoria Interna e Compliance",
-      "C": "Gerenciamento de Processos, Auditoria Interna e Controle de Qualidade",
-      "D": "Auditoria Externa, Gerenciamento de Riscos e Compliance"
-    },
-    "answer": "B",
-    "explain": "A lógica é: 1ª linha (negócio), 2ª linha (riscos/compliance) e 3ª linha (auditoria interna). Entre as opções, a que melhor representa o modelo é a B.",
-    "module": "Título IV – Gestão de Risco",
-    "chapter": "Capítulo II – Risco corporativo e controles internos"
+ {
+  "id": "Q0014_1",
+  "module": "Título IV – Gestão de Risco",
+  "chapter": "Capítulo II – Risco corporativo e controles internos",
+  "theme": "Modelo das Três Linhas de Defesa",
+  "level": "Médio",
+  "q": "O Modelo das Três Linhas de Defesa é amplamente utilizado no gerenciamento de riscos e controles internos das organizações. De acordo com esse modelo, as linhas de defesa são estruturadas com base nas responsabilidades de gestão, supervisão e avaliação independente. Assinale a alternativa que representa corretamente essas três linhas.",
+  "options": {
+    "A": "Gestão operacional, áreas de risco e compliance, auditoria interna.",
+    "B": "Auditoria interna, auditoria externa e conselho de administração.",
+    "C": "Áreas de risco, controles internos e auditoria externa.",
+    "D": "Gestão estratégica, conselho fiscal e auditoria interna."
   },
+  "answer": "A",
+  "explain": "No Modelo das Três Linhas de Defesa, a primeira linha é exercida pela gestão operacional, responsável pela execução dos processos e pela gestão direta dos riscos. A segunda linha é composta pelas funções de supervisão, como gerenciamento de riscos, compliance e controles internos, que monitoram e orientam a atuação da primeira linha. A terceira linha corresponde à auditoria interna, que atua de forma independente avaliando a eficácia da governança, dos controles internos e da gestão de riscos."
+},
   {
     "id": "Q0015_1",
     "theme": "Risco corporativo e Controles Internos | Risco Corporativo",
@@ -10960,21 +10960,21 @@
     "explain": "No leilão comum, há competição entre compradores e vendedores para formação do preço, com interferência para melhor preço."
   },
   {
-    "id": "Q199544180",
-    "module": "Título V – Negociação",
-    "chapter": "Capítulo II – Ambiente de negociação",
-    "theme": "Oferta a mercado",
-    "level": "Fácil",
-    "q": "Sobre a oferta a mercado, assinale a alternativa correta:",
-    "options": {
-      "A": "É executada por preço igual ou melhor que o especificado pelo cliente",
-      "B": "É disparada a partir de um gatilho",
-      "C": "É executada ao melhor limite do preço oposto no mercado",
-      "D": "É executada no preço de abertura"
-    },
-    "answer": "C",
-    "explain": "Oferta a mercado (ordem a mercado) é executada imediatamente ao melhor preço disponível no livro de ofertas."
+  "id": "Q199544180",
+  "module": "Título V – Negociação",
+  "chapter": "Capítulo II – Ambiente de negociação",
+  "theme": "Ordem a mercado",
+  "level": "Fácil",
+  "q": "No ambiente de negociação da B3, a ordem a mercado é caracterizada por:",
+  "options": {
+    "A": "Ser executada por preço previamente especificado pelo cliente, ou melhor.",
+    "B": "Ser acionada automaticamente quando atingido determinado preço de referência.",
+    "C": "Ser executada imediatamente ao melhor preço disponível no lado oposto do livro de ofertas.",
+    "D": "Ser executada exclusivamente pelo preço de abertura do ativo."
   },
+  "answer": "C",
+  "explain": "A ordem a mercado é aquela em que o investidor não define o preço de execução, aceitando negociar imediatamente ao melhor preço disponível no lado oposto do livro de ofertas no momento do envio da ordem."
+},
   {
   "id": "QBTC_01",
   "module": "Título II – Mercados de bolsa e de balcão",
@@ -11646,22 +11646,6 @@
     },
     "answer": "A",
     "explain": "Em cenário de alta de juros, títulos pós-fixados como LFT (atrelada à Selic) se beneficiam, pois sua rentabilidade sobe junto com os juros."
-  },
-  {
-    "id": "Q199544284",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo III – Mercado de renda fixa",
-    "theme": "Carteira pós-fixada com títulos públicos",
-    "level": "Médio",
-    "q": "Seu cliente deseja montar uma carteira somente com títulos públicos e todos com rentabilidade pós fixadas. Você deveria indicar qual carteira:",
-    "options": {
-      "A": "60% LFT e 40% LTN",
-      "B": "60% LFT e 40% CDB pós fixado",
-      "C": "60% LFT e 40% NTN-B",
-      "D": "100% LFT"
-    },
-    "answer": "C",
-    "explain": "LFT é pós-fixada (Selic). NTN-B também é pós-fixada (IPCA + taxa). LTN é prefixada. CDB não é título público."
   },
   {
     "id": "Q199544287",
@@ -13680,21 +13664,21 @@
     "explain": "CRIs são emitidos por sociedades securitizadoras."
   },
   {
-    "id": "Q199543161",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo III – Mercado de renda fixa",
-    "theme": "Notas Promissórias - Prazo",
-    "level": "Médio",
-    "q": "Quanto ao prazo máximo de emissão das Notas Promissórias – Commercial Papers, assinale a alternativa correta:",
-    "options": {
-      "A": "180 dias (S.A Fechada) e 360 dias (S.A Aberta)",
-      "B": "360 dias (S.A Fechada e Aberta)",
-      "C": "180 dias (S.A Fechada e Aberta)",
-      "D": "180 dias (S.A Aberta) e 360 dias (S.A Fechada)"
-    },
-    "answer": "A",
-    "explain": "Commercial Papers: S.A. fechadas - máximo 180 dias; S.A. abertas - máximo 360 dias."
+  "id": "Q199543161",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo III – Mercado de renda fixa",
+  "theme": "Notas Promissórias - Prazo de Emissão",
+  "level": "Médio",
+  "q": "As Notas Promissórias, também conhecidas como Commercial Papers, são títulos de curto prazo utilizados pelas empresas para captação de capital de giro. De acordo com a regulamentação vigente da Comissão de Valores Mobiliários (CVM), assinale a alternativa correta quanto ao prazo máximo de emissão desses títulos:",
+  "options": {
+    "A": "180 dias para companhias fechadas e 360 dias para companhias abertas",
+    "B": "360 dias, tanto para companhias abertas quanto para companhias fechadas",
+    "C": "180 dias, tanto para companhias abertas quanto para companhias fechadas",
+    "D": "Até 2 anos, independentemente do tipo de companhia emissora"
   },
+  "answer": "B",
+  "explain": "De acordo com a regulamentação atualmente em vigor da CVM, o prazo máximo de emissão das Notas Promissórias (Commercial Papers) é de 360 dias, tanto para companhias abertas quanto para companhias fechadas. A distinção anteriormente existente, que limitava o prazo a 180 dias para companhias fechadas, foi revogada por normas mais recentes, como a Instrução CVM nº 566, que uniformizou o prazo máximo para todos os emissores"
+},
   {
     "id": "Q199543162",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -14367,24 +14351,22 @@
     "answer": "C",
     "explain": "Para pagar resgates, o fundo precisa gerar caixa (tipicamente vendendo ativos ou usando caixa disponível), respeitando a política e gestão de liquidez."
   },
-  {
-    "id": "Q199544193_2",
-    "moduleId": "MOD4",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapterId": "MOD4-TRIBUT",
-    "chapter": "Capítulo III – Mercado de renda fixa",
-    "theme": "Come-cotas (longo prazo)",
-    "level": "Difícil",
-    "q": "Em janeiro, Sr. Luís aportou R$ 50.000 em um fundo de Renda Fixa Longo Prazo com cota a R$ 10,00. No último dia útil de maio, a cota estava em R$ 12,00 e ocorreu o come-cotas. Com quantas cotas ficará o Sr. Luís?",
-    "options": {
-      "A": "5.000",
-      "B": "4.875",
-      "C": "5.625",
-      "D": "4.900"
-    },
-    "answer": "B",
-    "explain": "Cotas iniciais: 50.000/10 = 5.000. Ganho: 5.000×(12−10)=10.000. Come-cotas (LP) 15% sobre o ganho: 1.500. Para pagar, reduz cotas: 1.500/12=125. Total: 5.000−125=4.875."
+ {
+  "id": "Q199544193_2",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo VIII – Tributação do mercado financeiro",
+  "theme": "Come-cotas - Fundos de longo prazo",
+  "level": "Difícil",
+  "q": "Em janeiro, o Sr. Luís aplicou R$ 50.000,00 em um fundo de Renda Fixa classificado como Longo Prazo, quando a cota estava em R$ 10,00.\n\nNo último dia útil de maio (incidência de come-cotas), a cota estava em R$ 12,00.\n\nConsiderando a regra do come-cotas aplicável aos fundos de longo prazo, com quantas cotas o Sr. Luís ficará após a incidência do imposto?",
+  "options": {
+    "A": "5.000",
+    "B": "4.875",
+    "C": "5.625",
+    "D": "4.900"
   },
+  "answer": "B",
+  "explain": "Cotas iniciais = 50.000 / 10 = 5.000 cotas.\n\nValor da posição em maio = 5.000 × 12 = 60.000.\nRendimento no período = 60.000 − 50.000 = 10.000.\n\nNo come-cotas de fundos de longo prazo, a alíquota semestral é de 15% sobre o rendimento.\nImposto devido = 10.000 × 15% = 1.500.\n\nComo o imposto é recolhido por redução de cotas, converte-se o IR em cotas pelo valor da cota na data do come-cotas:\nCotas “comidas” = 1.500 / 12 = 125 cotas.\n\nCotas finais = 5.000 − 125 = 4.875 cotas."
+},
   {
     "id": "Q199544194_2",
     "moduleId": "MOD4",
@@ -21588,22 +21570,22 @@
     "answer": "D",
     "explain": "**Insider Trading** (ou uso de informação privilegiada) é a prática ilegal de negociar valores mobiliários com base em informações materiais (relevantes) e não públicas, obtidas em razão de uma posição de confiança ou função (ex: diretor, auditor, advogado). O objetivo é obter lucro ou evitar prejuízos antes que a informação seja divulgada ao mercado, o que configura uma quebra de dever fiduciário e distorção da concorrência leal."
   },
-  {
-    "id": "Q7259",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo I – Sistema Financeiro Nacional",
-    "theme": "Investidor Profissional - Definição",
-    "level": "Difícil",
-    "q": "São classificados como investidores profissionais:\nA ) Clubes de investimento, desde que tenham a cart eira gerida por um ou mais cotistas, que sejam investidores qualificados\nB ) Agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários autorizados pela CVM, em relação a seus recursos próprios\nC ) Pessoas naturais que tenham sido aprovadas em exames de qualificação técnica ou possuam certificações aprovadas pela CVM como requisitos para o registro de agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários, em relação a seus recursos próprios\nD ) Pessoas naturais ou jurídicas que possuam investimentos financeiros em valor superior a R$1.000.000,00 (um milhão de reais) e que, adicionalmente, atestem por escrito sua condição de investidor qualificado mediante termo próprio, de acordo com a Resolução CVM nº 30/21",
-    "options": {
-      "A": "Clubes de investimento, desde que tenham a carteira gerida por um ou mais cotistas, que sejam investidores qualificados",
-      "B": "Agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários autorizados pela CVM, em relação a seus recursos próprios",
-      "C": "Pessoas naturais que tenham sido aprovadas em exames de qualificação técnica ou possuam certificações aprovadas pela CVM como requisitos para o registro de agentes autônomos de investimento, administradores de carteira de valores mobiliários, analistas de valores mobiliários e consultores de valores mobiliários, em relação a seus recursos próprios",
-      "D": "Pessoas naturais ou jurídicas que possuam investimentos financeiros em valor superior a R$1.000.000,00 (um milhão de reais) e que, adicionalmente, atestem por escrito sua condição de investidor qualificado mediante termo próprio, de acordo com a Resolução CVM nº 30/21"
-    },
-    "answer": "B",
-    "explain": "A Resolução CVM 30 (e suas atualizações) define **Investidor Profissional** de forma mais restrita que o Investidor Qualificado. São considerados profissionais, em relação a seus recursos próprios: **pessoas físicas que sejam profissionais do mercado autorizados pela CVM** (Agente Autônomo, Administrador de Carteiras, Analista, Consultor), conforme descrito na opção B. A opção C menciona aprovação em exames/certificações, o que é um requisito para *se tornar* um profissional autorizado, mas a classificação como \"investidor profissional\" exige o registro efetivo na CVM. A opção D descreve o critério de **Investidor Qualificado**, que é uma categoria mais ampla."
+{
+  "id": "Q7259",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo I – Sistema Financeiro Nacional",
+  "theme": "Investidor Profissional - Definição",
+  "level": "Difícil",
+  "q": "De acordo com a regulamentação da Comissão de Valores Mobiliários (CVM), são classificados como investidores profissionais:",
+  "options": {
+    "A": "Clubes de investimento, desde que tenham a carteira gerida por um ou mais cotistas que sejam investidores qualificados.",
+    "B": "Agentes autônomos de investimento, administradores de carteira, analistas e consultores de valores mobiliários autorizados pela CVM, em relação a seus recursos próprios.",
+    "C": "Pessoas naturais aprovadas em exames de qualificação técnica ou detentoras de certificações exigidas pela CVM, independentemente de registro como participantes do mercado.",
+    "D": "Pessoas naturais ou jurídicas que possuam investimentos financeiros superiores a R$ 1.000.000,00 e que atestem por escrito sua condição de investidor qualificado, nos termos da Resolução CVM nº 30."
   },
+  "answer": "B",
+  "explain": "A regulamentação da CVM define investidor profissional de forma mais restrita do que investidor qualificado. São considerados investidores profissionais, em relação a seus próprios recursos, os profissionais do mercado de capitais devidamente autorizados pela CVM, como agentes autônomos de investimento, administradores de carteira, analistas e consultores. As alternativas A e D descrevem hipóteses de investidor qualificado, enquanto a alternativa C menciona apenas aprovação em exames, sem exigir o efetivo registro junto à CVM."
+},
   {
     "id": "Q7133_1",
     "module": "Título I – Aspectos institucionais",
@@ -25446,23 +25428,6 @@
     "explain": "A regulamentação de PLDFT exige que a periodicidade de atualização cadastral seja definida com base em risco, porém estabelece um limite máximo de cinco anos (60 meses) para a atualização dos dados de clientes ativos."
   },
   {
-    "id": "QSINCAD002",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
-    "theme": "Cadastro de investidor não residente",
-    "level": "Médio",
-    "q": "Para o cadastro inicial de um investidor não residente, pessoa jurídica, no Sistema Integrado de Cadastro (Sincad), é obrigatória a informação do código identificador emitido pela Receita Federal do Brasil e também:",
-    "options": {
-      "A": "o código de classificação ANBIMA",
-      "B": "o número de inscrição no CADEMP",
-      "C": "o código operacional emitido pela CVM",
-      "D": "o registro na instituição de custódia mandatória",
-      "E": "o número de identificação fiscal do país de origem"
-    },
-    "answer": "E",
-    "explain": "O cadastro de investidor não residente exige, além do identificador da Receita Federal, a indicação do número de identificação fiscal no país de origem, conforme os procedimentos operacionais da B3."
-  },
-  {
     "id": "QCAMARA003",
     "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
@@ -26126,22 +26091,21 @@
     "explain": "A conta coletiva exige controles internos rigorosos e segregação patrimonial adequada."
   },
   {
-    "id": "Q76320",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Conta erro",
-    "level": "Médio",
-    "q": "A conta erro tem como finalidade:",
-    "options": {
-      "A": "Registrar posições definitivas",
-      "B": "Receber operações sem identificação correta",
-      "C": "Centralizar garantias",
-      "D": "Executar operações próprias",
-      "E": "Liquidar operações financeiras"
-    },
-    "answer": "B",
-    "explain": "A conta erro recebe operações que ingressam sem correta identificação do comitente."
+  "id": "Q76320",
+  "module": "Título III – Estrutura de contas e cadastro",
+  "chapter": "Capítulo I – Cadastro de investidores residentes",
+  "theme": "Conta erro - Finalidade",
+  "level": "Médio",
+  "q": "No contexto operacional de pós-negociação (registro, captura e liquidação), a chamada \"conta erro\" é utilizada, principalmente, para:",
+  "options": {
+    "A": "Registrar posições definitivas de comitentes, substituindo a conta de custódia do investidor.",
+    "B": "Alocar temporariamente operações/posições com inconsistência de identificação (ex.: comitente incorreto ou ausente), até a regularização e posterior transferência para a conta correta.",
+    "C": "Centralizar garantias de margem e colaterais exigidos pela câmara de compensação.",
+    "D": "Executar operações próprias do participante para fins de market making."
   },
+  "answer": "B",
+  "explain": "A conta erro tem natureza transitória e é utilizada para segregar e controlar operações/posições que não puderam ser corretamente direcionadas à conta final (por exemplo, por falha de identificação do comitente ou divergência cadastral). Após a correção, a operação/posição é transferida para a conta adequada. Não é conta de posição definitiva (A), não é destinada a garantias (C) e não tem finalidade de negociação própria/market making (D)."
+},
   {
     "id": "Q76321",
     "module": "Título III – Estrutura de contas e cadastro",
@@ -28165,23 +28129,23 @@
     "answer": "B",
     "explain": "A supervisão busca identificar e coibir práticas irregulares no mercado."
   },
-  {
-    "id": "Q90050",
-    "module": "Título V – Negociação",
-    "chapter": "Capítulo II – Ambiente de negociação",
-    "theme": "Responsabilidade final",
-    "level": "Difícil",
-    "q": "No processo de negociação, a responsabilidade final pela conduta e envio das ordens é do:",
-    "options": {
-      "A": "Investidor final",
-      "B": "Agente de custódia",
-      "C": "Participante de negociação",
-      "D": "Auditor independente",
-      "E": "Câmara de compensação"
-    },
-    "answer": "C",
-    "explain": "O participante de negociação é responsável pela conduta e envio das ordens ao sistema."
+ {
+  "id": "Q90050",
+  "module": "Título V – Negociação",
+  "chapter": "Capítulo II – Ambiente de negociação",
+  "theme": "Responsabilidade final pelas ordens",
+  "level": "Difícil",
+  "q": "No âmbito do ambiente de negociação da B3, considerando a cadeia de responsabilidades estabelecida nos regulamentos, a responsabilidade final pela conduta, validação e envio das ordens ao sistema de negociação é atribuída ao:",
+  "options": {
+    "A": "Investidor final, por ser o originador da ordem",
+    "B": "Agente de custódia, por manter a guarda dos ativos",
+    "C": "Participante de negociação, que responde pela ordem perante a B3",
+    "D": "Auditor independente, por fiscalizar os controles internos",
+    "E": "Câmara de compensação, por atuar como contraparte central"
   },
+  "answer": "C",
+  "explain": "De acordo com os regulamentos da B3, o participante de negociação é o responsável final pela conduta, validação e envio das ordens ao sistema de negociação, respondendo perante a B3 por eventuais irregularidades, ainda que a ordem tenha sido originada pelo investidor final."
+},
   {
     "id": "QCAMB3_0001",
     "module": "Título I – Aspectos institucionais",
@@ -28285,22 +28249,21 @@
     "explain": "O risco intradiário é acompanhado continuamente, permitindo ajustes/ações (como chamadas antecipadas) conforme a evolução de preços, posições e exposições."
   },
   {
-    "id": "QCAMB3_0007",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo I – Sistema Financeiro Nacional",
-    "theme": "Bacen como participante",
-    "level": "Médio",
-    "q": "O Banco Central do Brasil, quando atua como participante da Câmara de compensação e liquidação, NÃO está sujeito a:",
-    "options": {
-      "A": "Supervisão da BSM.",
-      "B": "Depósito de garantias.",
-      "C": "Limites de concentração de posição.",
-      "D": "Todas as alternativas anteriores.",
-      "E": "Apenas às alternativas A e B."
-    },
-    "answer": "D",
-    "explain": "Em geral, o Bacen possui tratamento específico quando participa, não se submetendo a exigências como supervisão de autorreguladora, depósito de garantias e limites de concentração, conforme regras aplicáveis."
+  "id": "QCAMB3_0007",
+  "module": "Título I – Aspectos institucionais",
+  "chapter": "Capítulo I – Sistema Financeiro Nacional",
+  "theme": "Banco Central do Brasil como participante da Câmara",
+  "level": "Médio",
+  "q": "Quando o Banco Central do Brasil (Bacen) atua como participante da Câmara de compensação e liquidação da B3, ele NÃO está sujeito a:",
+  "options": {
+    "A": "Supervisão da BSM.",
+    "B": "Depósito de garantias.",
+    "C": "Limites de concentração de posição.",
+    "D": "Todas as alternativas anteriores."
   },
+  "answer": "D",
+  "explain": "O Banco Central do Brasil, quando atua como participante da Câmara, possui tratamento regulatório específico. Nessa condição, não se submete à supervisão da BSM, não está sujeito à exigência de depósito de garantias, nem aos limites de concentração de posição em aberto, conforme previsto nos regulamentos e manuais operacionais aplicáveis da B3."
+},
   {
     "id": "QCAMB3_0008",
     "module": "Título II – Mercados de bolsa e de balcão",
