@@ -45,8 +45,8 @@
       "D": "5"
     },
     "answer": "B",
-    "explain": "São participantes autorizados: (i) agente de custódia, (ii) membro de compensação e (iii) participante de liquidação. Já comitente, liquidante e depositário do agronegócio são participantes cadastrados, não classificados como autorizados.",
-  },
+    "explain": "São participantes autorizados: (i) agente de custódia, (ii) membro de compensação e (iii) participante de liquidação. Já comitente, liquidante e depositário do agronegócio são participantes cadastrados, não classificados como autorizados."
+   },
   {
     "id": "Q14602B",
     "module": "Título VI – Câmara de compensação e liquidação",
@@ -61,7 +61,7 @@
       "D": "Ele não terá êxito, já que a liquidação é irrevogável e definitiva."
     },
     "answer": "D",
-    "explain": "A liquidação em moeda nacional e em ativos é irrevogável e definitiva no momento em que ocorrem as transferências dos saldos entre as contas de liquidação da Câmara e as contas de liquidação dos participantes, realizadas de forma simultânea conforme o regulamento.",
+    "explain": "A liquidação em moeda nacional e em ativos é irrevogável e definitiva no momento em que ocorrem as transferências dos saldos entre as contas de liquidação da Câmara e as contas de liquidação dos participantes, realizadas de forma simultânea conforme o regulamento."
   },
   {
     "id": "Q14603C",
@@ -77,7 +77,7 @@
       "D": "A B3 é diretamente responsável pela inadimplência do comitente, em primeira instância."
     },
     "answer": "B",
-    "explain": "A Câmara atua como contraparte central (CCP) na liquidação perante os membros de compensação, não diretamente perante comitentes. Na cadeia de responsabilidades, a inadimplência do comitente é inicialmente endereçada pelos participantes intermediários (PN/PNP/PLP, conforme aplicável), antes de alcançar o membro de compensação.",
+    "explain": "A Câmara atua como contraparte central (CCP) na liquidação perante os membros de compensação, não diretamente perante comitentes. Na cadeia de responsabilidades, a inadimplência do comitente é inicialmente endereçada pelos participantes intermediários (PN/PNP/PLP, conforme aplicável), antes de alcançar o membro de compensação."
   },
   {
     "id": "Q14604D",
@@ -93,7 +93,7 @@
       "D": "Do Banco Central do Brasil."
     },
     "answer": "D",
-    "explain": "O Banco Central do Brasil (Bacen), na qualidade de participante, possui dispensas específicas previstas nas regras aplicáveis (por exemplo, quanto a requisitos de acesso, depósito de garantias e certos controles). MRP e BSM não são participantes da Câmara, e o membro de compensação está sujeito aos requisitos do manual de acesso.",
+    "explain": "O Banco Central do Brasil (Bacen), na qualidade de participante, possui dispensas específicas previstas nas regras aplicáveis (por exemplo, quanto a requisitos de acesso, depósito de garantias e certos controles). MRP e BSM não são participantes da Câmara, e o membro de compensação está sujeito aos requisitos do manual de acesso."
   },
   {
     "id": "Q14605E",
@@ -109,7 +109,7 @@
       "D": "As asserções I e II são verdadeiras."
     },
     "answer": "D",
-    "explain": "Compensação é a apuração de direitos e obrigações líquidas (resultado líquido). Liquidação é a etapa em que esses direitos e obrigações líquidas são efetivamente extintos por meio das transferências de recursos e/ou ativos, conforme o modelo de liquidação aplicável.",
+    "explain": "Compensação é a apuração de direitos e obrigações líquidas (resultado líquido). Liquidação é a etapa em que esses direitos e obrigações líquidas são efetivamente extintos por meio das transferências de recursos e/ou ativos, conforme o modelo de liquidação aplicável."
   },
   {
     "id": "Q14606F",
@@ -125,7 +125,7 @@
       "D": "Liquidação bilateral."
     },
     "answer": "B",
-    "explain": "A apuração dos resultados devedores e credores entre participantes caracteriza a compensação. Quando essa apuração ocorre de forma centralizada e resulta em um saldo líquido multilateral por participante perante a Câmara, trata-se de compensação multilateral (a liquidação do saldo é etapa posterior).",
+    "explain": "A apuração dos resultados devedores e credores entre participantes caracteriza a compensação. Quando essa apuração ocorre de forma centralizada e resulta em um saldo líquido multilateral por participante perante a Câmara, trata-se de compensação multilateral (a liquidação do saldo é etapa posterior)."
   },
   {
     "id": "Q14607G",
@@ -141,7 +141,7 @@
       "D": "Apenas a hipótese II é correta."
     },
     "answer": "B",
-    "explain": "A liquidação em moeda nacional ocorre via STR, utilizando as contas de liquidação e/ou contas de reservas bancárias, conforme a grade de horários e procedimentos estabelecidos. A hipótese II não é a forma prevista para a liquidação do saldo líquido multilateral nesse contexto.",
+    "explain": "A liquidação em moeda nacional ocorre via STR, utilizando as contas de liquidação e/ou contas de reservas bancárias, conforme a grade de horários e procedimentos estabelecidos. A hipótese II não é a forma prevista para a liquidação do saldo líquido multilateral nesse contexto."
   },
   {
     "id": "Q14608H",
@@ -157,7 +157,7 @@
       "D": "I e II."
     },
     "answer": "C",
-    "explain": "A Câmara B3 atua no registro/aceitação/compensação/liquidação e na infraestrutura de custódia aplicável para mercados como derivativos, commodities, renda variável e renda fixa privada (I e III). Títulos públicos federais (como LFT, LTN e NTN-B) são liquidados/custodiados em infraestrutura própria de títulos públicos, não no escopo descrito para a Câmara B3 (II incorreta).",
+    "explain": "A Câmara B3 atua no registro/aceitação/compensação/liquidação e na infraestrutura de custódia aplicável para mercados como derivativos, commodities, renda variável e renda fixa privada (I e III). Títulos públicos federais (como LFT, LTN e NTN-B) são liquidados/custodiados em infraestrutura própria de títulos públicos, não no escopo descrito para a Câmara B3 (II incorreta)."
   },
   {
     "id": "Q14609I",
@@ -173,7 +173,7 @@
       "D": "Membro de compensação."
     },
     "answer": "D",
-    "explain": "Na cadeia de responsabilidades e no arranjo de acesso da Câmara, o participante com acesso direto é o membro de compensação, que se relaciona diretamente com a Câmara para fins de compensação, garantias e liquidação.",
+    "explain": "Na cadeia de responsabilidades e no arranjo de acesso da Câmara, o participante com acesso direto é o membro de compensação, que se relaciona diretamente com a Câmara para fins de compensação, garantias e liquidação."
   },
   {
     "id": "Q14610J",
@@ -189,7 +189,7 @@
       "D": "Dos participantes de negociação plenos e dos participantes de liquidação."
     },
     "answer": "A",
-    "explain": "O fundo de liquidação é um mecanismo de mitigação do risco de crédito da Câmara e é composto por contribuições da B3 e dos membros de compensação, conforme as regras e salvaguardas estabelecidas.",
+    "explain": "O fundo de liquidação é um mecanismo de mitigação do risco de crédito da Câmara e é composto por contribuições da B3 e dos membros de compensação, conforme as regras e salvaguardas estabelecidas."
   },
   {
     "id": "Q14611K",
@@ -205,7 +205,7 @@
       "D": "Contribuição da B3, contribuição do participante de liquidação inadimplente e contribuições dos membros de compensação adimplentes."
     },
     "answer": "C",
-    "explain": "A ordem típica de utilização do fundo de liquidação segue a lógica de ‘defaulter pays’ antes da mutualização: primeiro a contribuição do membro de compensação inadimplente, depois as contribuições dos membros adimplentes (rateio conforme critérios), e por fim a contribuição da B3, conforme previsto nas salvaguardas.",
+    "explain": "A ordem típica de utilização do fundo de liquidação segue a lógica de ‘defaulter pays’ antes da mutualização: primeiro a contribuição do membro de compensação inadimplente, depois as contribuições dos membros adimplentes (rateio conforme critérios), e por fim a contribuição da B3, conforme previsto nas salvaguardas."
   },
   {
     "id": "Q14612L",
@@ -221,7 +221,7 @@
       "D": "Participantes de negociação."
     },
     "answer": "D",
-    "explain": "Os cotistas do fundo de liquidez são, exclusivamente, a B3, os membros de compensação, os participantes de liquidação e os participantes de negociação plenos. Participantes de negociação (PN) não integram o rol de cotistas.",
+    "explain": "Os cotistas do fundo de liquidez são, exclusivamente, a B3, os membros de compensação, os participantes de liquidação e os participantes de negociação plenos. Participantes de negociação (PN) não integram o rol de cotistas."
   },
   {
     "id": "Q14613M",
@@ -237,7 +237,7 @@
       "D": "As duas asserções são verdadeiras."
     },
     "answer": "B",
-    "explain": "As asserções estão invertidas. Problemas estritamente operacionais podem caracterizar devedor operacional (falha de processo/operacional), enquanto insuficiência financeira caracteriza inadimplência (não pagamento por falta de recursos), conforme definições e procedimentos da Câmara.",
+    "explain": "As asserções estão invertidas. Problemas estritamente operacionais podem caracterizar devedor operacional (falha de processo/operacional), enquanto insuficiência financeira caracteriza inadimplência (não pagamento por falta de recursos), conforme definições e procedimentos da Câmara."
   },
   {
     "id": "Q14614N",
@@ -253,7 +253,7 @@
       "D": "A Câmara entrará na fila de credores para receber os pagamentos a que tem direito."
     },
     "answer": "C",
-    "explain": "Nos termos do art. 7º da Lei nº 10.214/2001, regimes como recuperação judicial, intervenção, falência ou liquidação não afetam o adimplemento das obrigações assumidas no âmbito das câmaras/serviços de compensação e liquidação, que serão ultimadas pela câmara, conforme seus regulamentos.",
+    "explain": "Nos termos do art. 7º da Lei nº 10.214/2001, regimes como recuperação judicial, intervenção, falência ou liquidação não afetam o adimplemento das obrigações assumidas no âmbito das câmaras/serviços de compensação e liquidação, que serão ultimadas pela câmara, conforme seus regulamentos."
   },
   {
     "id": "Q14615O",
@@ -270,9 +270,8 @@
     },
     "answer": "A",
     "explain": "Cabe à B3, sem prejuízo da competência sancionadora da BSM e de outras providências previstas, (i) cancelar a autorização de acesso de participantes autorizados que deixarem de atender requisitos e (ii) aplicar multas por atraso no cumprimento de obrigações, conforme valores e condições definidos nos manuais e normativos aplicáveis.",
-  }
-]
-   {
+  },
+{
     "id": "Q_CAM_016",
     "module": "Título IV – Gestão de risco",
     "chapter": "Capítulo I – Gestão de risco na Câmara",
