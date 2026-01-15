@@ -16881,8 +16881,8 @@
       "D": "Saldo operacional."
     },
     "answer": "B",
-    "explain": "Colateralização é a ação de dar um ativo como garantia de pagamento para uma obrigação. Defaulters pay refere-se a recursos utilizados apenas em caso de inadimplência do participante contribuinte. Salvaguardas são o conjunto de mecanismos de proteção da câmara. O saldo operacional corresponde ao saldo mínimo exigido dos participantes e comitentes.",
-  },
+    "explain": "Colateralização é a ação de dar um ativo como garantia de pagamento para uma obrigação. Defaulters pay refere-se a recursos utilizados apenas em caso de inadimplência do participante contribuinte. Salvaguardas são o conjunto de mecanismos de proteção da câmara. O saldo operacional corresponde ao saldo mínimo exigido dos participantes e comitentes."
+   },
   {
     "id": "Q_CAM_010AD1A",
     "module": "Título IV – Gestão de risco",
@@ -16897,7 +16897,7 @@
       "D": "Redução compulsória da posição que exceder o limite."
     },
     "answer": "B",
-    "explain": "O limite de nível 1 é indicativo para cobrança de margem adicional. O limite de nível 2 pode resultar em aumento de margem requerida, redução compulsória da posição e cobrança de multa.",
+    "explain": "O limite de nível 1 é indicativo para cobrança de margem adicional. O limite de nível 2 pode resultar em aumento de margem requerida, redução compulsória da posição e cobrança de multa."
   },
   {
     "id": "Q_CAM_011DA2",
@@ -16913,7 +16913,7 @@
       "D": "Apenas a III."
     },
     "answer": "A",
-    "explain": "A hipótese II é incorreta, pois as contribuições para o fundo de liquidação são de responsabilidade do membro de compensação. As hipóteses I e III são corretas: PNP, PL e MC respondem pelo saldo operacional, e o comitente é responsável pela garantia das operações.",
+    "explain": "A hipótese II é incorreta, pois as contribuições para o fundo de liquidação são de responsabilidade do membro de compensação. As hipóteses I e III são corretas: PNP, PL e MC respondem pelo saldo operacional, e o comitente é responsável pela garantia das operações."
   },
   {
     "id": "Q_CAM_0121D2",
@@ -16929,7 +16929,7 @@
       "D": "Ele ainda pode ser chamado para depositar garantias a qualquer momento do dia."
     },
     "answer": "D",
-    "explain": "Além das chamadas diárias e intradiárias, os participantes podem ser convocados a depositar garantias a qualquer momento do dia, sem periodicidade, em função do monitoramento de risco intradiário da câmara.",
+    "explain": "Além das chamadas diárias e intradiárias, os participantes podem ser convocados a depositar garantias a qualquer momento do dia, sem periodicidade, em função do monitoramento de risco intradiário da câmara."
   },
   {
     "id": "Q_CAM_013F4G",
@@ -16945,7 +16945,7 @@
       "D": "A soma das garantias e do seu deságio é menor que o risco intradiário."
     },
     "answer": "A",
-    "explain": "A violação ocorre quando o valor do risco, em módulo, supera o limite de risco intradiário somado às garantias destinadas à ampliação do saldo operacional.",
+    "explain": "A violação ocorre quando o valor do risco, em módulo, supera o limite de risco intradiário somado às garantias destinadas à ampliação do saldo operacional."
   },
   {
     "id": "Q_CAM_014DAS1D",
@@ -16961,7 +16961,7 @@
       "D": "R$ -10.000.000, com violação."
     },
     "answer": "D",
-    "explain": "Saldo operacional = Limite + Garantias – Risco = 80.000.000 + 30.000.000 – 120.000.000 = -10.000.000. O saldo é negativo, caracterizando violação do risco intradiário.",
+    "explain": "Saldo operacional = Limite + Garantias – Risco = 80.000.000 + 30.000.000 – 120.000.000 = -10.000.000. O saldo é negativo, caracterizando violação do risco intradiário."
   },
   {
     "id": "Q_CAM_0151DA5S",
@@ -16977,7 +16977,7 @@
       "D": "As hipóteses I e II são corretas."
     },
     "answer": "A",
-    "explain": "A hipótese I é correta. Após a inadimplência, a câmara enfrenta risco de perda potencial no encerramento do portfólio, além de riscos implícitos de mercado, liquidez e fluxo de caixa. A hipótese II é incorreta, pois deságio refere-se à redução do valor de ativos aceitos como garantia, não sendo um risco específico do processo de close-out.",
+    "explain": "A hipótese I é correta. Após a inadimplência, a câmara enfrenta risco de perda potencial no encerramento do portfólio, além de riscos implícitos de mercado, liquidez e fluxo de caixa. A hipótese II é incorreta, pois deságio refere-se à redução do valor de ativos aceitos como garantia, não sendo um risco específico do processo de close-out."
   },
   {
     "id": "Q14155",
