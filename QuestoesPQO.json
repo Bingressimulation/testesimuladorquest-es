@@ -31,6 +31,198 @@
     "module": "Título IV – Gestão de Risco",
     "chapter": "Capítulo II – Risco corporativo e controles internos"
   },
+  {
+    "id": "QCD14511",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Central Depositária - Atividades",
+    "level": "Fácil",
+    "q": "Observe abaixo a lista de possíveis atividades da Central Depositária da B3:\n\nI - Processamento das movimentações de custódia;\nII - Tratamento dos eventos corporativos que acompanham o ciclo de vida do ativo;\nIII - Controle da titularidade dos ativos;\nIV - Guarda centralizada de valores mobiliários e ativos financeiros;\nV - Cálculo do saldo líquido multilateral do comitente.\n\nÉ possível afirmar que o maior número de atividades da Central Depositária, de acordo com as elencadas acima, será de:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "answer": "C",
+    "explain": "As atividades I, II, III e IV são típicas da Central Depositária (custódia, controle de titularidade, movimentações e eventos corporativos). Já o cálculo do saldo líquido multilateral (V) é atividade associada ao processo de compensação/liquidação, atribuída à Câmara de compensação e liquidação, e não à Central Depositária."
+  },
+  {
+    "id": "QCD14512",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Ativos Depositáveis - Escopo",
+    "level": "Médio",
+    "q": "São passíveis de depósito na Central Depositária da B3 quaisquer ativos nos termos da legislação aplicável. Sobre esses ativos, assinale a alternativa que NÃO representa, em sua totalidade, um ativo necessariamente passível de depósito na Central Depositária:",
+    "options": {
+      "A": "Quaisquer ações de empresas S.A.",
+      "B": "Ouro ativo financeiro.",
+      "C": "BDRs.",
+      "D": "Debêntures."
+    },
+    "answer": "A",
+    "explain": "Nem todas as ações de empresas constituídas como S.A. são, necessariamente, depositadas na Central Depositária da B3 (por exemplo, ações de companhias fechadas). Já ouro ativo financeiro, BDRs e debêntures estão entre ativos típicos admitidos para depósito, conforme regras aplicáveis."
+  },
+  {
+    "id": "QCD14513",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Responsabilidade - Obrigações do Emissor",
+    "level": "Médio",
+    "q": "Debenturistas da empresa GBQ Metalúrgica notaram que o pagamento de cupom semestral não foi honrado e buscaram a Central Depositária da B3, responsável pelo depósito dos ativos.\n\nNesse caso:",
+    "options": {
+      "A": "A Central Depositária bloqueará os ativos da GBQ Metalúrgica, exigindo margens de garantia para o pagamento de suas obrigações.",
+      "B": "A Central Depositária enviará notificação à GBQ Metalúrgica, que terá cinco dias para realizar o pagamento.",
+      "C": "A Central Depositária acionará a Câmara, que atuará como contraparte central garantidora do pagamento.",
+      "D": "A Central Depositária nada fará, pois a B3 não responde pelo cumprimento das obrigações originárias do emissor."
+    },
+    "answer": "D",
+    "explain": "A B3, na condição de central depositária, não responde pelo cumprimento das obrigações originárias do emissor (e, conforme o caso, do escriturador contratado), como pagamento de principal e acessórios. Assim, o inadimplemento do emissor não é garantido pela B3/central depositária."
+  },
+  {
+    "id": "QCD14514",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Participantes - Autorizados",
+    "level": "Fácil",
+    "q": "Na Central Depositária, existem participantes autorizados (com autorização de acesso) e participantes cadastrados. Os dois únicos participantes da Central Depositária com autorização de acesso à B3 são:",
+    "options": {
+      "A": "O emissor e o escriturador.",
+      "B": "O escriturador e o liquidante.",
+      "C": "O depositário de ouro e o comitente.",
+      "D": "O agente de custódia e a infraestrutura de mercado."
+    },
+    "answer": "D",
+    "explain": "Os participantes autorizados (com autorização de acesso) na Central Depositária são o agente de custódia e a infraestrutura de mercado. Emissor, escriturador, fundidor de ouro, depositário de ouro, liquidante e comitente são participantes cadastrados."
+  },
+  {
+    "id": "QCD14515",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo II – Processos operacionais da central depositária da B3",
+    "theme": "Eventos Corporativos - Liquidação Financeira",
+    "level": "Médio",
+    "q": "O participante cadastrado que utiliza sua conta Reservas Bancárias ou Conta de Liquidação para efetuar ou receber pagamentos referentes ao processo de liquidação de eventos corporativos é chamado de:",
+    "options": {
+      "A": "Escriturador",
+      "B": "Agente de custódia",
+      "C": "Liquidante",
+      "D": "Depositário"
+    },
+    "answer": "C",
+    "explain": "O liquidante é o participante cadastrado que utiliza Conta de Reservas Bancárias ou Conta de Liquidação para efetuar ou receber os pagamentos associados à liquidação financeira de eventos corporativos, conforme as regras operacionais aplicáveis."
+  },
+  {
+    "id": "QCD14516",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Contingência - Medidas",
+    "level": "Médio",
+    "q": "Supondo a decretação de estado de defesa, greve ou estado de calamidade pública, assinale a alternativa que NÃO contém uma medida de contingência que pode ser utilizada pela Central Depositária:",
+    "options": {
+      "A": "Alterar o horário de operação dos sistemas da Central Depositária.",
+      "B": "Estabelecer a interrupção parcial da Central Depositária.",
+      "C": "Adotar ação que resguarde a eficácia e a segurança das operações.",
+      "D": "Proibir a interrupção total da Central Depositária."
+    },
+    "answer": "D",
+    "explain": "Em situação de emergência, o Diretor Presidente da B3 pode instaurar regime de contingência e, com ciência e anuência prévia do Bacen e da CVM, conforme o caso, alterar horários e até estabelecer interrupção total ou parcial, além de outras ações que preservem a segurança e eficácia das operações. Portanto, não faz sentido 'proibir' a interrupção total como medida possível."
+  },
+  {
+    "id": "QCD14517",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Autorregulação - Competência Sancionadora",
+    "level": "Fácil",
+    "q": "A apuração e punição de infrações ao regulamento da Central Depositária da B3, às normas que o complementam ou à legislação e regulamentação em vigor, deverá ser feita:",
+    "options": {
+      "A": "Pela BSM.",
+      "B": "Pela CVM.",
+      "C": "Pelo Banco Central do Brasil.",
+      "D": "Pela Câmara B3."
+    },
+    "answer": "A",
+    "explain": "Compete à BSM apurar e punir infrações ao regulamento da Central Depositária da B3 e normas correlatas, aplicando penalidades conforme seu estatuto social e regulamento processual, sem prejuízo das competências dos reguladores."
+  },
+  {
+    "id": "QCD14518",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Ouro Ativo Financeiro - Especificações",
+    "level": "Difícil",
+    "q": "Complete as lacunas abaixo:\n\n\"Os lingotes de ouro custodiados na Central Depositária da B3 devem apresentar pesos de ________ e ________ gramas, com teor de pureza de ________ partes de ouro fino por 1.000 partes de liga metálica\".",
+    "options": {
+      "A": "10 – 250 – 999",
+      "B": "250 – 1.000 – 999,9",
+      "C": "250 – 10 – 999",
+      "D": "1.000 – 0,225 – 1.000"
+    },
+    "answer": "B",
+    "explain": "Os lingotes de ouro admitidos para custódia apresentam pesos de 250 g e 1.000 g, com teor de pureza de 999,9 partes de ouro fino por 1.000 partes de liga metálica."
+  },
+  {
+    "id": "QCD14519",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Ouro Ativo Financeiro - Responsabilidades",
+    "level": "Difícil",
+    "q": "Observe as seguintes asserções a respeito do ouro:\n\nI – A Central Depositária admite depósito de ouro, ativo financeiro.\nII – A Central Depositária não responde pela obrigação do fundidor de garantir o teor de pureza especificado nos lingotes.\nIII – A Central Depositária responde pelo teor de pureza especificado nos registros escriturais do ouro.\n\nÉ possível afirmar que o maior número de asserções corretas encontra-se em:",
+    "options": {
+      "A": "Apenas na I.",
+      "B": "I e II.",
+      "C": "Apenas na III.",
+      "D": "II e III."
+    },
+    "answer": "B",
+    "explain": "A Central Depositária admite depósito de ouro ativo financeiro (I correta). A B3 não responde pela obrigação do fundidor de garantir o teor de pureza, seja nos lingotes seja nos registros (II correta). Assim, a III é incorreta."
+  },
+  {
+    "id": "QCD14520",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Tarifação - Divulgação",
+    "level": "Médio",
+    "q": "Complete as lacunas:\n\n\"Os custos e encargos cobrados pela B3 estão descritos em sua _____________, que é divulgada por meio de __________, podendo diferenciar a tarifação para serviços específicos prestados no contexto da central depositária da B3\".",
+    "options": {
+      "A": "tabela de preços – fato relevante",
+      "B": "cartilha de procedimentos – informes ao mercado",
+      "C": "política de tarifação – ofício circular",
+      "D": "prestação de contas – manuais"
+    },
+    "answer": "C",
+    "explain": "A política de tarifação da B3 descreve custos e encargos e é divulgada por meio de ofício circular, podendo prever tarifação diferenciada para serviços específicos no âmbito da central depositária."
+  },
+  {
+    "id": "QCD14521",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Participantes - Escriturador",
+    "level": "Fácil",
+    "q": "O agente de custódia exerce suas atividades com atenção aos interesses dos comitentes. Na Central Depositária, outro participante atua com responsabilidade principal relacionada ao emissor dos ativos.\n\nEstamos nos referindo ao:",
+    "options": {
+      "A": "Detentor",
+      "B": "Depositário",
+      "C": "Liquidante",
+      "D": "Escriturador"
+    },
+    "answer": "D",
+    "explain": "O escriturador é a instituição contratada pelo emissor para prestar o serviço de escrituração de ativos e prover as informações necessárias para o adequado tratamento operacional no âmbito da central depositária. Não existe a figura de participante denominada 'detentor'."
+  },
+  {
+    "id": "QCD14522",
+    "module": "Título VII – Central depositária",
+    "chapter": "Capítulo I – Central depositária da B3",
+    "theme": "Direitos do Comitente - Informação",
+    "level": "Médio",
+    "q": "O comitente tem direito de receber informações atualizadas sobre seus ativos depositados na Central Depositária. Essas informações deverão ser enviadas:",
+    "options": {
+      "A": "Pelo agente de custódia e pela Central Depositária.",
+      "B": "Pelo escriturador e pelo liquidante.",
+      "C": "Pelo emissor e pelo agente de custódia.",
+      "D": "Pela B3 e pelo emissor."
+    },
+    "answer": "A",
+    "explain": "O comitente utiliza os serviços do agente de custódia para a guarda de seus ativos e tem direito de receber informações atualizadas tanto do seu agente de custódia quanto da Central Depositária da B3, conforme regras aplicáveis."
+  },
    {
     "id": "Q14601A",
     "module": "Título VI – Câmara de compensação e liquidação",
