@@ -8512,22 +8512,6 @@
     "explain": "Variação = (4700/4200) -1 = 11,9%. Como ultrapassou 10%, a rentabilidade é limitada a 10%. Logo: R$ 50.000 * 1,10 = R$ 55.000. Tributação: 15% (prazo > 720 dias) sobre o ganho de R$ 5.000 = R$ 750. Resgate líquido: R$ 55.000 - R$ 750 = R$ 54.250."
   },
   {
-    "id": "Q1995420213020",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "NDF e Swap - Tributação",
-    "level": "Médio",
-    "q": "Um determinado investidor faz 2 aplicações no Mercado de Capitais, ambas pelo prazo de 152 dias úteis (220 dias corridos) nos seguintes produtos: 1 – NDF no valor de 55.000 2 – Contrato de Swap (Atrelado a renda variável) no valor de 55.000 Qual será a alíquota do Imposto de Renda de ambos, respectivamente:",
-    "options": {
-      "A": "15% e 15%",
-      "B": "22,50% e 15%",
-      "C": "20% e 20%",
-      "D": "15% e 20%"
-    },
-    "answer": "B",
-    "explain": "NDF é derivativo financeiro tributado como renda variável: 22,5% (até 180 dias). Swap atrelado a renda variável também é derivativo, mas depende da natureza: se for renda variável, 22,5%; se for renda fixa, 15%. A questão considera swap atrelado a RV, logo 22,5% e 15% (para NDF e Swap)."
-  },
-  {
     "id": "Q1995420213025",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo I – Mercado de renda variável",
