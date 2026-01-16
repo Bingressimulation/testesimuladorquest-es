@@ -31606,7 +31606,7 @@
     "D": "Novação de Contratos."
   },
   "answer": "C",
-  "explain": "O descaminho de prazos caracteriza um risco de liquidez, mitigado por mecanismos como o Fundo de Liquidez, que permite à CCP honrar obrigações financeiras imediatas mesmo quando as garantias levam mais tempo para serem convertidas em caixa.",
+  "explain": "O descaminho de prazos caracteriza um risco de liquidez, mitigado por mecanismos como o Fundo de Liquidez, que permite à CCP honrar obrigações financeiras imediatas mesmo quando as garantias levam mais tempo para serem convertidas em caixa."
 },
 {
   "id": "QCCP007",
@@ -31622,7 +31622,7 @@
     "D": "A perda transitória será igual a zero."
   },
   "answer": "A",
-  "explain": "Como o valor das garantias aceitas pela CCP é superior à perda agregada estimada no cenário de estresse, não há expectativa de perda permanente, indicando cobertura adequada do risco de crédito.",
+  "explain": "Como o valor das garantias aceitas pela CCP é superior à perda agregada estimada no cenário de estresse, não há expectativa de perda permanente, indicando cobertura adequada do risco de crédito."
 },
 
 {
@@ -31655,7 +31655,7 @@
     "D": "Imediatamente após a constatação da falha, antes de vender as garantias do inadimplente."
   },
   "answer": "A",
-  "explain": "No Default Waterfall, os recursos mutualizados são acionados somente após o consumo das garantias individuais do participante inadimplente e do capital próprio da CCP destinado à absorção de perdas, preservando a lógica de responsabilidade escalonada.",
+  "explain": "No Default Waterfall, os recursos mutualizados são acionados somente após o consumo das garantias individuais do participante inadimplente e do capital próprio da CCP destinado à absorção de perdas, preservando a lógica de responsabilidade escalonada."
 },
   {
   "id": "QCCP010",
@@ -31671,7 +31671,7 @@
     "D": "Estorno de ordens."
   },
   "answer": "C",
-  "explain": "A novação é o mecanismo jurídico pelo qual a CCP se interpõe entre as partes, tornando-se compradora de todo vendedor e vendedora de todo comprador, assumindo o risco de crédito da operação.",
+  "explain": "A novação é o mecanismo jurídico pelo qual a CCP se interpõe entre as partes, tornando-se compradora de todo vendedor e vendedora de todo comprador, assumindo o risco de crédito da operação."
 },
 {
   "id": "QCCP011",
@@ -31687,7 +31687,7 @@
     "D": "A soma bruta de todos os ativos negociados, sem compensação de débitos e créditos."
   },
   "answer": "A",
-  "explain": "Na liquidação multilateral, todas as obrigações são consolidadas, resultando em um único saldo líquido devedor ou credor perante a Câmara.",
+  "explain": "Na liquidação multilateral, todas as obrigações são consolidadas, resultando em um único saldo líquido devedor ou credor perante a Câmara."
 },
 {
   "id": "QSPB001",
@@ -31703,7 +31703,7 @@
     "D": "Câmara de Câmbio."
   },
   "answer": "B",
-  "explain": "O STR é o sistema de liquidação bruta em tempo real operado pelo Banco Central, por onde transitam as transferências de fundos entre instituições financeiras.",
+  "explain": "O STR é o sistema de liquidação bruta em tempo real operado pelo Banco Central, por onde transitam as transferências de fundos entre instituições financeiras."
 },
 {
   "id": "QSPB002",
@@ -31719,7 +31719,7 @@
     "D": "Através de novação com garantia do Banco Central."
   },
   "answer": "B",
-  "explain": "O Selic opera com liquidação bruta em tempo real (LBTR), sem assumir risco de contraparte e sem compensação multilateral.",
+  "explain": "O Selic opera com liquidação bruta em tempo real (LBTR), sem assumir risco de contraparte e sem compensação multilateral."
 },
 {
   "id": "QSPB003",
@@ -31735,7 +31735,7 @@
     "D": "Risco de Imagem."
   },
   "answer": "B",
-  "explain": "O DvP assegura que a entrega do ativo ocorra simultaneamente ao pagamento financeiro, mitigando o risco de principal.",
+  "explain": "O DvP assegura que a entrega do ativo ocorra simultaneamente ao pagamento financeiro, mitigando o risco de principal."
 },
 {
   "id": "QCCP012",
@@ -31751,7 +31751,7 @@
     "D": "Quebra do Fundo de Garantia."
   },
   "answer": "C",
-  "explain": "Como existe garantia suficiente, não há prejuízo definitivo, apenas um descasamento temporário de caixa, caracterizando perda transitória.",
+  "explain": "Como existe garantia suficiente, não há prejuízo definitivo, apenas um descasamento temporário de caixa, caracterizando perda transitória."
 },
 {
   "id": "QCCP013",
@@ -31767,7 +31767,7 @@
     "D": "O mercado fecha em queda por três dias seguidos."
   },
   "answer": "B",
-  "explain": "A perda permanente ocorre quando o colateral não é suficiente para cobrir a obrigação financeira, materializando o risco de crédito.",
+  "explain": "A perda permanente ocorre quando o colateral não é suficiente para cobrir a obrigação financeira, materializando o risco de crédito."
 },
 {
   "id": "QCCP014",
@@ -31783,7 +31783,7 @@
     "D": "Nunca, pois a B3 garante 100% com capital próprio."
   },
   "answer": "C",
-  "explain": "A mutualização ocorre apenas após o consumo das garantias do inadimplente e do capital próprio da CCP (skin in the game).",
+  "explain": "A mutualização ocorre apenas após o consumo das garantias do inadimplente e do capital próprio da CCP (skin in the game)."
 },
 {
   "id": "QCCP015",
@@ -31799,7 +31799,7 @@
     "D": "Seguro contratado pela bolsa."
   },
   "answer": "B",
-  "explain": "O skin in the game alinha incentivos, pois a CCP também absorve perdas antes de utilizar recursos dos membros adimplentes.",
+  "explain": "O skin in the game alinha incentivos, pois a CCP também absorve perdas antes de utilizar recursos dos membros adimplentes."
 },
 {
   "id": "QCCP016",
@@ -31815,7 +31815,7 @@
     "D": "Substituir margens de garantia."
   },
   "answer": "B",
-  "explain": "O Fundo de Liquidez mitiga o risco de liquidez, assegurando recursos imediatos para honrar obrigações financeiras.",
+  "explain": "O Fundo de Liquidez mitiga o risco de liquidez, assegurando recursos imediatos para honrar obrigações financeiras."
 },
 {
   "id": "QPART001",
@@ -31831,7 +31831,7 @@
     "D": "Agente Autônomo."
   },
   "answer": "C",
-  "explain": "O Membro de Compensação possui vínculo financeiro direto com a Câmara e responde pela liquidação.",
+  "explain": "O Membro de Compensação possui vínculo financeiro direto com a Câmara e responde pela liquidação."
 },
 {
   "id": "QPART002",
@@ -31847,7 +31847,7 @@
     "D": "Ser banco múltiplo."
   },
   "answer": "B",
-  "explain": "O PN negocia, mas a liquidação é responsabilidade do Membro de Compensação contratado.",
+  "explain": "O PN negocia, mas a liquidação é responsabilidade do Membro de Compensação contratado."
 },
 {
   "id": "QPART003",
@@ -31863,7 +31863,7 @@
     "D": "Cidade."
   },
   "answer": "B",
-  "explain": "A apuração do saldo ocorre dentro da estrutura específica de compensação envolvendo PN e MC.",
+  "explain": "A apuração do saldo ocorre dentro da estrutura específica de compensação envolvendo PN e MC."
 },
 {
   "id": "QSPB004",
@@ -31879,7 +31879,7 @@
     "D": "Válidas após 48 horas."
   },
   "answer": "A",
-  "explain": "No STR, a liquidação é final, irrevogável e incondicional.",
+  "explain": "No STR, a liquidação é final, irrevogável e incondicional."
 },
 {
   "id": "QCUST001",
@@ -31895,7 +31895,7 @@
     "D": "Aumentar liquidez."
   },
   "answer": "B",
-  "explain": "A segregação evita a confusão patrimonial entre clientes e instituições financeiras.",
+  "explain": "A segregação evita a confusão patrimonial entre clientes e instituições financeiras."
 },
 {
   "id": "QRV002",
@@ -31911,7 +31911,7 @@
     "D": "Toma dinheiro emprestado."
   },
   "answer": "C",
-  "explain": "O financiador compra à vista e garante a venda futura, recebendo a remuneração equivalente à taxa de juros.",
+  "explain": "O financiador compra à vista e garante a venda futura, recebendo a remuneração equivalente à taxa de juros."
 },
 {
   "id": "QDER001",
@@ -31927,7 +31927,7 @@
     "D": "Alterar vencimento."
   },
   "answer": "B",
-  "explain": "O ajuste diário evita o acúmulo de perdas e reduz o risco de crédito.",
+  "explain": "O ajuste diário evita o acúmulo de perdas e reduz o risco de crédito."
 },
 {
   "id": "QCCP017",
@@ -31943,7 +31943,7 @@
     "D": "Somente dólares."
   },
   "answer": "B",
-  "explain": "A CCP aceita diversos ativos como garantia, aplicando deságios conforme o risco.",
+  "explain": "A CCP aceita diversos ativos como garantia, aplicando deságios conforme o risco."
 },
 {
   "id": "QFX001",
@@ -31959,7 +31959,7 @@
     "D": "Opções."
   },
   "answer": "B",
-  "explain": "O risco Herstatt ocorre na liquidação de moedas em diferentes fusos horários.",
+  "explain": "O risco Herstatt ocorre na liquidação de moedas em diferentes fusos horários."
 },
 {
   "id": "QCCP018",
@@ -31975,7 +31975,7 @@
     "D": "Inexistente."
   },
   "answer": "C",
-  "explain": "Sem CCP, o risco permanece diretamente entre comprador e vendedor.",
+  "explain": "Sem CCP, o risco permanece diretamente entre comprador e vendedor."
 },
   {
   "id": "QCCP019",
@@ -31991,8 +31991,8 @@
     "D": "II e III, apenas."
   },
   "answer": "C",
-  "explain": "A afirmação I está correta, pois a CCP se interpõe entre comprador e vendedor. A II está incorreta, pois a novação não elimina a exigência de margens de garantia. A III está correta, pois o risco de crédito passa a ser centralizado na câmara.",
-},
+  "explain": "A afirmação I está correta, pois a CCP se interpõe entre comprador e vendedor. A II está incorreta, pois a novação não elimina a exigência de margens de garantia. A III está correta, pois o risco de crédito passa a ser centralizado na câmara."
+  },
 {
   "id": "QSPB005",
   "module": "Título I – Infraestrutura do sistema financeiro",
@@ -32007,7 +32007,7 @@
     "D": "Processadas apenas se houver novação por parte do Banco Central."
   },
   "answer": "C",
-  "explain": "No STR, a liquidação ocorre operação por operação, em tempo real, sendo final, irrevogável e incondicional no momento do processamento.",
+  "explain": "No STR, a liquidação ocorre operação por operação, em tempo real, sendo final, irrevogável e incondicional no momento do processamento."
 },
 {
   "id": "QCCP020",
@@ -32021,7 +32021,7 @@
     "B": "Falsa."
   },
   "answer": "B",
-  "explain": "Na liquidação multilateral com CCP, o risco de principal é reduzido em relação à liquidação bilateral, pois a câmara se interpõe entre as partes e utiliza mecanismos de salvaguardas para mitigar o impacto de inadimplências.",
+  "explain": "Na liquidação multilateral com CCP, o risco de principal é reduzido em relação à liquidação bilateral, pois a câmara se interpõe entre as partes e utiliza mecanismos de salvaguardas para mitigar o impacto de inadimplências."
 },
 {
   "id": "QCCP021",
@@ -32037,7 +32037,7 @@
     "D": "Segregação de lucros."
   },
   "answer": "A",
-  "explain": "Quando as garantias são insuficientes para cobrir o prejuízo, ocorre perda permanente, caracterizando materialização do risco de crédito.",
+  "explain": "Quando as garantias são insuficientes para cobrir o prejuízo, ocorre perda permanente, caracterizando materialização do risco de crédito."
 },
 {
   "id": "QCCP023",
@@ -32053,7 +32053,7 @@
     "D": "Transferência de Reservas."
   },
   "answer": "B",
-  "explain": "A gestão integrada de riscos permite a compensação de exposições entre diferentes mercados, reduzindo o volume de garantias exigidas por meio do cálculo do risco líquido.",
+  "explain": "A gestão integrada de riscos permite a compensação de exposições entre diferentes mercados, reduzindo o volume de garantias exigidas por meio do cálculo do risco líquido."
 },
 {
   "id": "QPART004",
@@ -32069,7 +32069,7 @@
     "D": "II e III, apenas."
   },
   "answer": "B",
-  "explain": "O item I está correto, pois o MC responde financeiramente perante a CCP. O item II é incorreto, pois nem todo PN é MC. O item III está correto, pois a segregação de garantias é obrigatória.",
+  "explain": "O item I está correto, pois o MC responde financeiramente perante a CCP. O item II é incorreto, pois nem todo PN é MC. O item III está correto, pois a segregação de garantias é obrigatória."
 },
 {
   "id": "QCCP009",
@@ -32085,7 +32085,7 @@
     "D": "Risco operacional sistêmico."
   },
   "answer": "A",
-  "explain": "Quando a liquidação forçada das garantias não é suficiente para cobrir o saldo devedor do participante inadimplente, a diferença negativa representa a exposição residual da CCP, caracterizando risco de crédito.",
+  "explain": "Quando a liquidação forçada das garantias não é suficiente para cobrir o saldo devedor do participante inadimplente, a diferença negativa representa a exposição residual da CCP, caracterizando risco de crédito."
 },
 {
   "id": "QRIS7H4",
