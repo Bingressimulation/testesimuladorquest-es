@@ -7423,22 +7423,22 @@
     "answer": "C",
     "explain": "As negociações são feitas por instituições habilitadas, podendo ser em nome próprio ou de clientes."
   },
-  {
-    "id": "Q9674",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Entidade de Registro (Trade Repository – TR)",
-    "level": "Médio",
-    "q": "Uma entidade de registro (Trade Repository – TR) mantém um sistema centralizado para registro de transações. Sendo sua função: I. Prestar serviços adicionais de compensação e liquidação. II. Promover a transparência e a estabilidade financeira III. Identificar situações de abuso no mercado e realizar a prevenção contra elas. Quais estão corretas?",
-    "options": {
-      "A": "Apenas I e II",
-      "B": "Apenas II e III",
-      "C": "Apenas III",
-      "D": "Todas estão corretas"
-    },
-    "answer": "B",
-    "explain": "II e III estão corretos; I está errado, pois o TR não presta serviços de compensação/liquidação, apenas registro."
+{
+  "id": "QCCP001",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Default Waterfall | Sistema de salvaguardas da CCP",
+  "level": "Médio",
+  "q": "No gerenciamento de risco de uma Contraparte Central (CCP), o sistema de salvaguardas é estruturado em camadas (conhecido como Default Waterfall). Caso as margens de garantia depositadas por um participante inadimplente sejam insuficientes para cobrir o prejuízo de suas posições, qual recurso é tipicamente acionado como uma camada de proteção adicional e coletiva?",
+  "options": {
+    "A": "O Book de Ofertas, utilizando a liquidez das ordens abertas para compensar o saldo devedor.",
+    "B": "Os Recursos Mutualizados, como o Fundo de Garantia ou Fundo de Compensação, alimentado por contribuições de todos os membros.",
+    "C": "A Taxa de Corretagem, revertendo as comissões do período para o fundo de reserva da câmara.",
+    "D": "O Ajuste Diário, aplicando uma multa compulsória sobre o patrimônio líquido de todos os investidores do mercado à vista."
   },
+  "answer": "B",
+  "explain": "No Default Waterfall de uma CCP, após o esgotamento das garantias individuais do participante inadimplente, são acionados os recursos mutualizados, como o Fundo de Garantia ou Fundo de Compensação. Esses recursos coletivos têm a função de absorver perdas residuais e preservar a estabilidade do sistema, não incluindo mecanismos de negociação, taxas privadas ou penalidades generalizadas.",
+},
   {
     "id": "Q9675",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -8592,22 +8592,6 @@
     "chapter": "Capítulo VIII – Tributação do mercado financeiro"
   },
   {
-    "id": "Q1995420213040",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Operações estruturadas - Gráfico",
-    "level": "Difícil",
-    "q": "O gráfico abaixo descreve qual tipo de operações no mercado de derivativos financeiros",
-    "options": {
-      "A": "Short Strangle",
-      "B": "Butterfly",
-      "C": "Long Strangle",
-      "D": "Financiamento"
-    },
-    "answer": "A",
-    "explain": "Short Strangle é a venda de uma call e uma put com preços de exercício distintos, gerando ganho limitado (prêmios) e perda ilimitada se o ativo se mover muito."
-  },
-  {
     "id": "Q1995420213041",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo VII – Outros ativos e serviços",
@@ -8767,22 +8751,22 @@
     "answer": "D",
     "explain": "Gráfico de lançador de PUT: ganho limitado (prêmio) e perda ilimitada abaixo do preço de exercício."
   },
-  {
-    "id": "Q1995420213074",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Mercado a Termo - Financiamento",
-    "level": "Médio",
-    "q": "Nas operações a termo no mercado de ações, uma operação de financiamento é caracterizada como aquela em que o investidor",
-    "options": {
-      "A": "obtém recursos de um empréstimo e compra ações, simultaneamente, para entrega em uma data futura.",
-      "B": "compra à vista um lote de ações e o vende, simultaneamente, para entrega em uma data futura.",
-      "C": "paga um prêmio ao titular das ações para obter o direito de comprá-las em uma data futura.",
-      "D": "vende à vista um lote de ações e o recompra para entrega em uma data futura."
-    },
-    "answer": "B",
-    "explain": "Financiamento no termo: compra à vista e vende a termo, captando recursos com a venda futura."
+ {
+  "id": "QRV001",
+  "module": "Título II – Mercados de bolsa e de balcão",
+  "chapter": "Capítulo I – Mercado de renda variável",
+  "theme": "Operações a termo | Financiamento",
+  "level": "Médio",
+  "q": "No mercado de ações, uma operação de financiamento a termo é aquela em que um investidor, com o objetivo de obter uma remuneração equivalente à taxa de juros do mercado, realiza a seguinte estratégia:",
+  "options": {
+    "A": "Compra uma ação no mercado à vista e, simultaneamente, a vende a termo para outro investidor, fixando seu lucro pela diferença entre os preços (taxa).",
+    "B": "Vende uma ação no mercado à vista e a recompra a termo, visando lucrar com a queda do preço do ativo no período.",
+    "C": "Compra uma ação a termo sem possuir recursos financeiros, buscando apenas a alavancagem para lucrar com a valorização do papel.",
+    "D": "Realiza a compra e a venda de ações no mercado à vista no mesmo dia (Day Trade), utilizando o limite operacional da corretora como crédito."
   },
+  "answer": "A",
+  "explain": "Na operação de financiamento a termo, o investidor atua como financiador ao comprar a ação no mercado à vista e vendê-la simultaneamente a termo. O ganho da operação decorre da diferença entre o preço à vista e o preço a termo, que representa a remuneração equivalente à taxa de juros do mercado no período do contrato.",
+},
   {
     "id": "Q1995420213075",
     "module": "Título II – Mercados de bolsa e de balcão",
@@ -26837,23 +26821,22 @@
     "answer": "B",
     "explain": "A atuação preventiva pode incluir chamadas adicionais de margem para mitigar riscos."
   },
-  {
-    "id": "Q51019",
-    "module": "Título I – Aspectos institucionais",
-    "chapter": "Capítulo III – A B3 no mercado financeiro e de capitais",
-    "theme": "Gestão integrada",
-    "level": "Médio",
-    "q": "A gestão integrada de riscos na B3 pressupõe:",
-    "options": {
-      "A": "Análise isolada de cada risco",
-      "B": "Visão consolidada das exposições",
-      "C": "Eliminação de riscos operacionais",
-      "D": "Separação entre mercados",
-      "E": "Atuação apenas pós-evento"
-    },
-    "answer": "B",
-    "explain": "A gestão integrada pressupõe visão consolidada das exposições aos diferentes riscos."
+ {
+  "id": "QCCP002",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Gestão integrada de riscos | Compensação entre mercados",
+  "level": "Médio",
+  "q": "O modelo de gestão integrada de riscos adotado pela Contraparte Central (CCP) da B3 utiliza uma metodologia que permite a compensação de riscos entre diferentes mercados e instrumentos. Esse modelo pressupõe, fundamentalmente:",
+  "options": {
+    "A": "A análise segregada de cada classe de ativo, impedindo que garantias de um mercado cubram riscos de outro.",
+    "B": "Uma visão consolidada das exposições, permitindo a otimização de garantias através do cálculo do risco líquido do portfólio.",
+    "C": "A eliminação total do risco operacional, garantindo que falhas sistêmicas não ocorram sob nenhuma hipótese.",
+    "D": "A atuação exclusivamente reativa, onde as salvaguardas são calculadas apenas após a confirmação do inadimplemento."
   },
+  "answer": "B",
+  "explain": "A gestão integrada de riscos da CCP baseia-se em uma visão consolidada das exposições do participante, permitindo a compensação de riscos entre diferentes mercados e instrumentos. Isso viabiliza a otimização de garantias a partir do cálculo do risco líquido do portfólio, sem eliminar riscos operacionais nem atuar de forma meramente reativa.",
+},
   {
     "id": "Q51020",
     "module": "Título I – Aspectos institucionais",
@@ -28672,22 +28655,21 @@
     "explain": "Após consumir garantias do comitente vinculadas àquela cadeia, a sequência típica avança para garantias do participante acima na estrutura (PNP), antes de camadas mutualizadas/MC e recursos próprios conforme regramento."
   },
   {
-    "id": "QCAMB3_0032",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Segregação por vínculos",
-    "level": "Difícil",
-    "q": "O saldo líquido multilateral de um comitente é calculado de forma:",
-    "options": {
-      "A": "Consolidada em todas as suas contas, independente dos participantes.",
-      "B": "Segregada para cada combinação específica de participantes (ex: MC X + PNP Y).",
-      "C": "Apenas em nível do Membro de Compensação, sem segregação por comitente.",
-      "D": "Bilateralmente com cada contraparte de suas operações.",
-      "E": "Somente para operações no mercado à vista."
-    },
-    "answer": "B",
-    "explain": "A apuração do saldo do comitente respeita vínculos/segregações por arranjos de participação (ex.: combinação MC/PNP), preservando a estrutura de responsabilidade e garantias."
+  "id": "QCCP003",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Liquidação | Apuração de saldo líquido multilateral",
+  "level": "Médio",
+  "q": "No processo de liquidação da B3, o saldo líquido multilateral de um comitente (investidor final) é apurado considerando:",
+  "options": {
+    "A": "A consolidação de todas as suas posições em diferentes corretoras, visando a eficiência de capital.",
+    "B": "A segregação por cada relação específica entre o Comitente, o Participante Negociador e o respectivo Membro de Compensação.",
+    "C": "O agrupamento de todos os clientes de um mesmo Membro de Compensação em um único saldo devedor ou credor.",
+    "D": "A compensação direta entre as contrapartes originais da negociação, sem a interferência da CCP."
   },
+  "answer": "B",
+  "explain": "Na B3, a apuração do saldo líquido multilateral ocorre de forma segregada, considerando cada relação específica entre o comitente, o participante negociador e o respectivo membro de compensação. Não há consolidação automática entre diferentes corretoras, nem compensação direta entre contrapartes originais, pois a CCP intermedeia o processo de liquidação.",
+},
   {
     "id": "QCAMB3_0033",
     "module": "Título IV – Gestão de Risco",
@@ -31579,21 +31561,70 @@
   "explain": "I e II são funções típicas de uma exchange (listagem, transparência e formação de preços). III é incorreta pelo termo “exclusivamente para terceiros”: participantes podem negociar por conta própria e/ou de clientes, dependendo do regime e habilitação."
 },
 {
-  "id": "QNOV3C8",
-  "module": "Título I – Aspectos institucionais",
-  "chapter": "Capítulo II – Infraestrutura do mercado",
-  "theme": "CCP - default fund, controles e novação",
-  "level": "Difícil",
-  "q": "9668 - Infraestrutura do Mercado e B3\nA contraparte central, segundo abordagem internacional:\nI – Pode atuar para mutualizar alguns riscos por meio da\nconstituição de fundos de falhas\nII – É possível a redução de riscos aos quais estão expostos os\nparticipantes pela imposição aos mesmos de mecanismos de\ncontroles\nIII – Atua como contraparte central dos participantes de mercado\napenas por meio do processo de novação\nEstá correto o que se afirma em:",
+  "id": "QCCP004",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "PFMI | Mecanismos de mitigação de risco das CCPs",
+  "level": "Médio",
+  "q": "De acordo com os princípios internacionais para Infraestruturas de Mercado Financeiro, as Contrapartes Centrais (CCPs) utilizam diversos mecanismos para garantir a integridade das liquidações. Sobre esses mecanismos, analise as afirmações abaixo: I. A mutualização de riscos ocorre através de fundos alimentados por contribuições coletivas dos membros de compensação. II. A imposição de limites de exposição e exigência de margens são formas de reduzir o risco de crédito dos participantes. III. A interposição da CCP como comprador de todo vendedor e vendedor de todo comprador ocorre exclusivamente via novação. Está correto o que se afirma em:",
   "options": {
-    "A": "I e II",
-    "B": "I e III",
-    "C": "II e III",
-    "D": "Todas as alternativas"
+    "A": "I, apenas.",
+    "B": "I e II, apenas.",
+    "C": "II e III, apenas.",
+    "D": "I, II e III."
+  },
+  "answer": "B",
+  "explain": "As afirmações I e II estão corretas, pois a mutualização de riscos por meio de fundos coletivos e a exigência de margens e limites de exposição são mecanismos centrais de mitigação do risco de crédito nas CCPs. A afirmação III está incorreta, pois a interposição da CCP pode ocorrer por diferentes mecanismos jurídicos e operacionais, não sendo exclusivamente por novação.",
+},
+  {
+  "id": "QCCP005",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Garantias | Classificação de perdas",
+  "level": "Médio",
+  "q": "Em um cenário onde um Membro de Compensação torna-se inadimplente, a Câmara utiliza as garantias depositadas para honrar as obrigações. Se o valor de mercado dessas garantias sofrer uma desvalorização abrupta e tornar-se inferior ao valor da obrigação devida, a diferença não coberta é classificada como:",
+  "options": {
+    "A": "Margem de variação.",
+    "B": "Perda transitória.",
+    "C": "Variação patrimonial positiva.",
+    "D": "Perda permanente."
   },
   "answer": "D",
-  "explain": "I é correta (default fund/fundo de falhas para mutualização). II é correta (margens, limites, controles e salvaguardas reduzem risco). III é considerada correta no padrão didático: a CCP se interpõe via novação (ou mecanismo equivalente de interposição), tornando-se contraparte de ambos os lados."
+  "explain": "Quando o valor de realização das garantias torna-se insuficiente para cobrir integralmente a obrigação do participante inadimplente, a diferença não coberta caracteriza uma perda permanente, pois representa prejuízo efetivo e definitivo para a câmara ou para o sistema de salvaguardas.",
 },
+{
+  "id": "QCCP006",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Risco de liquidez | Descaminho de prazos",
+  "level": "Médio",
+  "q": "A Contraparte Central (CCP) enfrenta um 'descaminho de prazos' quando precisa liquidar uma operação financeiramente hoje, mas as garantias do participante inadimplente são títulos com baixa liquidez que levarão dois dias para serem vendidos. Esse risco é mitigado especificamente por qual mecanismo?",
+  "options": {
+    "A": "Margem de Garantia Adicional.",
+    "B": "Marcação a mercado.",
+    "C": "Fundo de Liquidez.",
+    "D": "Novação de Contratos."
+  },
+  "answer": "C",
+  "explain": "O descaminho de prazos caracteriza um risco de liquidez, mitigado por mecanismos como o Fundo de Liquidez, que permite à CCP honrar obrigações financeiras imediatas mesmo quando as garantias levam mais tempo para serem convertidas em caixa.",
+},
+{
+  "id": "QCCP007",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Risco de crédito | Perda estimada",
+  "level": "Médio",
+  "q": "Considere que a Perda Agregada Estimada para um portfólio em um cenário de estresse é de R$1.000.000. Se o investidor possui R$1.200.000 em garantias depositadas e aceitas pela CCP, qual a conclusão correta sobre o risco de crédito?",
+  "options": {
+    "A": "A perda permanente estimada é nula.",
+    "B": "Haverá obrigatoriamente perda permanente de R$200.000.",
+    "C": "O risco de liquidez é inexistente.",
+    "D": "A perda transitória será igual a zero."
+  },
+  "answer": "A",
+  "explain": "Como o valor das garantias aceitas pela CCP é superior à perda agregada estimada no cenário de estresse, não há expectativa de perda permanente, indicando cobertura adequada do risco de crédito.",
+},
+
 {
   "id": "QLC1P9A",
   "module": "Título II – Mercados de bolsa e de balcão",
@@ -31609,6 +31640,452 @@
   },
   "answer": "A",
   "explain": "Como regra, Letras de Câmbio não têm liquidez diária garantida: o resgate costuma ocorrer no vencimento (eventual liquidez antecipada depende de mercado/condições, não sendo característica padrão)."
+},
+  {
+  "id": "QCCP008",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Default Waterfall | Recursos mutualizados",
+  "level": "Médio",
+  "q": "Na estrutura de 'Default Waterfall' (Cascata de Garantias) da B3, os recursos mutualizados (Fundo de Garantia) são acionados em qual momento?",
+  "options": {
+    "A": "Após o esgotamento das garantias individuais do inadimplente e do capital próprio da CCP destinado a esse fim.",
+    "B": "Sempre que houver uma perda transitória superior a 10% do PL do fundo.",
+    "C": "Somente após o encerramento das atividades da bolsa de valores.",
+    "D": "Imediatamente após a constatação da falha, antes de vender as garantias do inadimplente."
+  },
+  "answer": "A",
+  "explain": "No Default Waterfall, os recursos mutualizados são acionados somente após o consumo das garantias individuais do participante inadimplente e do capital próprio da CCP destinado à absorção de perdas, preservando a lógica de responsabilidade escalonada.",
+},
+  {
+  "id": "QCCP010",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Novação | Assunção de risco de crédito",
+  "level": "Fácil",
+  "q": "A Contraparte Central (CCP) assume o risco de crédito das operações por meio do processo de:",
+  "options": {
+    "A": "Compensação bilateral.",
+    "B": "Segregação patrimonial.",
+    "C": "Novação.",
+    "D": "Estorno de ordens."
+  },
+  "answer": "C",
+  "explain": "A novação é o mecanismo jurídico pelo qual a CCP se interpõe entre as partes, tornando-se compradora de todo vendedor e vendedora de todo comprador, assumindo o risco de crédito da operação.",
+},
+{
+  "id": "QCCP011",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo I – Liquidação e compensação",
+  "theme": "Liquidação multilateral",
+  "level": "Fácil",
+  "q": "No modelo de liquidação multilateral, o saldo final de um participante é calculado considerando:",
+  "options": {
+    "A": "A soma de todas as suas compras e vendas, resultando em um único valor credor ou devedor.",
+    "B": "O acerto individual com cada uma das contrapartes com quem ele negociou.",
+    "C": "Apenas as operações que resultaram em lucro no dia.",
+    "D": "A soma bruta de todos os ativos negociados, sem compensação de débitos e créditos."
+  },
+  "answer": "A",
+  "explain": "Na liquidação multilateral, todas as obrigações são consolidadas, resultando em um único saldo líquido devedor ou credor perante a Câmara.",
+},
+{
+  "id": "QSPB001",
+  "module": "Título I – Infraestrutura do sistema financeiro",
+  "chapter": "Capítulo III – Sistema de Pagamentos Brasileiro",
+  "theme": "STR | Liquidação financeira",
+  "level": "Fácil",
+  "q": "Qual o sistema operado pelo Banco Central que é considerado a 'espinha dorsal' do Sistema de Pagamentos Brasileiro (SPB)?",
+  "options": {
+    "A": "Selic.",
+    "B": "STR (Sistema de Transferência de Reservas).",
+    "C": "COMPE.",
+    "D": "Câmara de Câmbio."
+  },
+  "answer": "B",
+  "explain": "O STR é o sistema de liquidação bruta em tempo real operado pelo Banco Central, por onde transitam as transferências de fundos entre instituições financeiras.",
+},
+{
+  "id": "QSPB002",
+  "module": "Título I – Infraestrutura do sistema financeiro",
+  "chapter": "Capítulo III – Sistema de Pagamentos Brasileiro",
+  "theme": "SELIC | Modelo de liquidação",
+  "level": "Médio",
+  "q": "Diferente da B3, o sistema SELIC realiza a liquidação de títulos públicos de forma:",
+  "options": {
+    "A": "Multilateral e Diferida (pelo valor líquido).",
+    "B": "Bilateral e Bruta em Tempo Real (LBTR).",
+    "C": "Apenas mensalmente.",
+    "D": "Através de novação com garantia do Banco Central."
+  },
+  "answer": "B",
+  "explain": "O Selic opera com liquidação bruta em tempo real (LBTR), sem assumir risco de contraparte e sem compensação multilateral.",
+},
+{
+  "id": "QSPB003",
+  "module": "Título I – Infraestrutura do sistema financeiro",
+  "chapter": "Capítulo III – Liquidação e custódia",
+  "theme": "DvP | Mitigação de riscos",
+  "level": "Fácil",
+  "q": "O conceito de 'Delivery versus Payment' (DvP) visa mitigar qual risco principal?",
+  "options": {
+    "A": "Risco de Mercado.",
+    "B": "Risco de Principal.",
+    "C": "Risco Operacional.",
+    "D": "Risco de Imagem."
+  },
+  "answer": "B",
+  "explain": "O DvP assegura que a entrega do ativo ocorra simultaneamente ao pagamento financeiro, mitigando o risco de principal.",
+},
+{
+  "id": "QCCP012",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Perdas e liquidez",
+  "theme": "Perda transitória | Risco de liquidez",
+  "level": "Médio",
+  "q": "Quando uma garantia é suficiente para cobrir o prejuízo, mas o participante não entrega o dinheiro no dia T+n, ocorre uma:",
+  "options": {
+    "A": "Perda Permanente.",
+    "B": "Perda de Capital.",
+    "C": "Perda Transitória (Risco de Liquidez).",
+    "D": "Quebra do Fundo de Garantia."
+  },
+  "answer": "C",
+  "explain": "Como existe garantia suficiente, não há prejuízo definitivo, apenas um descasamento temporário de caixa, caracterizando perda transitória.",
+},
+{
+  "id": "QCCP013",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Perdas e crédito",
+  "theme": "Perda permanente | Risco de crédito",
+  "level": "Médio",
+  "q": "A 'Perda Permanente' em uma clearing ocorre quando:",
+  "options": {
+    "A": "O participante atrasa o pagamento em 24 horas.",
+    "B": "O valor das garantias liquidadas é inferior ao saldo devedor do participante.",
+    "C": "A bolsa decide perdoar a dívida do membro de compensação.",
+    "D": "O mercado fecha em queda por três dias seguidos."
+  },
+  "answer": "B",
+  "explain": "A perda permanente ocorre quando o colateral não é suficiente para cobrir a obrigação financeira, materializando o risco de crédito.",
+},
+{
+  "id": "QCCP014",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Default Waterfall",
+  "theme": "Mutualização de riscos",
+  "level": "Médio",
+  "q": "Na 'Cascata de Garantias' (Default Waterfall) da B3, os recursos de outros Membros (Adimplentes) são usados:",
+  "options": {
+    "A": "Como primeira linha de defesa.",
+    "B": "Logo após a falha, antes das garantias do inadimplente.",
+    "C": "Apenas em cenários extremos, após esgotadas as garantias do inadimplente e o capital próprio da B3.",
+    "D": "Nunca, pois a B3 garante 100% com capital próprio."
+  },
+  "answer": "C",
+  "explain": "A mutualização ocorre apenas após o consumo das garantias do inadimplente e do capital próprio da CCP (skin in the game).",
+},
+{
+  "id": "QCCP015",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Default Waterfall",
+  "theme": "Skin in the Game",
+  "level": "Médio",
+  "q": "O que é o 'Skin in the Game' da B3 na estrutura de riscos?",
+  "options": {
+    "A": "Dinheiro deixado por investidores pessoa física.",
+    "B": "Parcela do capital próprio da B3 consumida antes dos recursos mutualizados.",
+    "C": "Taxa de corretagem.",
+    "D": "Seguro contratado pela bolsa."
+  },
+  "answer": "B",
+  "explain": "O skin in the game alinha incentivos, pois a CCP também absorve perdas antes de utilizar recursos dos membros adimplentes.",
+},
+{
+  "id": "QCCP016",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Liquidez",
+  "theme": "Fundo de Liquidez",
+  "level": "Fácil",
+  "q": "O Fundo de Liquidez da Câmara B3 tem como objetivo primordial:",
+  "options": {
+    "A": "Pagar dividendos.",
+    "B": "Garantir recursos imediatos para liquidação financeira, evitando falhas de caixa.",
+    "C": "Comprar ações em crise.",
+    "D": "Substituir margens de garantia."
+  },
+  "answer": "B",
+  "explain": "O Fundo de Liquidez mitiga o risco de liquidez, assegurando recursos imediatos para honrar obrigações financeiras.",
+},
+{
+  "id": "QPART001",
+  "module": "Título I – Participantes do mercado",
+  "chapter": "Capítulo II – Estrutura de compensação",
+  "theme": "Responsabilidade pela liquidação",
+  "level": "Fácil",
+  "q": "Qual participante é o responsável final perante a Câmara B3 pela liquidação das operações?",
+  "options": {
+    "A": "Comitente.",
+    "B": "Participante de Negociação.",
+    "C": "Membro de Compensação.",
+    "D": "Agente Autônomo."
+  },
+  "answer": "C",
+  "explain": "O Membro de Compensação possui vínculo financeiro direto com a Câmara e responde pela liquidação.",
+},
+{
+  "id": "QPART002",
+  "module": "Título I – Participantes do mercado",
+  "chapter": "Capítulo II – Estrutura de compensação",
+  "theme": "PN e MC",
+  "level": "Fácil",
+  "q": "Um Participante de Negociação (PN) que não é Membro de Compensação deve, obrigatoriamente:",
+  "options": {
+    "A": "Operar apenas com recursos próprios.",
+    "B": "Contratar um Membro de Compensação.",
+    "C": "Depositar margem no BC.",
+    "D": "Ser banco múltiplo."
+  },
+  "answer": "B",
+  "explain": "O PN negocia, mas a liquidação é responsabilidade do Membro de Compensação contratado.",
+},
+{
+  "id": "QPART003",
+  "module": "Título III – Pós-negociação",
+  "chapter": "Capítulo I – Liquidação",
+  "theme": "Segregação de saldo",
+  "level": "Médio",
+  "q": "O saldo líquido multilateral de um investidor é calculado de forma segregada por:",
+  "options": {
+    "A": "CPF.",
+    "B": "Combinação de PN e MC.",
+    "C": "Tipo de ativo.",
+    "D": "Cidade."
+  },
+  "answer": "B",
+  "explain": "A apuração do saldo ocorre dentro da estrutura específica de compensação envolvendo PN e MC.",
+},
+{
+  "id": "QSPB004",
+  "module": "Título I – Infraestrutura do sistema financeiro",
+  "chapter": "Capítulo III – SPB",
+  "theme": "Finalidade da liquidação",
+  "level": "Fácil",
+  "q": "No STR, as transferências de fundos são consideradas:",
+  "options": {
+    "A": "Irrevogáveis e incondicionais.",
+    "B": "Reversíveis.",
+    "C": "Sujeitas a estorno.",
+    "D": "Válidas após 48 horas."
+  },
+  "answer": "A",
+  "explain": "No STR, a liquidação é final, irrevogável e incondicional.",
+},
+{
+  "id": "QCUST001",
+  "module": "Título I – Custódia e cadastro",
+  "chapter": "Capítulo I – Segregação patrimonial",
+  "theme": "Proteção ao investidor",
+  "level": "Fácil",
+  "q": "A finalidade da segregação patrimonial nas contas de custódia é:",
+  "options": {
+    "A": "Facilitar impostos.",
+    "B": "Proteger os ativos dos clientes em caso de insolvência.",
+    "C": "Permitir uso pela corretora.",
+    "D": "Aumentar liquidez."
+  },
+  "answer": "B",
+  "explain": "A segregação evita a confusão patrimonial entre clientes e instituições financeiras.",
+},
+{
+  "id": "QRV002",
+  "module": "Título II – Mercados de bolsa",
+  "chapter": "Capítulo I – Mercado a termo",
+  "theme": "Financiamento a termo",
+  "level": "Fácil",
+  "q": "Em uma operação de financiamento no mercado a termo, o investidor financiador:",
+  "options": {
+    "A": "Compra a termo.",
+    "B": "Vende à vista e compra a termo.",
+    "C": "Compra à vista e vende a termo.",
+    "D": "Toma dinheiro emprestado."
+  },
+  "answer": "C",
+  "explain": "O financiador compra à vista e garante a venda futura, recebendo a remuneração equivalente à taxa de juros.",
+},
+{
+  "id": "QDER001",
+  "module": "Título II – Derivativos",
+  "chapter": "Capítulo I – Futuros",
+  "theme": "Ajuste diário",
+  "level": "Fácil",
+  "q": "O ajuste diário no mercado de futuros serve para:",
+  "options": {
+    "A": "Cobrar custódia.",
+    "B": "Liquidar ganhos e perdas diariamente.",
+    "C": "Pagar dividendos.",
+    "D": "Alterar vencimento."
+  },
+  "answer": "B",
+  "explain": "O ajuste diário evita o acúmulo de perdas e reduz o risco de crédito.",
+},
+{
+  "id": "QCCP017",
+  "module": "Título III – Gestão de riscos",
+  "chapter": "Capítulo I – Garantias",
+  "theme": "Ativos aceitos como margem",
+  "level": "Fácil",
+  "q": "Margens de garantia podem ser depositadas em:",
+  "options": {
+    "A": "Apenas dinheiro.",
+    "B": "Dinheiro, títulos públicos e, em alguns casos, ações e ouro.",
+    "C": "Títulos da própria empresa.",
+    "D": "Somente dólares."
+  },
+  "answer": "B",
+  "explain": "A CCP aceita diversos ativos como garantia, aplicando deságios conforme o risco.",
+},
+{
+  "id": "QFX001",
+  "module": "Título II – Mercados",
+  "chapter": "Capítulo III – Câmbio",
+  "theme": "Risco Herstatt",
+  "level": "Médio",
+  "q": "O risco de 'Herstatt' está associado a qual mercado?",
+  "options": {
+    "A": "Ações.",
+    "B": "Câmbio.",
+    "C": "Renda fixa.",
+    "D": "Opções."
+  },
+  "answer": "B",
+  "explain": "O risco Herstatt ocorre na liquidação de moedas em diferentes fusos horários.",
+},
+{
+  "id": "QCCP018",
+  "module": "Título III – Pós-negociação",
+  "chapter": "Capítulo I – Liquidação bilateral",
+  "theme": "Risco de contraparte",
+  "level": "Fácil",
+  "q": "No modelo de liquidação bilateral, o risco de contraparte é:",
+  "options": {
+    "A": "Assumido pela B3.",
+    "B": "Assumido pelo Banco Central.",
+    "C": "Retido diretamente entre as partes.",
+    "D": "Inexistente."
+  },
+  "answer": "C",
+  "explain": "Sem CCP, o risco permanece diretamente entre comprador e vendedor.",
+},
+  {
+  "id": "QCCP019",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Novação | Centralização do risco",
+  "level": "Médio",
+  "q": "Sobre o conceito de Novação nas Câmaras de Compensação (CCP), analise as afirmações abaixo: I. A CCP se interpõe entre as partes originais, tornando-se a única contraparte. II. O processo de novação elimina a necessidade de depósito de margens de garantia. III. A novação permite que o risco de crédito seja centralizado na câmara. Está correto o que se afirma em:",
+  "options": {
+    "A": "I e II, apenas.",
+    "B": "I, II e III.",
+    "C": "I e III, apenas.",
+    "D": "II e III, apenas."
+  },
+  "answer": "C",
+  "explain": "A afirmação I está correta, pois a CCP se interpõe entre comprador e vendedor. A II está incorreta, pois a novação não elimina a exigência de margens de garantia. A III está correta, pois o risco de crédito passa a ser centralizado na câmara.",
+},
+{
+  "id": "QSPB005",
+  "module": "Título I – Infraestrutura do sistema financeiro",
+  "chapter": "Capítulo III – Sistema de Pagamentos Brasileiro",
+  "theme": "STR | Liquidação bruta em tempo real",
+  "level": "Fácil",
+  "q": "No Sistema de Transferência de Reservas (STR), a liquidação de obrigações financeiras ocorre de forma 'Bruta em Tempo Real' (LBTR). Isso significa que as transações são:",
+  "options": {
+    "A": "Canceláveis caso uma das partes não possua saldo no dia seguinte.",
+    "B": "Agrupadas para liquidação pelo valor líquido ao final do dia.",
+    "C": "Irrevogáveis e incondicionais no momento do processamento.",
+    "D": "Processadas apenas se houver novação por parte do Banco Central."
+  },
+  "answer": "C",
+  "explain": "No STR, a liquidação ocorre operação por operação, em tempo real, sendo final, irrevogável e incondicional no momento do processamento.",
+},
+{
+  "id": "QCCP020",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo I – Liquidação",
+  "theme": "Liquidação multilateral | Risco de principal",
+  "level": "Médio",
+  "q": "Classifique a afirmação como Verdadeira (V) ou Falsa (F): 'Na liquidação multilateral, o risco de principal é maior do que na liquidação bilateral, pois o inadimplemento de um participante afeta todo o saldo líquido da câmara.'",
+  "options": {
+    "A": "Verdadeira.",
+    "B": "Falsa."
+  },
+  "answer": "B",
+  "explain": "Na liquidação multilateral com CCP, o risco de principal é reduzido em relação à liquidação bilateral, pois a câmara se interpõe entre as partes e utiliza mecanismos de salvaguardas para mitigar o impacto de inadimplências.",
+},
+{
+  "id": "QCCP021",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Perdas e crédito",
+  "theme": "Perda permanente",
+  "level": "Fácil",
+  "q": "Sobre a gestão de perdas em uma CCP, quando o valor dos ativos depositados em garantia é inferior ao prejuízo gerado pelo inadimplente, a câmara registra uma:",
+  "options": {
+    "A": "Perda permanente.",
+    "B": "Variação de margem positiva.",
+    "C": "Perda transitória.",
+    "D": "Segregação de lucros."
+  },
+  "answer": "A",
+  "explain": "Quando as garantias são insuficientes para cobrir o prejuízo, ocorre perda permanente, caracterizando materialização do risco de crédito.",
+},
+{
+  "id": "QCCP023",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo I – Gestão integrada de riscos",
+  "theme": "Netting multilateral",
+  "level": "Médio",
+  "q": "O sistema que permite a compensação de débitos e créditos entre diferentes mercados (Ações e Derivativos), otimizando o depósito de garantias, é chamado de:",
+  "options": {
+    "A": "Liquidação Bilateral Bruta.",
+    "B": "Gestão integrada de riscos (ou Netting Multilateral).",
+    "C": "Custódia Fungível Individual.",
+    "D": "Transferência de Reservas."
+  },
+  "answer": "B",
+  "explain": "A gestão integrada de riscos permite a compensação de exposições entre diferentes mercados, reduzindo o volume de garantias exigidas por meio do cálculo do risco líquido.",
+},
+{
+  "id": "QPART004",
+  "module": "Título I – Participantes do mercado",
+  "chapter": "Capítulo II – Estrutura de compensação",
+  "theme": "Membro de Compensação",
+  "level": "Médio",
+  "q": "Analise os itens sobre o Membro de Compensação (MC): I. É o participante que assume a responsabilidade financeira perante a CCP. II. Todos os Participantes de Negociação (PN) são automaticamente Membros de Compensação. III. O MC deve manter garantias próprias e de seus clientes segregadas. Quais itens estão corretos?",
+  "options": {
+    "A": "I e II, apenas.",
+    "B": "I e III, apenas.",
+    "C": "I, II e III.",
+    "D": "II e III, apenas."
+  },
+  "answer": "B",
+  "explain": "O item I está correto, pois o MC responde financeiramente perante a CCP. O item II é incorreto, pois nem todo PN é MC. O item III está correto, pois a segregação de garantias é obrigatória.",
+},
+{
+  "id": "QCCP009",
+  "module": "Título III – Pós-negociação e gestão de riscos",
+  "chapter": "Capítulo II – Câmara de compensação e contraparte central",
+  "theme": "Exposição residual | Risco de crédito",
+  "level": "Médio",
+  "q": "A diferença entre o valor de liquidação forçada de uma garantia e o saldo devedor de um participante inadimplente, quando o resultado é negativo para a CCP, caracteriza o conceito de:",
+  "options": {
+    "A": "Exposição residual ou risco de crédito.",
+    "B": "Excesso de colateralização.",
+    "C": "Ajuste de fluxos futuros.",
+    "D": "Risco operacional sistêmico."
+  },
+  "answer": "A",
+  "explain": "Quando a liquidação forçada das garantias não é suficiente para cobrir o saldo devedor do participante inadimplente, a diferença negativa representa a exposição residual da CCP, caracterizando risco de crédito.",
 },
 {
   "id": "QRIS7H4",
