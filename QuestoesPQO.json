@@ -28668,8 +28668,8 @@
     "D": "A compensação direta entre as contrapartes originais da negociação, sem a interferência da CCP."
   },
   "answer": "B",
-  "explain": "Na B3, a apuração do saldo líquido multilateral ocorre de forma segregada, considerando cada relação específica entre o comitente, o participante negociador e o respectivo membro de compensação. Não há consolidação automática entre diferentes corretoras, nem compensação direta entre contrapartes originais, pois a CCP intermedeia o processo de liquidação.",
-},
+  "explain": "Na B3, a apuração do saldo líquido multilateral ocorre de forma segregada, considerando cada relação específica entre o comitente, o participante negociador e o respectivo membro de compensação. Não há consolidação automática entre diferentes corretoras, nem compensação direta entre contrapartes originais, pois a CCP intermedeia o processo de liquidação."
+  },
   {
     "id": "QCAMB3_0033",
     "module": "Título IV – Gestão de Risco",
