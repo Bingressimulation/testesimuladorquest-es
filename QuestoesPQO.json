@@ -31590,8 +31590,8 @@
     "D": "Perda permanente."
   },
   "answer": "D",
-  "explain": "Quando o valor de realização das garantias torna-se insuficiente para cobrir integralmente a obrigação do participante inadimplente, a diferença não coberta caracteriza uma perda permanente, pois representa prejuízo efetivo e definitivo para a câmara ou para o sistema de salvaguardas.",
-},
+  "explain": "Quando o valor de realização das garantias torna-se insuficiente para cobrir integralmente a obrigação do participante inadimplente, a diferença não coberta caracteriza uma perda permanente, pois representa prejuízo efetivo e definitivo para a câmara ou para o sistema de salvaguardas."
+  },
 {
   "id": "QCCP006",
   "module": "Título III – Pós-negociação e gestão de riscos",
