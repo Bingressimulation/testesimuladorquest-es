@@ -8765,8 +8765,8 @@
     "D": "Realiza a compra e a venda de ações no mercado à vista no mesmo dia (Day Trade), utilizando o limite operacional da corretora como crédito."
   },
   "answer": "A",
-  "explain": "Na operação de financiamento a termo, o investidor atua como financiador ao comprar a ação no mercado à vista e vendê-la simultaneamente a termo. O ganho da operação decorre da diferença entre o preço à vista e o preço a termo, que representa a remuneração equivalente à taxa de juros do mercado no período do contrato.",
-},
+  "explain": "Na operação de financiamento a termo, o investidor atua como financiador ao comprar a ação no mercado à vista e vendê-la simultaneamente a termo. O ganho da operação decorre da diferença entre o preço à vista e o preço a termo, que representa a remuneração equivalente à taxa de juros do mercado no período do contrato."
+ },
   {
     "id": "Q1995420213075",
     "module": "Título II – Mercados de bolsa e de balcão",
