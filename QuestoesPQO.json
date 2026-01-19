@@ -19790,8 +19790,8 @@
       "C": "A suspensão temporária dos contratos",
       "D": "O encerramento automático dos contratos"
     },
-    "answer": "B",
-    "explain": "Se o participante não informar os contratos para renovação até o horário limite, o sistema efetua o cancelamento automático dos contratos. Não há renovação automática - esta requer ação expressa do participante."
+    "answer": "A",
+    "explain": "Se o participante não informar os contratos para renovação até o horário limite, o sistema efetua a renovação automática dos contratos."
   },
   {
     "id": "Q14281",
