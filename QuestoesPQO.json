@@ -16546,22 +16546,6 @@
     "explain": "Na metodologia CORE (Closeout Risk Evaluation), a Perda Agregada representa o resultado financeiro líquido final do processo de encerramento de um portfólio em um cenário de estresse. É calculada como a soma de todos os fluxos de caixa (positivos e negativos) ao longo de todo o horizonte de encerramento."
   },
   {
-    "id": "Q14084",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Estratégias de Encerramento - RV",
-    "level": "Médio",
-    "q": "São estratégias que podem ser utilizadas para encerrar posições no mercado a vista de renda variável:\nI - Encerrar a posição comprada e vendida no mercado a vista;\nII -- Encerar a posição comprada no mercado;\nIII - Encerrar a posição vendida no mercado\nÉ correto o que se afirma em:",
-    "options": {
-      "A": "II e III",
-      "B": "I, II e III",
-      "C": "II",
-      "D": "I"
-    },
-    "answer": "B",
-    "explain": "Todas as afirmativas estão corretas. Para encerrar posições no mercado à vista, a Câmara pode: I) Realizar operações de compra e venda no mercado; II) Encerrar posições compradas (vendendo os ativos); III) Encerrar posições vendidas (recomprando os ativos)."
-  },
-  {
     "id": "QR7AN82",
     "module": "Título IV – Gestão de risco",
     "chapter": "Capítulo I – Gestão de risco na Câmara",
