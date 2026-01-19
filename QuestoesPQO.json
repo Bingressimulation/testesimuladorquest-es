@@ -9040,22 +9040,6 @@
     "explain": "IPO é a oferta inicial de ações, realizada no mercado primário, permitindo que a empresa passe a ser negociada na bolsa."
   },
   {
-    "id": "Q1995420223019",
-    "module": "Título V – Negociação",
-    "chapter": "Capítulo II – Ambiente de negociação",
-    "theme": "Título prefixado - Valor de negociação",
-    "level": "Médio",
-    "q": "Um título prefixado com o prazo de 2 anos está sendo negociado nesse momento com taxa de 4% ao ano. Nesse caso, o seu valor de negociação será:",
-    "options": {
-      "A": "Acima de R$ 1.000",
-      "B": "Não é possível determinar",
-      "C": "Exatamente R$ 1.000",
-      "D": "Inferior a R$ 1.000"
-    },
-    "answer": "D",
-    "explain": "Taxa de 4% a.a. significa que o título rende menos que a taxa de mercado se esta for maior, portanto será negociado com deságio (< R$ 1.000)."
-  },
-  {
     "id": "Q1995420223021",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo I – Mercado de renda variável",
