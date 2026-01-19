@@ -30715,23 +30715,6 @@
     "explain": "Saldo = Limite + Garantias − Risco = 100 + 20 − 150 = -30 (milhões)."
   },
   {
-    "id": "QPFMI_B3_0017",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo III – Mercado de renda fixa",
-    "theme": "Interpretação do saldo",
-    "level": "Fácil",
-    "q": "A situação descrita na questão anterior (16) caracteriza:",
-    "options": {
-      "A": "Saldo operacional positivo dentro do limite.",
-      "B": "Violação do limite de risco intradiário (percentual > 100%).",
-      "C": "Necessidade de redução de garantias.",
-      "D": "Isenção de nova chamada de margem.",
-      "E": "Encerramento automático de posições pelo sistema."
-    },
-    "answer": "B",
-    "explain": "Saldo operacional negativo indica que Risco supera (Limite+Garantias), ou seja, utilização acima de 100%, caracterizando violação do limite intradiário."
-  },
-  {
     "id": "QPFMI_B3_0018",
     "module": "Título V – Negociação",
     "chapter": "Capítulo II – Ambiente de negociação",
