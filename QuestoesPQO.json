@@ -2325,13 +2325,13 @@
     "level": "Médio",
     "q": "Qual é o limite de indenização do Mecanismo de Ressarcimento de Prejuízos (MRP) para investidores?",
     "options": {
-      "A": "R$ 50 mil",
+      "A": "R$ 200 mil",
       "B": "R$ 80 mil",
       "C": "R$ 100 mil",
       "D": "R$ 120 mil"
     },
     "answer": "D",
-    "explain": "O MRP tem teto por investidor/reclamação; a alternativa mais alta do conjunto (R$ 120 mil) é a que corresponde ao limite usual cobrado em prova.",
+    "explain": "O MRP tem teto por investidor/reclamação; a alternativa mais alta do conjunto (R$ 200 mil) é a que corresponde ao limite usual cobrado em prova.",
     "module": "Título I – Aspectos institucionais",
     "chapter": "Capítulo II – Infraestrutura do mercado"
   },
