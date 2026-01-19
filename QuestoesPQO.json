@@ -9552,22 +9552,6 @@
     "explain": "Venda no mesmo dia da compra caracteriza day trade. IRRF de day trade é 1% sobre o lucro. Lucro = (67-48)*300 = 5.700. IRRF = 1% de 5.700 = R$ 57,00. Mas a questão diz 'qual será o IRRF' e a resposta é zero? Talvez porque a venda seja no mesmo dia, mas a liquidação é D+3, então o IRRF é recolhido após. Contudo, a resposta D indica zero, o que estaria errado."
   },
   {
-    "id": "Q1995420223102",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo I – Mercado de renda variável",
-    "theme": "Operação estruturada - Long Strangle",
-    "level": "Médio",
-    "q": "Eduardo é um investidor do Mercado de Capitais faz mais de 15 anos. Depois de tantos anos, começou a montar operações estruturadas com Derivativos. No dia de hoje ele decide montar uma operação conhecida como ______, que consiste na compra de 1 PUT e também 1 Call de um mesmo ativo. Complete a lacuna:",
-    "options": {
-      "A": "Box de 4 pontas",
-      "B": "Short Strangle",
-      "C": "Long&Short",
-      "D": "Long Strangle"
-    },
-    "answer": "D",
-    "explain": "Long Strangle é a compra de uma call e uma put com preços de exercício diferentes."
-  },
-  {
     "id": "Q1995420223109",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo II – Mercado de derivativos",
