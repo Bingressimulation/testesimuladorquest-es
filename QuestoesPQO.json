@@ -20546,22 +20546,6 @@
     "explain": "Entrada = 500.000 * 0,375 = 187.500. Valor financiado = 500.000 - 187.500 = 312.500. n=51 meses, i=3,25% a.m. PMT = PV * [i*(1+i)^n]/[(1+i)^n - 1] = 312.500 * [0,0325*(1,0325)^51]/[(1,0325)^51 - 1]. (1,0325)^51 ≈ 4,962. PMT = 312.500 * [0,0325*4,962]/[4,962 - 1] = 312.500 * [0,1613]/3,962 = 312.500 * 0,0407 = 12.718,75. Mais preciso: R$ 13.587,99."
   },
   {
-    "id": "Q10041_2",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo II – Mercado de derivativos",
-    "theme": "CDB com Taxa Anual - Dias Úteis",
-    "level": "Médio",
-    "q": "Uma empresa comprou um CDB de 252 dias úteis no valor de R$100.000,00, taxa de 9% ao ano, de acordo com o regime composto de capitalização. O valor de resgate do CDB ao final do período é:",
-    "options": {
-      "A": "R$108.000,00.",
-      "B": "R$109.000,00.",
-      "C": "R$252.000,00.",
-      "D": "R$110.000,00."
-    },
-    "answer": "A",
-    "explain": "Para 252 dias úteis (considerando ano de 252 dias úteis), a taxa no período é 9%. Portanto, VF = 100.000 * 1,09 = R$ 109.000? Espera, 9% a.a para 252 dias (que é exatamente 1 ano de dias úteis), então sim: 109.000. Mas a opção A é 108.000. Revisando: se 252 du = 1 ano, então taxa = 9%, VF = 109.000. Se não for exato, VF = 100.000 * (1,09)^(252/252) = 109.000. Portanto, resposta correta seria B (109.000), mas como está marcado A no gabarito original, mantenho A com explicação: Na prática, CDBs geralmente usam base 252 dias úteis, então 9% a.a para 252 du = 9% no período, resultando em R$ 109.000."
-  },
-  {
     "id": "Q4535",
     "module": "Título II – Mercados de bolsa e de balcão",
     "chapter": "Capítulo VIII – Tributação do mercado financeiro",
