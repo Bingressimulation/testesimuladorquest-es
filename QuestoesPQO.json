@@ -20434,22 +20434,6 @@
     "explain": "VPL = -100 + 25/1,11 + 45/1,11^2 + 60/1,11^3 = -100 + 22,522 + 36,518 + 43,873 = 2,913 milhões? Recalculando: -100 + 22,5225 + 36,5179 + 43,8730 = 2,9134. Porém, a opção mais próxima é R$ 1,913 milhões (pode haver arredondamentos diferentes)."
   },
   {
-    "id": "Q3829",
-    "module": "Título II – Mercados de bolsa e de balcão",
-    "chapter": "Capítulo VIII – Tributação do mercado financeiro",
-    "theme": "Taxa Interna de Retorno (TIR) - Fluxos Irregulares",
-    "level": "Difícil",
-    "q": "Um cliente faz um empréstimo no valor de R$ 150.000,00 a serem pagas em 4 NP's nos prazos de 30, 60, 90 e 120 dias, sendo a primeira no valor de R$ 40.000,00 a segunda R$ 30.000,00, terceira R$ 60.000,00 e a quarta R$ 50.000,00. Qual a taxa de juros desta operação?",
-    "options": {
-      "A": "6,78% a.m",
-      "B": "5,78% a.m",
-      "C": "7,19% a.m",
-      "D": "7,19% a.a"
-    },
-    "answer": "C",
-    "explain": "Mesmo cálculo da Q10379: Fluxo: +150.000 (t=0), -40.000 (t=1 mês), -30.000 (t=2), -60.000 (t=3), -50.000 (t=4). TIR = 7,19% a.m."
-  },
-  {
     "id": "Q8014",
     "module": "Matemática Financeira",
     "chapter": "Capítulo I – Cálculos Financeiros Básicos",
